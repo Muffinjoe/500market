@@ -298,7 +298,7 @@ View the full dashboard: https://500market.com
 """
 
 # Send via Resend
-subject = f"S&P 500: {idx['price']:,.2f} ({idx_sign}{idx['changePct']:.2f}%) — {datetime.now().strftime('%b %d')}"
+subject = f"{datetime.now().strftime('%b %d')} — 500Market Daily Update | S&P 500 {idx_sign}{idx['changePct']:.2f}%"
 
 # Check for --test flag to send directly instead of broadcast
 import sys as _sys
