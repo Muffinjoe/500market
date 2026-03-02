@@ -146,18 +146,66 @@ function updateVisiblePrices() {
         }
     });
 
-    // Update S&P 500 proxy (SPY × 10 ≈ S&P 500)
+    // Update S&P 500 hero from live SPY data
     if (livePrices['SPY']) {
         const spyPrice = livePrices['SPY'].price;
-        const sp500Approx = spyPrice * 10;
+        const sp500Live = spyPrice * 10;
+        const fmt = n => n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
+        // Get the original open/prev from MARKET_SUMMARY for change calculation
+        const ms = typeof MARKET_SUMMARY !== 'undefined' ? MARKET_SUMMARY : null;
+        const idxData = ms ? ms.index : null;
+        const prevClose = idxData ? (idxData.price - idxData.change) : sp500Live;
+        const openPrice = idxData ? idxData.open : prevClose;
+
+        const change = sp500Live - prevClose;
+        const changePct = (change / prevClose) * 100;
+        const chgSign = changePct >= 0 ? '+' : '';
+        const chgClass = changePct >= 0 ? 'change-up' : 'change-down';
+
+        // Track intraday high/low
+        if (!window._liveHigh || sp500Live > window._liveHigh) window._liveHigh = sp500Live;
+        if (!window._liveLow || sp500Live < window._liveLow) window._liveLow = sp500Live;
+        // Seed from static data
+        if (idxData) {
+            if (!window._liveHigh || idxData.high > window._liveHigh) window._liveHigh = idxData.high;
+            if (!window._liveLow || (idxData.low > 0 && idxData.low < window._liveLow)) window._liveLow = idxData.low;
+        }
+
+        // Hero price
         const heroPrice = document.getElementById('heroPrice');
         if (heroPrice) {
-            heroPrice.textContent = sp500Approx.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            const oldText = heroPrice.textContent;
+            const newText = fmt(sp500Live);
+            if (oldText !== newText) {
+                heroPrice.textContent = newText;
+                heroPrice.classList.remove('price-flash-up', 'price-flash-down');
+                void heroPrice.offsetWidth;
+                heroPrice.classList.add(livePrices['SPY'].direction === 'up' ? 'price-flash-up' : 'price-flash-down');
+            }
         }
+
+        // Hero change
+        const heroChange = document.getElementById('heroChange');
+        if (heroChange) {
+            heroChange.className = 'index-hero-change ' + chgClass;
+            heroChange.innerHTML = `${chgSign}${change.toFixed(2)} (${chgSign}${changePct.toFixed(2)}%) <span class="index-hero-asof">Today</span>`;
+        }
+
+        // Top bar index
         const spIndex = document.getElementById('spIndex');
-        if (spIndex) {
-            spIndex.textContent = sp500Approx.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        if (spIndex) spIndex.textContent = fmt(sp500Live);
+        const spChgEl = spIndex ? spIndex.nextElementSibling : null;
+        if (spChgEl) {
+            spChgEl.className = chgClass;
+            spChgEl.textContent = `${chgSign}${changePct.toFixed(2)}%`;
         }
+
+        // Hero stats: Open stays static, High/Low update live
+        const heroHigh = document.getElementById('heroHigh');
+        const heroLow = document.getElementById('heroLow');
+        if (heroHigh && window._liveHigh) heroHigh.textContent = fmt(window._liveHigh);
+        if (heroLow && window._liveLow) heroLow.textContent = fmt(window._liveLow);
     }
 
     // Update detail panel if open
