@@ -333,6 +333,20 @@ for stock in stocks:
     document.querySelectorAll(".chart-period").forEach(b=>b.addEventListener("click",()=>{{document.querySelectorAll(".chart-period").forEach(x=>x.classList.remove("active"));b.classList.add("active");genChart(parseInt(b.dataset.d));}}));
     window.addEventListener("resize",()=>genChart(30));
     genChart(30);
+    // Live price via Finnhub WebSocket
+    (function(){{
+        const KEY='d6ismgpr01qleu95dlfgd6ismgpr01qleu95dlg0';
+        const ws=new WebSocket('wss://ws.finnhub.io?token='+KEY);
+        const priceEl=document.querySelector('.sp-price');
+        ws.onopen=()=>{{ws.send(JSON.stringify({{type:'subscribe',symbol:STOCK.ticker}}));
+            const badge=document.createElement('span');badge.innerHTML='<span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:#16c784;animation:pulse-dot 1.5s infinite;margin-right:4px"></span>LIVE';badge.style.cssText='font-size:11px;font-weight:600;color:#16c784;margin-left:12px';
+            const hdr=document.querySelector('.sp-price-row');if(hdr)hdr.appendChild(badge);
+            const s=document.createElement('style');s.textContent='@keyframes pulse-dot{{0%,100%{{opacity:1}}50%{{opacity:0.3}}}}@keyframes pfu{{0%{{background:rgba(22,199,132,0.15)}}100%{{background:transparent}}}}@keyframes pfd{{0%{{background:rgba(234,57,67,0.15)}}100%{{background:transparent}}}}';document.head.appendChild(s);
+        }};
+        let lastP=STOCK.price;
+        ws.onmessage=(e)=>{{const d=JSON.parse(e.data);if(d.type==='trade'&&d.data){{const p=d.data[d.data.length-1].p;if(priceEl){{priceEl.textContent='$'+p.toLocaleString('en-US',{{minimumFractionDigits:2,maximumFractionDigits:2}});priceEl.style.animation=p>lastP?'pfu 0.8s':'pfd 0.8s';setTimeout(()=>priceEl.style.animation='',800);lastP=p;}}}}}};
+        document.addEventListener('visibilitychange',()=>{{if(document.hidden)ws.close();}});
+    }})();
     // Subscribe form
     const sf=document.getElementById("subForm");
     if(sf)sf.addEventListener("submit",async e=>{{e.preventDefault();const em=document.getElementById("subEmail").value.trim();const msg=document.getElementById("subMsg");const btn=sf.querySelector("button");if(!em)return;btn.disabled=true;btn.textContent="...";msg.textContent="";try{{const r=await fetch("/.netlify/functions/subscribe",{{method:"POST",headers:{{"Content-Type":"application/json"}},body:JSON.stringify({{email:em}})}});const d=await r.json();if(r.ok){{msg.style.color="#16c784";msg.textContent="Subscribed!";document.getElementById("subEmail").value="";}}else{{msg.style.color="#ea3943";msg.textContent=d.error||"Failed";}}}}catch{{msg.style.color="#ea3943";msg.textContent="Network error";}}btn.disabled=false;btn.textContent="Subscribe";}});
