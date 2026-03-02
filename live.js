@@ -11,10 +11,10 @@ let reconnectTimer = null;
 // Flash animation for price updates
 const flashStyle = document.createElement('style');
 flashStyle.textContent = `
-    @keyframes price-flash-up { 0% { background: rgba(22,199,132,0.2); } 100% { background: transparent; } }
-    @keyframes price-flash-down { 0% { background: rgba(234,57,67,0.2); } 100% { background: transparent; } }
-    .price-flash-up { animation: price-flash-up 0.8s ease-out; }
-    .price-flash-down { animation: price-flash-down 0.8s ease-out; }
+    @keyframes price-flash-up { 0%,60% { background: rgba(22,199,132,0.25); } 100% { background: transparent; } }
+    @keyframes price-flash-down { 0%,60% { background: rgba(234,57,67,0.25); } 100% { background: transparent; } }
+    .price-flash-up { animation: price-flash-up 2s ease-out; border-radius: 4px; }
+    .price-flash-down { animation: price-flash-down 2s ease-out; border-radius: 4px; }
     .live-badge { display: inline-flex; align-items: center; gap: 4px; font-size: 11px; font-weight: 600; color: #16c784; }
     .live-dot { width: 6px; height: 6px; border-radius: 50%; background: #16c784; animation: pulse-dot 1.5s infinite; }
     @keyframes pulse-dot { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }

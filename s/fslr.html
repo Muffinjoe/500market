@@ -308,12 +308,15 @@
         fetch('https://finnhub.io/api/v1/company-news?symbol='+STOCK.ticker+'&from='+fmt(from)+'&to='+fmt(today)+'&token='+KEY)
         .then(r=>r.json()).then(articles=>{
             if(!articles||articles.length===0){container.innerHTML='<div class="news-loading">No recent news found</div>';return;}
+            const badImg=['yahoo','yimg.com','logo','favicon','default','placeholder','icon'];
+            function isGoodImg(url){if(!url)return false;const l=url.toLowerCase();return!badImg.some(b=>l.includes(b))&&(l.endsWith('.jpg')||l.endsWith('.jpeg')||l.endsWith('.png')||l.endsWith('.webp')||l.includes('/image'));}
             const top=articles.slice(0,6);
             container.innerHTML=top.map(a=>{
                 const date=new Date(a.datetime*1000);
                 const ago=Math.round((Date.now()-date)/3600000);
                 const timeStr=ago<1?'Just now':ago<24?ago+'h ago':Math.round(ago/24)+'d ago';
-                const img=a.image?'<img class="news-img" src="'+a.image+'" alt="" onerror="this.style.display=\'none\'">':'';
+                const hasImg=isGoodImg(a.image);
+                const img=hasImg?'<img class="news-img" src="'+a.image+'" alt="" onerror="this.style.display=\'none\'">':'';
                 return '<a href="'+a.url+'" target="_blank" rel="noopener" class="news-item">'+img+'<div class="news-content"><div class="news-headline">'+a.headline+'</div><div class="news-meta"><span class="news-source">'+a.source+'</span> · '+timeStr+'</div></div></a>';
             }).join('');
         }).catch(()=>{container.innerHTML='<div class="news-loading">Unable to load news</div>';});
@@ -325,10 +328,10 @@
         ws.onopen=()=>{ws.send(JSON.stringify({type:'subscribe',symbol:STOCK.ticker}));
             const badge=document.createElement('span');badge.innerHTML='<span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:#16c784;animation:pulse-dot 1.5s infinite;margin-right:4px"></span>LIVE';badge.style.cssText='font-size:11px;font-weight:600;color:#16c784;margin-left:12px';
             const hdr=document.querySelector('.sp-price-row');if(hdr)hdr.appendChild(badge);
-            const s=document.createElement('style');s.textContent='@keyframes pulse-dot{0%,100%{opacity:1}50%{opacity:0.3}}@keyframes pfu{0%{background:rgba(22,199,132,0.15)}100%{background:transparent}}@keyframes pfd{0%{background:rgba(234,57,67,0.15)}100%{background:transparent}}';document.head.appendChild(s);
+            const s=document.createElement('style');s.textContent='@keyframes pulse-dot{0%,100%{opacity:1}50%{opacity:0.3}}@keyframes pfu{0%,60%{background:rgba(22,199,132,0.25)}100%{background:transparent}}@keyframes pfd{0%,60%{background:rgba(234,57,67,0.25)}100%{background:transparent}}';document.head.appendChild(s);
         };
         let lastP=STOCK.price;
-        ws.onmessage=(e)=>{const d=JSON.parse(e.data);if(d.type==='trade'&&d.data){const p=d.data[d.data.length-1].p;if(priceEl){priceEl.textContent='$'+p.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});priceEl.style.animation=p>lastP?'pfu 0.8s':'pfd 0.8s';setTimeout(()=>priceEl.style.animation='',800);lastP=p;}}};
+        ws.onmessage=(e)=>{const d=JSON.parse(e.data);if(d.type==='trade'&&d.data){const p=d.data[d.data.length-1].p;if(priceEl){priceEl.textContent='$'+p.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});priceEl.style.animation=p>lastP?'pfu 2s':'pfd 2s';setTimeout(()=>priceEl.style.animation='',2000);lastP=p;}}};
         document.addEventListener('visibilitychange',()=>{if(document.hidden)ws.close();});
     })();
     // Subscribe form
