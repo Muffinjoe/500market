@@ -92,6 +92,16 @@ function subscribeToSymbols(symbols) {
     });
 }
 
+// Build a map of ticker → original price for 1D% calculation
+const originalPrices = {};
+if (typeof SP500_STOCKS !== 'undefined') {
+    SP500_STOCKS.forEach(s => {
+        // Calculate previous close from current price and change1d
+        const prevClose = s.price / (1 + s.change1d / 100);
+        originalPrices[s.ticker] = { price: s.price, prevClose: prevClose };
+    });
+}
+
 function updateVisiblePrices() {
     const rows = document.querySelectorAll('#stockBody tr');
     rows.forEach(row => {
@@ -113,11 +123,25 @@ function updateVisiblePrices() {
 
             // Flash animation
             priceCell.classList.remove('price-flash-up', 'price-flash-down');
-            void priceCell.offsetWidth; // Force reflow
+            void priceCell.offsetWidth;
             if (liveData.direction === 'up') {
                 priceCell.classList.add('price-flash-up');
             } else if (liveData.direction === 'down') {
                 priceCell.classList.add('price-flash-down');
+            }
+
+            // Update 1D% based on live price vs previous close
+            const orig = originalPrices[ticker];
+            if (orig) {
+                const newChange = ((liveData.price - orig.prevClose) / orig.prevClose) * 100;
+                // 1D% is the 4th td (index 3) after star, rank, name, price
+                const cells = row.querySelectorAll('td');
+                const changeCell = cells[4]; // star(0), rank(1), name(2), price(3), 1d%(4)
+                if (changeCell) {
+                    const cls = newChange >= 0 ? 'change-up' : 'change-down';
+                    const sign = newChange >= 0 ? '+' : '';
+                    changeCell.innerHTML = `<span class="${cls}">${sign}${newChange.toFixed(2)}%</span>`;
+                }
             }
         }
     });

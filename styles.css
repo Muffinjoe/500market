@@ -584,9 +584,6 @@ table {
 }
 thead {
     background: var(--bg-secondary);
-    position: sticky;
-    top: 56px;
-    z-index: 10;
 }
 th {
     text-align: right;
