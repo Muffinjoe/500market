@@ -115,6 +115,7 @@ for stock in stocks:
     <!-- Schema.org -->
     <script type="application/ld+json">{schema}</script>
 
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg">
     <link rel="stylesheet" href="../styles.css">
     <style>
         .stock-page {{ max-width: 900px; margin: 0 auto; padding: 24px; }}
