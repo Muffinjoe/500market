@@ -24,6 +24,7 @@
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FinancialProduct", "name": "Prologis (PLD)", "description": "Prologis is a real estate investment trust (REIT) that specializes in the ownership, development, and management of logistics and distribution facilities globally. The company's portfolio includes a diverse range of properties, from traditional warehouses to more specialized facilities such as cold storage and e-commerce distribution centers. As a leading player in the logistics real estate sector, Prologis provides essential infrastructure for global supply chains, supporting the growth of e-commerce and other industries that rely on efficient and reliable distribution networks.", "url": "https://500market.com/s/pld.html", "provider": {"@type": "Organization", "name": "Prologis", "url": "https://prologis.com"}}</script>
 
     <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="e6f6d801-d98f-4c20-9ad6-f4ede5cab47c"></script>
     <link rel="stylesheet" href="../styles.css">
     <style>
         .stock-page { max-width: 900px; margin: 0 auto; padding: 24px; }
@@ -127,10 +128,9 @@
             </div>
         </div>
 
-        <div class="sp-price-row" style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+        <div class="sp-price-row">
             <span class="sp-price">$141.41</span>
             <span class="sp-price-chg change-down">-0.81%</span>
-            <button id="dlCard" style="margin-left:auto;padding:8px 16px;border:1px solid var(--border);border-radius:8px;background:var(--bg);color:var(--text);font-size:13px;font-weight:500;cursor:pointer" title="Download shareable performance card">&#8681; Share Card</button>
         </div>
 
         <div class="sp-chart">
@@ -341,48 +341,6 @@
     // Subscribe form
     const sf=document.getElementById("subForm");
     if(sf)sf.addEventListener("submit",async e=>{e.preventDefault();const em=document.getElementById("subEmail").value.trim();const msg=document.getElementById("subMsg");const btn=sf.querySelector("button");if(!em)return;btn.disabled=true;btn.textContent="...";msg.textContent="";try{const r=await fetch("/.netlify/functions/subscribe",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({email:em})});const d=await r.json();if(r.ok){msg.style.color="#16c784";msg.textContent="Subscribed!";document.getElementById("subEmail").value="";}else{msg.style.color="#ea3943";msg.textContent=d.error||"Failed";}}catch{msg.style.color="#ea3943";msg.textContent="Network error";}btn.disabled=false;btn.textContent="Subscribe";});
-    // Download performance card
-    const dlBtn=document.getElementById("dlCard");
-    if(dlBtn)dlBtn.addEventListener("click",function(){
-        const S={"ticker": "PLD", "name": "Prologis", "price": 141.41, "change1d": -0.81, "change7d": -0.07, "changeYtd": -0.14, "marketCap": 131467517952, "volume": 484795632, "pe": 39.7, "sector": "Real Estate", "rank": 90};
-        function fmc(n){if(n>=1e12)return"$"+(n/1e12).toFixed(1)+"T";if(n>=1e9)return"$"+(n/1e9).toFixed(1)+"B";return"$"+(n/1e6).toFixed(0)+"M";}
-        function fvol(n){if(n>=1e9)return"$"+(n/1e9).toFixed(1)+"B";return"$"+(n/1e6).toFixed(0)+"M";}
-        function drawChart(x,cx,cy,cw,ch){
-            let sd=0;for(let i=0;i<S.ticker.length;i++)sd+=S.ticker.charCodeAt(i)*(i+1);sd+=30;
-            function rn(){sd=(sd*16807)%2147483647;return(sd&0x7fffffff)/0x7fffffff;}
-            let pr=[S.price];for(let i=1;i<30;i++){const p=pr[i-1];pr.push(p+p*((rn()-0.5)*0.024-(S.change7d>0?0.0004:-0.0003)));}pr.reverse();
-            const mn=Math.min(...pr),mx=Math.max(...pr),rg=mx-mn||1;
-            const up=pr[pr.length-1]>=pr[0];const col=up?"#16c784":"#ea3943";
-            x.beginPath();pr.forEach(function(p,i){const px=cx+(i/29)*cw;const py=cy+(1-(p-mn)/rg)*ch;i===0?x.moveTo(px,py):x.lineTo(px,py);});
-            x.lineTo(cx+cw,cy+ch);x.lineTo(cx,cy+ch);x.closePath();x.fillStyle=up?"rgba(22,199,132,0.12)":"rgba(234,57,67,0.12)";x.fill();
-            x.beginPath();pr.forEach(function(p,i){const px=cx+(i/29)*cw;const py=cy+(1-(p-mn)/rg)*ch;i===0?x.moveTo(px,py):x.lineTo(px,py);});
-            x.strokeStyle=col;x.lineWidth=2.5;x.lineJoin="round";x.stroke();
-            const lx=cx+cw;const ly=cy+(1-(pr[pr.length-1]-mn)/rg)*ch;x.beginPath();x.arc(lx,ly,4,0,Math.PI*2);x.fillStyle=col;x.fill();
-        }
-        const c=document.createElement("canvas");c.width=600;c.height=400;const x=c.getContext("2d");
-        x.fillStyle="#fff";x.beginPath();x.roundRect(0,0,600,400,16);x.fill();
-        x.strokeStyle="#e5e7eb";x.lineWidth=1;x.beginPath();x.roundRect(0,0,600,400,16);x.stroke();
-        x.fillStyle="#3861FB";x.beginPath();x.roundRect(0,0,600,52,[16,16,0,0]);x.fill();
-        x.fillStyle="#fff";x.font="bold 17px system-ui";x.fillText("500Market",20,33);
-        x.font="12px system-ui";x.fillStyle="rgba(255,255,255,0.7)";x.textAlign="right";
-        x.fillText(new Date().toLocaleDateString("en-US",{month:"long",day:"numeric",year:"numeric"}),580,33);x.textAlign="left";
-        x.fillStyle="#222531";x.font="bold 26px system-ui";x.fillText(S.ticker,20,92);
-        x.font="14px system-ui";x.fillStyle="#616e85";x.fillText(S.name+" · "+S.sector,20,112);
-        x.font="bold 32px system-ui";x.fillStyle="#222531";const pStr="$"+S.price.toLocaleString("en-US",{minimumFractionDigits:2});x.fillText(pStr,20,155);
-        const cc=S.change1d>=0?"#16c784":"#ea3943";const cs=S.change1d>=0?"+":"";
-        x.font="bold 18px system-ui";x.fillStyle=cc;x.fillText(cs+S.change1d.toFixed(2)+"%",30+x.measureText(pStr).width,155);
-        drawChart(x,320,68,260,95);
-        x.fillStyle="#f0f0f0";x.fillRect(20,175,560,1);
-        const st=[["Market Cap",fmc(S.marketCap)],["P/E",S.pe?S.pe.toFixed(1):"N/A"],["7d",(S.change7d>=0?"+":"")+S.change7d.toFixed(2)+"%"],["YTD",(S.changeYtd>=0?"+":"")+S.changeYtd.toFixed(2)+"%"],["Volume",fvol(S.volume)],["Sector",S.sector],["Rank","#"+S.rank]];
-        st.forEach(function(s,i){const col=i%4;const row=Math.floor(i/4);const px=20+col*140;const py=200+row*52;
-        x.fillStyle="#9ca3af";x.font="11px system-ui";x.fillText(s[0],px,py);
-        x.fillStyle=(s[0]==="7d"||s[0]==="YTD")?((parseFloat(s[1])>=0)?"#16c784":"#ea3943"):"#222531";
-        x.font="bold 15px system-ui";x.fillText(s[1],px,py+19);});
-        x.fillStyle="#fafafa";x.fillRect(0,310,600,50);drawChart(x,20,312,560,44);
-        x.fillStyle="#f3f4f6";x.beginPath();x.roundRect(0,370,600,30,[0,0,16,16]);x.fill();
-        x.fillStyle="#9ca3af";x.font="11px system-ui";x.textAlign="center";x.fillText("500market.com · S&P 500 Stock Tracker",300,389);x.textAlign="left";
-        const a=document.createElement("a");a.download=S.ticker+"-500market.png";a.href=c.toDataURL("image/png");a.click();
-    });
     </script>
 </body>
 </html>
