@@ -1057,8 +1057,63 @@ function updateStats() {
     document.getElementById('cardDecliningPct').textContent = Math.round(declining / total * 100) + '% of stocks';
     document.getElementById('card52H').textContent = ms ? ms.high52Count : '—';
     document.getElementById('cardMcap').textContent = formatCurrency(totalMcap);
+
+    // Last updated timestamp
+    if (typeof DATA_LAST_UPDATED !== 'undefined') {
+        const d = new Date(DATA_LAST_UPDATED);
+        const now = new Date();
+        const diffMin = Math.round((now - d) / 60000);
+        let ago;
+        if (diffMin < 1) ago = 'just now';
+        else if (diffMin < 60) ago = diffMin + 'm ago';
+        else if (diffMin < 1440) ago = Math.round(diffMin / 60) + 'h ago';
+        else ago = Math.round(diffMin / 1440) + 'd ago';
+        document.getElementById('lastUpdated').textContent = 'Updated ' + ago;
+    }
 }
 updateStats();
+
+// ---- Email Subscribe Form ----
+const subForm = document.getElementById('subscribeForm');
+if (subForm) {
+    subForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const email = document.getElementById('subEmail').value.trim();
+        const btn = document.getElementById('subBtn');
+        const msg = document.getElementById('subMsg');
+
+        if (!email) return;
+
+        btn.disabled = true;
+        btn.textContent = 'Subscribing...';
+        msg.textContent = '';
+        msg.className = 'subscribe-msg';
+
+        try {
+            const res = await fetch('/.netlify/functions/subscribe', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ email }),
+            });
+            const data = await res.json();
+
+            if (res.ok) {
+                msg.textContent = 'Subscribed! Check your inbox for tomorrow\'s market brief.';
+                msg.className = 'subscribe-msg success';
+                document.getElementById('subEmail').value = '';
+            } else {
+                msg.textContent = data.error || 'Something went wrong. Try again.';
+                msg.className = 'subscribe-msg error';
+            }
+        } catch {
+            msg.textContent = 'Network error. Please try again.';
+            msg.className = 'subscribe-msg error';
+        }
+
+        btn.disabled = false;
+        btn.textContent = 'Subscribe';
+    });
+}
 
 // Initial render
 renderIndexChart(currentChartDays);

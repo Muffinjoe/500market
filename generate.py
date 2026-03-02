@@ -286,8 +286,20 @@ for stock in stocks:
         </div>
     </div>
 
+    <div class="subscribe-section" style="background:var(--bg-secondary);border-top:1px solid var(--border);padding:40px 24px;margin-top:32px">
+        <div style="max-width:480px;margin:0 auto;text-align:center">
+            <h2 style="font-size:20px;font-weight:800;color:var(--text);margin-bottom:6px">Daily Market Brief</h2>
+            <p style="font-size:13px;color:var(--text-secondary);margin-bottom:16px">S&P 500 closing prices, top movers, and sector performance — delivered daily.</p>
+            <form id="subForm" style="display:flex;gap:8px;max-width:380px;margin:0 auto">
+                <input type="email" id="subEmail" placeholder="Enter your email" required style="flex:1;padding:10px 14px;border:1px solid var(--border);border-radius:8px;font-size:14px;background:var(--bg);color:var(--text);outline:none">
+                <button type="submit" style="padding:10px 20px;border:none;border-radius:8px;background:#3861FB;color:#fff;font-size:14px;font-weight:600;cursor:pointer">Subscribe</button>
+            </form>
+            <div id="subMsg" style="margin-top:10px;font-size:13px;min-height:18px"></div>
+        </div>
+    </div>
+
     <footer class="footer">
-        <p>500Market &mdash; S&P 500 stock tracker. Sample data for demonstration. Not financial advice.</p>
+        <p>500Market &mdash; S&P 500 stock tracker. Not financial advice.</p>
     </footer>
 
     <script>
@@ -321,6 +333,9 @@ for stock in stocks:
     document.querySelectorAll(".chart-period").forEach(b=>b.addEventListener("click",()=>{{document.querySelectorAll(".chart-period").forEach(x=>x.classList.remove("active"));b.classList.add("active");genChart(parseInt(b.dataset.d));}}));
     window.addEventListener("resize",()=>genChart(30));
     genChart(30);
+    // Subscribe form
+    const sf=document.getElementById("subForm");
+    if(sf)sf.addEventListener("submit",async e=>{{e.preventDefault();const em=document.getElementById("subEmail").value.trim();const msg=document.getElementById("subMsg");const btn=sf.querySelector("button");if(!em)return;btn.disabled=true;btn.textContent="...";msg.textContent="";try{{const r=await fetch("/.netlify/functions/subscribe",{{method:"POST",headers:{{"Content-Type":"application/json"}},body:JSON.stringify({{email:em}})}});const d=await r.json();if(r.ok){{msg.style.color="#16c784";msg.textContent="Subscribed!";document.getElementById("subEmail").value="";}}else{{msg.style.color="#ea3943";msg.textContent=d.error||"Failed";}}}}catch{{msg.style.color="#ea3943";msg.textContent="Network error";}}btn.disabled=false;btn.textContent="Subscribe";}});
     </script>
 </body>
 </html>'''

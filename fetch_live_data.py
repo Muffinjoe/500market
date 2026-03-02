@@ -309,10 +309,14 @@ try:
 except FileNotFoundError:
     all_descriptions = {}
 
-# data.js (includes stocks, market summary, and descriptions)
+# data.js (includes stocks, market summary, descriptions, and timestamp)
+from datetime import datetime
+last_updated = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+
 js_content = "const SP500_STOCKS = " + json.dumps(stocks, indent=4) + ";\n\n"
 js_content += "const MARKET_SUMMARY = " + json.dumps(market_summary, indent=4) + ";\n\n"
-js_content += "const STOCK_DESCRIPTIONS_DATA = " + json.dumps(all_descriptions) + ";\n"
+js_content += "const STOCK_DESCRIPTIONS_DATA = " + json.dumps(all_descriptions) + ";\n\n"
+js_content += f'const DATA_LAST_UPDATED = "{last_updated}";\n'
 with open("data.js", "w") as f:
     f.write(js_content)
 print(f"  Wrote data.js")

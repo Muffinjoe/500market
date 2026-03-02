@@ -22,6 +22,7 @@
             <span>Market Cap: <strong id="totalMarketCap">$51.2T</strong></span>
             <span>24h Vol: <strong id="totalVolume">$287.4B</strong></span>
             <span>S&P 500: <strong id="spIndex">5,954.50</strong> <span class="change-up">+0.82%</span></span>
+            <span id="lastUpdated" style="margin-left:auto;opacity:0.7"></span>
         </div>
     </div>
 
@@ -181,8 +182,23 @@
         </div>
     </main>
 
+    <!-- Email Subscribe -->
+    <div class="subscribe-section">
+        <div class="subscribe-inner">
+            <div class="subscribe-text">
+                <h2 class="subscribe-title">Daily Market Brief</h2>
+                <p class="subscribe-desc">Get the S&P 500 closing prices, top movers, and sector performance delivered to your inbox every day at market close.</p>
+            </div>
+            <form class="subscribe-form" id="subscribeForm">
+                <input type="email" id="subEmail" placeholder="Enter your email" required>
+                <button type="submit" id="subBtn">Subscribe</button>
+            </form>
+            <div class="subscribe-msg" id="subMsg"></div>
+        </div>
+    </div>
+
     <footer class="footer">
-        <p>500Market &mdash; Sample data for demonstration purposes. Not financial advice.</p>
+        <p>500Market &mdash; S&P 500 stock tracker. Not financial advice.</p>
     </footer>
 
     <!-- Stock Detail Panel -->

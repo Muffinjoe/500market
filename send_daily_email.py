@@ -81,34 +81,62 @@ elif fg >= 45: fg_color = "#f7931a"
 elif fg >= 25: fg_color = "#ea3943"
 else: fg_color = "#ea3943"
 
-# Build mover rows
+# Build mover rows with logos and visual bars
 def mover_rows(movers):
     rows = ""
     for i, s in enumerate(movers):
         color = chg_color(s["change1d"])
+        bg_color = "#f0fdf4" if s["change1d"] >= 0 else "#fef2f2"
+        bar_width = min(80, abs(s["change1d"]) * 6)
+        logo = f'https://www.google.com/s2/favicons?domain={s.get("domain", "")}&sz=64'
+        mcap = fmt_mcap(s["marketCap"])
         rows += f'''
         <tr>
-            <td style="padding:8px 12px;border-bottom:1px solid #f0f0f0;font-size:14px;color:#666">{i+1}</td>
-            <td style="padding:8px 12px;border-bottom:1px solid #f0f0f0">
-                <strong style="color:#222">{s["ticker"]}</strong>
-                <span style="color:#999;font-size:12px;margin-left:4px">{s["name"]}</span>
+            <td style="padding:10px 8px;border-bottom:1px solid #f0f0f0;font-size:13px;color:#999;text-align:center;width:28px">{i+1}</td>
+            <td style="padding:10px 0;border-bottom:1px solid #f0f0f0;width:32px">
+                <img src="{logo}" alt="{s["ticker"]}" width="24" height="24" style="border-radius:50%;vertical-align:middle;border:1px solid #eee">
             </td>
-            <td style="padding:8px 12px;border-bottom:1px solid #f0f0f0;text-align:right;font-weight:600;color:#222">{fmt_price(s["price"])}</td>
-            <td style="padding:8px 12px;border-bottom:1px solid #f0f0f0;text-align:right;font-weight:600;color:{color}">{chg_arrow(s["change1d"])} {chg_str(s["change1d"])}</td>
+            <td style="padding:10px 8px;border-bottom:1px solid #f0f0f0">
+                <strong style="color:#222;font-size:14px">{s["ticker"]}</strong>
+                <span style="color:#999;font-size:12px;margin-left:4px">{s["name"]}</span><br>
+                <span style="color:#bbb;font-size:11px">{mcap}</span>
+            </td>
+            <td style="padding:10px 8px;border-bottom:1px solid #f0f0f0;text-align:right;font-weight:600;color:#222;font-size:14px">{fmt_price(s["price"])}</td>
+            <td style="padding:10px 12px;border-bottom:1px solid #f0f0f0;text-align:right;width:120px">
+                <div style="font-weight:700;color:{color};font-size:14px">{chg_arrow(s["change1d"])} {chg_str(s["change1d"])}</div>
+                <div style="margin-top:4px;height:4px;background:#f0f0f0;border-radius:2px;overflow:hidden">
+                    <div style="width:{bar_width}%;height:100%;background:{color};border-radius:2px"></div>
+                </div>
+            </td>
         </tr>'''
     return rows
 
-# Build sector rows
+# Build sector rows with visual bars
+SECTOR_ICONS = {
+    "Information Technology": "💻", "Health Care": "🏥", "Financials": "🏦",
+    "Consumer Discretionary": "🛍️", "Communication Services": "📡",
+    "Industrials": "🏭", "Consumer Staples": "🛒", "Energy": "⛽",
+    "Utilities": "💡", "Real Estate": "🏠", "Materials": "⛏️",
+}
+
 def sector_rows():
     rows = ""
     for sp in sector_perf:
         color = chg_color(sp["avg"])
-        bar_width = min(100, abs(sp["avg"]) * 20)
+        bar_width = min(80, abs(sp["avg"]) * 15)
+        icon = SECTOR_ICONS.get(sp["name"], "📊")
         rows += f'''
         <tr>
-            <td style="padding:6px 12px;border-bottom:1px solid #f0f0f0;font-size:13px;color:#222;font-weight:500">{sp["name"]}</td>
-            <td style="padding:6px 12px;border-bottom:1px solid #f0f0f0;text-align:center;font-size:12px;color:#999">{sp["count"]}</td>
-            <td style="padding:6px 12px;border-bottom:1px solid #f0f0f0;text-align:right;font-weight:600;color:{color};font-size:13px">{chg_str(sp["avg"])}</td>
+            <td style="padding:8px 12px;border-bottom:1px solid #f0f0f0;font-size:14px;color:#222;font-weight:500">
+                {icon} {sp["name"]}
+            </td>
+            <td style="padding:8px 12px;border-bottom:1px solid #f0f0f0;text-align:center;font-size:12px;color:#999">{sp["count"]}</td>
+            <td style="padding:8px 12px;border-bottom:1px solid #f0f0f0;text-align:right;width:100px">
+                <div style="font-weight:700;color:{color};font-size:13px">{chg_str(sp["avg"])}</div>
+                <div style="margin-top:3px;height:3px;background:#f0f0f0;border-radius:2px;overflow:hidden">
+                    <div style="width:{bar_width}%;height:100%;background:{color};border-radius:2px;float:{"left" if sp["avg"] >= 0 else "right"}"></div>
+                </div>
+            </td>
         </tr>'''
     return rows
 
