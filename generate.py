@@ -367,7 +367,7 @@ for stock in stocks:
                 const date=new Date(a.datetime*1000);
                 const ago=Math.round((Date.now()-date)/3600000);
                 const timeStr=ago<1?'Just now':ago<24?ago+'h ago':Math.round(ago/24)+'d ago';
-                return '<a href="'+a.url+'" target="_blank" rel="noopener" class="news-item"><div class="news-content"><div class="news-headline">'+a.headline+'</div><div class="news-meta"><span class="news-source">'+a.source+'</span> · '+timeStr+'</div></div></a>';
+                return '<a href="'+a.url+'" target="_blank" rel="noopener" class="news-item"><div class="news-content"><div class="news-headline">'+a.headline+'</div><div class="news-meta">'+timeStr+'</div></div></a>';
             }}).join('');
         }}).catch(()=>{{container.innerHTML='<div class="news-loading">Unable to load news</div>';}});
     }})();
