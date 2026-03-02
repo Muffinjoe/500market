@@ -297,57 +297,89 @@ SECTOR PERFORMANCE
 View the full dashboard: https://500market.com
 """
 
-# Send via Resend Broadcast API to audience list
+# Send via Resend
 subject = f"S&P 500: {idx['price']:,.2f} ({idx_sign}{idx['changePct']:.2f}%) — {datetime.now().strftime('%b %d')}"
 
-# Step 1: Create broadcast
-print(f"Creating broadcast to audience {AUDIENCE_ID}...")
-print(f"  Subject: {subject}")
+# Check for --test flag to send directly instead of broadcast
+import sys as _sys
+test_mode = '--test' in _sys.argv
+FALLBACK_EMAIL = "joemurfin@gmail.com"
 
-create_payload = json.dumps({
-    "from": FROM_EMAIL,
-    "audience_id": AUDIENCE_ID,
-    "subject": subject,
-    "html": html,
-    "text": plain,
-    "name": f"Daily Brief — {datetime.now().strftime('%Y-%m-%d')}",
-})
-
-result = subprocess.run([
-    "curl", "-s", "-X", "POST",
-    "https://api.resend.com/broadcasts",
-    "-H", f"Authorization: Bearer {RESEND_API_KEY}",
-    "-H", "Content-Type: application/json",
-    "-d", create_payload
-], capture_output=True, text=True, timeout=30)
-
-broadcast_id = None
-try:
-    resp = json.loads(result.stdout)
-    if "id" in resp:
-        broadcast_id = resp["id"]
-        print(f"  Broadcast created: {broadcast_id}")
-    else:
-        print(f"  Error creating broadcast: {resp}")
-except:
-    print(f"  Response: {result.stdout}")
-
-# Step 2: Send the broadcast
-if broadcast_id:
-    print(f"  Sending broadcast...")
-    send_result = subprocess.run([
+if test_mode:
+    # Direct send for testing
+    print(f"Sending TEST email to {FALLBACK_EMAIL}...")
+    print(f"  Subject: {subject}")
+    payload = json.dumps({
+        "from": FROM_EMAIL,
+        "to": [FALLBACK_EMAIL],
+        "subject": subject,
+        "html": html,
+        "text": plain,
+    })
+    result = subprocess.run([
         "curl", "-s", "-X", "POST",
-        f"https://api.resend.com/broadcasts/{broadcast_id}/send",
+        "https://api.resend.com/emails",
         "-H", f"Authorization: Bearer {RESEND_API_KEY}",
         "-H", "Content-Type: application/json",
-        "-d", json.dumps({"scheduled_at": "now"})
+        "-d", payload
+    ], capture_output=True, text=True, timeout=30)
+    try:
+        resp = json.loads(result.stdout)
+        if "id" in resp:
+            print(f"  Sent! Email ID: {resp['id']}")
+        else:
+            print(f"  Error: {resp}")
+    except:
+        print(f"  Response: {result.stdout}")
+else:
+    # Broadcast to audience list
+    print(f"Creating broadcast to audience {AUDIENCE_ID}...")
+    print(f"  Subject: {subject}")
+
+    create_payload = json.dumps({
+        "from": FROM_EMAIL,
+        "audience_id": AUDIENCE_ID,
+        "subject": subject,
+        "html": html,
+        "text": plain,
+        "name": f"Daily Brief — {datetime.now().strftime('%Y-%m-%d')}",
+    })
+
+    result = subprocess.run([
+        "curl", "-s", "-X", "POST",
+        "https://api.resend.com/broadcasts",
+        "-H", f"Authorization: Bearer {RESEND_API_KEY}",
+        "-H", "Content-Type: application/json",
+        "-d", create_payload
     ], capture_output=True, text=True, timeout=30)
 
+    broadcast_id = None
     try:
-        send_resp = json.loads(send_result.stdout)
-        if "id" in send_resp:
-            print(f"  Sent! Broadcast ID: {send_resp['id']}")
+        resp = json.loads(result.stdout)
+        if "id" in resp:
+            broadcast_id = resp["id"]
+            print(f"  Broadcast created: {broadcast_id}")
         else:
-            print(f"  Send response: {send_resp}")
+            print(f"  Error creating broadcast: {resp}")
     except:
-        print(f"  Send response: {send_result.stdout}")
+        print(f"  Response: {result.stdout}")
+
+    # Send the broadcast
+    if broadcast_id:
+        print(f"  Sending broadcast...")
+        send_result = subprocess.run([
+            "curl", "-s", "-X", "POST",
+            f"https://api.resend.com/broadcasts/{broadcast_id}/send",
+            "-H", f"Authorization: Bearer {RESEND_API_KEY}",
+            "-H", "Content-Type: application/json",
+            "-d", "{}"
+        ], capture_output=True, text=True, timeout=30)
+
+        try:
+            send_resp = json.loads(send_result.stdout)
+            if "id" in send_resp:
+                print(f"  Sent! Broadcast ID: {send_resp['id']}")
+            else:
+                print(f"  Send response: {send_resp}")
+        except:
+            print(f"  Send response: {send_result.stdout}")
