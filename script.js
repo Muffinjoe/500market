@@ -387,16 +387,35 @@ document.querySelectorAll('.nav a').forEach(link => {
     });
 });
 
-// Event: Sector pills
-document.querySelectorAll('.pill').forEach(pill => {
-    pill.addEventListener('click', () => {
-        document.querySelectorAll('.pill').forEach(p => p.classList.remove('active'));
-        pill.classList.add('active');
-        currentSector = pill.dataset.sector;
-        currentPage = 1;
-        render();
+// Build sector pills dynamically from data
+function buildSectorPills() {
+    const container = document.getElementById('sectorPills');
+    if (!container) return;
+
+    const sectors = [...new Set(SP500_STOCKS.map(s => s.sector))].sort();
+
+    container.innerHTML = '<button class="pill active" data-sector="all">All Sectors</button>';
+    sectors.forEach(sector => {
+        const count = SP500_STOCKS.filter(s => s.sector === sector).length;
+        const btn = document.createElement('button');
+        btn.className = 'pill';
+        btn.dataset.sector = sector;
+        btn.textContent = sector;
+        container.appendChild(btn);
     });
-});
+
+    // Event listeners
+    container.querySelectorAll('.pill').forEach(pill => {
+        pill.addEventListener('click', () => {
+            container.querySelectorAll('.pill').forEach(p => p.classList.remove('active'));
+            pill.classList.add('active');
+            currentSector = pill.dataset.sector;
+            currentPage = 1;
+            render();
+        });
+    });
+}
+buildSectorPills();
 
 // ---- Search with Dropdown ----
 const searchInput = document.getElementById('searchInput');
@@ -850,10 +869,11 @@ function generateIndexData(days) {
         return (seed & 0x7fffffff) / 0x7fffffff;
     }
 
-    // Walk backwards from current price
-    const endPrice = 5954.50;
-    const dailyVol = 0.008; // ~0.8% daily volatility
-    const drift = 0.0003;   // slight upward drift
+    // Use real index price from MARKET_SUMMARY if available
+    const ms = typeof MARKET_SUMMARY !== 'undefined' ? MARKET_SUMMARY : null;
+    const endPrice = (ms && ms.index) ? ms.index.price : 5954.50;
+    const dailyVol = 0.008;
+    const drift = (ms && ms.index && ms.index.changePct >= 0) ? 0.0003 : -0.0003;
 
     // Generate forward then reverse so end = current price
     let prices = [endPrice];
