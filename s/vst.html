@@ -344,26 +344,43 @@
     // Download performance card
     const dlBtn=document.getElementById("dlCard");
     if(dlBtn)dlBtn.addEventListener("click",function(){
-        const S={"ticker": "VST", "name": "Vistra Corp.", "price": 171.66, "change1d": -1.28, "change7d": 0.15, "changeYtd": 0.3, "marketCap": 58159394816, "pe": 61.7, "sector": "Utilities", "rank": 199};
-        const c=document.createElement("canvas");c.width=600;c.height=340;const x=c.getContext("2d");
-        x.fillStyle="#1a1a2e";x.beginPath();x.roundRect(0,0,600,340,16);x.fill();
-        x.fillStyle="#3861FB";x.beginPath();x.roundRect(0,0,600,56,[16,16,0,0]);x.fill();
-        x.fillStyle="#fff";x.font="bold 18px system-ui";x.fillText("500Market",20,36);
-        x.font="12px system-ui";x.fillStyle="rgba(255,255,255,0.6)";x.textAlign="right";
-        x.fillText(new Date().toLocaleDateString("en-US",{month:"long",day:"numeric",year:"numeric"}),580,36);x.textAlign="left";
-        x.fillStyle="#fff";x.font="bold 28px system-ui";x.fillText(S.ticker,20,100);
-        x.font="16px system-ui";x.fillStyle="#8b949e";x.fillText(S.name,20,124);
-        x.font="bold 36px system-ui";x.fillStyle="#fff";x.fillText("$"+S.price.toLocaleString("en-US",{minimumFractionDigits:2}),20,175);
-        const cc=S.change1d>=0?"#16c784":"#ea3943";const cs=S.change1d>=0?"+":"";
-        x.font="bold 20px system-ui";x.fillStyle=cc;x.fillText(cs+S.change1d.toFixed(2)+"%",20,205);
+        const S={"ticker": "VST", "name": "Vistra Corp.", "price": 171.66, "change1d": -1.28, "change7d": 0.15, "changeYtd": 0.3, "marketCap": 58159394816, "volume": 938561541, "pe": 61.7, "sector": "Utilities", "rank": 199};
         function fmc(n){if(n>=1e12)return"$"+(n/1e12).toFixed(1)+"T";if(n>=1e9)return"$"+(n/1e9).toFixed(1)+"B";return"$"+(n/1e6).toFixed(0)+"M";}
-        const st=[["Market Cap",fmc(S.marketCap)],["P/E",S.pe?S.pe.toFixed(1):"N/A"],["7d",(S.change7d>=0?"+":"")+S.change7d.toFixed(2)+"%"],["YTD",(S.changeYtd>=0?"+":"")+S.changeYtd.toFixed(2)+"%"],["Sector",S.sector],["Rank","#"+S.rank]];
-        st.forEach(function(s,i){const col=i%3;const row=Math.floor(i/3);const px=20+col*190;const py=240+row*44;
-        x.fillStyle="#8b949e";x.font="11px system-ui";x.fillText(s[0],px,py);
-        x.fillStyle=(s[0]==="7d"||s[0]==="YTD")?((parseFloat(s[1])>=0)?"#16c784":"#ea3943"):"#e4e6eb";
-        x.font="bold 14px system-ui";x.fillText(s[1],px,py+17);});
-        x.fillStyle="#2d3748";x.fillRect(0,320,600,20);x.fillStyle="#8b949e";x.font="10px system-ui";x.textAlign="center";
-        x.fillText("500market.com",300,334);x.textAlign="left";
+        function fvol(n){if(n>=1e9)return"$"+(n/1e9).toFixed(1)+"B";return"$"+(n/1e6).toFixed(0)+"M";}
+        function drawChart(x,cx,cy,cw,ch){
+            let sd=0;for(let i=0;i<S.ticker.length;i++)sd+=S.ticker.charCodeAt(i)*(i+1);sd+=30;
+            function rn(){sd=(sd*16807)%2147483647;return(sd&0x7fffffff)/0x7fffffff;}
+            let pr=[S.price];for(let i=1;i<30;i++){const p=pr[i-1];pr.push(p+p*((rn()-0.5)*0.024-(S.change7d>0?0.0004:-0.0003)));}pr.reverse();
+            const mn=Math.min(...pr),mx=Math.max(...pr),rg=mx-mn||1;
+            const up=pr[pr.length-1]>=pr[0];const col=up?"#16c784":"#ea3943";
+            x.beginPath();pr.forEach(function(p,i){const px=cx+(i/29)*cw;const py=cy+(1-(p-mn)/rg)*ch;i===0?x.moveTo(px,py):x.lineTo(px,py);});
+            x.lineTo(cx+cw,cy+ch);x.lineTo(cx,cy+ch);x.closePath();x.fillStyle=up?"rgba(22,199,132,0.12)":"rgba(234,57,67,0.12)";x.fill();
+            x.beginPath();pr.forEach(function(p,i){const px=cx+(i/29)*cw;const py=cy+(1-(p-mn)/rg)*ch;i===0?x.moveTo(px,py):x.lineTo(px,py);});
+            x.strokeStyle=col;x.lineWidth=2.5;x.lineJoin="round";x.stroke();
+            const lx=cx+cw;const ly=cy+(1-(pr[pr.length-1]-mn)/rg)*ch;x.beginPath();x.arc(lx,ly,4,0,Math.PI*2);x.fillStyle=col;x.fill();
+        }
+        const c=document.createElement("canvas");c.width=600;c.height=400;const x=c.getContext("2d");
+        x.fillStyle="#fff";x.beginPath();x.roundRect(0,0,600,400,16);x.fill();
+        x.strokeStyle="#e5e7eb";x.lineWidth=1;x.beginPath();x.roundRect(0,0,600,400,16);x.stroke();
+        x.fillStyle="#3861FB";x.beginPath();x.roundRect(0,0,600,52,[16,16,0,0]);x.fill();
+        x.fillStyle="#fff";x.font="bold 17px system-ui";x.fillText("500Market",20,33);
+        x.font="12px system-ui";x.fillStyle="rgba(255,255,255,0.7)";x.textAlign="right";
+        x.fillText(new Date().toLocaleDateString("en-US",{month:"long",day:"numeric",year:"numeric"}),580,33);x.textAlign="left";
+        x.fillStyle="#222531";x.font="bold 26px system-ui";x.fillText(S.ticker,20,92);
+        x.font="14px system-ui";x.fillStyle="#616e85";x.fillText(S.name+" · "+S.sector,20,112);
+        x.font="bold 32px system-ui";x.fillStyle="#222531";const pStr="$"+S.price.toLocaleString("en-US",{minimumFractionDigits:2});x.fillText(pStr,20,155);
+        const cc=S.change1d>=0?"#16c784":"#ea3943";const cs=S.change1d>=0?"+":"";
+        x.font="bold 18px system-ui";x.fillStyle=cc;x.fillText(cs+S.change1d.toFixed(2)+"%",30+x.measureText(pStr).width,155);
+        drawChart(x,320,68,260,95);
+        x.fillStyle="#f0f0f0";x.fillRect(20,175,560,1);
+        const st=[["Market Cap",fmc(S.marketCap)],["P/E",S.pe?S.pe.toFixed(1):"N/A"],["7d",(S.change7d>=0?"+":"")+S.change7d.toFixed(2)+"%"],["YTD",(S.changeYtd>=0?"+":"")+S.changeYtd.toFixed(2)+"%"],["Volume",fvol(S.volume)],["Sector",S.sector],["Rank","#"+S.rank]];
+        st.forEach(function(s,i){const col=i%4;const row=Math.floor(i/4);const px=20+col*140;const py=200+row*52;
+        x.fillStyle="#9ca3af";x.font="11px system-ui";x.fillText(s[0],px,py);
+        x.fillStyle=(s[0]==="7d"||s[0]==="YTD")?((parseFloat(s[1])>=0)?"#16c784":"#ea3943"):"#222531";
+        x.font="bold 15px system-ui";x.fillText(s[1],px,py+19);});
+        x.fillStyle="#fafafa";x.fillRect(0,310,600,50);drawChart(x,20,312,560,44);
+        x.fillStyle="#f3f4f6";x.beginPath();x.roundRect(0,370,600,30,[0,0,16,16]);x.fill();
+        x.fillStyle="#9ca3af";x.font="11px system-ui";x.textAlign="center";x.fillText("500market.com · S&P 500 Stock Tracker",300,389);x.textAlign="left";
         const a=document.createElement("a");a.download=S.ticker+"-500market.png";a.href=c.toDataURL("image/png");a.click();
     });
     </script>

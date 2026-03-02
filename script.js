@@ -1177,94 +1177,171 @@ function updateMarketStatus() {
 setInterval(updateMarketStatus, 60000);
 
 // ---- Performance Card Download (for detail panel) ----
+function generateCardChart(ctx, stock, x, y, w, h) {
+    // Generate price-like data seeded from ticker
+    let seed = 0;
+    for (let i = 0; i < stock.ticker.length; i++) seed += stock.ticker.charCodeAt(i) * (i + 1);
+    seed += 30;
+    function rand() { seed = (seed * 16807) % 2147483647; return (seed & 0x7fffffff) / 0x7fffffff; }
+
+    const days = 30;
+    let prices = [stock.price];
+    const vol = 0.012, drift = stock.change7d > 0 ? 0.0004 : -0.0003;
+    for (let i = 1; i < days; i++) {
+        const p = prices[i - 1];
+        prices.push(p + p * ((rand() - 0.5) * 2 * vol - drift));
+    }
+    prices.reverse();
+
+    const mn = Math.min(...prices), mx = Math.max(...prices), rng = mx - mn || 1;
+    const isUp = prices[prices.length - 1] >= prices[0];
+    const color = isUp ? '#16c784' : '#ea3943';
+    const fillColor = isUp ? 'rgba(22,199,132,0.12)' : 'rgba(234,57,67,0.12)';
+
+    // Draw fill
+    ctx.beginPath();
+    prices.forEach((p, i) => {
+        const px = x + (i / (days - 1)) * w;
+        const py = y + (1 - (p - mn) / rng) * h;
+        i === 0 ? ctx.moveTo(px, py) : ctx.lineTo(px, py);
+    });
+    ctx.lineTo(x + w, y + h);
+    ctx.lineTo(x, y + h);
+    ctx.closePath();
+    ctx.fillStyle = fillColor;
+    ctx.fill();
+
+    // Draw line
+    ctx.beginPath();
+    prices.forEach((p, i) => {
+        const px = x + (i / (days - 1)) * w;
+        const py = y + (1 - (p - mn) / rng) * h;
+        i === 0 ? ctx.moveTo(px, py) : ctx.lineTo(px, py);
+    });
+    ctx.strokeStyle = color;
+    ctx.lineWidth = 2.5;
+    ctx.lineJoin = 'round';
+    ctx.stroke();
+
+    // End dot
+    const lastX = x + w;
+    const lastY = y + (1 - (prices[prices.length - 1] - mn) / rng) * h;
+    ctx.beginPath();
+    ctx.arc(lastX, lastY, 4, 0, Math.PI * 2);
+    ctx.fillStyle = color;
+    ctx.fill();
+}
+
 function generatePerformanceCard(stock) {
     const canvas = document.createElement('canvas');
     canvas.width = 600;
-    canvas.height = 340;
+    canvas.height = 400;
     const ctx = canvas.getContext('2d');
 
-    // Background
-    ctx.fillStyle = '#1a1a2e';
+    // Light background
+    ctx.fillStyle = '#ffffff';
     ctx.beginPath();
-    ctx.roundRect(0, 0, 600, 340, 16);
+    ctx.roundRect(0, 0, 600, 400, 16);
     ctx.fill();
+
+    // Border
+    ctx.strokeStyle = '#e5e7eb';
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.roundRect(0, 0, 600, 400, 16);
+    ctx.stroke();
 
     // Header bar
     ctx.fillStyle = '#3861FB';
     ctx.beginPath();
-    ctx.roundRect(0, 0, 600, 56, [16, 16, 0, 0]);
+    ctx.roundRect(0, 0, 600, 52, [16, 16, 0, 0]);
     ctx.fill();
 
-    // Logo text
     ctx.fillStyle = '#ffffff';
-    ctx.font = 'bold 18px system-ui, sans-serif';
-    ctx.fillText('500Market', 20, 36);
+    ctx.font = 'bold 17px system-ui, sans-serif';
+    ctx.fillText('500Market', 20, 33);
 
-    // Date
     ctx.font = '12px system-ui, sans-serif';
-    ctx.fillStyle = 'rgba(255,255,255,0.6)';
-    const dateStr = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+    ctx.fillStyle = 'rgba(255,255,255,0.7)';
     ctx.textAlign = 'right';
-    ctx.fillText(dateStr, 580, 36);
+    const dateStr = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+    ctx.fillText(dateStr, 580, 33);
     ctx.textAlign = 'left';
 
     // Ticker + Name
-    ctx.fillStyle = '#ffffff';
-    ctx.font = 'bold 28px system-ui, sans-serif';
-    ctx.fillText(stock.ticker, 20, 100);
-    ctx.font = '16px system-ui, sans-serif';
-    ctx.fillStyle = '#8b949e';
-    ctx.fillText(stock.name, 20, 124);
+    ctx.fillStyle = '#222531';
+    ctx.font = 'bold 26px system-ui, sans-serif';
+    ctx.fillText(stock.ticker, 20, 92);
+    ctx.font = '14px system-ui, sans-serif';
+    ctx.fillStyle = '#616e85';
+    ctx.fillText(stock.name + ' · ' + stock.sector, 20, 112);
 
-    // Price
-    ctx.font = 'bold 36px system-ui, sans-serif';
-    ctx.fillStyle = '#ffffff';
-    ctx.fillText(formatPrice(stock.price), 20, 175);
+    // Price + Change
+    ctx.font = 'bold 32px system-ui, sans-serif';
+    ctx.fillStyle = '#222531';
+    ctx.fillText(formatPrice(stock.price), 20, 155);
 
-    // Change
     const chgColor = stock.change1d >= 0 ? '#16c784' : '#ea3943';
     const chgSign = stock.change1d >= 0 ? '+' : '';
-    ctx.font = 'bold 20px system-ui, sans-serif';
+    ctx.font = 'bold 18px system-ui, sans-serif';
     ctx.fillStyle = chgColor;
-    ctx.fillText(`${chgSign}${stock.change1d.toFixed(2)}%`, 20, 205);
+    const priceWidth = ctx.measureText(formatPrice(stock.price)).width;
+    ctx.fillText(`${chgSign}${stock.change1d.toFixed(2)}%`, 30 + priceWidth, 155);
 
-    // Stats grid
-    ctx.font = '11px system-ui, sans-serif';
-    ctx.fillStyle = '#8b949e';
+    // Chart (right side, overlapping with price area)
+    generateCardChart(ctx, stock, 320, 68, 260, 95);
+
+    // Divider
+    ctx.fillStyle = '#f0f0f0';
+    ctx.fillRect(20, 175, 560, 1);
+
+    // Stats grid — 2 rows of 4
     const stats = [
         ['Market Cap', formatCurrency(stock.marketCap)],
         ['P/E Ratio', stock.pe ? stock.pe.toFixed(1) : 'N/A'],
         ['7d Change', (stock.change7d >= 0 ? '+' : '') + stock.change7d.toFixed(2) + '%'],
         ['YTD', (stock.changeYtd >= 0 ? '+' : '') + stock.changeYtd.toFixed(2) + '%'],
+        ['Volume', formatVolume(stock.volume)],
         ['Sector', stock.sector],
         ['Rank', '#' + stock.rank],
+        ['30d Chart', ''],
     ];
 
-    const colW = 190;
+    const colW = 140;
     stats.forEach((s, i) => {
-        const col = i % 3;
-        const row = Math.floor(i / 3);
-        const x = 20 + col * colW;
-        const y = 240 + row * 44;
+        if (s[0] === '30d Chart') return;
+        const col = i % 4;
+        const row = Math.floor(i / 4);
+        const sx = 20 + col * colW;
+        const sy = 200 + row * 52;
 
-        ctx.fillStyle = '#8b949e';
+        ctx.fillStyle = '#9ca3af';
         ctx.font = '11px system-ui, sans-serif';
-        ctx.fillText(s[0], x, y);
-        ctx.fillStyle = '#e4e6eb';
-        ctx.font = 'bold 14px system-ui, sans-serif';
+        ctx.fillText(s[0], sx, sy);
+
+        ctx.font = 'bold 15px system-ui, sans-serif';
         if (s[0] === '7d Change' || s[0] === 'YTD') {
             ctx.fillStyle = parseFloat(s[1]) >= 0 ? '#16c784' : '#ea3943';
+        } else {
+            ctx.fillStyle = '#222531';
         }
-        ctx.fillText(s[1], x, y + 17);
+        ctx.fillText(s[1], sx, sy + 19);
     });
 
+    // Bottom chart — full width mini chart
+    ctx.fillStyle = '#fafafa';
+    ctx.fillRect(0, 310, 600, 50);
+    generateCardChart(ctx, stock, 20, 312, 560, 44);
+
     // Footer
-    ctx.fillStyle = '#2d3748';
-    ctx.fillRect(0, 320, 600, 20);
-    ctx.fillStyle = '#8b949e';
-    ctx.font = '10px system-ui, sans-serif';
+    ctx.fillStyle = '#f3f4f6';
+    ctx.beginPath();
+    ctx.roundRect(0, 370, 600, 30, [0, 0, 16, 16]);
+    ctx.fill();
+    ctx.fillStyle = '#9ca3af';
+    ctx.font = '11px system-ui, sans-serif';
     ctx.textAlign = 'center';
-    ctx.fillText('500market.com · S&P 500 Stock Tracker', 300, 334);
+    ctx.fillText('500market.com · S&P 500 Stock Tracker · Not financial advice', 300, 389);
     ctx.textAlign = 'left';
 
     return canvas;
