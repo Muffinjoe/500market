@@ -1,38 +1,50 @@
 name: Update S&P 500 Data
 
-  on:
-    schedule:
-      - cron: '0,30 14-21 * * 1-5'
-    workflow_dispatch:
+on:
+  schedule:
+    - cron: '0,30 14-21 * * 1-5'
+  workflow_dispatch:
 
-  jobs:
-    update:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v4
-        - uses: actions/setup-python@v5
-          with:
-            python-version: '3.11'
-        - run: pip install yfinance pandas
-        - name: Fetch live data
-          env:
-            GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          run: python3 fetch_live_data.py
-        - name: Send daily email (market close only)
-          env:
-            RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          run: |
-            HOUR=$(date -u +%H)
-            if [ "$HOUR" = "21" ]; then
-              python3 send_daily_email.py
-            else
-              echo "Not market close, skipping email"
-            fi
-        - name: Commit and push
-          run: |
-            git config user.name "500Market Bot"
-            git config user.email "bot@500market.com"
-            git add -A
-            git diff --staged --quiet || git commit -m "Update S&P 500 data —
-  $(date -u '+%Y-%m-%d %H:%M UTC')"
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install yfinance pandas
+
+      - name: Fetch live data
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python3 fetch_live_data.py
+
+      - name: Send daily email (market close only)
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: |
+          HOUR=$(date -u +%H)
+          if [ "$HOUR" = "21" ]; then
+            python3 send_daily_email.py
+          else
+            echo "Not market close, skipping email"
+          fi
+
+      - name: Commit and push
+        run: |
+          git config user.name "500Market Bot"
+          git config user.email "bot@500market.com"
+          git add -A
+          if ! git diff --staged --quiet; then
+            git commit -m "Update S&P 500 data - $(date -u '+%Y-%m-%d %H:%M UTC')"
             git push
+          else
+            echo "No changes to commit"
+          fi
