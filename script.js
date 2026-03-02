@@ -1352,9 +1352,9 @@ function _oldGeneratePerformanceCard(stock) {
     return canvas;
 }
 
-// Clean card generator — simple canvas with good spacing
+// Clean card generator
 function generatePerformanceCard(stock) {
-    const W = 560, H = 320;
+    const W = 600, H = 380;
     const canvas = document.createElement('canvas');
     canvas.width = W * 2; canvas.height = H * 2;
     const c = canvas.getContext('2d');
@@ -1362,40 +1362,41 @@ function generatePerformanceCard(stock) {
 
     const chgColor = stock.change1d >= 0 ? '#16c784' : '#ea3943';
     const chgSign = stock.change1d >= 0 ? '+' : '';
-    const chg7Color = stock.change7d >= 0 ? '#16c784' : '#ea3943';
-    const chg7Sign = stock.change7d >= 0 ? '+' : '';
-    const ytdColor = stock.changeYtd >= 0 ? '#16c784' : '#ea3943';
-    const ytdSign = stock.changeYtd >= 0 ? '+' : '';
 
-    // Background
+    // White background
     c.fillStyle = '#ffffff';
     c.fillRect(0, 0, W, H);
 
-    // Blue header
+    // Blue header bar
     c.fillStyle = '#3861FB';
-    c.fillRect(0, 0, W, 44);
-    c.fillStyle = '#fff'; c.font = 'bold 15px system-ui, sans-serif';
-    c.fillText('500Market', 16, 28);
-    c.font = '11px system-ui, sans-serif'; c.fillStyle = 'rgba(255,255,255,0.7)';
+    c.fillRect(0, 0, W, 48);
+    c.fillStyle = '#fff'; c.font = 'bold 16px system-ui, sans-serif';
+    c.fillText('500Market', 20, 30);
+    c.font = '12px system-ui, sans-serif'; c.fillStyle = 'rgba(255,255,255,0.7)';
     c.textAlign = 'right';
-    c.fillText(new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }), W - 16, 28);
+    c.fillText(new Date().toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' }), W - 20, 30);
     c.textAlign = 'left';
 
-    // Ticker + Name row
-    c.fillStyle = '#222'; c.font = 'bold 22px system-ui, sans-serif';
-    c.fillText(stock.ticker, 16, 78);
-    c.fillStyle = '#888'; c.font = '13px system-ui, sans-serif';
-    const tickW = c.measureText(stock.ticker).width;
-    c.fillText(stock.name, 16 + tickW + 10, 78);
+    // Row 1: Ticker (left) — large and bold
+    let y = 84;
+    c.fillStyle = '#222531'; c.font = 'bold 28px system-ui, sans-serif';
+    c.fillText(stock.ticker, 20, y);
 
-    // Price + Change row
-    c.fillStyle = '#222'; c.font = 'bold 28px system-ui, sans-serif';
-    c.fillText(formatPrice(stock.price), 16, 116);
-    const prW = c.measureText(formatPrice(stock.price)).width;
-    c.fillStyle = chgColor; c.font = 'bold 16px system-ui, sans-serif';
-    c.fillText(`${chgSign}${stock.change1d.toFixed(2)}%`, 24 + prW, 116);
+    // Row 2: Company name + sector — separate line, no overlap
+    y = 106;
+    c.fillStyle = '#888'; c.font = '14px system-ui, sans-serif';
+    c.fillText(stock.name + '  ·  ' + stock.sector + '  ·  #' + stock.rank, 20, y);
 
-    // Chart area (right side)
+    // Row 3: Price (left) + Change (next to it)
+    y = 148;
+    c.fillStyle = '#222531'; c.font = 'bold 34px system-ui, sans-serif';
+    const priceStr = formatPrice(stock.price);
+    c.fillText(priceStr, 20, y);
+    const priceW = c.measureText(priceStr).width;
+    c.fillStyle = chgColor; c.font = 'bold 18px system-ui, sans-serif';
+    c.fillText(chgSign + stock.change1d.toFixed(2) + '%', 32 + priceW, y);
+
+    // Chart — right side, rows 1-3 area
     let seed = 0;
     for (let i = 0; i < stock.ticker.length; i++) seed += stock.ticker.charCodeAt(i) * (i + 1);
     seed += 30;
@@ -1404,67 +1405,60 @@ function generatePerformanceCard(stock) {
     for (let i = 1; i < 30; i++) { pr.push(pr[i-1] + pr[i-1] * ((rand()-0.5)*0.024 - (stock.change7d>0?0.0004:-0.0003))); }
     pr.reverse();
     const mn = Math.min(...pr), mx = Math.max(...pr), rg = mx-mn||1;
-    const cX = 310, cY = 56, cW = 230, cH = 70;
     const lineCol = pr[29] >= pr[0] ? '#16c784' : '#ea3943';
 
+    const chartX = 360, chartY = 60, chartW = 220, chartH = 90;
     c.beginPath();
-    pr.forEach((p, i) => { const x = cX + (i/29)*cW, y = cY + (1-(p-mn)/rg)*cH; i===0 ? c.moveTo(x,y) : c.lineTo(x,y); });
-    c.lineTo(cX+cW, cY+cH); c.lineTo(cX, cY+cH); c.closePath();
+    pr.forEach((p, i) => { const px = chartX+(i/29)*chartW, py = chartY+(1-(p-mn)/rg)*chartH; i===0?c.moveTo(px,py):c.lineTo(px,py); });
+    c.lineTo(chartX+chartW, chartY+chartH); c.lineTo(chartX, chartY+chartH); c.closePath();
     c.fillStyle = pr[29]>=pr[0] ? 'rgba(22,199,132,0.1)' : 'rgba(234,57,67,0.1)'; c.fill();
-
     c.beginPath();
-    pr.forEach((p, i) => { const x = cX + (i/29)*cW, y = cY + (1-(p-mn)/rg)*cH; i===0 ? c.moveTo(x,y) : c.lineTo(x,y); });
+    pr.forEach((p, i) => { const px = chartX+(i/29)*chartW, py = chartY+(1-(p-mn)/rg)*chartH; i===0?c.moveTo(px,py):c.lineTo(px,py); });
     c.strokeStyle = lineCol; c.lineWidth = 2; c.lineJoin = 'round'; c.stroke();
 
     // Divider
-    c.fillStyle = '#eee'; c.fillRect(16, 136, W - 32, 1);
+    c.fillStyle = '#eee'; c.fillRect(20, 166, W - 40, 1);
 
-    // Stats row — 4 columns, simple
-    const stats = [
-        ['MKT CAP', formatCurrency(stock.marketCap), '#222'],
-        ['7 DAY', `${chg7Sign}${stock.change7d.toFixed(2)}%`, chg7Color],
-        ['YTD', `${ytdSign}${stock.changeYtd.toFixed(2)}%`, ytdColor],
-        ['P/E', stock.pe ? stock.pe.toFixed(1) : 'N/A', '#222'],
+    // Stats — 3 columns, 2 rows, generous spacing
+    const row1 = [
+        ['MARKET CAP', formatCurrency(stock.marketCap), '#222531'],
+        ['P/E RATIO', stock.pe ? stock.pe.toFixed(1) : 'N/A', '#222531'],
+        ['VOLUME', formatVolume(stock.volume), '#222531'],
     ];
-    const colW = (W - 32) / 4;
-    stats.forEach((s, i) => {
-        const x = 16 + i * colW;
-        c.fillStyle = '#aaa'; c.font = '10px system-ui, sans-serif';
-        c.fillText(s[0], x, 160);
-        c.fillStyle = s[2]; c.font = 'bold 14px system-ui, sans-serif';
-        c.fillText(s[1], x, 178);
-    });
-
-    // Second row
-    const stats2 = [
-        ['SECTOR', stock.sector, '#222'],
-        ['RANK', '#' + stock.rank, '#222'],
-        ['VOLUME', formatVolume(stock.volume), '#222'],
-        ['1 DAY', `${chgSign}${stock.change1d.toFixed(2)}%`, chgColor],
+    const row2 = [
+        ['1 DAY', chgSign + stock.change1d.toFixed(2) + '%', chgColor],
+        ['7 DAY', (stock.change7d >= 0 ? '+' : '') + stock.change7d.toFixed(2) + '%', stock.change7d >= 0 ? '#16c784' : '#ea3943'],
+        ['YTD', (stock.changeYtd >= 0 ? '+' : '') + stock.changeYtd.toFixed(2) + '%', stock.changeYtd >= 0 ? '#16c784' : '#ea3943'],
     ];
-    stats2.forEach((s, i) => {
-        const x = 16 + i * colW;
-        c.fillStyle = '#aaa'; c.font = '10px system-ui, sans-serif';
-        c.fillText(s[0], x, 210);
-        c.fillStyle = s[2]; c.font = 'bold 14px system-ui, sans-serif';
-        c.fillText(s[1], x, 228);
-    });
 
-    // Full-width mini chart at bottom
-    c.fillStyle = '#fafafa'; c.fillRect(0, 248, W, 48);
-    const bY = 250, bH = 42;
+    const colW = (W - 40) / 3;
+    function drawStatRow(stats, baseY) {
+        stats.forEach((s, i) => {
+            const x = 20 + i * colW;
+            c.fillStyle = '#aaa'; c.font = '10px system-ui, sans-serif';
+            c.fillText(s[0], x, baseY);
+            c.fillStyle = s[2]; c.font = 'bold 16px system-ui, sans-serif';
+            c.fillText(s[1], x, baseY + 20);
+        });
+    }
+    drawStatRow(row1, 190);
+    drawStatRow(row2, 240);
+
+    // Full-width mini chart strip
+    const stripY = 278;
+    c.fillStyle = '#fafafa'; c.fillRect(0, stripY, W, 56);
     c.beginPath();
-    pr.forEach((p, i) => { const x = 16 + (i/29)*(W-32), y = bY + (1-(p-mn)/rg)*bH; i===0 ? c.moveTo(x,y) : c.lineTo(x,y); });
-    c.lineTo(W-16, bY+bH); c.lineTo(16, bY+bH); c.closePath();
+    pr.forEach((p, i) => { const px = 20+(i/29)*(W-40), py = stripY+4+(1-(p-mn)/rg)*48; i===0?c.moveTo(px,py):c.lineTo(px,py); });
+    c.lineTo(W-20, stripY+52); c.lineTo(20, stripY+52); c.closePath();
     c.fillStyle = pr[29]>=pr[0] ? 'rgba(22,199,132,0.08)' : 'rgba(234,57,67,0.08)'; c.fill();
     c.beginPath();
-    pr.forEach((p, i) => { const x = 16 + (i/29)*(W-32), y = bY + (1-(p-mn)/rg)*bH; i===0 ? c.moveTo(x,y) : c.lineTo(x,y); });
+    pr.forEach((p, i) => { const px = 20+(i/29)*(W-40), py = stripY+4+(1-(p-mn)/rg)*48; i===0?c.moveTo(px,py):c.lineTo(px,py); });
     c.strokeStyle = lineCol; c.lineWidth = 1.5; c.lineJoin = 'round'; c.stroke();
 
     // Footer
-    c.fillStyle = '#f5f5f5'; c.fillRect(0, 296, W, 24);
+    c.fillStyle = '#f5f5f5'; c.fillRect(0, H - 28, W, 28);
     c.fillStyle = '#bbb'; c.font = '10px system-ui, sans-serif'; c.textAlign = 'center';
-    c.fillText('500market.com · S&P 500 Tracker', W/2, 312);
+    c.fillText('500market.com  ·  S&P 500 Stock Tracker', W/2, H - 10);
     c.textAlign = 'left';
 
     return canvas;
