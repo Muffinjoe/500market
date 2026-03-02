@@ -6,8 +6,32 @@ let currentSector = 'all';
 let searchTerm = '';
 let currentView = 'stocks'; // stocks | sectors | gainers | losers | watchlist
 
-// Watchlist (localStorage)
-let watchlist = JSON.parse(localStorage.getItem('500m_watchlist') || '[]');
+// Watchlist (localStorage + cookie for persistence)
+function getCookie(name) {
+    const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+    return match ? decodeURIComponent(match[2]) : null;
+}
+function setCookie(name, value, days) {
+    const d = new Date();
+    d.setTime(d.getTime() + days * 86400000);
+    document.cookie = name + '=' + encodeURIComponent(value) + ';expires=' + d.toUTCString() + ';path=/;SameSite=Lax';
+}
+
+function loadWatchlist() {
+    // Try localStorage first, then cookie fallback
+    const ls = localStorage.getItem('500m_watchlist');
+    if (ls) return JSON.parse(ls);
+    const ck = getCookie('500m_watchlist');
+    if (ck) return JSON.parse(ck);
+    return [];
+}
+function saveWatchlist() {
+    const val = JSON.stringify(watchlist);
+    localStorage.setItem('500m_watchlist', val);
+    setCookie('500m_watchlist', val, 365);
+}
+
+let watchlist = loadWatchlist();
 
 function isWatched(ticker) { return watchlist.includes(ticker); }
 function toggleWatch(ticker) {
@@ -16,7 +40,7 @@ function toggleWatch(ticker) {
     } else {
         watchlist.push(ticker);
     }
-    localStorage.setItem('500m_watchlist', JSON.stringify(watchlist));
+    saveWatchlist();
 }
 
 // ---- Dark Mode ----
@@ -196,7 +220,7 @@ function render() {
         const starred = isWatched(stock.ticker);
         row.innerHTML = `
             <td class="td-star"><button class="star-btn ${starred ? 'starred' : ''}" data-ticker="${stock.ticker}" title="${starred ? 'Remove from watchlist' : 'Add to watchlist'}">&#9733;</button></td>
-            <td class="td-rank">${start + i + 1}</td>
+            <td class="td-rank">${stock.rank}</td>
             <td>
                 <div class="td-name">
                     <img class="stock-logo" src="${logoUrl}" alt="${stock.ticker}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
