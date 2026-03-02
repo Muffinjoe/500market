@@ -822,7 +822,10 @@ function openDetail(stock) {
             </div>
         </div>
 
-        <a href="s/${stock.ticker.toLowerCase().replace('.', '-')}.html" class="detail-full-link">View full ${stock.ticker} page &rarr;</a>
+        <div style="display:flex;gap:8px;margin-bottom:24px">
+            <a href="s/${stock.ticker.toLowerCase().replace('.', '-')}.html" class="detail-full-link" style="flex:1;margin-bottom:0">View full ${stock.ticker} page &rarr;</a>
+            <button class="detail-full-link" style="flex:none;margin-bottom:0;border:none;cursor:pointer;background:#222531;width:44px;display:flex;align-items:center;justify-content:center;font-size:18px" id="downloadCard" title="Download performance card">&#8681;</button>
+        </div>
 
         <div class="detail-about">
             <div class="detail-about-title">About ${stock.name}</div>
@@ -861,6 +864,7 @@ function openDetail(stock) {
 
     // Close
     document.getElementById('detailClose').addEventListener('click', closeDetail);
+    document.getElementById('downloadCard').addEventListener('click', () => downloadPerformanceCard(stock));
     overlay.addEventListener('click', closeDetail);
 
     // Peer chips — click to open that stock
@@ -1102,6 +1106,9 @@ function updateStats() {
     document.getElementById('card52H').textContent = ms ? ms.high52Count : '—';
     document.getElementById('cardMcap').textContent = formatCurrency(totalMcap);
 
+    // Market status
+    updateMarketStatus();
+
     // Last updated timestamp
     if (typeof DATA_LAST_UPDATED !== 'undefined') {
         const d = new Date(DATA_LAST_UPDATED);
@@ -1116,6 +1123,160 @@ function updateStats() {
     }
 }
 updateStats();
+
+// ---- Market Status ----
+function updateMarketStatus() {
+    const el = document.getElementById('marketStatus');
+    if (!el) return;
+
+    const now = new Date();
+    // Convert to ET (UTC-5 or UTC-4 for DST)
+    const et = new Date(now.toLocaleString('en-US', { timeZone: 'America/New_York' }));
+    const day = et.getDay(); // 0=Sun, 6=Sat
+    const hours = et.getHours();
+    const mins = et.getMinutes();
+    const timeNum = hours * 60 + mins;
+
+    const isWeekday = day >= 1 && day <= 5;
+    const marketOpen = 9 * 60 + 30; // 9:30 AM
+    const marketClose = 16 * 60;     // 4:00 PM
+
+    if (isWeekday && timeNum >= marketOpen && timeNum < marketClose) {
+        const closeH = 4;
+        const closeM = 0;
+        const minsLeft = marketClose - timeNum;
+        const hLeft = Math.floor(minsLeft / 60);
+        const mLeft = minsLeft % 60;
+        el.innerHTML = `<span class="market-open"><span class="market-dot"></span> Market Open · Closes in ${hLeft}h ${mLeft}m</span>`;
+    } else {
+        // Calculate next open
+        let next = new Date(et);
+        if (timeNum >= marketClose || !isWeekday) {
+            // Move to next weekday
+            next.setDate(next.getDate() + 1);
+            while (next.getDay() === 0 || next.getDay() === 6) {
+                next.setDate(next.getDate() + 1);
+            }
+        }
+        next.setHours(9, 30, 0, 0);
+        const diff = next - et;
+        const hUntil = Math.floor(diff / 3600000);
+        const mUntil = Math.floor((diff % 3600000) / 60000);
+
+        let openStr;
+        if (hUntil < 24) {
+            openStr = `Opens in ${hUntil}h ${mUntil}m`;
+        } else {
+            const days = Math.floor(hUntil / 24);
+            openStr = `Opens ${days === 1 ? 'tomorrow' : 'in ' + days + ' days'} at 9:30 AM ET`;
+        }
+        el.innerHTML = `<span class="market-closed"><span class="market-dot"></span> Market Closed · ${openStr}</span>`;
+    }
+}
+// Update every minute
+setInterval(updateMarketStatus, 60000);
+
+// ---- Performance Card Download (for detail panel) ----
+function generatePerformanceCard(stock) {
+    const canvas = document.createElement('canvas');
+    canvas.width = 600;
+    canvas.height = 340;
+    const ctx = canvas.getContext('2d');
+
+    // Background
+    ctx.fillStyle = '#1a1a2e';
+    ctx.beginPath();
+    ctx.roundRect(0, 0, 600, 340, 16);
+    ctx.fill();
+
+    // Header bar
+    ctx.fillStyle = '#3861FB';
+    ctx.beginPath();
+    ctx.roundRect(0, 0, 600, 56, [16, 16, 0, 0]);
+    ctx.fill();
+
+    // Logo text
+    ctx.fillStyle = '#ffffff';
+    ctx.font = 'bold 18px system-ui, sans-serif';
+    ctx.fillText('500Market', 20, 36);
+
+    // Date
+    ctx.font = '12px system-ui, sans-serif';
+    ctx.fillStyle = 'rgba(255,255,255,0.6)';
+    const dateStr = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+    ctx.textAlign = 'right';
+    ctx.fillText(dateStr, 580, 36);
+    ctx.textAlign = 'left';
+
+    // Ticker + Name
+    ctx.fillStyle = '#ffffff';
+    ctx.font = 'bold 28px system-ui, sans-serif';
+    ctx.fillText(stock.ticker, 20, 100);
+    ctx.font = '16px system-ui, sans-serif';
+    ctx.fillStyle = '#8b949e';
+    ctx.fillText(stock.name, 20, 124);
+
+    // Price
+    ctx.font = 'bold 36px system-ui, sans-serif';
+    ctx.fillStyle = '#ffffff';
+    ctx.fillText(formatPrice(stock.price), 20, 175);
+
+    // Change
+    const chgColor = stock.change1d >= 0 ? '#16c784' : '#ea3943';
+    const chgSign = stock.change1d >= 0 ? '+' : '';
+    ctx.font = 'bold 20px system-ui, sans-serif';
+    ctx.fillStyle = chgColor;
+    ctx.fillText(`${chgSign}${stock.change1d.toFixed(2)}%`, 20, 205);
+
+    // Stats grid
+    ctx.font = '11px system-ui, sans-serif';
+    ctx.fillStyle = '#8b949e';
+    const stats = [
+        ['Market Cap', formatCurrency(stock.marketCap)],
+        ['P/E Ratio', stock.pe ? stock.pe.toFixed(1) : 'N/A'],
+        ['7d Change', (stock.change7d >= 0 ? '+' : '') + stock.change7d.toFixed(2) + '%'],
+        ['YTD', (stock.changeYtd >= 0 ? '+' : '') + stock.changeYtd.toFixed(2) + '%'],
+        ['Sector', stock.sector],
+        ['Rank', '#' + stock.rank],
+    ];
+
+    const colW = 190;
+    stats.forEach((s, i) => {
+        const col = i % 3;
+        const row = Math.floor(i / 3);
+        const x = 20 + col * colW;
+        const y = 240 + row * 44;
+
+        ctx.fillStyle = '#8b949e';
+        ctx.font = '11px system-ui, sans-serif';
+        ctx.fillText(s[0], x, y);
+        ctx.fillStyle = '#e4e6eb';
+        ctx.font = 'bold 14px system-ui, sans-serif';
+        if (s[0] === '7d Change' || s[0] === 'YTD') {
+            ctx.fillStyle = parseFloat(s[1]) >= 0 ? '#16c784' : '#ea3943';
+        }
+        ctx.fillText(s[1], x, y + 17);
+    });
+
+    // Footer
+    ctx.fillStyle = '#2d3748';
+    ctx.fillRect(0, 320, 600, 20);
+    ctx.fillStyle = '#8b949e';
+    ctx.font = '10px system-ui, sans-serif';
+    ctx.textAlign = 'center';
+    ctx.fillText('500market.com · S&P 500 Stock Tracker', 300, 334);
+    ctx.textAlign = 'left';
+
+    return canvas;
+}
+
+function downloadPerformanceCard(stock) {
+    const canvas = generatePerformanceCard(stock);
+    const link = document.createElement('a');
+    link.download = `${stock.ticker}-500market.png`;
+    link.href = canvas.toDataURL('image/png');
+    link.click();
+}
 
 // ---- Email Subscribe Form ----
 const subForm = document.getElementById('subscribeForm');

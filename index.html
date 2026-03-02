@@ -3,10 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>500Market — S&P 500 Stocks by Market Cap</title>
-    <meta name="description" content="Track all S&P 500 stocks by market cap, price, daily changes, and performance. Live charts, sector breakdowns, and detailed stock pages.">
+    <title>S&P 500 Stocks Today — Live Prices, Charts & Market Data | 500Market</title>
+    <meta name="description" content="Track all 503 S&P 500 stocks with live prices, real-time charts, market cap rankings, sector breakdowns, and daily performance data. Updated every 30 minutes during market hours.">
     <link rel="canonical" href="https://500market.com/">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="S&P 500 Stocks Today — Live Prices & Market Data">
+    <meta property="og:description" content="Track all 503 S&P 500 stocks with live prices, charts, and sector performance. Free daily market brief.">
+    <meta property="og:url" content="https://500market.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="500Market">
+    <meta property="og:image" content="https://500market.com/og-image.svg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="S&P 500 Stocks Today | 500Market">
+    <meta name="twitter:description" content="Live S&P 500 prices, charts, and daily market brief.">
+    <meta name="twitter:image" content="https://500market.com/og-image.svg">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "500Market",
+        "url": "https://500market.com",
+        "description": "S&P 500 stock tracker with live prices, charts, and market data",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://500market.com/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FinancialService",
+        "name": "500Market",
+        "url": "https://500market.com",
+        "description": "Free S&P 500 stock tracker with real-time prices, charts, sector analysis, and daily market briefs",
+        "serviceType": "Stock Market Data"
+    }
+    </script>
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -23,7 +64,8 @@
             <span>Market Cap: <strong id="totalMarketCap">$51.2T</strong></span>
             <span>24h Vol: <strong id="totalVolume">$287.4B</strong></span>
             <span>S&P 500: <strong id="spIndex">5,954.50</strong> <span class="change-up">+0.82%</span></span>
-            <span id="lastUpdated" style="margin-left:auto;opacity:0.7"></span>
+            <span id="marketStatus" style="margin-left:auto"></span>
+            <span id="lastUpdated" style="opacity:0.7"></span>
         </div>
     </div>
 
@@ -196,6 +238,7 @@
     </div>
 
     <script src="data.js"></script>
+    <script src="descriptions_data.js" defer></script>
     <script src="script.js"></script>
     <script src="live.js"></script>
 </body>

@@ -250,6 +250,13 @@ body {
     font-size: 14px;
 }
 
+/* Market Status */
+.market-open { color: #16c784; font-weight: 600; font-size: 11px; display: inline-flex; align-items: center; gap: 4px; }
+.market-closed { color: #ea3943; font-weight: 600; font-size: 11px; display: inline-flex; align-items: center; gap: 4px; }
+.market-dot { width: 6px; height: 6px; border-radius: 50%; display: inline-block; }
+.market-open .market-dot { background: #16c784; }
+.market-closed .market-dot { background: #ea3943; }
+
 /* Dark Mode Toggle */
 .theme-toggle {
     width: 34px;
