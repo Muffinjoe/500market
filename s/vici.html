@@ -55,6 +55,16 @@
         .sp-about p { font-size: 15px; color: var(--text-secondary); line-height: 1.7; }
         .sp-peers { margin-bottom: 28px; }
         .sp-section-title { font-size: 18px; font-weight: 700; color: var(--text); margin-bottom: 14px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
+        .news-list { display: flex; flex-direction: column; gap: 12px; margin-bottom: 28px; }
+        .news-item { display: flex; gap: 14px; padding: 14px; border: 1px solid var(--border); border-radius: 10px; text-decoration: none; color: var(--text); transition: all 0.15s; }
+        .news-item:hover { border-color: var(--blue); background: var(--bg-secondary); }
+        .news-img { width: 80px; height: 60px; border-radius: 6px; object-fit: cover; flex-shrink: 0; background: var(--bg-secondary); }
+        .news-content { flex: 1; min-width: 0; }
+        .news-headline { font-size: 14px; font-weight: 600; color: var(--text); line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+        .news-meta { font-size: 12px; color: var(--text-secondary); margin-top: 4px; }
+        .news-source { font-weight: 500; }
+        .news-loading { text-align: center; padding: 20px; color: var(--text-secondary); font-size: 14px; }
+        @media (max-width: 640px) { .news-img { width: 60px; height: 45px; } }
         .peer-row { display: flex; align-items: center; padding: 10px 14px; border: 1px solid var(--border); border-radius: 8px; margin-bottom: 6px; text-decoration: none; color: var(--text); transition: all 0.15s; gap: 12px; }
         .peer-row:hover { border-color: var(--blue); background: var(--bg-secondary); }
         .peer-name { flex: 1; font-weight: 600; font-size: 14px; }
@@ -189,6 +199,13 @@
             <p>Vici Properties is a real estate investment trust that specializes in acquiring and leasing properties to media, entertainment, and gaming companies. Its key assets include iconic venues such as sports stadiums, arenas, and theaters, providing a unique platform for content creation and distribution. By owning and leasing these properties, Vici Properties enables its tenants to focus on their core businesses while generating stable returns for its shareholders.</p>
         </div>
 
+        <div>
+            <h2 class="sp-section-title">Latest News</h2>
+            <div class="news-list" id="newsList">
+                <div class="news-loading">Loading latest news...</div>
+            </div>
+        </div>
+
         <div class="sp-peers">
             <h3 class="sp-section-title">Sector Peers &mdash; Real Estate</h3>
             
@@ -282,9 +299,27 @@
     document.querySelectorAll(".chart-period").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll(".chart-period").forEach(x=>x.classList.remove("active"));b.classList.add("active");genChart(parseInt(b.dataset.d));}));
     window.addEventListener("resize",()=>genChart(30));
     genChart(30);
+    const KEY='d6ismgpr01qleu95dlfgd6ismgpr01qleu95dlg0';
+    // Fetch latest news from Finnhub
+    (function(){
+        const container=document.getElementById('newsList');
+        const today=new Date();const from=new Date(today);from.setDate(from.getDate()-7);
+        const fmt=d=>d.toISOString().split('T')[0];
+        fetch('https://finnhub.io/api/v1/company-news?symbol='+STOCK.ticker+'&from='+fmt(from)+'&to='+fmt(today)+'&token='+KEY)
+        .then(r=>r.json()).then(articles=>{
+            if(!articles||articles.length===0){container.innerHTML='<div class="news-loading">No recent news found</div>';return;}
+            const top=articles.slice(0,6);
+            container.innerHTML=top.map(a=>{
+                const date=new Date(a.datetime*1000);
+                const ago=Math.round((Date.now()-date)/3600000);
+                const timeStr=ago<1?'Just now':ago<24?ago+'h ago':Math.round(ago/24)+'d ago';
+                const img=a.image?'<img class="news-img" src="'+a.image+'" alt="" onerror="this.style.display=\'none\'">':'';
+                return '<a href="'+a.url+'" target="_blank" rel="noopener" class="news-item">'+img+'<div class="news-content"><div class="news-headline">'+a.headline+'</div><div class="news-meta"><span class="news-source">'+a.source+'</span> · '+timeStr+'</div></div></a>';
+            }).join('');
+        }).catch(()=>{container.innerHTML='<div class="news-loading">Unable to load news</div>';});
+    })();
     // Live price via Finnhub WebSocket
     (function(){
-        const KEY='d6ismgpr01qleu95dlfgd6ismgpr01qleu95dlg0';
         const ws=new WebSocket('wss://ws.finnhub.io?token='+KEY);
         const priceEl=document.querySelector('.sp-price');
         ws.onopen=()=>{ws.send(JSON.stringify({type:'subscribe',symbol:STOCK.ticker}));
