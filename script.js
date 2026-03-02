@@ -1011,30 +1011,58 @@ renderTrending();
 
 // ---- Dynamic Stats ----
 function updateStats() {
-    const totalMcap = SP500_STOCKS.reduce((s, st) => s + st.marketCap, 0);
-    const totalVol = SP500_STOCKS.reduce((s, st) => s + st.volume, 0);
-    const advancing = SP500_STOCKS.filter(s => s.change1d > 0).length;
-    const declining = SP500_STOCKS.filter(s => s.change1d < 0).length;
+    const ms = typeof MARKET_SUMMARY !== 'undefined' ? MARKET_SUMMARY : null;
+    const totalMcap = ms ? ms.totalMarketCap : SP500_STOCKS.reduce((s, st) => s + st.marketCap, 0);
+    const totalVol = ms ? ms.totalVolume : SP500_STOCKS.reduce((s, st) => s + st.volume, 0);
+    const advancing = ms ? ms.advancing : SP500_STOCKS.filter(s => s.change1d > 0).length;
+    const declining = ms ? ms.declining : SP500_STOCKS.filter(s => s.change1d < 0).length;
+    const total = SP500_STOCKS.length;
 
-    document.getElementById('stockCount').textContent = SP500_STOCKS.length;
+    // Top bar
+    document.getElementById('stockCount').textContent = total;
     document.getElementById('totalMarketCap').textContent = formatCurrency(totalMcap);
     document.getElementById('totalVolume').textContent = formatVolume(totalVol);
 
-    // Update summary cards if they exist
-    const cards = document.querySelectorAll('.card');
-    cards.forEach(card => {
-        const label = card.querySelector('.card-label');
-        if (!label) return;
-        if (label.textContent === 'Advancing') {
-            card.querySelector('.card-value').textContent = advancing;
-            card.querySelector('.card-sub').textContent = Math.round(advancing / SP500_STOCKS.length * 100) + '% of stocks';
-        } else if (label.textContent === 'Declining') {
-            card.querySelector('.card-value').textContent = declining;
-            card.querySelector('.card-sub').textContent = Math.round(declining / SP500_STOCKS.length * 100) + '% of stocks';
-        } else if (label.textContent === 'Total Market Cap') {
-            card.querySelector('.card-value').textContent = formatCurrency(totalMcap);
+    // S&P 500 index in top bar
+    if (ms && ms.index) {
+        const idx = ms.index;
+        document.getElementById('spIndex').textContent = idx.price.toLocaleString('en-US', {minimumFractionDigits: 2});
+        const spChgEl = document.getElementById('spIndex').nextElementSibling;
+        if (spChgEl) {
+            spChgEl.className = idx.changePct >= 0 ? 'change-up' : 'change-down';
+            spChgEl.textContent = (idx.changePct >= 0 ? '+' : '') + idx.changePct.toFixed(2) + '%';
         }
-    });
+    }
+
+    // Hero chart stats
+    if (ms && ms.index) {
+        const idx = ms.index;
+        const fmt = n => n.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+        document.getElementById('heroPrice').textContent = fmt(idx.price);
+        const heroChg = document.getElementById('heroChange');
+        const chgCls = idx.changePct >= 0 ? 'change-up' : 'change-down';
+        const chgSign = idx.changePct >= 0 ? '+' : '';
+        heroChg.className = 'index-hero-change ' + chgCls;
+        heroChg.innerHTML = chgSign + idx.change.toFixed(2) + ' (' + chgSign + idx.changePct.toFixed(2) + '%) <span class="index-hero-asof">Today</span>';
+        document.getElementById('heroOpen').textContent = fmt(idx.open);
+        document.getElementById('heroHigh').textContent = fmt(idx.high);
+        document.getElementById('heroLow').textContent = fmt(idx.low);
+        document.getElementById('hero52H').textContent = fmt(idx.high52);
+        document.getElementById('hero52L').textContent = fmt(idx.low52);
+        const ytdEl = document.getElementById('heroYtd');
+        ytdEl.className = 'index-stat-val ' + (idx.ytd >= 0 ? 'change-up' : 'change-down');
+        ytdEl.textContent = (idx.ytd >= 0 ? '+' : '') + idx.ytd.toFixed(2) + '%';
+    }
+
+    // Summary cards
+    document.getElementById('cardFearGreed').textContent = ms ? ms.fearGreed : '—';
+    document.getElementById('cardFearGreedLabel').textContent = ms ? ms.fearGreedLabel : '—';
+    document.getElementById('cardAdvancing').textContent = advancing;
+    document.getElementById('cardAdvancingPct').textContent = Math.round(advancing / total * 100) + '% of stocks';
+    document.getElementById('cardDeclining').textContent = declining;
+    document.getElementById('cardDecliningPct').textContent = Math.round(declining / total * 100) + '% of stocks';
+    document.getElementById('card52H').textContent = ms ? ms.high52Count : '—';
+    document.getElementById('cardMcap').textContent = formatCurrency(totalMcap);
 }
 updateStats();
 

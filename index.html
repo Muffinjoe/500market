@@ -63,32 +63,32 @@
                     <span class="index-badge">S&P 500</span>
                     <span class="index-badge-sub">.INX</span>
                 </div>
-                <div class="index-hero-price">5,954.50</div>
-                <div class="index-hero-change change-up">+48.58 (+0.82%) <span class="index-hero-asof">Today</span></div>
+                <div class="index-hero-price" id="heroPrice">—</div>
+                <div class="index-hero-change" id="heroChange"><span class="index-hero-asof">Today</span></div>
                 <div class="index-hero-stats">
                     <div class="index-stat">
                         <span class="index-stat-label">Open</span>
-                        <span class="index-stat-val">5,912.18</span>
+                        <span class="index-stat-val" id="heroOpen">—</span>
                     </div>
                     <div class="index-stat">
                         <span class="index-stat-label">High</span>
-                        <span class="index-stat-val">5,968.34</span>
+                        <span class="index-stat-val" id="heroHigh">—</span>
                     </div>
                     <div class="index-stat">
                         <span class="index-stat-label">Low</span>
-                        <span class="index-stat-val">5,901.22</span>
+                        <span class="index-stat-val" id="heroLow">—</span>
                     </div>
                     <div class="index-stat">
                         <span class="index-stat-label">52W High</span>
-                        <span class="index-stat-val">6,128.18</span>
+                        <span class="index-stat-val" id="hero52H">—</span>
                     </div>
                     <div class="index-stat">
                         <span class="index-stat-label">52W Low</span>
-                        <span class="index-stat-val">4,953.56</span>
+                        <span class="index-stat-val" id="hero52L">—</span>
                     </div>
                     <div class="index-stat">
                         <span class="index-stat-label">YTD</span>
-                        <span class="index-stat-val change-up">+8.42%</span>
+                        <span class="index-stat-val" id="heroYtd">—</span>
                     </div>
                 </div>
             </div>
@@ -108,27 +108,27 @@
         <div class="summary-cards">
             <div class="card">
                 <div class="card-label">Fear & Greed</div>
-                <div class="card-value fear-greed">62</div>
-                <div class="card-sub">Greed</div>
+                <div class="card-value fear-greed" id="cardFearGreed">—</div>
+                <div class="card-sub" id="cardFearGreedLabel">—</div>
             </div>
             <div class="card">
                 <div class="card-label">Advancing</div>
-                <div class="card-value" style="color:#16c784">342</div>
-                <div class="card-sub">68% of stocks</div>
+                <div class="card-value" style="color:#16c784" id="cardAdvancing">—</div>
+                <div class="card-sub" id="cardAdvancingPct">—</div>
             </div>
             <div class="card">
                 <div class="card-label">Declining</div>
-                <div class="card-value" style="color:#ea3943">161</div>
-                <div class="card-sub">32% of stocks</div>
+                <div class="card-value" style="color:#ea3943" id="cardDeclining">—</div>
+                <div class="card-sub" id="cardDecliningPct">—</div>
             </div>
             <div class="card">
                 <div class="card-label">52-Week Highs</div>
-                <div class="card-value">23</div>
+                <div class="card-value" id="card52H">—</div>
                 <div class="card-sub">Today</div>
             </div>
             <div class="card">
                 <div class="card-label">Total Market Cap</div>
-                <div class="card-value">$51.2T</div>
+                <div class="card-value" id="cardMcap">—</div>
                 <div class="card-sub">S&P 500</div>
             </div>
         </div>

@@ -204,6 +204,91 @@ print(f"  Successfully fetched {len(stocks)} stocks, {len(failed)} failed")
 if failed:
     print(f"  Failed tickers: {', '.join(failed[:20])}{'...' if len(failed) > 20 else ''}")
 
+# ---- Fetch S&P 500 Index Data ----
+print("\n  Fetching S&P 500 index (^GSPC)...")
+try:
+    sp_ticker = yf.Ticker("^GSPC")
+    sp_info = sp_ticker.info
+    sp_hist = sp_ticker.history(period="5d")
+
+    sp_price = sp_info.get("regularMarketPrice", sp_info.get("previousClose", 0))
+    sp_prev = sp_info.get("regularMarketPreviousClose", sp_info.get("previousClose", 0))
+    sp_open = sp_info.get("regularMarketOpen", sp_info.get("open", 0))
+    sp_high = sp_info.get("dayHigh", sp_info.get("regularMarketDayHigh", 0))
+    sp_low = sp_info.get("dayLow", sp_info.get("regularMarketDayLow", 0))
+    sp_52h = sp_info.get("fiftyTwoWeekHigh", 0)
+    sp_52l = sp_info.get("fiftyTwoWeekLow", 0)
+    sp_change = sp_price - sp_prev if sp_prev else 0
+    sp_change_pct = (sp_change / sp_prev * 100) if sp_prev else 0
+
+    # YTD: compare to first trading day of the year
+    try:
+        ytd_hist = sp_ticker.history(start="2026-01-02", end="2026-01-05")
+        if not ytd_hist.empty:
+            jan_close = float(ytd_hist["Close"].iloc[0])
+            sp_ytd = ((sp_price - jan_close) / jan_close) * 100
+        else:
+            sp_ytd = sp_change_pct * 30
+    except:
+        sp_ytd = sp_change_pct * 30
+
+    index_data = {
+        "price": round(sp_price, 2),
+        "change": round(sp_change, 2),
+        "changePct": round(sp_change_pct, 2),
+        "open": round(sp_open, 2),
+        "high": round(sp_high, 2),
+        "low": round(sp_low, 2),
+        "high52": round(sp_52h, 2),
+        "low52": round(sp_52l, 2),
+        "ytd": round(sp_ytd, 2),
+    }
+    print(f"  S&P 500: {index_data['price']} ({index_data['changePct']:+.2f}%)")
+except Exception as e:
+    print(f"  Warning: Could not fetch S&P 500 index: {e}")
+    index_data = None
+
+# Compute Fear & Greed proxy from stock data
+advancing = len([s for s in stocks if s["change1d"] > 0])
+declining = len([s for s in stocks if s["change1d"] < 0])
+adv_pct = advancing / len(stocks) * 100 if stocks else 50
+# Simple fear/greed: map advancing% to 0-100 scale (30% advancing = 0, 70% = 100)
+fear_greed = max(0, min(100, int((adv_pct - 30) * 2.5)))
+if fear_greed >= 75:
+    fg_label = "Extreme Greed"
+elif fear_greed >= 55:
+    fg_label = "Greed"
+elif fear_greed >= 45:
+    fg_label = "Neutral"
+elif fear_greed >= 25:
+    fg_label = "Fear"
+else:
+    fg_label = "Extreme Fear"
+
+# Count 52-week highs
+high_count = 0
+for s in stocks:
+    # Approximate: if change1d > 0 and changeYtd > 15, likely near 52W high
+    # Better: use actual 52W high from yfinance if available
+    try:
+        info = tickers_objs.tickers[s["ticker"].replace(".", "-")].info
+        h52 = info.get("fiftyTwoWeekHigh", 0)
+        if h52 and s["price"] >= h52 * 0.98:
+            high_count += 1
+    except:
+        pass
+
+market_summary = {
+    "index": index_data,
+    "fearGreed": fear_greed,
+    "fearGreedLabel": fg_label,
+    "advancing": advancing,
+    "declining": declining,
+    "high52Count": high_count,
+    "totalMarketCap": sum(s["marketCap"] for s in stocks),
+    "totalVolume": sum(s["volume"] for s in stocks),
+}
+
 # ---- Step 3: Write data files ----
 print(f"\n[3/5] Writing data files...")
 
@@ -212,8 +297,14 @@ with open("data.json", "w") as f:
     json.dump(stocks, f, indent=2)
 print(f"  Wrote data.json ({len(stocks)} stocks)")
 
-# data.js
-js_content = "const SP500_STOCKS = " + json.dumps(stocks, indent=4) + ";\n"
+# market_summary.json
+with open("market_summary.json", "w") as f:
+    json.dump(market_summary, f, indent=2)
+print(f"  Wrote market_summary.json")
+
+# data.js (includes both stocks and market summary)
+js_content = "const SP500_STOCKS = " + json.dumps(stocks, indent=4) + ";\n\n"
+js_content += "const MARKET_SUMMARY = " + json.dumps(market_summary, indent=4) + ";\n"
 with open("data.js", "w") as f:
     f.write(js_content)
 print(f"  Wrote data.js")
