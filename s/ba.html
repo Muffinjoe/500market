@@ -307,9 +307,13 @@
         fetch('https://finnhub.io/api/v1/company-news?symbol='+STOCK.ticker+'&from='+fmt(from)+'&to='+fmt(today)+'&token='+KEY)
         .then(r=>r.json()).then(articles=>{
             if(!articles||articles.length===0){container.innerHTML='<div class="news-loading">No recent news found</div>';return;}
-            const name='Boeing'.toLowerCase();const tick=STOCK.ticker.toLowerCase();
-            const generic=['top movers','s&p500','s&p 500','stay informed','market update','stocks to watch','sector update','wall street'];
-            const relevant=articles.filter(a=>{const h=a.headline.toLowerCase();const isGeneric=generic.some(g=>h.includes(g))&&!h.includes(tick)&&!h.includes(name);return!isGeneric;}).sort((a,b)=>b.datetime-a.datetime).slice(0,8);
+            const name='Boeing'.split('(')[0].trim().split(',')[0].trim().toLowerCase();
+            const tick=STOCK.ticker.toLowerCase();
+            const nameWords=name.split(/\s+/).filter(w=>w.length>2);
+            function mentionsStock(h){const l=h.toLowerCase();if(l.includes(tick))return true;if(l.includes(name))return true;if(nameWords.length>0&&nameWords.every(w=>l.includes(w)))return true;return false;}
+            const sorted=articles.sort((a,b)=>b.datetime-a.datetime);
+            const direct=sorted.filter(a=>mentionsStock(a.headline));
+            const relevant=direct.length>=4?direct.slice(0,8):direct.concat(sorted.filter(a=>!direct.includes(a)&&!['top movers','stocks to watch','sector update','stay informed'].some(g=>a.headline.toLowerCase().includes(g)))).slice(0,8);
             if(relevant.length===0){container.innerHTML='<div class="news-loading">No recent news found</div>';return;}
             container.innerHTML=relevant.map(a=>{
                 const date=new Date(a.datetime*1000);
