@@ -1,0 +1,363 @@
+#!/usr/bin/env python3
+"""
+Generate individual stock pages for 500Market.com SEO.
+Run: python3 generate.py
+"""
+
+import json, os, re
+
+# Read stock data from data.json
+with open("data.json", "r") as f:
+    stocks = json.load(f)
+
+# Load AI-generated descriptions
+try:
+    with open("descriptions.json", "r") as f:
+        DESCRIPTIONS = json.load(f)
+    print(f"Loaded {len(DESCRIPTIONS)} descriptions from descriptions.json")
+except FileNotFoundError:
+    DESCRIPTIONS = {}
+    print("Warning: descriptions.json not found, using generic descriptions")
+
+def fmt_mcap(n):
+    if n >= 1e12: return f"${n/1e12:.2f}T"
+    if n >= 1e9: return f"${n/1e9:.2f}B"
+    if n >= 1e6: return f"${n/1e6:.2f}M"
+    return f"${n:,.0f}"
+
+def fmt_vol(n):
+    if n >= 1e9: return f"${n/1e9:.1f}B"
+    if n >= 1e6: return f"${n/1e6:.1f}M"
+    return f"${n:,.0f}"
+
+def fmt_price(n):
+    return f"${n:,.2f}"
+
+def fmt_change(val):
+    cls = "change-up" if val >= 0 else "change-down"
+    sign = "+" if val >= 0 else ""
+    return f'<span class="{cls}">{sign}{val:.2f}%</span>'
+
+def get_desc(s):
+    if s["ticker"] in DESCRIPTIONS:
+        return DESCRIPTIONS[s["ticker"]]
+    return f'{s["name"]} ({s["ticker"]}) is a {s["sector"]} company listed on the S&P 500 with a market capitalization of {fmt_mcap(s["marketCap"])}. The stock is currently trading at {fmt_price(s["price"])} per share.'
+
+def get_peers(stock, all_stocks):
+    return [s for s in all_stocks if s["sector"] == stock["sector"] and s["ticker"] != stock["ticker"]][:8]
+
+for stock in stocks:
+    ticker = stock["ticker"].lower().replace(".", "-")
+    peers = get_peers(stock, stocks)
+    desc = get_desc(stock)
+    pe_val = f'{stock["pe"]:.1f}' if stock["pe"] else "N/A"
+    eps = f'${stock["price"] / stock["pe"]:.2f}' if stock["pe"] else "N/A"
+
+    high52 = stock["price"] * (1 + abs(stock["changeYtd"]) / 100 + 0.12)
+    low52 = stock["price"] * (1 - abs(stock["changeYtd"]) / 100 - 0.08)
+    range_pct = ((stock["price"] - low52) / (high52 - low52)) * 100
+
+    chg1d_cls = "change-up" if stock["change1d"] >= 0 else "change-down"
+    chg1d_sign = "+" if stock["change1d"] >= 0 else ""
+    chg1d_html = f'<span class="sp-price-chg {chg1d_cls}">{chg1d_sign}{stock["change1d"]:.2f}%</span>'
+
+    meta_title = f'{stock["name"]} ({stock["ticker"]}) Stock Price, Chart & Market Cap | 500Market'
+    meta_desc = f'{stock["name"]} ({stock["ticker"]}) stock price today is {fmt_price(stock["price"])}. View live chart, market cap of {fmt_mcap(stock["marketCap"])}, P/E ratio, and sector peers on 500Market.'
+    canonical = f'https://500market.com/s/{ticker}.html'
+    logo_url = f'https://www.google.com/s2/favicons?domain={stock["domain"]}&sz=128'
+
+    peers_html = ""
+    for p in peers:
+        chg_cls = "change-up" if p["change1d"] >= 0 else "change-down"
+        chg_sign = "+" if p["change1d"] >= 0 else ""
+        peers_html += f'''
+            <a href="{p["ticker"].lower().replace(".", "-")}.html" class="peer-row">
+                <span class="peer-name">{p["ticker"]} — {p["name"]}</span>
+                <span class="peer-price">{fmt_price(p["price"])}</span>
+                <span class="peer-change {chg_cls}">{chg_sign}{p["change1d"]:.2f}%</span>
+            </a>'''
+
+    schema = json.dumps({
+        "@context": "https://schema.org",
+        "@type": "FinancialProduct",
+        "name": f'{stock["name"]} ({stock["ticker"]})',
+        "description": desc,
+        "url": canonical,
+        "provider": {
+            "@type": "Organization",
+            "name": stock["name"],
+            "url": f'https://{stock["domain"]}'
+        }
+    })
+
+    html = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{meta_title}</title>
+    <meta name="description" content="{meta_desc}">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="{canonical}">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{meta_title}">
+    <meta property="og:description" content="{meta_desc}">
+    <meta property="og:url" content="{canonical}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="500Market">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{meta_title}">
+    <meta name="twitter:description" content="{meta_desc}">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">{schema}</script>
+
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .stock-page {{ max-width: 900px; margin: 0 auto; padding: 24px; }}
+        .sp-header {{ display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }}
+        .sp-logo {{ width: 56px; height: 56px; border-radius: 50%; object-fit: contain; background: var(--bg-secondary); border: 1px solid var(--border); }}
+        .sp-icon {{ width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 18px; color: white; }}
+        .sp-title {{ font-size: 28px; font-weight: 800; color: var(--text); }}
+        .sp-ticker-row {{ display: flex; align-items: center; gap: 8px; margin-top: 2px; }}
+        .sp-ticker {{ font-size: 15px; color: var(--text-secondary); }}
+        .sp-badge {{ font-size: 12px; padding: 2px 10px; border-radius: 10px; background: var(--bg-secondary); color: var(--text-secondary); font-weight: 500; }}
+        .sp-price-row {{ margin-bottom: 24px; }}
+        .sp-price {{ font-size: 40px; font-weight: 800; color: var(--text); }}
+        .sp-price-chg {{ font-size: 18px; font-weight: 600; margin-left: 10px; }}
+        .sp-chart {{ height: 280px; margin-bottom: 28px; border: 1px solid var(--border); border-radius: 12px; padding: 16px; background: var(--card-bg); }}
+        .sp-chart-periods {{ display: flex; gap: 4px; margin-bottom: 12px; }}
+        .sp-chart-area {{ height: 220px; }}
+        .sp-chart-area svg {{ width: 100%; height: 100%; display: block; }}
+        .sp-stats {{ display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; margin-bottom: 28px; }}
+        .sp-stat {{ padding: 16px; background: var(--bg); }}
+        .sp-stat-label {{ font-size: 12px; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }}
+        .sp-stat-val {{ font-size: 16px; font-weight: 700; color: var(--text); }}
+        .sp-range {{ grid-column: 1 / -1; padding: 16px; background: var(--bg); }}
+        .sp-range-labels {{ display: flex; justify-content: space-between; font-size: 12px; color: var(--text-secondary); margin-bottom: 8px; }}
+        .sp-range-bar {{ height: 8px; border-radius: 4px; background: var(--border); position: relative; }}
+        .sp-range-fill {{ height: 100%; border-radius: 4px; background: var(--blue); }}
+        .sp-range-dot {{ position: absolute; top: 50%; transform: translate(-50%, -50%); width: 14px; height: 14px; border-radius: 50%; background: var(--blue); border: 2px solid white; box-shadow: 0 1px 3px rgba(0,0,0,0.2); }}
+        .sp-about {{ margin-bottom: 28px; }}
+        .sp-about h2 {{ font-size: 18px; font-weight: 700; margin-bottom: 8px; }}
+        .sp-about p {{ font-size: 15px; color: var(--text-secondary); line-height: 1.7; }}
+        .sp-peers {{ margin-bottom: 28px; }}
+        .sp-section-title {{ font-size: 18px; font-weight: 700; color: var(--text); margin-bottom: 14px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }}
+        .peer-row {{ display: flex; align-items: center; padding: 10px 14px; border: 1px solid var(--border); border-radius: 8px; margin-bottom: 6px; text-decoration: none; color: var(--text); transition: all 0.15s; gap: 12px; }}
+        .peer-row:hover {{ border-color: var(--blue); background: var(--bg-secondary); }}
+        .peer-name {{ flex: 1; font-weight: 600; font-size: 14px; }}
+        .peer-price {{ width: 90px; text-align: right; font-size: 14px; color: var(--text-secondary); }}
+        .peer-change {{ width: 70px; text-align: right; font-size: 13px; font-weight: 600; }}
+        .peer-name {{ font-weight: 600; font-size: 14px; }}
+        .peer-price {{ font-size: 14px; color: var(--text-secondary); }}
+        .sp-back {{ display: inline-flex; align-items: center; gap: 6px; color: var(--blue); text-decoration: none; font-size: 14px; font-weight: 500; margin-bottom: 20px; }}
+        .sp-back:hover {{ text-decoration: underline; }}
+        .sp-breadcrumb {{ font-size: 13px; color: var(--text-secondary); margin-bottom: 16px; }}
+        .sp-breadcrumb a {{ color: var(--blue); text-decoration: none; }}
+        .sp-breadcrumb a:hover {{ text-decoration: underline; }}
+        @media (max-width: 640px) {{
+            .sp-stats {{ grid-template-columns: 1fr 1fr; }}
+            .sp-price {{ font-size: 32px; }}
+        }}
+    </style>
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-inner">
+            <span>Stocks: <strong>503</strong></span>
+            <span>Market Cap: <strong>$51.2T</strong></span>
+            <span>S&P 500: <strong>5,954.50</strong> <span class="change-up">+0.82%</span></span>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="header-inner">
+            <a href="../index.html" style="text-decoration:none;display:flex;align-items:center;gap:8px">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                    <rect width="28" height="28" rx="6" fill="#3861FB"/>
+                    <text x="14" y="18" text-anchor="middle" fill="white" font-size="10" font-weight="700" font-family="system-ui">500</text>
+                </svg>
+                <span class="logo-text">500Market</span>
+            </a>
+            <nav class="nav">
+                <a href="../index.html">Stocks</a>
+                <a href="../index.html#sectors">Sectors</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="stock-page">
+        <nav class="sp-breadcrumb">
+            <a href="../index.html">Home</a> &rsaquo; <a href="../index.html">Stocks</a> &rsaquo; {stock["name"]} ({stock["ticker"]})
+        </nav>
+
+        <div class="sp-header">
+            <img class="sp-logo" src="{logo_url}" alt="{stock["ticker"]} logo"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="sp-icon" style="background:{stock["color"]};display:none">{stock["ticker"][:2]}</div>
+            <div>
+                <div class="sp-title">{stock["name"]}</div>
+                <div class="sp-ticker-row">
+                    <span class="sp-ticker">{stock["ticker"]}</span>
+                    <span class="sp-badge">Rank #{stock["rank"]}</span>
+                    <span class="sp-badge">{stock["sector"]}</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="sp-price-row">
+            <span class="sp-price">{fmt_price(stock["price"])}</span>
+            {chg1d_html}
+        </div>
+
+        <div class="sp-chart">
+            <div class="sp-chart-periods">
+                <button class="chart-period" data-d="7">1W</button>
+                <button class="chart-period active" data-d="30">1M</button>
+                <button class="chart-period" data-d="90">3M</button>
+                <button class="chart-period" data-d="180">6M</button>
+                <button class="chart-period" data-d="365">1Y</button>
+            </div>
+            <div class="sp-chart-area" id="stockChart"></div>
+        </div>
+
+        <h2 class="sp-section-title">Key Statistics</h2>
+        <div class="sp-stats">
+            <div class="sp-stat">
+                <div class="sp-stat-label">Market Cap</div>
+                <div class="sp-stat-val">{fmt_mcap(stock["marketCap"])}</div>
+            </div>
+            <div class="sp-stat">
+                <div class="sp-stat-label">Volume (24h)</div>
+                <div class="sp-stat-val">{fmt_vol(stock["volume"])}</div>
+            </div>
+            <div class="sp-stat">
+                <div class="sp-stat-label">P/E Ratio</div>
+                <div class="sp-stat-val">{pe_val}</div>
+            </div>
+            <div class="sp-stat">
+                <div class="sp-stat-label">EPS</div>
+                <div class="sp-stat-val">{eps}</div>
+            </div>
+            <div class="sp-stat">
+                <div class="sp-stat-label">1 Day</div>
+                <div class="sp-stat-val">{fmt_change(stock["change1d"])}</div>
+            </div>
+            <div class="sp-stat">
+                <div class="sp-stat-label">7 Day</div>
+                <div class="sp-stat-val">{fmt_change(stock["change7d"])}</div>
+            </div>
+            <div class="sp-stat">
+                <div class="sp-stat-label">YTD</div>
+                <div class="sp-stat-val">{fmt_change(stock["changeYtd"])}</div>
+            </div>
+            <div class="sp-stat">
+                <div class="sp-stat-label">Sector</div>
+                <div class="sp-stat-val">{stock["sector"]}</div>
+            </div>
+            <div class="sp-stat">
+                <div class="sp-stat-label">S&P 500 Rank</div>
+                <div class="sp-stat-val">#{stock["rank"]}</div>
+            </div>
+            <div class="sp-range">
+                <div class="sp-range-labels">
+                    <span>52W Low: ${low52:,.2f}</span>
+                    <span>52W High: ${high52:,.2f}</span>
+                </div>
+                <div class="sp-range-bar">
+                    <div class="sp-range-fill" style="width:{range_pct:.1f}%"></div>
+                    <div class="sp-range-dot" style="left:{range_pct:.1f}%"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sp-about">
+            <h2 class="sp-section-title">About {stock["name"]}</h2>
+            <p>{desc}</p>
+        </div>
+
+        <div class="sp-peers">
+            <h3 class="sp-section-title">Sector Peers &mdash; {stock["sector"]}</h3>
+            {peers_html}
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>500Market &mdash; S&P 500 stock tracker. Sample data for demonstration. Not financial advice.</p>
+    </footer>
+
+    <script>
+    // Inline chart renderer for this stock
+    const STOCK = {json.dumps({"ticker": stock["ticker"], "price": stock["price"], "change7d": stock["change7d"]})};
+
+    function genChart(days) {{
+        let seed = 0;
+        for (let i = 0; i < STOCK.ticker.length; i++) seed += STOCK.ticker.charCodeAt(i) * (i + 1);
+        seed += days;
+        function rand() {{ seed = (seed * 16807) % 2147483647; return (seed & 0x7fffffff) / 0x7fffffff; }}
+        const container = document.getElementById("stockChart");
+        const w = container.clientWidth || 600, h = container.clientHeight || 220;
+        const pT=10,pB=24,pL=55,pR=10, cW=w-pL-pR, cH=h-pT-pB;
+        let prices=[STOCK.price];
+        const vol=0.012, drift=STOCK.change7d>0?0.0004:-0.0003;
+        for(let i=1;i<days;i++) {{ const p=prices[i-1]; prices.push(p+p*((rand()-0.5)*2*vol-drift)); }}
+        prices.reverse();
+        const mn=Math.min(...prices),mx=Math.max(...prices),rng=mx-mn||1;
+        const up=prices[prices.length-1]>=prices[0], col=up?"#16c784":"#ea3943";
+        const pts=prices.map((p,i)=>{{const x=pL+(i/(prices.length-1))*cW; const y=pT+(1-(p-mn)/rng)*cH; return {{x,y}};}});
+        let pathD=pts.map((p,i)=>(i===0?`M${{p.x}},${{p.y}}`:`L${{p.x}},${{p.y}}`)).join(" ");
+        const fillD=pathD+` L${{pts[pts.length-1].x}},${{pT+cH}} L${{pL}},${{pT+cH}} Z`;
+        let yL="",gL="";
+        for(let i=0;i<=4;i++){{const v=mn+(rng*i/4);const y=pT+(1-i/4)*cH;yL+=`<text x="${{pL-8}}" y="${{y+4}}" text-anchor="end" fill="#9ca3af" font-size="11" font-family="system-ui">$${{v.toFixed(0)}}</text>`;gL+=`<line x1="${{pL}}" y1="${{y}}" x2="${{w-pR}}" y2="${{y}}" stroke="#f3f4f6" stroke-width="1"/>`;}}
+        let xL="";const lc=Math.min(6,prices.length);const now=new Date();
+        for(let i=0;i<lc;i++){{const idx=Math.round(i*(prices.length-1)/(lc-1));const d=new Date(now);d.setDate(d.getDate()-(prices.length-1-idx));const x=pts[idx].x;const label=days<=30?`${{d.getMonth()+1}}/${{d.getDate()}}`:d.toLocaleDateString("en-US",{{month:"short",day:"numeric"}});xL+=`<text x="${{x}}" y="${{h-4}}" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="system-ui">${{label}}</text>`;}}
+        const lp=pts[pts.length-1];
+        container.innerHTML=`<svg viewBox="0 0 ${{w}} ${{h}}"><defs><linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="${{col}}" stop-opacity="0.2"/><stop offset="100%" stop-color="${{col}}" stop-opacity="0.01"/></linearGradient></defs>${{gL}}${{yL}}${{xL}}<path d="${{fillD}}" fill="url(#g1)"/><path d="${{pathD}}" fill="none" stroke="${{col}}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="${{lp.x}}" cy="${{lp.y}}" r="4.5" fill="${{col}}"/><circle cx="${{lp.x}}" cy="${{lp.y}}" r="8" fill="${{col}}" opacity="0.15"/></svg>`;
+    }}
+    document.querySelectorAll(".chart-period").forEach(b=>b.addEventListener("click",()=>{{document.querySelectorAll(".chart-period").forEach(x=>x.classList.remove("active"));b.classList.add("active");genChart(parseInt(b.dataset.d));}}));
+    window.addEventListener("resize",()=>genChart(30));
+    genChart(30);
+    </script>
+</body>
+</html>'''
+
+    filepath = os.path.join("s", f"{ticker}.html")
+    with open(filepath, "w") as f:
+        f.write(html)
+
+print(f"Generated {len(stocks)} stock pages in /s/")
+
+# ---- Generate sitemap.xml ----
+from datetime import date
+today = date.today().isoformat()
+
+sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
+sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+
+# Homepage
+sitemap += f'  <url>\n    <loc>https://500market.com/</loc>\n    <lastmod>{today}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>\n'
+
+# Stock pages
+for stock in stocks:
+    slug = stock["ticker"].lower().replace(".", "-")
+    sitemap += f'  <url>\n    <loc>https://500market.com/s/{slug}.html</loc>\n    <lastmod>{today}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>0.8</priority>\n  </url>\n'
+
+sitemap += '</urlset>\n'
+
+with open("sitemap.xml", "w") as f:
+    f.write(sitemap)
+print(f"Generated sitemap.xml with {len(stocks) + 1} URLs")
+
+# ---- Generate robots.txt ----
+robots = """User-agent: *
+Allow: /
+
+Sitemap: https://500market.com/sitemap.xml
+"""
+with open("robots.txt", "w") as f:
+    f.write(robots)
+print("Generated robots.txt")

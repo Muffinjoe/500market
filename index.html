@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>500Market — S&P 500 Stocks by Market Cap</title>
+    <meta name="description" content="Track all S&P 500 stocks by market cap, price, daily changes, and performance. Live charts, sector breakdowns, and detailed stock pages.">
+    <link rel="canonical" href="https://500market.com/">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Trending Bar -->
+    <div class="trending-bar">
+        <div class="trending-inner" id="trendingBar"></div>
+    </div>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-inner">
+            <span>Stocks: <strong id="stockCount">503</strong></span>
+            <span>Exchanges: <strong>13</strong></span>
+            <span>Market Cap: <strong id="totalMarketCap">$51.2T</strong></span>
+            <span>24h Vol: <strong id="totalVolume">$287.4B</strong></span>
+            <span>S&P 500: <strong id="spIndex">5,954.50</strong> <span class="change-up">+0.82%</span></span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-inner">
+            <div class="logo">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                    <rect width="28" height="28" rx="6" fill="#3861FB"/>
+                    <text x="14" y="18" text-anchor="middle" fill="white" font-size="10" font-weight="700" font-family="system-ui">500</text>
+                </svg>
+                <span class="logo-text">500Market</span>
+            </div>
+            <nav class="nav">
+                <a href="#" class="nav-active" data-view="stocks">Stocks</a>
+                <a href="#" data-view="watchlist">Watchlist</a>
+                <a href="#" data-view="sectors">Sectors</a>
+                <a href="#" data-view="gainers">Gainers</a>
+                <a href="#" data-view="losers">Losers</a>
+            </nav>
+            <div class="search-wrap">
+                <div class="search-box">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#6b7280" stroke-width="2"><circle cx="7" cy="7" r="5"/><line x1="11" y1="11" x2="15" y2="15"/></svg>
+                    <input type="text" id="searchInput" placeholder="Search stocks..." autocomplete="off">
+                    <kbd class="search-shortcut" id="searchShortcut">/</kbd>
+                </div>
+                <div class="search-dropdown" id="searchDropdown"></div>
+            </div>
+            <button class="theme-toggle" id="themeToggle" title="Toggle dark mode">&#9790;</button>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- Index Chart Hero -->
+        <div class="index-hero">
+            <div class="index-hero-left">
+                <div class="index-hero-header">
+                    <span class="index-badge">S&P 500</span>
+                    <span class="index-badge-sub">.INX</span>
+                </div>
+                <div class="index-hero-price">5,954.50</div>
+                <div class="index-hero-change change-up">+48.58 (+0.82%) <span class="index-hero-asof">Today</span></div>
+                <div class="index-hero-stats">
+                    <div class="index-stat">
+                        <span class="index-stat-label">Open</span>
+                        <span class="index-stat-val">5,912.18</span>
+                    </div>
+                    <div class="index-stat">
+                        <span class="index-stat-label">High</span>
+                        <span class="index-stat-val">5,968.34</span>
+                    </div>
+                    <div class="index-stat">
+                        <span class="index-stat-label">Low</span>
+                        <span class="index-stat-val">5,901.22</span>
+                    </div>
+                    <div class="index-stat">
+                        <span class="index-stat-label">52W High</span>
+                        <span class="index-stat-val">6,128.18</span>
+                    </div>
+                    <div class="index-stat">
+                        <span class="index-stat-label">52W Low</span>
+                        <span class="index-stat-val">4,953.56</span>
+                    </div>
+                    <div class="index-stat">
+                        <span class="index-stat-label">YTD</span>
+                        <span class="index-stat-val change-up">+8.42%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="index-hero-right">
+                <div class="index-chart-periods">
+                    <button class="chart-period" data-days="7">1W</button>
+                    <button class="chart-period active" data-days="30">1M</button>
+                    <button class="chart-period" data-days="90">3M</button>
+                    <button class="chart-period" data-days="180">6M</button>
+                    <button class="chart-period" data-days="365">1Y</button>
+                </div>
+                <div class="index-chart" id="indexChart"></div>
+            </div>
+        </div>
+
+        <!-- Summary Cards -->
+        <div class="summary-cards">
+            <div class="card">
+                <div class="card-label">Fear & Greed</div>
+                <div class="card-value fear-greed">62</div>
+                <div class="card-sub">Greed</div>
+            </div>
+            <div class="card">
+                <div class="card-label">Advancing</div>
+                <div class="card-value" style="color:#16c784">342</div>
+                <div class="card-sub">68% of stocks</div>
+            </div>
+            <div class="card">
+                <div class="card-label">Declining</div>
+                <div class="card-value" style="color:#ea3943">161</div>
+                <div class="card-sub">32% of stocks</div>
+            </div>
+            <div class="card">
+                <div class="card-label">52-Week Highs</div>
+                <div class="card-value">23</div>
+                <div class="card-sub">Today</div>
+            </div>
+            <div class="card">
+                <div class="card-label">Total Market Cap</div>
+                <div class="card-value">$51.2T</div>
+                <div class="card-sub">S&P 500</div>
+            </div>
+        </div>
+
+        <!-- Sector Pills -->
+        <div class="sector-pills">
+            <button class="pill active" data-sector="all">All Sectors</button>
+            <button class="pill" data-sector="Technology">Technology</button>
+            <button class="pill" data-sector="Healthcare">Healthcare</button>
+            <button class="pill" data-sector="Financials">Financials</button>
+            <button class="pill" data-sector="Consumer Discretionary">Consumer</button>
+            <button class="pill" data-sector="Communication Services">Communication</button>
+            <button class="pill" data-sector="Industrials">Industrials</button>
+            <button class="pill" data-sector="Energy">Energy</button>
+            <button class="pill" data-sector="Consumer Staples">Staples</button>
+            <button class="pill" data-sector="Utilities">Utilities</button>
+            <button class="pill" data-sector="Real Estate">Real Estate</button>
+            <button class="pill" data-sector="Materials">Materials</button>
+        </div>
+
+        <!-- Sectors View -->
+        <div id="sectorsView" class="sectors-grid" style="display:none"></div>
+
+        <!-- Table -->
+        <div class="table-wrapper" id="tableView">
+            <table id="stockTable">
+                <thead>
+                    <tr>
+                        <th style="width:36px"></th>
+                        <th class="th-rank">#</th>
+                        <th class="th-name">Name</th>
+                        <th class="th-price sortable" data-sort="price">Price</th>
+                        <th class="th-change sortable" data-sort="change1d">1d %</th>
+                        <th class="th-change sortable" data-sort="change7d">7d %</th>
+                        <th class="th-change sortable" data-sort="changeYtd">YTD %</th>
+                        <th class="th-mcap sortable" data-sort="marketCap">Market Cap</th>
+                        <th class="th-vol sortable" data-sort="volume">Volume (24h)</th>
+                        <th class="th-pe sortable" data-sort="pe">P/E</th>
+                        <th class="th-spark">Last 7 Days</th>
+                    </tr>
+                </thead>
+                <tbody id="stockBody"></tbody>
+            </table>
+        </div>
+
+        <div class="pagination">
+            <button id="prevPage" disabled>Previous</button>
+            <span id="pageInfo">Page 1 of 1</span>
+            <button id="nextPage">Next</button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>500Market &mdash; Sample data for demonstration purposes. Not financial advice.</p>
+    </footer>
+
+    <!-- Stock Detail Panel -->
+    <div class="detail-overlay" id="detailOverlay"></div>
+    <div class="detail-panel" id="detailPanel">
+        <div class="detail-panel-inner" id="detailContent"></div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

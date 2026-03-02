@@ -1,0 +1,16 @@
+[build]
+  publish = "."
+  command = "echo 'Static site - no build needed'"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Clean URLs for stock pages
+[[redirects]]
+  from = "/stock/:ticker"
+  to = "/s/:ticker.html"
+  status = 200
