@@ -586,16 +586,10 @@ document.getElementById('nextPage').addEventListener('click', () => {
 
 // ---- Stock Detail Panel ----
 
-let STOCK_DESCRIPTIONS = {};
-
-// Load AI-generated descriptions
-fetch('descriptions.json')
-    .then(r => r.json())
-    .then(data => { STOCK_DESCRIPTIONS = data; })
-    .catch(() => {});
-
 function getStockDescription(stock) {
-    if (STOCK_DESCRIPTIONS[stock.ticker]) return STOCK_DESCRIPTIONS[stock.ticker];
+    if (typeof STOCK_DESCRIPTIONS_DATA !== 'undefined' && STOCK_DESCRIPTIONS_DATA[stock.ticker]) {
+        return STOCK_DESCRIPTIONS_DATA[stock.ticker];
+    }
     return `${stock.name} (${stock.ticker}) is a ${stock.sector} company listed on the S&P 500 with a market capitalization of ${formatCurrency(stock.marketCap)}. The stock is currently trading at ${formatPrice(stock.price)} per share.`;
 }
 

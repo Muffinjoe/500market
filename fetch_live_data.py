@@ -302,9 +302,17 @@ with open("market_summary.json", "w") as f:
     json.dump(market_summary, f, indent=2)
 print(f"  Wrote market_summary.json")
 
-# data.js (includes both stocks and market summary)
+# Load descriptions to embed in data.js
+try:
+    with open("descriptions.json", "r") as f:
+        all_descriptions = json.load(f)
+except FileNotFoundError:
+    all_descriptions = {}
+
+# data.js (includes stocks, market summary, and descriptions)
 js_content = "const SP500_STOCKS = " + json.dumps(stocks, indent=4) + ";\n\n"
-js_content += "const MARKET_SUMMARY = " + json.dumps(market_summary, indent=4) + ";\n"
+js_content += "const MARKET_SUMMARY = " + json.dumps(market_summary, indent=4) + ";\n\n"
+js_content += "const STOCK_DESCRIPTIONS_DATA = " + json.dumps(all_descriptions) + ";\n"
 with open("data.js", "w") as f:
     f.write(js_content)
 print(f"  Wrote data.js")

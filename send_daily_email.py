@@ -16,7 +16,7 @@ if not RESEND_API_KEY:
     print("Warning: RESEND_API_KEY not set. Skipping email.")
     sys.exit(0)
 FROM_EMAIL = "500Market <updates@500market.com>"
-TO_EMAILS = ["joemurfin@gmail.com"]  # Add subscribers here
+AUDIENCE_ID = "14fe5f34-8795-40c8-8abe-7e32c084b211"
 
 # Load data
 with open("market_summary.json", "r") as f:
@@ -269,33 +269,57 @@ SECTOR PERFORMANCE
 View the full dashboard: https://500market.com
 """
 
-# Send via Resend
+# Send via Resend Broadcast API to audience list
 subject = f"S&P 500: {idx['price']:,.2f} ({idx_sign}{idx['changePct']:.2f}%) — {datetime.now().strftime('%b %d')}"
 
-payload = json.dumps({
+# Step 1: Create broadcast
+print(f"Creating broadcast to audience {AUDIENCE_ID}...")
+print(f"  Subject: {subject}")
+
+create_payload = json.dumps({
     "from": FROM_EMAIL,
-    "to": TO_EMAILS,
+    "audience_id": AUDIENCE_ID,
     "subject": subject,
     "html": html,
     "text": plain,
+    "name": f"Daily Brief — {datetime.now().strftime('%Y-%m-%d')}",
 })
-
-print(f"Sending daily brief to {len(TO_EMAILS)} recipient(s)...")
-print(f"  Subject: {subject}")
 
 result = subprocess.run([
     "curl", "-s", "-X", "POST",
-    "https://api.resend.com/emails",
+    "https://api.resend.com/broadcasts",
     "-H", f"Authorization: Bearer {RESEND_API_KEY}",
     "-H", "Content-Type: application/json",
-    "-d", payload
+    "-d", create_payload
 ], capture_output=True, text=True, timeout=30)
 
+broadcast_id = None
 try:
     resp = json.loads(result.stdout)
     if "id" in resp:
-        print(f"  Sent! Email ID: {resp['id']}")
+        broadcast_id = resp["id"]
+        print(f"  Broadcast created: {broadcast_id}")
     else:
-        print(f"  Error: {resp}")
+        print(f"  Error creating broadcast: {resp}")
 except:
     print(f"  Response: {result.stdout}")
+
+# Step 2: Send the broadcast
+if broadcast_id:
+    print(f"  Sending broadcast...")
+    send_result = subprocess.run([
+        "curl", "-s", "-X", "POST",
+        f"https://api.resend.com/broadcasts/{broadcast_id}/send",
+        "-H", f"Authorization: Bearer {RESEND_API_KEY}",
+        "-H", "Content-Type: application/json",
+        "-d", json.dumps({"scheduled_at": "now"})
+    ], capture_output=True, text=True, timeout=30)
+
+    try:
+        send_resp = json.loads(send_result.stdout)
+        if "id" in send_resp:
+            print(f"  Sent! Broadcast ID: {send_resp['id']}")
+        else:
+            print(f"  Send response: {send_resp}")
+    except:
+        print(f"  Send response: {send_result.stdout}")
