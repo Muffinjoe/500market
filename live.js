@@ -245,6 +245,8 @@ function updateLiveBadge(connected) {
     if (connected) {
         badge.innerHTML = '<span class="live-dot"></span> LIVE';
         badge.style.display = '';
+        const lu = document.getElementById('lastUpdated');
+        if (lu) lu.textContent = '';
     } else {
         badge.style.display = 'none';
     }
