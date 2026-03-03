@@ -11,6 +11,7 @@ Run: python3 fetch_live_data.py
 """
 
 import json, os, sys, subprocess, time
+from io import StringIO
 import yfinance as yf
 import pandas as pd
 
@@ -28,7 +29,7 @@ try:
     url = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"})
     html = urllib.request.urlopen(req).read().decode("utf-8")
-    tables = pd.read_html(html)
+    tables = pd.read_html(StringIO(html))
     sp500_table = tables[0]
     tickers = sp500_table["Symbol"].tolist()
     names = sp500_table["Security"].tolist()
