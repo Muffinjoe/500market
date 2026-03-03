@@ -582,7 +582,8 @@ td.td-star {
 .table-wrapper {
     border: 1px solid var(--border);
     border-radius: 12px;
-    overflow: hidden;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 table {
     width: 100%;
@@ -1187,8 +1188,8 @@ tr:hover { background: var(--hover); }
 }
 @media (max-width: 640px) {
     th.th-spark, td:nth-child(11) { display: none; }
-    td:nth-child(6), td:nth-child(7) { display: none; }
     .search-box { width: 140px; }
     .container { padding: 16px; }
     .trending-bar { font-size: 12px; }
+    table { min-width: 500px; }
 }
