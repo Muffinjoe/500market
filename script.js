@@ -836,6 +836,19 @@ function renderDetailChart(stock, days) {
             <circle cx="${lastP.x}" cy="${lastP.y}" r="8" fill="${color}" opacity="0.15"/>
         </svg>
     `;
+
+    // Update detail panel change % for selected period
+    const startPrice = prices[0];
+    const endPrice = prices[prices.length - 1];
+    const pctChange = ((endPrice - startPrice) / startPrice) * 100;
+    const periodLabels = {1:'Today',7:'Past week',30:'Past month',90:'Past 3 months',180:'Past 6 months',365:'Past year',1825:'Past 5 years'};
+    const chgEl = document.getElementById('detailPeriodChange');
+    if (chgEl) {
+        const cls = pctChange >= 0 ? 'change-up' : 'change-down';
+        const sign = pctChange >= 0 ? '+' : '';
+        chgEl.className = 'detail-price-change ' + cls;
+        chgEl.innerHTML = sign + pctChange.toFixed(2) + '% <span style="font-size:12px;color:var(--text-secondary);font-weight:400;margin-left:4px">' + (periodLabels[days] || '') + '</span>';
+    }
 }
 
 function openDetail(stock) {
@@ -876,7 +889,7 @@ function openDetail(stock) {
 
         <div class="detail-price-row">
             <span class="detail-price">${formatPrice(stock.price)}</span>
-            <span class="detail-price-change ${stock.change1d >= 0 ? 'change-up' : 'change-down'}">${stock.change1d >= 0 ? '+' : ''}${stock.change1d.toFixed(2)}%</span>
+            <span id="detailPeriodChange" class="detail-price-change ${stock.change1d >= 0 ? 'change-up' : 'change-down'}">${stock.change1d >= 0 ? '+' : ''}${stock.change1d.toFixed(2)}% <span style="font-size:12px;color:var(--text-secondary);font-weight:400;margin-left:4px">Today</span></span>
         </div>
 
         <div class="detail-chart-wrap">
