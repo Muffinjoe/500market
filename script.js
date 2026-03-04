@@ -838,9 +838,15 @@ function renderDetailChart(stock, days) {
     `;
 
     // Update detail panel change % for selected period
-    const startPrice = prices[0];
-    const endPrice = prices[prices.length - 1];
-    const pctChange = ((endPrice - startPrice) / startPrice) * 100;
+    let pctChange;
+    if (days === 1) {
+        // Use real daily change (measured from previous close)
+        pctChange = stock.change1d;
+    } else {
+        const startPrice = prices[0];
+        const endPrice = prices[prices.length - 1];
+        pctChange = ((endPrice - startPrice) / startPrice) * 100;
+    }
     const periodLabels = {1:'Today',7:'Past week',30:'Past month',90:'Past 3 months',180:'Past 6 months',365:'Past year',1825:'Past 5 years'};
     const chgEl = document.getElementById('detailPeriodChange');
     if (chgEl) {
@@ -1147,10 +1153,18 @@ function renderIndexChart(days) {
     `;
 
     // Update hero change to reflect selected period
-    const startPrice = prices[0];
-    const endPrice = prices[prices.length - 1];
-    const ptChange = endPrice - startPrice;
-    const pctChange = (ptChange / startPrice) * 100;
+    const ms = typeof MARKET_SUMMARY !== 'undefined' ? MARKET_SUMMARY : null;
+    let ptChange, pctChange;
+    if (days === 1 && ms && ms.index) {
+        // Use real daily change from MARKET_SUMMARY (measured from previous close)
+        ptChange = ms.index.change;
+        pctChange = ms.index.changePct;
+    } else {
+        const startPrice = prices[0];
+        const endPrice = prices[prices.length - 1];
+        ptChange = endPrice - startPrice;
+        pctChange = (ptChange / startPrice) * 100;
+    }
     const periodLabels = {1:'Today',7:'Past week',30:'Past month',90:'Past 3 months',180:'Past 6 months',365:'Past year',1825:'Past 5 years'};
     const heroChg = document.getElementById('heroChange');
     if (heroChg) {
