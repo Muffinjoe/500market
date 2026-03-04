@@ -400,8 +400,14 @@ for stock in stocks:
             prices.reverse();
             chartDates = null;
         }}
+        // For 1D, prepend previous close so chart starts from yesterday's close
+        if (days===1) {{
+            const prevClose=STOCK.price/(1+STOCK.change1d/100);
+            prices.unshift(prevClose);
+            if (chartDates) {{ const t=new Date(chartDates[0]); t.setMinutes(t.getMinutes()-1); chartDates.unshift(t); }}
+        }}
         const mn=Math.min(...prices),mx=Math.max(...prices),rng=mx-mn||1;
-        const up=days===1?STOCK.change1d>=0:prices[prices.length-1]>=prices[0], col=up?"#16c784":"#ea3943";
+        const up=prices[prices.length-1]>=prices[0], col=up?"#16c784":"#ea3943";
         const pts=prices.map((p,i)=>{{const x=pL+(i/(prices.length-1))*cW; const y=pT+(1-(p-mn)/rng)*cH; return {{x,y}};}});
         let pathD=pts.map((p,i)=>(i===0?`M${{p.x}},${{p.y}}`:`L${{p.x}},${{p.y}}`)).join(" ");
         const fillD=pathD+` L${{pts[pts.length-1].x}},${{pT+cH}} L${{pL}},${{pT+cH}} Z`;

@@ -779,6 +779,14 @@ function renderDetailChart(stock, days) {
     if (!container) return;
     const data = generateStockChartData(stock, days);
 
+    // For 1D, prepend previous close so chart starts from yesterday's close
+    if (days === 1 && data.length > 0) {
+        const prevClose = stock.price / (1 + stock.change1d / 100);
+        const t = new Date(data[0].date);
+        t.setMinutes(t.getMinutes() - 1);
+        data.unshift({ date: t, price: prevClose });
+    }
+
     const w = container.clientWidth || 580;
     const h = container.clientHeight || 220;
     const padTop = 10, padBottom = 24, padLeft = 55, padRight = 10;
@@ -789,7 +797,7 @@ function renderDetailChart(stock, days) {
     const minP = Math.min(...prices);
     const maxP = Math.max(...prices);
     const range = maxP - minP || 1;
-    const isUp = days === 1 ? stock.change1d >= 0 : prices[prices.length - 1] >= prices[0];
+    const isUp = prices[prices.length - 1] >= prices[0];
     const color = isUp ? '#16c784' : '#ea3943';
 
     const points = data.map((d, i) => ({
@@ -1079,6 +1087,15 @@ function renderIndexChart(days) {
     const container = document.getElementById('indexChart');
     const data = generateIndexData(days);
 
+    // For 1D, prepend previous close so chart starts from yesterday's close
+    const msIdx = typeof MARKET_SUMMARY !== 'undefined' && MARKET_SUMMARY.index ? MARKET_SUMMARY.index : null;
+    if (days === 1 && msIdx && data.length > 0) {
+        const prevClose = msIdx.price - msIdx.change;
+        const t = new Date(data[0].date);
+        t.setMinutes(t.getMinutes() - 1);
+        data.unshift({ date: t, price: prevClose });
+    }
+
     const w = container.clientWidth || 600;
     const h = container.clientHeight || 180;
     const padTop = 10, padBottom = 24, padLeft = 50, padRight = 10;
@@ -1090,8 +1107,7 @@ function renderIndexChart(days) {
     const maxP = Math.max(...prices);
     const range = maxP - minP || 1;
 
-    const msIdx = typeof MARKET_SUMMARY !== 'undefined' && MARKET_SUMMARY.index ? MARKET_SUMMARY.index : null;
-    const isUp = days === 1 && msIdx ? msIdx.changePct >= 0 : prices[prices.length - 1] >= prices[0];
+    const isUp = prices[prices.length - 1] >= prices[0];
     const color = isUp ? '#16c784' : '#ea3943';
 
     // Build path
