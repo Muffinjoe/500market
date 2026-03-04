@@ -1132,6 +1132,20 @@ function renderIndexChart(days) {
             <circle cx="${lastP.x}" cy="${lastP.y}" r="7" fill="${color}" opacity="0.2"/>
         </svg>
     `;
+
+    // Update hero change to reflect selected period
+    const startPrice = prices[0];
+    const endPrice = prices[prices.length - 1];
+    const ptChange = endPrice - startPrice;
+    const pctChange = (ptChange / startPrice) * 100;
+    const periodLabels = {1:'Today',7:'Past week',30:'Past month',90:'Past 3 months',180:'Past 6 months',365:'Past year',1825:'Past 5 years'};
+    const heroChg = document.getElementById('heroChange');
+    if (heroChg) {
+        const cls = pctChange >= 0 ? 'change-up' : 'change-down';
+        const sign = pctChange >= 0 ? '+' : '';
+        heroChg.className = 'index-hero-change ' + cls;
+        heroChg.innerHTML = sign + ptChange.toFixed(2) + ' (' + sign + pctChange.toFixed(2) + '%) <span class="index-hero-asof">' + (periodLabels[days] || '') + '</span>';
+    }
 }
 
 // Period buttons
