@@ -789,7 +789,7 @@ function renderDetailChart(stock, days) {
     const minP = Math.min(...prices);
     const maxP = Math.max(...prices);
     const range = maxP - minP || 1;
-    const isUp = prices[prices.length - 1] >= prices[0];
+    const isUp = days === 1 ? stock.change1d >= 0 : prices[prices.length - 1] >= prices[0];
     const color = isUp ? '#16c784' : '#ea3943';
 
     const points = data.map((d, i) => ({
@@ -1090,7 +1090,8 @@ function renderIndexChart(days) {
     const maxP = Math.max(...prices);
     const range = maxP - minP || 1;
 
-    const isUp = prices[prices.length - 1] >= prices[0];
+    const msIdx = typeof MARKET_SUMMARY !== 'undefined' && MARKET_SUMMARY.index ? MARKET_SUMMARY.index : null;
+    const isUp = days === 1 && msIdx ? msIdx.changePct >= 0 : prices[prices.length - 1] >= prices[0];
     const color = isUp ? '#16c784' : '#ea3943';
 
     // Build path
