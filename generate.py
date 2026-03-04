@@ -231,14 +231,14 @@ for stock in stocks:
 
         <div class="sp-price-row">
             <span class="sp-price">{fmt_price(stock["price"])}</span>
-            {chg1d_html}
+            <span id="periodChange">{chg1d_html}</span>
         </div>
 
         <div class="sp-chart">
             <div class="sp-chart-periods">
-                <button class="chart-period" data-d="1">1D</button>
+                <button class="chart-period active" data-d="1">1D</button>
                 <button class="chart-period" data-d="7">1W</button>
-                <button class="chart-period active" data-d="30">1M</button>
+                <button class="chart-period" data-d="30">1M</button>
                 <button class="chart-period" data-d="90">3M</button>
                 <button class="chart-period" data-d="180">6M</button>
                 <button class="chart-period" data-d="365">1Y</button>
@@ -415,10 +415,17 @@ for stock in stocks:
         xL+=`<text x="${{x}}" y="${{h-4}}" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="system-ui">${{label}}</text>`;}}
         const lp=pts[pts.length-1];
         container.innerHTML=`<svg viewBox="0 0 ${{w}} ${{h}}"><defs><linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="${{col}}" stop-opacity="0.2"/><stop offset="100%" stop-color="${{col}}" stop-opacity="0.01"/></linearGradient></defs>${{gL}}${{yL}}${{xL}}<path d="${{fillD}}" fill="url(#g1)"/><path d="${{pathD}}" fill="none" stroke="${{col}}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="${{lp.x}}" cy="${{lp.y}}" r="4.5" fill="${{col}}"/><circle cx="${{lp.x}}" cy="${{lp.y}}" r="8" fill="${{col}}" opacity="0.15"/></svg>`;
+        // Update period change %
+        const startP=prices[0],endP=prices[prices.length-1];
+        const pctChg=((endP-startP)/startP*100);
+        const chgEl=document.getElementById("periodChange");
+        const labels={{1:"Today",7:"Past week",30:"Past month",90:"Past 3 months",180:"Past 6 months",365:"Past year",1825:"Past 5 years"}};
+        if(chgEl){{const sign=pctChg>=0?"+":"";const cls=pctChg>=0?"change-up":"change-down";chgEl.innerHTML=`<span class="sp-price-chg ${{cls}}">${{sign}}${{pctChg.toFixed(2)}}%</span> <span style="font-size:13px;color:var(--text-secondary);margin-left:4px">${{labels[days]||""}}</span>`;}}
     }}
-    document.querySelectorAll(".chart-period").forEach(b=>b.addEventListener("click",()=>{{document.querySelectorAll(".chart-period").forEach(x=>x.classList.remove("active"));b.classList.add("active");genChart(parseInt(b.dataset.d));}}));
-    window.addEventListener("resize",()=>genChart(30));
-    genChart(30);
+    let activeDays=1;
+    document.querySelectorAll(".chart-period").forEach(b=>b.addEventListener("click",()=>{{document.querySelectorAll(".chart-period").forEach(x=>x.classList.remove("active"));b.classList.add("active");activeDays=parseInt(b.dataset.d);genChart(activeDays);}}));
+    window.addEventListener("resize",()=>genChart(activeDays));
+    genChart(1);
     const KEY='d6ismgpr01qleu95dlfgd6ismgpr01qleu95dlg0';
     // Fetch latest news from Finnhub
     (function(){{

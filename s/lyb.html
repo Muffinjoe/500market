@@ -130,16 +130,18 @@
 
         <div class="sp-price-row">
             <span class="sp-price">$58.21</span>
-            <span class="sp-price-chg change-up">+0.57%</span>
+            <span id="periodChange"><span class="sp-price-chg change-up">+0.57%</span></span>
         </div>
 
         <div class="sp-chart">
             <div class="sp-chart-periods">
+                <button class="chart-period active" data-d="1">1D</button>
                 <button class="chart-period" data-d="7">1W</button>
-                <button class="chart-period active" data-d="30">1M</button>
+                <button class="chart-period" data-d="30">1M</button>
                 <button class="chart-period" data-d="90">3M</button>
                 <button class="chart-period" data-d="180">6M</button>
                 <button class="chart-period" data-d="365">1Y</button>
+                <button class="chart-period" data-d="1825">5Y</button>
             </div>
             <div class="sp-chart-area" id="stockChart"></div>
         </div>
@@ -271,20 +273,72 @@
 
     <script>
     // Inline chart renderer for this stock
-    const STOCK = {"ticker": "LYB", "price": 58.21, "change7d": 3.98};
+    const STOCK = {"ticker": "LYB", "price": 58.21, "change1d": 0.57, "change7d": 3.98};
+    const STOCK_CHART = {"daily":{"start":"2021-03-04","prices":[74.58,76.55,77.17,76.04,77.26,77.69,77.14,76.36,74.75,77.14,76.7,75.75,75.21,71.13,72.46,74.25,74.9,73.95,74.52,73.82,74.89,73.94,74.35,73.5,73.08,73.84,74.76,74.19,75.87,75.99,76.31,76.06,74.24,76.71,72.37,74.08,74.45,74.43,75.46,76.26,73.6,76.53,77.56,79.49,80.98,80.93,80.49,79.84,78.09,78.43,80.93,81.93,80.39,78.31,77.9,78.4,79.18,77.97,78.71,80.57,79.9,82.92,82.21,83.62,83.24,80.71,81.49,80.27,79.08,78.85,77.74,77.94,76.65,73.37,71.89,73.64,73.76,74.03,73.41,73.01,72.85,73.25,73.69,74.11,74.22,71.7,71.92,70.93,73.59,73.25,73.09,72.65,72.35,68.87,66.11,68.05,69.54,68.77,69.19,70.6,70.95,70.89,72.02,71.16,70.85,71.78,69.49,69.25,71.24,71.38,74.26,75.89,75.22,75.27,74.09,72.91,71.82,69.68,70.35,71.67,73.43,73.77,72.49,74.53,73.85,72.7,70.85,70.48,69.35,68.56,66.97,66.35,67.28,68.4,67.98,68.67,68.0,66.76,65.14,65.13,66.09,67.62,67.45,69.61,69.81,69.45,67.99,69.42,68.58,70.08,69.38,70.97,70.96,70.57,70.17,69.75,71.24,71.79,71.3,71.44,72.05,69.95,70.55,70.71,70.74,68.43,69.79,67.24,68.3,68.37,67.79,65.98,67.35,67.57,67.24,67.25,68.6,69.11,68.98,67.37,66.64,66.11,64.77,67.22,67.69,66.33,65.61,65.41,63.91,62.02,62.77,64.09,65.22,66.1,66.38,65.98,65.95,64.29,65.4,63.84,65.36,64.37,63.74,64.78,64.56,66.42,67.24,68.01,67.97,67.62,67.65,68.33,71.12,70.62,70.93,71.6,71.74,72.86,73.27,74.36,75.41,74.07,74.0,70.62,69.06,68.5,68.37,68.24,70.31,70.48,70.95,73.01,73.6,73.36,73.51,72.97,74.3,75.25,74.88,74.65,73.46,74.7,75.66,74.05,73.23,73.03,72.22,69.29,71.88,71.32,68.52,71.74,73.22,72.06,70.32,71.22,72.98,74.0,76.74,77.06,73.19,74.81,77.31,75.99,77.86,77.59,77.3,79.49,79.9,78.22,77.8,77.92,76.28,76.67,76.06,75.64,73.96,74.34,75.33,75.22,76.81,78.58,79.81,80.83,82.06,82.46,82.46,79.14,78.06,77.35,78.14,78.72,78.66,80.13,82.29,86.06,82.67,81.77,79.09,78.35,79.68,78.46,79.18,79.69,82.65,81.84,80.89,80.03,79.17,78.97,80.88,82.72,86.86,84.76,84.81,85.51,84.36,86.27,88.21,86.38,85.0,80.56,76.65,76.57,75.51,71.65,70.48,71.63,68.75,66.37,70.09,69.29,69.45,69.01,68.7,68.85,66.85,67.57,69.7,68.71,67.98,67.49,66.43,65.66,66.56,67.88,70.18,69.91,68.35,68.18,68.75,68.48,69.43,69.56,70.0,68.3,67.13,67.27,67.16,67.24,67.55,68.54,69.91,71.8,72.52,71.12,71.79,70.54,71.6,70.11,69.16,70.86,69.32,71.26,69.14,68.32,66.55,66.06,65.15,64.29,64.13,64.87,65.66,66.96,67.9,64.52,62.88,62.63,61.4,62.1,61.57,60.25,59.78,58.16,57.46,58.32,60.09,59.54,59.92,62.26,64.52,64.38,63.77,62.57,62.49,61.86,61.47,63.67,61.92,62.33,63.85,62.88,62.91,65.39,64.7,65.18,65.44,65.67,62.07,60.85,62.45,62.24,61.93,66.58,66.55,67.31,63.75,66.82,70.88,69.36,67.87,65.81,65.1,65.5,66.27,69.63,70.11,70.02,67.57,68.45,68.59,68.29,68.5,67.34,66.4,65.89,65.82,65.72,66.93,67.87,67.51,65.09,65.01,64.79,65.15,66.4,65.74,67.07,67.57,66.24,66.88,66.99,67.76,69.3,70.13,72.69,73.69,73.97,74.85,75.57,75.62,73.89,73.27,72.85,74.47,74.98,74.82,75.01,76.53,77.09,76.21,78.01,78.4,77.74,79.19,79.7,80.97,79.8,79.58,80.25,81.49,80.78,80.77,79.67,78.52,76.6,76.56,76.36,78.01,77.3,77.44,78.65,78.82,79.42,77.97,76.02,76.63,74.45,72.63,70.88,71.38,68.74,69.46,69.16,71.17,72.27,70.87,70.03,70.71,71.49,73.56,74.78,75.88,76.68,77.75,76.31,76.99,77.06,77.57,77.97,79.4,78.46,79.1,79.44,79.35,78.72,77.62,76.64,77.71,74.32,74.0,74.59,77.27,76.38,75.09,73.08,73.7,75.47,74.94,74.54,73.95,72.5,72.9,73.59,72.05,72.82,73.54,74.23,74.06,74.1,73.14,72.5,72.33,71.84,70.86,71.79,74.49,74.33,73.73,76.41,74.94,73.75,73.77,75.17,74.83,76.02,76.41,74.1,74.09,73.12,73.17,73.9,74.8,75.24,75.1,76.07,76.72,74.62,73.91,74.97,75.49,76.05,77.13,76.8,75.39,75.29,75.21,75.59,75.51,76.02,75.23,77.66,78.69,80.29,81.49,81.9,80.99,79.79,79.88,79.29,81.47,81.53,82.29,83.42,82.15,82.24,79.83,79.6,80.31,80.68,81.11,81.06,80.16,80.59,80.99,81.69,82.9,83.01,82.89,84.73,82.85,83.64,82.95,83.4,84.19,84.07,82.95,84.5,83.95,84.36,82.17,81.43,80.13,79.61,79.95,78.57,79.7,79.34,79.47,78.42,78.71,78.46,76.11,76.02,78.0,78.85,78.5,77.55,77.78,78.39,79.51,78.47,77.84,77.25,75.66,77.0,74.89,75.41,75.9,76.03,75.73,75.44,77.17,77.79,77.38,76.46,76.58,77.08,78.73,78.68,80.87,81.6,80.76,81.59,80.86,80.29,79.69,80.05,79.15,79.86,79.94,80.87,81.21,80.01,78.93,78.6,78.39,78.73,78.83,77.92,79.17,80.45,80.8,81.21,82.44,81.51,82.01,81.69,82.22,82.04,81.37,80.86,82.13,82.11,81.71,82.38,82.2,80.93,80.22,80.54,80.3,79.91,78.83,79.35,79.42,79.73,80.43,79.44,81.12,81.15,81.02,81.34,80.04,80.46,78.97,79.21,80.34,80.34,80.77,81.13,82.06,80.56,80.48,82.89,83.08,81.87,82.81,83.58,84.42,84.04,84.19,84.01,85.28,85.64,87.54,87.39,86.03,85.27,85.2,86.68,86.57,87.58,86.11,86.03,85.98,85.97,88.08,87.19,86.96,86.53,87.09,88.65,88.08,87.89,89.71,91.16,89.9,90.23,89.41,90.21,89.15,88.62,87.43,86.51,85.38,85.85,85.6,86.75,86.62,86.59,86.78,85.84,87.95,87.58,86.09,85.7,85.06,85.35,85.89,87.36,87.99,87.52,87.29,87.25,87.42,86.34,86.06,86.9,86.2,86.23,84.84,83.89,84.86,85.0,83.37,83.79,85.61,83.36,82.43,82.98,83.13,83.85,83.41,84.09,83.72,83.41,81.65,82.01,83.26,82.97,83.11,85.12,83.34,83.61,83.65,83.5,82.61,82.86,83.07,81.68,82.44,81.35,81.05,82.19,82.98,83.49,85.33,86.19,85.71,84.67,85.08,83.87,83.17,84.32,84.9,85.01,85.77,86.82,85.67,82.39,80.79,83.41,82.78,83.97,84.55,83.57,84.35,83.96,85.05,84.73,84.64,84.29,84.59,84.09,85.8,86.61,86.47,86.48,86.88,87.34,84.71,83.96,83.39,82.73,83.88,83.0,83.15,83.06,82.46,83.26,84.06,83.13,85.04,83.22,82.83,85.04,83.95,85.05,85.34,84.87,84.79,84.32,83.96,85.62,84.42,83.27,83.42,83.77,83.0,82.69,81.48,81.34,81.05,80.96,79.42,79.21,78.65,78.31,77.43,77.63,77.15,77.12,76.86,76.6,74.5,75.55,76.49,77.28,75.49,75.19,73.98,73.84,73.06,73.14,73.63,72.74,72.99,73.27,74.22,74.39,72.69,73.49,73.75,73.8,72.65,70.11,69.62,68.71,69.53,69.83,68.76,68.52,68.06,67.17,67.85,67.28,65.63,66.11,66.57,66.66,66.87,66.68,65.82,66.8,65.46,65.45,66.43,66.47,65.68,65.19,67.59,67.73,68.43,68.92,69.52,69.91,69.33,69.58,69.58,70.76,70.43,70.03,68.46,68.09,68.63,70.37,69.25,69.93,68.9,68.21,68.73,68.26,68.57,68.99,70.35,69.7,69.8,69.22,69.53,69.82,68.54,68.35,69.1,66.03,66.08,68.54,68.27,69.7,70.05,67.69,66.07,66.46,67.86,68.78,68.73,67.42,66.53,65.49,65.86,63.93,65.04,64.94,63.9,64.43,64.1,64.66,57.76,53.07,51.8,48.72,54.76,49.73,52.07,52.58,51.89,51.2,51.96,51.53,53.21,52.88,54.23,54.4,53.74,53.84,53.28,53.37,53.43,51.45,51.15,50.9,52.37,52.1,55.54,55.23,54.15,53.47,54.7,54.16,53.56,51.76,51.56,51.37,53.06,52.23,52.73,51.7,51.06,52.25,52.54,52.15,53.03,54.85,56.82,57.33,56.4,56.37,57.42,55.89,55.0,54.72,53.78,54.71,53.92,54.78,55.03,54.27,57.4,58.68,58.16,56.96,59.75,60.82,61.27,60.55,59.13,58.57,58.55,59.37,59.29,58.76,61.35,63.05,56.94,60.04,58.98,58.61,55.2,54.34,50.11,47.74,48.76,46.48,47.06,46.02,45.34,47.15,49.65,50.0,50.07,49.67,50.48,51.9,52.03,55.13,54.79,54.36,54.05,53.65,54.12,53.63,52.04,52.15,52.9,52.47,52.23,52.24,53.27,53.03,50.5,50.56,51.4,50.6,49.95,49.08,48.37,49.33,47.04,47.49,47.14,47.1,46.5,47.38,47.51,46.75,47.18,46.76,45.78,43.13,44.44,44.81,44.91,44.04,44.36,43.81,43.42,43.41,44.96,45.7,47.14,45.72,44.86,43.41,44.58,44.44,42.68,42.23,40.7,41.32,41.08,42.08,41.59,43.72,43.5,41.83,42.01,41.07,40.86,43.02,43.56,45.15,46.5,47.05,47.35,47.21,45.48,42.64,42.83,41.77,42.27,44.69,44.57,43.86,42.82,42.46,43.24,42.54,42.57,43.08,42.14,42.36,42.73,42.93,43.14,42.78,43.86,45.04,45.65,44.37,47.07,48.13,47.62,48.09,51.38,50.27,50.3,48.27,51.2,50.92,50.38,50.25,49.83,49.86,49.35,48.41,49.65,52.81,56.42,53.23,54.44,54.8,56.97,58.76,57.09,56.92,55.31,55.3,54.67,55.99,55.98,57.62,56.07,55.62,56.83,57.88,58.21]},"intraday":{"date":"2026-03-03","times":["14:30","14:45","15:00","15:15","15:30","15:45","16:00","16:15","16:30","16:45","17:00","17:15","17:30","17:45","18:00","18:15","18:30","18:45","19:00","19:15","19:30","19:45","20:00","20:15","20:30","20:45"],"prices":[55.83,55.74,56.84,55.99,56.47,56.83,57.12,57.04,57.02,57.36,57.22,57.78,57.99,58.11,58.21,58.24,58.33,58.08,58.11,58.09,58.03,57.9,57.81,57.97,58.05,58.21]}};
+
+    function getStockChartData(days) {
+        const entry = STOCK_CHART;
+        if (!entry) return null;
+        if (days === 1) {
+            if (!entry.intraday || !entry.intraday.times) return null;
+            const { times, prices, date: iDate } = entry.intraday;
+            const data = [];
+            for (let i = 0; i < times.length; i++) {
+                const [hh, mm] = times[i].split(':').map(Number);
+                const d = new Date(iDate + 'T00:00:00');
+                d.setHours(hh, mm, 0, 0);
+                data.push({ date: d, price: prices[i] });
+            }
+            return data.length > 2 ? data : null;
+        }
+        if (!entry.daily || !entry.daily.prices || entry.daily.prices.length < 10) return null;
+        const { prices } = entry.daily;
+        let sliced = days < prices.length ? prices.slice(prices.length - days) : prices;
+        let sampled = sliced;
+        if (sliced.length > 500) {
+            const step = sliced.length / 250;
+            sampled = [];
+            for (let i = 0; i < 250; i++) sampled.push(sliced[Math.round(i * step)]);
+        }
+        const data = [];
+        const dates = [];
+        let d = new Date();
+        while (dates.length < sampled.length) {
+            const dow = d.getDay();
+            if (dow !== 0 && dow !== 6) dates.unshift(new Date(d));
+            d.setDate(d.getDate() - 1);
+        }
+        for (let i = 0; i < sampled.length; i++) data.push({ date: dates[i], price: sampled[i] });
+        return data.length > 2 ? data : null;
+    }
 
     function genChart(days) {
-        let seed = 0;
-        for (let i = 0; i < STOCK.ticker.length; i++) seed += STOCK.ticker.charCodeAt(i) * (i + 1);
-        seed += days;
-        function rand() { seed = (seed * 16807) % 2147483647; return (seed & 0x7fffffff) / 0x7fffffff; }
         const container = document.getElementById("stockChart");
         const w = container.clientWidth || 600, h = container.clientHeight || 220;
         const pT=10,pB=24,pL=55,pR=10, cW=w-pL-pR, cH=h-pT-pB;
-        let prices=[STOCK.price];
-        const vol=0.012, drift=STOCK.change7d>0?0.0004:-0.0003;
-        for(let i=1;i<days;i++) { const p=prices[i-1]; prices.push(p+p*((rand()-0.5)*2*vol-drift)); }
-        prices.reverse();
+        // Try real data first
+        const realData = getStockChartData(days);
+        let prices, chartDates;
+        if (realData) {
+            prices = realData.map(d => d.price);
+            chartDates = realData.map(d => d.date);
+        } else {
+            // Fallback: pseudorandom
+            let seed = 0;
+            for (let i = 0; i < STOCK.ticker.length; i++) seed += STOCK.ticker.charCodeAt(i) * (i + 1);
+            seed += days;
+            function rand() { seed = (seed * 16807) % 2147483647; return (seed & 0x7fffffff) / 0x7fffffff; }
+            prices=[STOCK.price];
+            if (days===1) {
+                const vol=0.003, drift=STOCK.change1d>=0?0.0001:-0.0001;
+                for(let i=1;i<26;i++) { const p=prices[i-1]; prices.push(p+p*((rand()-0.5)*2*vol-drift)); }
+            } else {
+                const vol=0.012, drift=STOCK.change7d>0?0.0004:-0.0003;
+                for(let i=1;i<days;i++) { const p=prices[i-1]; prices.push(p+p*((rand()-0.5)*2*vol-drift)); }
+            }
+            prices.reverse();
+            chartDates = null;
+        }
         const mn=Math.min(...prices),mx=Math.max(...prices),rng=mx-mn||1;
         const up=prices[prices.length-1]>=prices[0], col=up?"#16c784":"#ea3943";
         const pts=prices.map((p,i)=>{const x=pL+(i/(prices.length-1))*cW; const y=pT+(1-(p-mn)/rng)*cH; return {x,y};});
@@ -293,13 +347,24 @@
         let yL="",gL="";
         for(let i=0;i<=4;i++){const v=mn+(rng*i/4);const y=pT+(1-i/4)*cH;yL+=`<text x="${pL-8}" y="${y+4}" text-anchor="end" fill="#9ca3af" font-size="11" font-family="system-ui">$${v.toFixed(0)}</text>`;gL+=`<line x1="${pL}" y1="${y}" x2="${w-pR}" y2="${y}" stroke="#f3f4f6" stroke-width="1"/>`;}
         let xL="";const lc=Math.min(6,prices.length);const now=new Date();
-        for(let i=0;i<lc;i++){const idx=Math.round(i*(prices.length-1)/(lc-1));const d=new Date(now);d.setDate(d.getDate()-(prices.length-1-idx));const x=pts[idx].x;const label=days<=30?`${d.getMonth()+1}/${d.getDate()}`:d.toLocaleDateString("en-US",{month:"short",day:"numeric"});xL+=`<text x="${x}" y="${h-4}" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="system-ui">${label}</text>`;}
+        for(let i=0;i<lc;i++){const idx=Math.round(i*(prices.length-1)/(lc-1));const x=pts[idx].x;let label;
+        if(chartDates){const d=chartDates[idx];label=days===1?d.toLocaleTimeString("en-US",{hour:"numeric",minute:"2-digit"}):days<=30?`${d.getMonth()+1}/${d.getDate()}`:d.toLocaleDateString("en-US",{month:"short",day:"numeric"});}
+        else if(days===1){const d=new Date(now);d.setHours(9,30,0,0);d.setMinutes(d.getMinutes()+idx*15);label=d.toLocaleTimeString("en-US",{hour:"numeric",minute:"2-digit"});}
+        else{const d=new Date(now);d.setDate(d.getDate()-(prices.length-1-idx));label=days<=30?`${d.getMonth()+1}/${d.getDate()}`:d.toLocaleDateString("en-US",{month:"short",day:"numeric"});}
+        xL+=`<text x="${x}" y="${h-4}" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="system-ui">${label}</text>`;}
         const lp=pts[pts.length-1];
         container.innerHTML=`<svg viewBox="0 0 ${w} ${h}"><defs><linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="${col}" stop-opacity="0.2"/><stop offset="100%" stop-color="${col}" stop-opacity="0.01"/></linearGradient></defs>${gL}${yL}${xL}<path d="${fillD}" fill="url(#g1)"/><path d="${pathD}" fill="none" stroke="${col}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="${lp.x}" cy="${lp.y}" r="4.5" fill="${col}"/><circle cx="${lp.x}" cy="${lp.y}" r="8" fill="${col}" opacity="0.15"/></svg>`;
+        // Update period change %
+        const startP=prices[0],endP=prices[prices.length-1];
+        const pctChg=((endP-startP)/startP*100);
+        const chgEl=document.getElementById("periodChange");
+        const labels={1:"Today",7:"Past week",30:"Past month",90:"Past 3 months",180:"Past 6 months",365:"Past year",1825:"Past 5 years"};
+        if(chgEl){const sign=pctChg>=0?"+":"";const cls=pctChg>=0?"change-up":"change-down";chgEl.innerHTML=`<span class="sp-price-chg ${cls}">${sign}${pctChg.toFixed(2)}%</span> <span style="font-size:13px;color:var(--text-secondary);margin-left:4px">${labels[days]||""}</span>`;}
     }
-    document.querySelectorAll(".chart-period").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll(".chart-period").forEach(x=>x.classList.remove("active"));b.classList.add("active");genChart(parseInt(b.dataset.d));}));
-    window.addEventListener("resize",()=>genChart(30));
-    genChart(30);
+    let activeDays=1;
+    document.querySelectorAll(".chart-period").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll(".chart-period").forEach(x=>x.classList.remove("active"));b.classList.add("active");activeDays=parseInt(b.dataset.d);genChart(activeDays);}));
+    window.addEventListener("resize",()=>genChart(activeDays));
+    genChart(1);
     const KEY='d6ismgpr01qleu95dlfgd6ismgpr01qleu95dlg0';
     // Fetch latest news from Finnhub
     (function(){
