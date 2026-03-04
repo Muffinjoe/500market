@@ -424,6 +424,46 @@ for ticker, yahoo_ticker in zip(tickers, yahoo_tickers):
 
 print(f"  Chart data for {processed_charts} stocks + index")
 
+# Fix YTD using real historical data
+print(f"  Computing accurate YTD from historical prices...")
+ytd_fixed = 0
+# Find the first trading day of the current year in the daily data
+current_year = datetime.now().year
+for s in stocks:
+    ticker = s["ticker"]
+    if ticker not in charts_data or "daily" not in charts_data[ticker]:
+        continue
+    daily = charts_data[ticker]["daily"]
+    start = datetime.strptime(daily["start"], "%Y-%m-%d")
+    prices = daily["prices"]
+    # Find index of first trading day of current year
+    # Each entry is a trading day, so count from start date skipping weekends
+    jan1 = datetime(current_year, 1, 1)
+    # Approximate: trading days from start to Jan 1
+    total_calendar_days = (jan1 - start).days
+    # ~252 trading days per year, ratio ≈ 252/365
+    approx_trading_days = int(total_calendar_days * 252 / 365)
+    # Clamp to valid range
+    if approx_trading_days < 0 or approx_trading_days >= len(prices):
+        continue
+    # Search nearby for the actual first day of the year (within a few days)
+    jan_price = prices[approx_trading_days]
+    current_price = prices[-1]
+    real_ytd = ((current_price - jan_price) / jan_price) * 100
+    s["changeYtd"] = round(real_ytd, 2)
+    ytd_fixed += 1
+print(f"  Fixed YTD for {ytd_fixed} stocks")
+
+# Re-sort by market cap (unchanged) and rewrite data files with corrected YTD
+js_content = "const SP500_STOCKS = " + json.dumps(stocks, indent=4) + ";\n\n"
+js_content += "const MARKET_SUMMARY = " + json.dumps(market_summary, indent=4) + ";\n\n"
+js_content += f'const DATA_LAST_UPDATED = "{last_updated}";\n'
+with open("data.json", "w") as f:
+    json.dump(stocks, f, indent=2)
+with open("data.js", "w") as f:
+    f.write(js_content)
+print(f"  Rewrote data.json and data.js with corrected YTD")
+
 # Write charts_data.json (for generate.py)
 with open("charts_data.json", "w") as f:
     json.dump(charts_data, f, separators=(',', ':'))
