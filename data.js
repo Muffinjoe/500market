@@ -7558,7 +7558,7 @@ const MARKET_SUMMARY = {
         "low52": 4835.04,
         "ytd": -0.61
     },
-    "fearGreed": 0,
+    "fearGreed": 11,
     "fearGreedLabel": "Extreme Fear",
     "advancing": 135,
     "declining": 367,
@@ -7567,4 +7567,4 @@ const MARKET_SUMMARY = {
     "totalVolume": 466742031545
 };
 
-const DATA_LAST_UPDATED = "2026-03-04T13:35:07Z";
+const DATA_LAST_UPDATED = "2026-03-04T13:56:48Z";
