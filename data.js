@@ -353,7 +353,7 @@ const SP500_STOCKS = [
         "change1d": -2.32,
         "change7d": -3.3,
         "changeYtd": 16.52,
-        "marketCap": 373223063552,
+        "marketCap": 373822324736,
         "volume": 1822937560,
         "pe": 23.6,
         "color": "#0071CE",
@@ -1508,7 +1508,7 @@ const SP500_STOCKS = [
         "change1d": -2.42,
         "change7d": -1.4,
         "changeYtd": -2.04,
-        "marketCap": 120480792576,
+        "marketCap": 120464580608,
         "volume": 674673721,
         "pe": 31.0,
         "color": "#D52B1E",
@@ -7563,8 +7563,8 @@ const MARKET_SUMMARY = {
     "advancing": 135,
     "declining": 367,
     "high52Count": 51,
-    "totalMarketCap": 65807565942272,
+    "totalMarketCap": 65808148991488,
     "totalVolume": 466742031545
 };
 
-const DATA_LAST_UPDATED = "2026-03-04T13:56:48Z";
+const DATA_LAST_UPDATED = "2026-03-04T14:15:58Z";
