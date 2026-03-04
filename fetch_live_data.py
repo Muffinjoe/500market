@@ -253,8 +253,8 @@ except Exception as e:
 advancing = len([s for s in stocks if s["change1d"] > 0])
 declining = len([s for s in stocks if s["change1d"] < 0])
 adv_pct = advancing / len(stocks) * 100 if stocks else 50
-# Simple fear/greed: map advancing% to 0-100 scale (30% advancing = 0, 70% = 100)
-fear_greed = max(0, min(100, int((adv_pct - 30) * 2.5)))
+# Simple fear/greed: map advancing% to 0-100 scale (20% advancing = 0, 80% = 100)
+fear_greed = max(0, min(100, int((adv_pct - 20) / 60 * 100)))
 if fear_greed >= 75:
     fg_label = "Extreme Greed"
 elif fear_greed >= 55:
