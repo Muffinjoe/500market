@@ -10,6 +10,15 @@ import json, os, re
 with open("data.json", "r") as f:
     stocks = json.load(f)
 
+# Load chart data for embedding in stock pages
+try:
+    with open("charts_data.json", "r") as f:
+        ALL_CHARTS = json.load(f)
+    print(f"Loaded chart data for {len(ALL_CHARTS)} tickers")
+except FileNotFoundError:
+    ALL_CHARTS = {}
+    print("Warning: charts_data.json not found, stock pages will use fallback charts")
+
 # Load AI-generated descriptions
 try:
     with open("descriptions.json", "r") as f:
@@ -227,11 +236,13 @@ for stock in stocks:
 
         <div class="sp-chart">
             <div class="sp-chart-periods">
+                <button class="chart-period" data-d="1">1D</button>
                 <button class="chart-period" data-d="7">1W</button>
                 <button class="chart-period active" data-d="30">1M</button>
                 <button class="chart-period" data-d="90">3M</button>
                 <button class="chart-period" data-d="180">6M</button>
                 <button class="chart-period" data-d="365">1Y</button>
+                <button class="chart-period" data-d="1825">5Y</button>
             </div>
             <div class="sp-chart-area" id="stockChart"></div>
         </div>
@@ -323,20 +334,72 @@ for stock in stocks:
 
     <script>
     // Inline chart renderer for this stock
-    const STOCK = {json.dumps({"ticker": stock["ticker"], "price": stock["price"], "change7d": stock["change7d"]})};
+    const STOCK = {json.dumps({"ticker": stock["ticker"], "price": stock["price"], "change1d": stock["change1d"], "change7d": stock["change7d"]})};
+    const STOCK_CHART = {json.dumps(ALL_CHARTS.get(stock["ticker"], {}), separators=(',', ':'))};
+
+    function getStockChartData(days) {{
+        const entry = STOCK_CHART;
+        if (!entry) return null;
+        if (days === 1) {{
+            if (!entry.intraday || !entry.intraday.times) return null;
+            const {{ times, prices, date: iDate }} = entry.intraday;
+            const data = [];
+            for (let i = 0; i < times.length; i++) {{
+                const [hh, mm] = times[i].split(':').map(Number);
+                const d = new Date(iDate + 'T00:00:00');
+                d.setHours(hh, mm, 0, 0);
+                data.push({{ date: d, price: prices[i] }});
+            }}
+            return data.length > 2 ? data : null;
+        }}
+        if (!entry.daily || !entry.daily.prices || entry.daily.prices.length < 10) return null;
+        const {{ prices }} = entry.daily;
+        let sliced = days < prices.length ? prices.slice(prices.length - days) : prices;
+        let sampled = sliced;
+        if (sliced.length > 500) {{
+            const step = sliced.length / 250;
+            sampled = [];
+            for (let i = 0; i < 250; i++) sampled.push(sliced[Math.round(i * step)]);
+        }}
+        const data = [];
+        const dates = [];
+        let d = new Date();
+        while (dates.length < sampled.length) {{
+            const dow = d.getDay();
+            if (dow !== 0 && dow !== 6) dates.unshift(new Date(d));
+            d.setDate(d.getDate() - 1);
+        }}
+        for (let i = 0; i < sampled.length; i++) data.push({{ date: dates[i], price: sampled[i] }});
+        return data.length > 2 ? data : null;
+    }}
 
     function genChart(days) {{
-        let seed = 0;
-        for (let i = 0; i < STOCK.ticker.length; i++) seed += STOCK.ticker.charCodeAt(i) * (i + 1);
-        seed += days;
-        function rand() {{ seed = (seed * 16807) % 2147483647; return (seed & 0x7fffffff) / 0x7fffffff; }}
         const container = document.getElementById("stockChart");
         const w = container.clientWidth || 600, h = container.clientHeight || 220;
         const pT=10,pB=24,pL=55,pR=10, cW=w-pL-pR, cH=h-pT-pB;
-        let prices=[STOCK.price];
-        const vol=0.012, drift=STOCK.change7d>0?0.0004:-0.0003;
-        for(let i=1;i<days;i++) {{ const p=prices[i-1]; prices.push(p+p*((rand()-0.5)*2*vol-drift)); }}
-        prices.reverse();
+        // Try real data first
+        const realData = getStockChartData(days);
+        let prices, chartDates;
+        if (realData) {{
+            prices = realData.map(d => d.price);
+            chartDates = realData.map(d => d.date);
+        }} else {{
+            // Fallback: pseudorandom
+            let seed = 0;
+            for (let i = 0; i < STOCK.ticker.length; i++) seed += STOCK.ticker.charCodeAt(i) * (i + 1);
+            seed += days;
+            function rand() {{ seed = (seed * 16807) % 2147483647; return (seed & 0x7fffffff) / 0x7fffffff; }}
+            prices=[STOCK.price];
+            if (days===1) {{
+                const vol=0.003, drift=STOCK.change1d>=0?0.0001:-0.0001;
+                for(let i=1;i<26;i++) {{ const p=prices[i-1]; prices.push(p+p*((rand()-0.5)*2*vol-drift)); }}
+            }} else {{
+                const vol=0.012, drift=STOCK.change7d>0?0.0004:-0.0003;
+                for(let i=1;i<days;i++) {{ const p=prices[i-1]; prices.push(p+p*((rand()-0.5)*2*vol-drift)); }}
+            }}
+            prices.reverse();
+            chartDates = null;
+        }}
         const mn=Math.min(...prices),mx=Math.max(...prices),rng=mx-mn||1;
         const up=prices[prices.length-1]>=prices[0], col=up?"#16c784":"#ea3943";
         const pts=prices.map((p,i)=>{{const x=pL+(i/(prices.length-1))*cW; const y=pT+(1-(p-mn)/rng)*cH; return {{x,y}};}});
@@ -345,7 +408,11 @@ for stock in stocks:
         let yL="",gL="";
         for(let i=0;i<=4;i++){{const v=mn+(rng*i/4);const y=pT+(1-i/4)*cH;yL+=`<text x="${{pL-8}}" y="${{y+4}}" text-anchor="end" fill="#9ca3af" font-size="11" font-family="system-ui">$${{v.toFixed(0)}}</text>`;gL+=`<line x1="${{pL}}" y1="${{y}}" x2="${{w-pR}}" y2="${{y}}" stroke="#f3f4f6" stroke-width="1"/>`;}}
         let xL="";const lc=Math.min(6,prices.length);const now=new Date();
-        for(let i=0;i<lc;i++){{const idx=Math.round(i*(prices.length-1)/(lc-1));const d=new Date(now);d.setDate(d.getDate()-(prices.length-1-idx));const x=pts[idx].x;const label=days<=30?`${{d.getMonth()+1}}/${{d.getDate()}}`:d.toLocaleDateString("en-US",{{month:"short",day:"numeric"}});xL+=`<text x="${{x}}" y="${{h-4}}" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="system-ui">${{label}}</text>`;}}
+        for(let i=0;i<lc;i++){{const idx=Math.round(i*(prices.length-1)/(lc-1));const x=pts[idx].x;let label;
+        if(chartDates){{const d=chartDates[idx];label=days===1?d.toLocaleTimeString("en-US",{{hour:"numeric",minute:"2-digit"}}):days<=30?`${{d.getMonth()+1}}/${{d.getDate()}}`:d.toLocaleDateString("en-US",{{month:"short",day:"numeric"}});}}
+        else if(days===1){{const d=new Date(now);d.setHours(9,30,0,0);d.setMinutes(d.getMinutes()+idx*15);label=d.toLocaleTimeString("en-US",{{hour:"numeric",minute:"2-digit"}});}}
+        else{{const d=new Date(now);d.setDate(d.getDate()-(prices.length-1-idx));label=days<=30?`${{d.getMonth()+1}}/${{d.getDate()}}`:d.toLocaleDateString("en-US",{{month:"short",day:"numeric"}});}}
+        xL+=`<text x="${{x}}" y="${{h-4}}" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="system-ui">${{label}}</text>`;}}
         const lp=pts[pts.length-1];
         container.innerHTML=`<svg viewBox="0 0 ${{w}} ${{h}}"><defs><linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="${{col}}" stop-opacity="0.2"/><stop offset="100%" stop-color="${{col}}" stop-opacity="0.01"/></linearGradient></defs>${{gL}}${{yL}}${{xL}}<path d="${{fillD}}" fill="url(#g1)"/><path d="${{pathD}}" fill="none" stroke="${{col}}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="${{lp.x}}" cy="${{lp.y}}" r="4.5" fill="${{col}}"/><circle cx="${{lp.x}}" cy="${{lp.y}}" r="8" fill="${{col}}" opacity="0.15"/></svg>`;
     }}

@@ -95,8 +95,95 @@ function formatChange(val) {
 }
 
 // Generate a deterministic sparkline from stock data
+// ---- Real Chart Data Helper ----
+function getChartDataFromHistory(ticker, days) {
+    const cd = typeof CHARTS_DATA !== 'undefined' ? CHARTS_DATA : (typeof STOCK_CHART !== 'undefined' ? { [ticker]: STOCK_CHART } : null);
+    if (!cd || !cd[ticker]) return null;
+    const entry = cd[ticker];
+
+    if (days === 1) {
+        // Intraday
+        if (!entry.intraday || !entry.intraday.times || !entry.intraday.prices) return null;
+        const { times, prices, date: iDate } = entry.intraday;
+        const data = [];
+        for (let i = 0; i < times.length; i++) {
+            const [hh, mm] = times[i].split(':').map(Number);
+            const d = new Date(iDate + 'T00:00:00');
+            d.setHours(hh, mm, 0, 0);
+            data.push({ date: d, price: prices[i] });
+        }
+        return data.length > 2 ? data : null;
+    }
+
+    // Daily data
+    if (!entry.daily || !entry.daily.prices || entry.daily.prices.length < 10) return null;
+    const { start, prices } = entry.daily;
+
+    // Slice from end for requested period
+    let sliced = prices;
+    if (days < prices.length) {
+        sliced = prices.slice(prices.length - days);
+    }
+
+    // Downsample 5Y to ~250 points for performance
+    let sampled = sliced;
+    if (sliced.length > 500) {
+        const step = sliced.length / 250;
+        sampled = [];
+        for (let i = 0; i < 250; i++) {
+            sampled.push(sliced[Math.round(i * step)]);
+        }
+    }
+
+    // Reconstruct dates (skip weekends)
+    const data = [];
+    const endDate = new Date();
+    // Walk backwards from today, skipping weekends
+    const dates = [];
+    let d = new Date(endDate);
+    while (dates.length < sampled.length) {
+        const dow = d.getDay();
+        if (dow !== 0 && dow !== 6) dates.unshift(new Date(d));
+        d.setDate(d.getDate() - 1);
+    }
+    for (let i = 0; i < sampled.length; i++) {
+        data.push({ date: dates[i], price: sampled[i] });
+    }
+    return data.length > 2 ? data : null;
+}
+
 function generateSparkline(stock) {
     const w = 120, h = 32;
+
+    // Try real 7-day data first
+    const cd = typeof CHARTS_DATA !== 'undefined' ? CHARTS_DATA : null;
+    if (cd && cd[stock.ticker] && cd[stock.ticker].daily) {
+        const prices = cd[stock.ticker].daily.prices;
+        const last7 = prices.slice(-7);
+        if (last7.length >= 5) {
+            const min = Math.min(...last7);
+            const max = Math.max(...last7);
+            const range = max - min || 1;
+            const normalized = last7.map(v => ((v - min) / range) * (h - 4) + 2);
+            const stepX = w / (last7.length - 1);
+            let pathD = '';
+            normalized.forEach((y, i) => {
+                const x = i * stepX;
+                const yFlip = h - y;
+                pathD += i === 0 ? `M${x},${yFlip}` : ` L${x},${yFlip}`;
+            });
+            const color = last7[last7.length - 1] >= last7[0] ? '#16c784' : '#ea3943';
+            const fillD = pathD + ` L${w},${h} L0,${h} Z`;
+            const gradId = `grad-${stock.ticker}`;
+            return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg">
+                <defs><linearGradient id="${gradId}" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="${color}" stop-opacity="0.15"/><stop offset="100%" stop-color="${color}" stop-opacity="0"/></linearGradient></defs>
+                <path d="${fillD}" fill="url(#${gradId})"/>
+                <path d="${pathD}" fill="none" stroke="${color}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>`;
+        }
+    }
+
+    // Fallback: pseudorandom sparkline
     const points = 28;
     const data = [];
 
@@ -637,6 +724,11 @@ function getStockDescription(stock) {
 }
 
 function generateStockChartData(stock, days) {
+    // Try real historical data first
+    const real = getChartDataFromHistory(stock.ticker, days);
+    if (real) return real;
+
+    // Fallback: pseudorandom
     let seed = 0;
     for (let i = 0; i < stock.ticker.length; i++) seed += stock.ticker.charCodeAt(i) * (i + 1);
     seed += days;
@@ -646,6 +738,25 @@ function generateStockChartData(stock, days) {
     }
     const data = [];
     const endPrice = stock.price;
+    if (days === 1) {
+        const points = 26;
+        const vol = 0.003;
+        const drift = stock.change1d >= 0 ? 0.0001 : -0.0001;
+        let prices = [endPrice];
+        for (let i = 1; i < points; i++) {
+            const prev = prices[i - 1];
+            prices.push(prev + prev * ((rand() - 0.5) * 2 * vol - drift));
+        }
+        prices.reverse();
+        const now = new Date();
+        const marketOpen = new Date(now); marketOpen.setHours(9, 30, 0, 0);
+        for (let i = 0; i < prices.length; i++) {
+            const d = new Date(marketOpen);
+            d.setMinutes(d.getMinutes() + i * 15);
+            data.push({ date: d, price: prices[i] });
+        }
+        return data;
+    }
     const vol = 0.012;
     const drift = stock.change7d > 0 ? 0.0004 : -0.0003;
     let prices = [endPrice];
@@ -701,7 +812,9 @@ function renderDetailChart(stock, days) {
         const idx = Math.round(i * (data.length - 1) / (lc - 1));
         const d = data[idx].date;
         const x = points[idx].x;
-        const label = days <= 30
+        const label = days === 1
+            ? d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })
+            : days <= 30
             ? `${d.getMonth() + 1}/${d.getDate()}`
             : d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
         xLabels += `<text x="${x}" y="${h - 4}" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="system-ui">${label}</text>`;
@@ -768,11 +881,13 @@ function openDetail(stock) {
 
         <div class="detail-chart-wrap">
             <div class="detail-chart-periods">
+                <button class="chart-period" data-d="1">1D</button>
                 <button class="chart-period" data-d="7">1W</button>
                 <button class="chart-period active" data-d="30">1M</button>
                 <button class="chart-period" data-d="90">3M</button>
                 <button class="chart-period" data-d="180">6M</button>
                 <button class="chart-period" data-d="365">1Y</button>
+                <button class="chart-period" data-d="1825">5Y</button>
             </div>
             <div class="detail-chart-area"></div>
         </div>
@@ -886,20 +1001,44 @@ document.addEventListener('keydown', (e) => {
 // ---- S&P 500 Index Chart ----
 
 function generateIndexData(days) {
+    // Try real ^GSPC historical data first
+    const real = getChartDataFromHistory('^GSPC', days);
+    if (real) return real;
+
+    // Fallback: pseudorandom
     const data = [];
-    let seed = 42;
+    let seed = 42 + days;
     function rand() {
         seed = (seed * 16807) % 2147483647;
         return (seed & 0x7fffffff) / 0x7fffffff;
     }
 
-    // Use real index price from MARKET_SUMMARY if available
     const ms = typeof MARKET_SUMMARY !== 'undefined' ? MARKET_SUMMARY : null;
     const endPrice = (ms && ms.index) ? ms.index.price : 5954.50;
+
+    if (days === 1) {
+        const points = 26;
+        const vol = 0.002;
+        const drift = (ms && ms.index && ms.index.changePct >= 0) ? 0.0001 : -0.0001;
+        let prices = [endPrice];
+        for (let i = 1; i < points; i++) {
+            const prev = prices[i - 1];
+            prices.push(prev + prev * ((rand() - 0.5) * 2 * vol - drift));
+        }
+        prices.reverse();
+        const now = new Date();
+        const marketOpen = new Date(now); marketOpen.setHours(9, 30, 0, 0);
+        for (let i = 0; i < prices.length; i++) {
+            const d = new Date(marketOpen);
+            d.setMinutes(d.getMinutes() + i * 15);
+            data.push({ date: d, price: prices[i] });
+        }
+        return data;
+    }
+
     const dailyVol = 0.008;
     const drift = (ms && ms.index && ms.index.changePct >= 0) ? 0.0003 : -0.0003;
 
-    // Generate forward then reverse so end = current price
     let prices = [endPrice];
     for (let i = 1; i < days; i++) {
         const prev = prices[i - 1];
@@ -908,7 +1047,6 @@ function generateIndexData(days) {
     }
     prices.reverse();
 
-    // Build with dates
     const now = new Date();
     for (let i = 0; i < prices.length; i++) {
         const d = new Date(now);
@@ -966,7 +1104,9 @@ function renderIndexChart(days) {
         const idx = Math.round(i * (data.length - 1) / (labelCount - 1));
         const d = data[idx].date;
         const x = points[idx].x;
-        const label = days <= 30
+        const label = days === 1
+            ? d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })
+            : days <= 30
             ? `${d.getMonth() + 1}/${d.getDate()}`
             : d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
         xLabels += `<text x="${x}" y="${h - 4}" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="system-ui">${label}</text>`;

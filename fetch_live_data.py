@@ -327,6 +327,115 @@ with open("data.js", "w") as f:
     f.write(js_content)
 print(f"  Wrote data.js")
 
+# ---- Step 3b: Fetch historical chart data ----
+print(f"\n[3b/5] Fetching historical chart data...")
+from datetime import datetime, timedelta
+
+charts_data = {}
+
+# Fetch daily history (5 years) for all stocks + ^GSPC in one batch
+all_chart_tickers = yahoo_tickers + ["^GSPC"]
+print(f"  Downloading 5Y daily data for {len(all_chart_tickers)} tickers...")
+try:
+    daily_data = yf.download(
+        " ".join(all_chart_tickers),
+        period="5y", interval="1d",
+        group_by="ticker", progress=False, threads=True
+    )
+    print(f"  Daily data downloaded")
+except Exception as e:
+    print(f"  Error downloading daily data: {e}")
+    daily_data = None
+
+# Fetch intraday (1 day, 15min intervals)
+print(f"  Downloading 1D intraday data...")
+try:
+    intra_data = yf.download(
+        " ".join(all_chart_tickers),
+        period="1d", interval="15m",
+        group_by="ticker", progress=False, threads=True
+    )
+    print(f"  Intraday data downloaded")
+except Exception as e:
+    print(f"  Error downloading intraday data: {e}")
+    intra_data = None
+
+# Process each ticker
+def process_ticker_charts(display_ticker, yahoo_ticker, daily_df, intra_df):
+    """Extract chart data for a single ticker."""
+    entry = {}
+
+    # Daily data
+    if daily_df is not None:
+        try:
+            if len(all_chart_tickers) > 1:
+                try:
+                    td = daily_df[yahoo_ticker] if yahoo_ticker in daily_df.columns.get_level_values(0) else None
+                except:
+                    td = None
+            else:
+                td = daily_df
+
+            if td is not None and not td.empty:
+                closes = td["Close"].dropna()
+                if len(closes) > 10:
+                    prices = [round(float(p), 2) for p in closes.values]
+                    start_date = str(closes.index[0].date())
+                    entry["daily"] = {"start": start_date, "prices": prices}
+        except Exception as e:
+            pass
+
+    # Intraday data
+    if intra_df is not None:
+        try:
+            if len(all_chart_tickers) > 1:
+                try:
+                    ti = intra_df[yahoo_ticker] if yahoo_ticker in intra_df.columns.get_level_values(0) else None
+                except:
+                    ti = None
+            else:
+                ti = intra_df
+
+            if ti is not None and not ti.empty:
+                closes = ti["Close"].dropna()
+                if len(closes) > 2:
+                    times = [t.strftime("%H:%M") for t in closes.index]
+                    prices = [round(float(p), 2) for p in closes.values]
+                    intra_date = str(closes.index[0].date())
+                    entry["intraday"] = {"date": intra_date, "times": times, "prices": prices}
+        except Exception as e:
+            pass
+
+    return entry if entry else None
+
+# Process S&P 500 index
+idx_entry = process_ticker_charts("^GSPC", "^GSPC", daily_data, intra_data)
+if idx_entry:
+    charts_data["^GSPC"] = idx_entry
+    print(f"  ^GSPC: {len(idx_entry.get('daily',{}).get('prices',[]))} daily, {len(idx_entry.get('intraday',{}).get('prices',[]))} intraday")
+
+# Process all stocks
+processed_charts = 0
+for ticker, yahoo_ticker in zip(tickers, yahoo_tickers):
+    entry = process_ticker_charts(ticker, yahoo_ticker, daily_data, intra_data)
+    if entry:
+        charts_data[ticker] = entry
+        processed_charts += 1
+
+print(f"  Chart data for {processed_charts} stocks + index")
+
+# Write charts_data.json (for generate.py)
+with open("charts_data.json", "w") as f:
+    json.dump(charts_data, f, separators=(',', ':'))
+print(f"  Wrote charts_data.json ({os.path.getsize('charts_data.json') / 1e6:.1f} MB)")
+
+# Write charts_data.js (for homepage)
+with open("charts_data.js", "w") as f:
+    f.write("const CHARTS_DATA = ")
+    json.dump(charts_data, f, separators=(',', ':'))
+    f.write(";\n")
+print(f"  Wrote charts_data.js ({os.path.getsize('charts_data.js') / 1e6:.1f} MB)")
+
 # ---- Step 4: Generate descriptions for new stocks ----
 print(f"\n[4/5] Checking descriptions...")
 try:
