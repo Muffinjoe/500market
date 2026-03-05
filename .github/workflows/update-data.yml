@@ -45,7 +45,7 @@ jobs:
           git config user.email "bot@500market.com"
           git add -A
           if ! git diff --staged --quiet; then
-            git commit -m "Update S&P 500 data - $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git commit -m "Update S&P 500 data - $(date -u '+%Y-%m-%d %H:%M UTC')[skip netlify]"
             git push
           else
             echo "No changes to commit"
