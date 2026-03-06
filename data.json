@@ -9,8 +9,8 @@
     "change7d": -6.25,
     "changeYtd": -3.05,
     "marketCap": 4456078901248,
-    "volume": 32269265007,
-    "pe": 37.3,
+    "volume": 32338758932,
+    "pe": 37.4,
     "color": "#3861FB",
     "domain": "nvidia.com"
   },
@@ -24,7 +24,7 @@
     "change7d": -5.08,
     "changeYtd": 0.08,
     "marketCap": 3825723244544,
-    "volume": 12522880797,
+    "volume": 12529366703,
     "pe": 32.9,
     "color": "#3861FB",
     "domain": "apple.com"
@@ -39,7 +39,7 @@
     "change7d": -3.87,
     "changeYtd": -6.67,
     "marketCap": 3640108515328,
-    "volume": 6579010861,
+    "volume": 6582941949,
     "pe": 27.9,
     "color": "#4285F4",
     "domain": "google.com"
@@ -54,8 +54,8 @@
     "change7d": -3.84,
     "changeYtd": -6.55,
     "marketCap": 3639745445888,
-    "volume": 10350481580,
-    "pe": 27.8,
+    "volume": 10357229416,
+    "pe": 27.9,
     "color": "#4285F4",
     "domain": "google.com"
   },
@@ -69,7 +69,7 @@
     "change7d": 2.52,
     "changeYtd": -14.86,
     "marketCap": 3052328976384,
-    "volume": 13693286979,
+    "volume": 13731796442,
     "pe": 25.7,
     "color": "#3861FB",
     "domain": "microsoft.com"
@@ -84,8 +84,8 @@
     "change7d": 3.94,
     "changeYtd": -9.36,
     "marketCap": 2350303674368,
-    "volume": 10516972838,
-    "pe": 30.5,
+    "volume": 10564069679,
+    "pe": 30.6,
     "color": "#FF9900",
     "domain": "amazon.com"
   },
@@ -99,7 +99,7 @@
     "change7d": 1.05,
     "changeYtd": 1.83,
     "marketCap": 1670948454400,
-    "volume": 10088515802,
+    "volume": 10067113994,
     "pe": 28.1,
     "color": "#4285F4",
     "domain": "meta.com"
@@ -114,7 +114,7 @@
     "change7d": 0.14,
     "changeYtd": -3.12,
     "marketCap": 1577753509888,
-    "volume": 10365935569,
+    "volume": 10513034546,
     "pe": 69.9,
     "color": "#3861FB",
     "domain": "broadcom.com"
@@ -129,8 +129,8 @@
     "change7d": -2.84,
     "changeYtd": -5.99,
     "marketCap": 1521798742016,
-    "volume": 26654090812,
-    "pe": 368.7,
+    "volume": 26560909619,
+    "pe": 372.1,
     "color": "#FF9900",
     "domain": "tesla.com"
   },
@@ -144,7 +144,7 @@
     "change7d": 1.3,
     "changeYtd": 0.86,
     "marketCap": 1079530291200,
-    "volume": 2432994810,
+    "volume": 2467129595,
     "pe": 16.0,
     "color": "#003087",
     "domain": "berkshirehathaway.com"
@@ -159,8 +159,8 @@
     "change7d": -1.94,
     "changeYtd": 9.39,
     "marketCap": 983132274688,
-    "volume": 3828497236,
-    "pe": 45.0,
+    "volume": 3823459036,
+    "pe": 45.2,
     "color": "#0071CE",
     "domain": "walmart.com"
   },
@@ -174,8 +174,8 @@
     "change7d": -4.43,
     "changeYtd": -11.12,
     "marketCap": 880036151296,
-    "volume": 3153447591,
-    "pe": 42.8,
+    "volume": 3162715800,
+    "pe": 42.9,
     "color": "#D52B1E",
     "domain": "lilly.com"
   },
@@ -189,7 +189,7 @@
     "change7d": -3.21,
     "changeYtd": -10.23,
     "marketCap": 791713873920,
-    "volume": 3210866498,
+    "volume": 3219584346,
     "pe": 14.7,
     "color": "#003087",
     "domain": "jpmorganchase.com"
@@ -204,7 +204,7 @@
     "change7d": 1.14,
     "changeYtd": 28.08,
     "marketCap": 628181237760,
-    "volume": 2991408907,
+    "volume": 2999182394,
     "pe": 22.5,
     "color": "#ED1B2D",
     "domain": "exxonmobil.com"
@@ -219,8 +219,8 @@
     "change7d": 2.18,
     "changeYtd": -9.95,
     "marketCap": 616587001856,
-    "volume": 2491378779,
-    "pe": 30.1,
+    "volume": 2493923747,
+    "pe": 30.0,
     "color": "#003087",
     "domain": "visa.com"
   },
@@ -234,7 +234,7 @@
     "change7d": -2.26,
     "changeYtd": 16.11,
     "marketCap": 577484095488,
-    "volume": 2144207127,
+    "volume": 2145874232,
     "pe": 21.7,
     "color": "#D52B1E",
     "domain": "jnj.com"
@@ -249,8 +249,8 @@
     "change7d": 3.0,
     "changeYtd": -9.39,
     "marketCap": 468226342912,
-    "volume": 1963143831,
-    "pe": 31.8,
+    "volume": 1964346876,
+    "pe": 31.7,
     "color": "#003087",
     "domain": "mastercard.com"
   },
@@ -264,8 +264,8 @@
     "change7d": -7.45,
     "changeYtd": 16.93,
     "marketCap": 446883430400,
-    "volume": 13474140286,
-    "pe": 37.8,
+    "volume": 13448472195,
+    "pe": 37.7,
     "color": "#3861FB",
     "domain": "micron.com"
   },
@@ -279,7 +279,7 @@
     "change7d": 4.67,
     "changeYtd": -19.52,
     "marketCap": 444880519168,
-    "volume": 4460072119,
+    "volume": 4447731178,
     "pe": 29.1,
     "color": "#3861FB",
     "domain": "oracle.com"
@@ -294,8 +294,8 @@
     "change7d": -1.23,
     "changeYtd": 11.33,
     "marketCap": 436219510784,
-    "volume": 2572882163,
-    "pe": 52.8,
+    "volume": 2575333675,
+    "pe": 52.6,
     "color": "#0071CE",
     "domain": "costco.com"
   },
@@ -309,7 +309,7 @@
     "change7d": 19.92,
     "changeYtd": 9.3,
     "marketCap": 420668178432,
-    "volume": 5061190937,
+    "volume": 5065050732,
     "pe": 39.2,
     "color": "#4285F4",
     "domain": "netflix.com"
@@ -324,8 +324,8 @@
     "change7d": 2.39,
     "changeYtd": 0.34,
     "marketCap": 410834075648,
-    "volume": 1545246271,
-    "pe": 98.5,
+    "volume": 1555985953,
+    "pe": 98.0,
     "color": "#D52B1E",
     "domain": "abbvie.com"
   },
@@ -339,8 +339,8 @@
     "change7d": 3.08,
     "changeYtd": 23.55,
     "marketCap": 379677245440,
-    "volume": 2066922616,
-    "pe": 28.7,
+    "volume": 2075394435,
+    "pe": 28.6,
     "color": "#ED1B2D",
     "domain": "chevron.com"
   },
@@ -354,7 +354,7 @@
     "change7d": 13.77,
     "changeYtd": -15.97,
     "marketCap": 365137100800,
-    "volume": 7249515626,
+    "volume": 7257716600,
     "pe": 242.3,
     "color": "#3861FB",
     "domain": "palantir.com"
@@ -369,7 +369,7 @@
     "change7d": -3.64,
     "changeYtd": -10.48,
     "marketCap": 363737317376,
-    "volume": 2005930294,
+    "volume": 2004901418,
     "pe": 13.1,
     "color": "#003087",
     "domain": "bankofamerica.com"
@@ -384,7 +384,7 @@
     "change7d": -5.75,
     "changeYtd": 12.34,
     "marketCap": 360411365376,
-    "volume": 1746998287,
+    "volume": 1743675183,
     "pe": 22.8,
     "color": "#0071CE",
     "domain": "pg.com"
@@ -399,8 +399,8 @@
     "change7d": -3.7,
     "changeYtd": 3.62,
     "marketCap": 360056586240,
-    "volume": 1586369317,
-    "pe": 25.4,
+    "volume": 1588579182,
+    "pe": 25.5,
     "color": "#FF9900",
     "domain": "homedepot.com"
   },
@@ -414,8 +414,8 @@
     "change7d": -4.64,
     "changeYtd": 1.04,
     "marketCap": 344913575936,
-    "volume": 1768886032,
-    "pe": 40.6,
+    "volume": 1765702130,
+    "pe": 40.7,
     "color": "#0039A6",
     "domain": "ge.com"
   },
@@ -429,7 +429,7 @@
     "change7d": -4.27,
     "changeYtd": 14.05,
     "marketCap": 331352932352,
-    "volume": 1414204531,
+    "volume": 1420363080,
     "pe": 25.3,
     "color": "#0071CE",
     "domain": "coca-colacompany.com"
@@ -444,8 +444,8 @@
     "change7d": -7.9,
     "changeYtd": 18.64,
     "marketCap": 330431037440,
-    "volume": 1993220111,
-    "pe": 37.5,
+    "volume": 2003703281,
+    "pe": 37.6,
     "color": "#0039A6",
     "domain": "caterpillar.com"
   },
@@ -459,7 +459,7 @@
     "change7d": -5.41,
     "changeYtd": -5.03,
     "marketCap": 325185437696,
-    "volume": 7215245249,
+    "volume": 7214738247,
     "pe": 76.4,
     "color": "#3861FB",
     "domain": "amd.com"
@@ -474,7 +474,7 @@
     "change7d": 1.12,
     "changeYtd": 7.08,
     "marketCap": 316127084544,
-    "volume": 1830981933,
+    "volume": 1836250031,
     "pe": 28.8,
     "color": "#3861FB",
     "domain": "cisco.com"
@@ -489,7 +489,7 @@
     "change7d": -5.22,
     "changeYtd": 6.88,
     "marketCap": 286970544128,
-    "volume": 1534144774,
+    "volume": 1536658038,
     "pe": 15.9,
     "color": "#D52B1E",
     "domain": "merck.com"
@@ -504,8 +504,8 @@
     "change7d": -12.26,
     "changeYtd": 18.74,
     "marketCap": 275009634304,
-    "volume": 2626493284,
-    "pe": 35.5,
+    "volume": 2616807424,
+    "pe": 35.6,
     "color": "#3861FB",
     "domain": "appliedmaterials.com"
   },
@@ -519,8 +519,8 @@
     "change7d": 4.02,
     "changeYtd": 10.12,
     "marketCap": 273638752256,
-    "volume": 1220098841,
-    "pe": 41.0,
+    "volume": 1223312898,
+    "pe": 41.2,
     "color": "#0039A6",
     "domain": "rtx.com"
   },
@@ -534,8 +534,8 @@
     "change7d": -13.85,
     "changeYtd": 5.84,
     "marketCap": 269644496896,
-    "volume": 2524819621,
-    "pe": 44.2,
+    "volume": 2519376195,
+    "pe": 44.1,
     "color": "#3861FB",
     "domain": "lamresearch.com"
   },
@@ -549,8 +549,8 @@
     "change7d": -10.59,
     "changeYtd": 9.38,
     "marketCap": 264168521728,
-    "volume": 952096572,
-    "pe": 23.3,
+    "volume": 960319555,
+    "pe": 23.4,
     "color": "#0071CE",
     "domain": "pmi.com"
   },
@@ -564,7 +564,7 @@
     "change7d": 1.61,
     "changeYtd": -15.49,
     "marketCap": 261578997760,
-    "volume": 2583692375,
+    "volume": 2566632710,
     "pe": 21.8,
     "color": "#D52B1E",
     "domain": "unitedhealthgroup.com"
@@ -579,7 +579,7 @@
     "change7d": -6.44,
     "changeYtd": -12.04,
     "marketCap": 258106687488,
-    "volume": 1128052645,
+    "volume": 1128962274,
     "pe": 15.9,
     "color": "#003087",
     "domain": "morganstanley.com"
@@ -594,7 +594,7 @@
     "change7d": -5.36,
     "changeYtd": -12.49,
     "marketCap": 257750237184,
-    "volume": 1305287489,
+    "volume": 1312168553,
     "pe": 13.1,
     "color": "#003087",
     "domain": "wellsfargo.com"
@@ -608,8 +608,8 @@
     "change1d": -3.67,
     "change7d": -8.85,
     "changeYtd": -10.75,
-    "marketCap": 252911370240,
-    "volume": 2018021100,
+    "marketCap": 250578288640,
+    "volume": 2027465140,
     "pe": 16.3,
     "color": "#003087",
     "domain": "goldmansachs.com"
@@ -624,7 +624,7 @@
     "change7d": 1.34,
     "changeYtd": 12.32,
     "marketCap": 246675439616,
-    "volume": 1377675405,
+    "volume": 1374678266,
     "pe": 22.7,
     "color": "#4285F4",
     "domain": "t-mobile.com"
@@ -639,7 +639,7 @@
     "change7d": 8.0,
     "changeYtd": -13.05,
     "marketCap": 240652713984,
-    "volume": 1381453698,
+    "volume": 1400749079,
     "pe": 23.1,
     "color": "#3861FB",
     "domain": "ibm.com"
@@ -654,7 +654,7 @@
     "change7d": -1.12,
     "changeYtd": 8.26,
     "marketCap": 233669771264,
-    "volume": 1088678294,
+    "volume": 1094124443,
     "pe": 27.4,
     "color": "#FF9900",
     "domain": "mcdonalds.com"
@@ -669,7 +669,7 @@
     "change7d": -1.98,
     "changeYtd": 7.79,
     "marketCap": 229528453120,
-    "volume": 4664702091,
+    "volume": 4646876524,
     "pe": null,
     "color": "#3861FB",
     "domain": "intel.com"
@@ -684,8 +684,8 @@
     "change7d": -3.58,
     "changeYtd": 12.88,
     "marketCap": 227090939904,
-    "volume": 1406860810,
-    "pe": 33.5,
+    "volume": 1414326874,
+    "pe": 33.6,
     "color": "#8A6D3B",
     "domain": "linde.com"
   },
@@ -699,7 +699,7 @@
     "change7d": -6.96,
     "changeYtd": 18.75,
     "marketCap": 221128884224,
-    "volume": 2576941029,
+    "volume": 2577542506,
     "pe": 46.1,
     "color": "#0039A6",
     "domain": "gevernova.com"
@@ -714,7 +714,7 @@
     "change7d": -5.01,
     "changeYtd": 17.29,
     "marketCap": 219731558400,
-    "volume": 1384978942,
+    "volume": 1380955818,
     "pe": 26.8,
     "color": "#0071CE",
     "domain": "pepsico.com"
@@ -729,7 +729,7 @@
     "change7d": 3.96,
     "changeYtd": 29.73,
     "marketCap": 215861084160,
-    "volume": 1604084337,
+    "volume": 1600828930,
     "pe": 12.6,
     "color": "#4285F4",
     "domain": "verizon.com"
@@ -744,7 +744,7 @@
     "change7d": -6.08,
     "changeYtd": -18.77,
     "marketCap": 211622100992,
-    "volume": 1028674223,
+    "volume": 1035102592,
     "pe": 20.0,
     "color": "#003087",
     "domain": "americanexpress.com"
@@ -759,7 +759,7 @@
     "change7d": 3.95,
     "changeYtd": 22.29,
     "marketCap": 205381353472,
-    "volume": 1248464524,
+    "volume": 1250096752,
     "pe": 9.5,
     "color": "#4285F4",
     "domain": "att.com"
@@ -774,8 +774,8 @@
     "change7d": -4.35,
     "changeYtd": 8.34,
     "marketCap": 198161268736,
-    "volume": 1061840555,
-    "pe": 25.9,
+    "volume": 1061717041,
+    "pe": 25.8,
     "color": "#D52B1E",
     "domain": "amgen.com"
   },
@@ -789,7 +789,7 @@
     "change7d": 1.0,
     "changeYtd": -15.93,
     "marketCap": 194932375552,
-    "volume": 1144789388,
+    "volume": 1154105161,
     "pe": 29.2,
     "color": "#D52B1E",
     "domain": "thermofisher.com"
@@ -804,28 +804,13 @@
     "change7d": -3.24,
     "changeYtd": -12.15,
     "marketCap": 192952320000,
-    "volume": 1026534272,
+    "volume": 1024247181,
     "pe": 29.8,
     "color": "#D52B1E",
     "domain": "abbott.com"
   },
   {
     "rank": 55,
-    "name": "Salesforce",
-    "ticker": "CRM",
-    "sector": "Information Technology",
-    "price": 201.39,
-    "change1d": 4.3,
-    "change7d": 5.03,
-    "changeYtd": -24.32,
-    "marketCap": 191723274240,
-    "volume": 2197830688,
-    "pe": 26.9,
-    "color": "#3861FB",
-    "domain": "salesforce.com"
-  },
-  {
-    "rank": 56,
     "name": "Citigroup",
     "ticker": "C",
     "sector": "Financials",
@@ -834,13 +819,13 @@
     "change7d": -4.71,
     "changeYtd": -10.23,
     "marketCap": 190588305408,
-    "volume": 1611990707,
+    "volume": 1613364348,
     "pe": 15.6,
     "color": "#003087",
     "domain": "citigroup.com"
   },
   {
-    "rank": 57,
+    "rank": 56,
     "name": "NextEra Energy",
     "ticker": "NEE",
     "sector": "Utilities",
@@ -849,10 +834,25 @@
     "change7d": -3.53,
     "changeYtd": 17.07,
     "marketCap": 189871341568,
-    "volume": 912515008,
+    "volume": 915665099,
     "pe": 27.6,
     "color": "#00529B",
     "domain": "nexteraenergy.com"
+  },
+  {
+    "rank": 57,
+    "name": "Salesforce",
+    "ticker": "CRM",
+    "sector": "Information Technology",
+    "price": 201.39,
+    "change1d": 4.3,
+    "change7d": 5.03,
+    "changeYtd": -24.32,
+    "marketCap": 188702425088,
+    "volume": 2214446169,
+    "pe": 25.9,
+    "color": "#3861FB",
+    "domain": "salesforce.com"
   },
   {
     "rank": 58,
@@ -864,8 +864,8 @@
     "change7d": -7.59,
     "changeYtd": 5.26,
     "marketCap": 187806941184,
-    "volume": 1526547888,
-    "pe": 41.6,
+    "volume": 1526779444,
+    "pe": 41.7,
     "color": "#3861FB",
     "domain": "kla.com"
   },
@@ -879,7 +879,7 @@
     "change7d": -2.51,
     "changeYtd": -9.3,
     "marketCap": 181612576768,
-    "volume": 1197583197,
+    "volume": 1197692673,
     "pe": 15.1,
     "color": "#4285F4",
     "domain": "thewaltdisneycompany.com"
@@ -894,7 +894,7 @@
     "change7d": -1.35,
     "changeYtd": 16.72,
     "marketCap": 180179779584,
-    "volume": 1083753408,
+    "volume": 1082478498,
     "pe": 21.4,
     "color": "#D52B1E",
     "domain": "gilead.com"
@@ -909,7 +909,7 @@
     "change7d": -7.44,
     "changeYtd": 6.61,
     "marketCap": 179889192960,
-    "volume": 1527060490,
+    "volume": 1528182839,
     "pe": 36.4,
     "color": "#3861FB",
     "domain": "ti.com"
@@ -924,7 +924,7 @@
     "change7d": 3.28,
     "changeYtd": 4.77,
     "marketCap": 179105218560,
-    "volume": 841585810,
+    "volume": 845080405,
     "pe": 33.0,
     "color": "#FF9900",
     "domain": "tjx.com"
@@ -939,8 +939,8 @@
     "change7d": -1.87,
     "changeYtd": -16.14,
     "marketCap": 176393191424,
-    "volume": 950720579,
-    "pe": 63.1,
+    "volume": 947634085,
+    "pe": 63.3,
     "color": "#D52B1E",
     "domain": "intuitive.com"
   },
@@ -954,7 +954,7 @@
     "change7d": 4.9,
     "changeYtd": 7.16,
     "marketCap": 175544336384,
-    "volume": 1099061195,
+    "volume": 1100242750,
     "pe": 50.7,
     "color": "#3861FB",
     "domain": "arista.com"
@@ -969,28 +969,13 @@
     "change7d": -3.6,
     "changeYtd": -2.66,
     "marketCap": 174394163200,
-    "volume": 1618459643,
-    "pe": 89.5,
+    "volume": 1618074591,
+    "pe": 89.2,
     "color": "#0039A6",
     "domain": "boeing.com"
   },
   {
     "rank": 66,
-    "name": "Charles Schwab Corporation",
-    "ticker": "SCHW",
-    "sector": "Financials",
-    "price": 95.41,
-    "change1d": -0.66,
-    "change7d": 0.06,
-    "changeYtd": -6.08,
-    "marketCap": 173190086656,
-    "volume": 1021447191,
-    "pe": 20.5,
-    "color": "#003087",
-    "domain": "schwab.com"
-  },
-  {
-    "rank": 67,
     "name": "AppLovin",
     "ticker": "APP",
     "sector": "Information Technology",
@@ -999,10 +984,25 @@
     "change7d": 20.62,
     "changeYtd": -19.65,
     "marketCap": 171870404608,
-    "volume": 2921459013,
-    "pe": 50.7,
+    "volume": 2937805149,
+    "pe": 50.8,
     "color": "#3861FB",
     "domain": "applovin.com"
+  },
+  {
+    "rank": 67,
+    "name": "Charles Schwab Corporation",
+    "ticker": "SCHW",
+    "sector": "Financials",
+    "price": 95.41,
+    "change1d": -0.66,
+    "change7d": 0.06,
+    "changeYtd": -6.08,
+    "marketCap": 169537552384,
+    "volume": 1023549550,
+    "pe": 20.5,
+    "color": "#003087",
+    "domain": "schwab.com"
   },
   {
     "rank": 68,
@@ -1014,13 +1014,28 @@
     "change7d": -10.74,
     "changeYtd": -1.92,
     "marketCap": 167468253184,
-    "volume": 1323287320,
-    "pe": 40.7,
+    "volume": 1332892240,
+    "pe": 40.8,
     "color": "#3861FB",
     "domain": "amphenol.com"
   },
   {
     "rank": 69,
+    "name": "BlackRock",
+    "ticker": "BLK",
+    "sector": "Financials",
+    "price": 1035.0,
+    "change1d": -1.36,
+    "change7d": -5.37,
+    "changeYtd": -3.73,
+    "marketCap": 160985497600,
+    "volume": 743917635,
+    "pe": 29.3,
+    "color": "#003087",
+    "domain": "blackrock.com"
+  },
+  {
+    "rank": 70,
     "name": "Analog Devices",
     "ticker": "ADI",
     "sector": "Information Technology",
@@ -1029,13 +1044,13 @@
     "change7d": -8.33,
     "changeYtd": 12.93,
     "marketCap": 160970670080,
-    "volume": 1298997888,
-    "pe": 60.4,
+    "volume": 1306851819,
+    "pe": 60.3,
     "color": "#3861FB",
     "domain": "analog.com"
   },
   {
-    "rank": 70,
+    "rank": 71,
     "name": "Honeywell",
     "ticker": "HON",
     "sector": "Industrials",
@@ -1044,25 +1059,10 @@
     "change7d": -1.09,
     "changeYtd": 20.08,
     "marketCap": 160637059072,
-    "volume": 1021331264,
+    "volume": 1021425662,
     "pe": 31.4,
     "color": "#0039A6",
     "domain": "honeywell.com"
-  },
-  {
-    "rank": 71,
-    "name": "BlackRock",
-    "ticker": "BLK",
-    "sector": "Financials",
-    "price": 1035.0,
-    "change1d": -1.36,
-    "change7d": -5.37,
-    "changeYtd": -3.73,
-    "marketCap": 160581189632,
-    "volume": 744723900,
-    "pe": 29.3,
-    "color": "#003087",
-    "domain": "blackrock.com"
   },
   {
     "rank": 72,
@@ -1073,9 +1073,9 @@
     "change1d": -3.8,
     "change7d": -5.28,
     "changeYtd": 24.3,
-    "marketCap": 160120979456,
-    "volume": 955005149,
-    "pe": 32.0,
+    "marketCap": 159549685760,
+    "volume": 955255011,
+    "pe": 33.3,
     "color": "#0039A6",
     "domain": "deere.com"
   },
@@ -1089,7 +1089,7 @@
     "change7d": 3.58,
     "changeYtd": -12.47,
     "marketCap": 156751527936,
-    "volume": 1607111724,
+    "volume": 1602795500,
     "pe": 15.9,
     "color": "#0039A6",
     "domain": "uber.com"
@@ -1104,7 +1104,7 @@
     "change7d": -1.02,
     "changeYtd": 16.52,
     "marketCap": 154400473088,
-    "volume": 874133094,
+    "volume": 873170874,
     "pe": 21.7,
     "color": "#0039A6",
     "domain": "up.com"
@@ -1119,7 +1119,7 @@
     "change7d": 1.69,
     "changeYtd": 32.52,
     "marketCap": 151565549568,
-    "volume": 1155608640,
+    "volume": 1155150140,
     "pe": 30.5,
     "color": "#0039A6",
     "domain": "lockheedmartin.com"
@@ -1133,8 +1133,8 @@
     "change1d": -0.04,
     "change7d": -1.77,
     "changeYtd": 7.04,
-    "marketCap": 151296688128,
-    "volume": 1264304753,
+    "marketCap": 151311581184,
+    "volume": 1260480869,
     "pe": 19.6,
     "color": "#D52B1E",
     "domain": "pfizer.com"
@@ -1149,7 +1149,7 @@
     "change7d": 10.82,
     "changeYtd": -15.29,
     "marketCap": 148703608832,
-    "volume": 1715268170,
+    "volume": 1749152710,
     "pe": 27.9,
     "color": "#FF9900",
     "domain": "booking.com"
@@ -1160,11 +1160,11 @@
     "ticker": "QCOM",
     "sector": "Information Technology",
     "price": 137.0,
-    "change1d": -1.8,
-    "change7d": -6.05,
-    "changeYtd": -23.97,
+    "change1d": -1.17,
+    "change7d": -5.45,
+    "changeYtd": -23.48,
     "marketCap": 146322178048,
-    "volume": 1319314384,
+    "volume": 1317818755,
     "pe": 27.6,
     "color": "#3861FB",
     "domain": "qualcomm.com"
@@ -1179,8 +1179,8 @@
     "change7d": -1.54,
     "changeYtd": 10.84,
     "marketCap": 143074148352,
-    "volume": 702999581,
-    "pe": 143.4,
+    "volume": 705522312,
+    "pe": 145.4,
     "color": "#003D6B",
     "domain": "welltower.com"
   },
@@ -1194,7 +1194,7 @@
     "change7d": -3.16,
     "changeYtd": 3.53,
     "marketCap": 142879965184,
-    "volume": 715908066,
+    "volume": 713614658,
     "pe": 21.5,
     "color": "#FF9900",
     "domain": "lowes.com"
@@ -1209,8 +1209,8 @@
     "change7d": -3.59,
     "changeYtd": -14.25,
     "marketCap": 142842150912,
-    "volume": 777721412,
-    "pe": 40.1,
+    "volume": 780823122,
+    "pe": 40.2,
     "color": "#D52B1E",
     "domain": "danaher.com"
   },
@@ -1224,7 +1224,7 @@
     "change7d": 6.19,
     "changeYtd": 25.33,
     "marketCap": 142793670656,
-    "volume": 999545912,
+    "volume": 1002120507,
     "pe": 18.4,
     "color": "#ED1B2D",
     "domain": "conocophillips.com"
@@ -1239,7 +1239,7 @@
     "change7d": -2.26,
     "changeYtd": -23.9,
     "marketCap": 142084751360,
-    "volume": 704243759,
+    "volume": 709813269,
     "pe": 29.9,
     "color": "#003087",
     "domain": "blackstone.com"
@@ -1254,7 +1254,7 @@
     "change7d": -3.52,
     "changeYtd": 0.75,
     "marketCap": 141786152960,
-    "volume": 702617311,
+    "volume": 703097850,
     "pe": 44.1,
     "color": "#D52B1E",
     "domain": "stryker.com"
@@ -1269,7 +1269,7 @@
     "change7d": -5.02,
     "changeYtd": 9.95,
     "marketCap": 138119757824,
-    "volume": 1054321308,
+    "volume": 1055835551,
     "pe": 33.9,
     "color": "#0039A6",
     "domain": "eaton.com"
@@ -1284,7 +1284,7 @@
     "change7d": 6.49,
     "changeYtd": -15.88,
     "marketCap": 136596103168,
-    "volume": 1114050393,
+    "volume": 1115115012,
     "pe": 30.8,
     "color": "#003087",
     "domain": "spglobal.com"
@@ -1299,8 +1299,8 @@
     "change7d": 12.65,
     "changeYtd": -15.85,
     "marketCap": 133138563072,
-    "volume": 1610415178,
-    "pe": 90.1,
+    "volume": 1608630044,
+    "pe": 91.2,
     "color": "#3861FB",
     "domain": "paloaltonetworks.com"
   },
@@ -1314,7 +1314,7 @@
     "change7d": 11.75,
     "changeYtd": -21.89,
     "marketCap": 132709720064,
-    "volume": 1153707170,
+    "volume": 1161015484,
     "pe": 17.7,
     "color": "#3861FB",
     "domain": "accenture.com"
@@ -1329,8 +1329,8 @@
     "change7d": -0.62,
     "changeYtd": 8.42,
     "marketCap": 130839912448,
-    "volume": 596848467,
-    "pe": 12.9,
+    "volume": 597244427,
+    "pe": 13.0,
     "color": "#003087",
     "domain": "chubb.com"
   },
@@ -1343,9 +1343,9 @@
     "change1d": 6.05,
     "change7d": 22.44,
     "changeYtd": -28.18,
-    "marketCap": 129954340864,
-    "volume": 1623456439,
-    "pe": 32.0,
+    "marketCap": 129895563264,
+    "volume": 1653703965,
+    "pe": 30.4,
     "color": "#3861FB",
     "domain": "intuit.com"
   },
@@ -1359,7 +1359,7 @@
     "change7d": -1.56,
     "changeYtd": 8.63,
     "marketCap": 128139714560,
-    "volume": 468794373,
+    "volume": 470977090,
     "pe": 38.7,
     "color": "#003D6B",
     "domain": "prologis.com"
@@ -1374,7 +1374,7 @@
     "change7d": 15.49,
     "changeYtd": -20.23,
     "marketCap": 127018106880,
-    "volume": 2067515618,
+    "volume": 2086350272,
     "pe": 72.1,
     "color": "#3861FB",
     "domain": "servicenow.com"
@@ -1389,7 +1389,7 @@
     "change7d": -6.83,
     "changeYtd": 7.7,
     "marketCap": 126684717056,
-    "volume": 1135758701,
+    "volume": 1137875950,
     "pe": 18.2,
     "color": "#8A6D3B",
     "domain": "newmont.com"
@@ -1404,7 +1404,7 @@
     "change7d": -0.91,
     "changeYtd": 7.09,
     "marketCap": 123695415296,
-    "volume": 854072027,
+    "volume": 854766163,
     "pe": 17.6,
     "color": "#D52B1E",
     "domain": "bms.com"
@@ -1419,8 +1419,8 @@
     "change7d": 2.95,
     "changeYtd": 0.71,
     "marketCap": 123378827264,
-    "volume": 727448826,
-    "pe": 10.9,
+    "volume": 727167492,
+    "pe": 11.0,
     "color": "#003087",
     "domain": "progressive.com"
   },
@@ -1434,8 +1434,8 @@
     "change7d": -4.58,
     "changeYtd": 6.48,
     "marketCap": 121851961344,
-    "volume": 623772332,
-    "pe": 35.3,
+    "volume": 629529131,
+    "pe": 35.2,
     "color": "#0039A6",
     "domain": "parker.com"
   },
@@ -1449,8 +1449,8 @@
     "change7d": -5.6,
     "changeYtd": -22.99,
     "marketCap": 120822652928,
-    "volume": 994860965,
-    "pe": 57.6,
+    "volume": 990912233,
+    "pe": 57.8,
     "color": "#003087",
     "domain": "capitalone.com"
   },
@@ -1464,8 +1464,8 @@
     "change7d": 1.91,
     "changeYtd": 2.95,
     "marketCap": 120206131200,
-    "volume": 1190683501,
-    "pe": 44.9,
+    "volume": 1188164085,
+    "pe": 44.8,
     "color": "#00529B",
     "domain": "constellationenergy.com"
   },
@@ -1479,7 +1479,7 @@
     "change7d": -1.13,
     "changeYtd": 13.56,
     "marketCap": 119519354880,
-    "volume": 618422910,
+    "volume": 617895922,
     "pe": 18.9,
     "color": "#D52B1E",
     "domain": "hcahealthcare.com"
@@ -1494,7 +1494,7 @@
     "change7d": -3.77,
     "changeYtd": -6.78,
     "marketCap": 119414136832,
-    "volume": 719090833,
+    "volume": 720077483,
     "pe": 26.0,
     "color": "#D52B1E",
     "domain": "medtronic.com"
@@ -1509,7 +1509,7 @@
     "change7d": 9.28,
     "changeYtd": -16.67,
     "marketCap": 117936357376,
-    "volume": 1463983535,
+    "volume": 1466882076,
     "pe": 16.9,
     "color": "#3861FB",
     "domain": "adobe.com"
@@ -1524,8 +1524,8 @@
     "change7d": -4.6,
     "changeYtd": -4.82,
     "marketCap": 117048279040,
-    "volume": 656206768,
-    "pe": 30.0,
+    "volume": 653793454,
+    "pe": 30.1,
     "color": "#D52B1E",
     "domain": "vrtx.com"
   },
@@ -1539,7 +1539,7 @@
     "change7d": -7.5,
     "changeYtd": -4.5,
     "marketCap": 115685908480,
-    "volume": 314057773,
+    "volume": 314134533,
     "pe": 30.7,
     "color": "#003087",
     "domain": "interactivebrokers.com"
@@ -1554,8 +1554,8 @@
     "change7d": -15.86,
     "changeYtd": 53.41,
     "marketCap": 115599933440,
-    "volume": 1242976954,
-    "pe": 74.0,
+    "volume": 1263292379,
+    "pe": 73.6,
     "color": "#3861FB",
     "domain": "corning.com"
   },
@@ -1569,7 +1569,7 @@
     "change7d": 2.63,
     "changeYtd": 14.58,
     "marketCap": 115147071488,
-    "volume": 1130274564,
+    "volume": 1124184739,
     "pe": 5.9,
     "color": "#4285F4",
     "domain": "comcast.com"
@@ -1584,7 +1584,7 @@
     "change7d": -3.23,
     "changeYtd": 13.13,
     "marketCap": 114953404416,
-    "volume": 659592297,
+    "volume": 671564801,
     "pe": 26.9,
     "color": "#D52B1E",
     "domain": "mckesson.com"
@@ -1599,7 +1599,7 @@
     "change7d": 3.07,
     "changeYtd": 18.72,
     "marketCap": 113897127936,
-    "volume": 670756463,
+    "volume": 671165147,
     "pe": 28.4,
     "color": "#003087",
     "domain": "cmegroup.com"
@@ -1614,7 +1614,7 @@
     "change7d": 0.78,
     "changeYtd": 14.58,
     "marketCap": 112437518336,
-    "volume": 924251018,
+    "volume": 924652292,
     "pe": 82.2,
     "color": "#FF9900",
     "domain": "starbucks.com"
@@ -1629,7 +1629,7 @@
     "change7d": -3.9,
     "changeYtd": 22.4,
     "marketCap": 112437428224,
-    "volume": 671808027,
+    "volume": 674155609,
     "pe": 16.3,
     "color": "#0071CE",
     "domain": "altria.com"
@@ -1644,7 +1644,7 @@
     "change7d": 1.33,
     "changeYtd": 13.55,
     "marketCap": 108804825088,
-    "volume": 600708131,
+    "volume": 600768492,
     "pe": 24.8,
     "color": "#00529B",
     "domain": "southerncompany.com"
@@ -1659,7 +1659,7 @@
     "change7d": -0.67,
     "changeYtd": -26.01,
     "marketCap": 108308791296,
-    "volume": 1057352524,
+    "volume": 1055325738,
     "pe": 37.6,
     "color": "#D52B1E",
     "domain": "bostonscientific.com"
@@ -1674,7 +1674,7 @@
     "change7d": 17.3,
     "changeYtd": -11.01,
     "marketCap": 107434270720,
-    "volume": 1470106692,
+    "volume": 1488100019,
     "pe": null,
     "color": "#3861FB",
     "domain": "crowdstrike.com"
@@ -1689,7 +1689,7 @@
     "change7d": 5.17,
     "changeYtd": 28.66,
     "marketCap": 105614278656,
-    "volume": 691111628,
+    "volume": 690938465,
     "pe": 25.4,
     "color": "#0039A6",
     "domain": "northropgrumman.com"
@@ -1704,7 +1704,7 @@
     "change7d": 2.08,
     "changeYtd": 14.23,
     "marketCap": 102347997184,
-    "volume": 534564024,
+    "volume": 536316148,
     "pe": 20.9,
     "color": "#00529B",
     "domain": "duke-energy.com"
@@ -1719,8 +1719,8 @@
     "change7d": -2.79,
     "changeYtd": 19.74,
     "marketCap": 101586976768,
-    "volume": 647070413,
-    "pe": 67.8,
+    "volume": 649814649,
+    "pe": 68.0,
     "color": "#0039A6",
     "domain": "howmet.com"
   },
@@ -1734,7 +1734,7 @@
     "change7d": 3.28,
     "changeYtd": -0.57,
     "marketCap": 100110295040,
-    "volume": 682455649,
+    "volume": 684271421,
     "pe": 56.6,
     "color": "#D52B1E",
     "domain": "cvshealth.com"
@@ -1749,8 +1749,8 @@
     "change7d": 7.89,
     "changeYtd": 13.95,
     "marketCap": 99256901632,
-    "volume": 526920271,
-    "pe": 36.7,
+    "volume": 533724413,
+    "pe": 36.8,
     "color": "#0039A6",
     "domain": "wm.com"
   },
@@ -1764,7 +1764,7 @@
     "change7d": 18.66,
     "changeYtd": 22.56,
     "marketCap": 98197733376,
-    "volume": 1110710716,
+    "volume": 1109368886,
     "pe": 16.9,
     "color": "#3861FB",
     "domain": "dell.com"
@@ -1779,8 +1779,8 @@
     "change7d": 5.12,
     "changeYtd": 4.78,
     "marketCap": 97529585664,
-    "volume": 488809474,
-    "pe": 23.3,
+    "volume": 489315176,
+    "pe": 23.4,
     "color": "#0039A6",
     "domain": "gd.com"
   },
@@ -1794,7 +1794,7 @@
     "change7d": -5.14,
     "changeYtd": 15.92,
     "marketCap": 96758030336,
-    "volume": 697465582,
+    "volume": 696272574,
     "pe": 33.2,
     "color": "#0039A6",
     "domain": "tranetechnologies.com"
@@ -1809,8 +1809,8 @@
     "change7d": -0.78,
     "changeYtd": 23.39,
     "marketCap": 93636943872,
-    "volume": 590909556,
-    "pe": 69.3,
+    "volume": 592060780,
+    "pe": 69.5,
     "color": "#003D6B",
     "domain": "equinix.com"
   },
@@ -1824,7 +1824,7 @@
     "change7d": 2.29,
     "changeYtd": 1.28,
     "marketCap": 93509287936,
-    "volume": 624417700,
+    "volume": 625264924,
     "pe": 28.4,
     "color": "#003087",
     "domain": "ice.com"
@@ -1839,7 +1839,7 @@
     "change7d": 1.08,
     "changeYtd": 23.81,
     "marketCap": 91336269824,
-    "volume": 543672983,
+    "volume": 543498320,
     "pe": 34.9,
     "color": "#ED1B2D",
     "domain": "williams.com"
@@ -1854,7 +1854,7 @@
     "change7d": 2.15,
     "changeYtd": 1.66,
     "marketCap": 90633289728,
-    "volume": 541123705,
+    "volume": 538240110,
     "pe": 21.9,
     "color": "#003087",
     "domain": "corporate.marsh.com"
@@ -1869,7 +1869,7 @@
     "change7d": 3.94,
     "changeYtd": -14.76,
     "marketCap": 90070728704,
-    "volume": 677451386,
+    "volume": 684028162,
     "pe": 21.4,
     "color": "#0039A6",
     "domain": "adp.com"
@@ -1884,7 +1884,7 @@
     "change7d": -8.95,
     "changeYtd": 13.19,
     "marketCap": 90055057408,
-    "volume": 1228687592,
+    "volume": 1232304453,
     "pe": 41.2,
     "color": "#8A6D3B",
     "domain": "fcx.com"
@@ -1895,11 +1895,11 @@
     "ticker": "WDC",
     "sector": "Information Technology",
     "price": 259.03,
-    "change1d": -0.87,
-    "change7d": -10.97,
-    "changeYtd": 29.59,
+    "change1d": -0.82,
+    "change7d": -10.93,
+    "changeYtd": 29.66,
     "marketCap": 88562171904,
-    "volume": 2501291322,
+    "volume": 2486849363,
     "pe": 24.5,
     "color": "#3861FB",
     "domain": "westerndigital.com"
@@ -1914,7 +1914,7 @@
     "change7d": -1.08,
     "changeYtd": -26.8,
     "marketCap": 88518287360,
-    "volume": 646568249,
+    "volume": 648900263,
     "pe": 40.9,
     "color": "#003087",
     "domain": "kkr.com"
@@ -1929,7 +1929,7 @@
     "change7d": -8.59,
     "changeYtd": 0.11,
     "marketCap": 88366014464,
-    "volume": 627685090,
+    "volume": 637293769,
     "pe": 15.9,
     "color": "#0039A6",
     "domain": "ups.com"
@@ -1944,7 +1944,7 @@
     "change7d": -3.96,
     "changeYtd": 4.52,
     "marketCap": 88250458112,
-    "volume": 555886403,
+    "volume": 554789702,
     "pe": 35.0,
     "color": "#FF9900",
     "domain": "marriott.com"
@@ -1959,7 +1959,7 @@
     "change7d": -2.42,
     "changeYtd": 21.48,
     "marketCap": 88093974528,
-    "volume": 700481521,
+    "volume": 700540137,
     "pe": 20.7,
     "color": "#0039A6",
     "domain": "fedex.com"
@@ -1974,7 +1974,7 @@
     "change7d": 2.83,
     "changeYtd": 10.74,
     "marketCap": 87843028992,
-    "volume": 617930229,
+    "volume": 618359361,
     "pe": 34.7,
     "color": "#003D6B",
     "domain": "americantower.com"
@@ -1989,7 +1989,7 @@
     "change7d": -7.88,
     "changeYtd": -7.61,
     "marketCap": 85891842048,
-    "volume": 1090107676,
+    "volume": 1093269418,
     "pe": 33.9,
     "color": "#FF9900",
     "domain": "nike.com"
@@ -2004,7 +2004,7 @@
     "change7d": -4.32,
     "changeYtd": -1.05,
     "marketCap": 85864136704,
-    "volume": 542122195,
+    "volume": 541118747,
     "pe": 12.8,
     "color": "#003087",
     "domain": "pnc.com"
@@ -2019,8 +2019,8 @@
     "change7d": -1.53,
     "changeYtd": -14.89,
     "marketCap": 84727881728,
-    "volume": 1006613292,
-    "pe": 67.9,
+    "volume": 1008393549,
+    "pe": 68.0,
     "color": "#3861FB",
     "domain": "synopsys.com"
   },
@@ -2034,7 +2034,7 @@
     "change7d": -5.06,
     "changeYtd": 22.04,
     "marketCap": 83963232256,
-    "volume": 773527387,
+    "volume": 774781349,
     "pe": 46.0,
     "color": "#0039A6",
     "domain": "johnsoncontrols.com"
@@ -2049,7 +2049,7 @@
     "change7d": -3.82,
     "changeYtd": -1.75,
     "marketCap": 83759734784,
-    "volume": 572710673,
+    "volume": 574710572,
     "pe": 11.7,
     "color": "#003087",
     "domain": "usbank.com"
@@ -2064,7 +2064,7 @@
     "change7d": -10.56,
     "changeYtd": 105.49,
     "marketCap": 83481640960,
-    "volume": 9209464512,
+    "volume": 9201364132,
     "pe": null,
     "color": "#3861FB",
     "domain": "sandisk.com"
@@ -2079,7 +2079,7 @@
     "change7d": 1.66,
     "changeYtd": -11.36,
     "marketCap": 83339862016,
-    "volume": 568522639,
+    "volume": 573964408,
     "pe": 34.4,
     "color": "#003087",
     "domain": "moodys.com"
@@ -2094,7 +2094,7 @@
     "change7d": -5.89,
     "changeYtd": 1.44,
     "marketCap": 83116048384,
-    "volume": 594061173,
+    "volume": 594236278,
     "pe": 32.7,
     "color": "#8A6D3B",
     "domain": "sherwin-williams.com"
@@ -2109,8 +2109,8 @@
     "change7d": -0.66,
     "changeYtd": -6.46,
     "marketCap": 82718507008,
-    "volume": 685089115,
-    "pe": 73.9,
+    "volume": 692197422,
+    "pe": 74.0,
     "color": "#3861FB",
     "domain": "cadence.com"
   },
@@ -2124,7 +2124,7 @@
     "change7d": -12.92,
     "changeYtd": 19.17,
     "marketCap": 82293481472,
-    "volume": 1611517992,
+    "volume": 1605467902,
     "pe": 41.5,
     "color": "#3861FB",
     "domain": "seagate.com"
@@ -2139,7 +2139,7 @@
     "change7d": -5.64,
     "changeYtd": -3.68,
     "marketCap": 82275811328,
-    "volume": 568601768,
+    "volume": 570939764,
     "pe": 26.0,
     "color": "#0039A6",
     "domain": "3m.com"
@@ -2154,7 +2154,7 @@
     "change7d": 3.94,
     "changeYtd": 9.8,
     "marketCap": 82193793024,
-    "volume": 384641161,
+    "volume": 391813209,
     "pe": 44.3,
     "color": "#0039A6",
     "domain": "cintas.com"
@@ -2169,8 +2169,8 @@
     "change7d": -2.41,
     "changeYtd": 25.71,
     "marketCap": 82173976576,
-    "volume": 572926501,
-    "pe": 80.5,
+    "volume": 574082060,
+    "pe": 80.6,
     "color": "#0039A6",
     "domain": "quantaservices.com"
   },
@@ -2184,7 +2184,7 @@
     "change7d": 2.9,
     "changeYtd": -0.87,
     "marketCap": 81443979264,
-    "volume": 653419646,
+    "volume": 655032729,
     "pe": 33.7,
     "color": "#FF9900",
     "domain": "airbnb.com"
@@ -2199,7 +2199,7 @@
     "change7d": -2.5,
     "changeYtd": 14.38,
     "marketCap": 81419386880,
-    "volume": 405767431,
+    "volume": 405052964,
     "pe": 27.0,
     "color": "#0039A6",
     "domain": "itw.com"
@@ -2214,7 +2214,7 @@
     "change7d": -2.99,
     "changeYtd": -2.68,
     "marketCap": 81387618304,
-    "volume": 442899390,
+    "volume": 441730423,
     "pe": 15.8,
     "color": "#003087",
     "domain": "bny.com"
@@ -2229,8 +2229,8 @@
     "change7d": -6.39,
     "changeYtd": 6.76,
     "marketCap": 81268801536,
-    "volume": 369006890,
-    "pe": 39.5,
+    "volume": 373423891,
+    "pe": 39.4,
     "color": "#8A6D3B",
     "domain": "ecolab.com"
   },
@@ -2244,7 +2244,7 @@
     "change7d": -2.47,
     "changeYtd": -5.71,
     "marketCap": 80868253696,
-    "volume": 635672122,
+    "volume": 633459944,
     "pe": 18.4,
     "color": "#D52B1E",
     "domain": "regeneron.com"
@@ -2259,7 +2259,7 @@
     "change7d": -4.19,
     "changeYtd": 0.43,
     "marketCap": 79970598912,
-    "volume": 464444586,
+    "volume": 465924101,
     "pe": 34.9,
     "color": "#0039A6",
     "domain": "emerson.com"
@@ -2274,7 +2274,7 @@
     "change7d": 6.02,
     "changeYtd": -20.41,
     "marketCap": 79708545024,
-    "volume": 929830748,
+    "volume": 932407908,
     "pe": 86.1,
     "color": "#FF9900",
     "domain": "doordash.com"
@@ -2289,7 +2289,7 @@
     "change7d": 3.19,
     "changeYtd": 3.86,
     "marketCap": 79649660928,
-    "volume": 585884074,
+    "volume": 584499152,
     "pe": 31.8,
     "color": "#FF9900",
     "domain": "oreillyauto.com"
@@ -2304,7 +2304,7 @@
     "change7d": -0.88,
     "changeYtd": 23.75,
     "marketCap": 77807828992,
-    "volume": 597068324,
+    "volume": 594578361,
     "pe": 36.6,
     "color": "#3861FB",
     "domain": "motorolasolutions.com"
@@ -2319,7 +2319,7 @@
     "change7d": -9.57,
     "changeYtd": -6.4,
     "marketCap": 77194133504,
-    "volume": 681424202,
+    "volume": 684659294,
     "pe": 18.1,
     "color": "#FF9900",
     "domain": "rclinvestor.com"
@@ -2334,7 +2334,7 @@
     "change7d": -6.45,
     "changeYtd": 3.51,
     "marketCap": 76829663232,
-    "volume": 532607189,
+    "volume": 531358256,
     "pe": 27.1,
     "color": "#0039A6",
     "domain": "cummins.com"
@@ -2349,7 +2349,7 @@
     "change7d": -2.21,
     "changeYtd": 17.81,
     "marketCap": 76520759296,
-    "volume": 541501552,
+    "volume": 545864152,
     "pe": 26.7,
     "color": "#0039A6",
     "domain": "csx.com"
@@ -2360,11 +2360,11 @@
     "ticker": "CI",
     "sector": "Health Care",
     "price": 281.27,
-    "change1d": -1.22,
-    "change7d": -1.11,
-    "changeYtd": 0.77,
+    "change1d": -0.67,
+    "change7d": -0.57,
+    "changeYtd": 1.33,
     "marketCap": 75134476288,
-    "volume": 473322825,
+    "volume": 472830321,
     "pe": 12.7,
     "color": "#D52B1E",
     "domain": "thecignagroup.com"
@@ -2379,7 +2379,7 @@
     "change7d": -3.23,
     "changeYtd": 12.95,
     "marketCap": 75073060864,
-    "volume": 672756521,
+    "volume": 674216082,
     "pe": 30.8,
     "color": "#0071CE",
     "domain": "mondelezinternational.com"
@@ -2393,9 +2393,9 @@
     "change1d": -2.43,
     "change7d": -10.2,
     "changeYtd": 0.72,
-    "marketCap": 74937524224,
-    "volume": 464025700,
-    "pe": 43.6,
+    "marketCap": 75033362432,
+    "volume": 465156182,
+    "pe": 39.5,
     "color": "#0071CE",
     "domain": "monsterbevcorp.com"
   },
@@ -2409,7 +2409,7 @@
     "change7d": -7.54,
     "changeYtd": -9.59,
     "marketCap": 74431291392,
-    "volume": 893024565,
+    "volume": 888574454,
     "pe": 20.2,
     "color": "#8A6D3B",
     "domain": "crh.com"
@@ -2424,7 +2424,7 @@
     "change7d": 1.89,
     "changeYtd": 23.67,
     "marketCap": 74286284800,
-    "volume": 452056249,
+    "volume": 453934303,
     "pe": 24.4,
     "color": "#ED1B2D",
     "domain": "kindermorgan.com"
@@ -2439,7 +2439,7 @@
     "change7d": -4.14,
     "changeYtd": 20.95,
     "marketCap": 74279452672,
-    "volume": 624379032,
+    "volume": 624439731,
     "pe": 35.2,
     "color": "#0071CE",
     "domain": "colgatepalmolive.co.in"
@@ -2454,7 +2454,7 @@
     "change7d": -0.01,
     "changeYtd": -6.52,
     "marketCap": 73131008000,
-    "volume": 482591433,
+    "volume": 479167559,
     "pe": 41.7,
     "color": "#0039A6",
     "domain": "transdigm.com"
@@ -2469,7 +2469,7 @@
     "change7d": 4.35,
     "changeYtd": -3.19,
     "marketCap": 72813617152,
-    "volume": 453816616,
+    "volume": 455031106,
     "pe": 19.9,
     "color": "#003087",
     "domain": "aon.com"
@@ -2484,7 +2484,7 @@
     "change7d": -1.11,
     "changeYtd": -26.54,
     "marketCap": 72571289600,
-    "volume": 1590108801,
+    "volume": 1578254929,
     "pe": 39.2,
     "color": "#FF9900",
     "domain": "carvana.com"
@@ -2499,7 +2499,7 @@
     "change7d": 3.91,
     "changeYtd": -30.18,
     "marketCap": 72528846848,
-    "volume": 2269008341,
+    "volume": 2284959462,
     "pe": 39.3,
     "color": "#003087",
     "domain": "robinhood.com"
@@ -2514,7 +2514,7 @@
     "change7d": 4.55,
     "changeYtd": 10.8,
     "marketCap": 71716593664,
-    "volume": 345806161,
+    "volume": 344951067,
     "pe": 33.8,
     "color": "#0039A6",
     "domain": "republicservices.com"
@@ -2529,8 +2529,8 @@
     "change7d": -1.87,
     "changeYtd": 4.77,
     "marketCap": 71441268736,
-    "volume": 581343135,
-    "pe": 50.1,
+    "volume": 585806616,
+    "pe": 50.2,
     "color": "#FF9900",
     "domain": "hilton.com"
   },
@@ -2544,8 +2544,8 @@
     "change7d": -0.32,
     "changeYtd": 17.05,
     "marketCap": 71415349248,
-    "volume": 452555985,
-    "pe": 19.8,
+    "volume": 456365999,
+    "pe": 19.9,
     "color": "#00529B",
     "domain": "aep.com"
   },
@@ -2559,7 +2559,7 @@
     "change7d": 6.96,
     "changeYtd": 28.99,
     "marketCap": 71096672256,
-    "volume": 632296789,
+    "volume": 636035730,
     "pe": 14.4,
     "color": "#ED1B2D",
     "domain": "eogresources.com"
@@ -2574,7 +2574,7 @@
     "change7d": -7.56,
     "changeYtd": -6.97,
     "marketCap": 71084032000,
-    "volume": 671738558,
+    "volume": 671521617,
     "pe": 23.3,
     "color": "#FF9900",
     "domain": "gm.com"
@@ -2589,28 +2589,13 @@
     "change7d": -8.25,
     "changeYtd": 12.54,
     "marketCap": 70878715904,
-    "volume": 884065533,
+    "volume": 885359032,
     "pe": 20.2,
     "color": "#ED1B2D",
     "domain": "slb.com"
   },
   {
     "rank": 174,
-    "name": "Valero Energy",
-    "ticker": "VLO",
-    "sector": "Energy",
-    "price": 228.03,
-    "change1d": 1.08,
-    "change7d": 14.22,
-    "changeYtd": 24.78,
-    "marketCap": 70837919744,
-    "volume": 749524344,
-    "pe": 30.1,
-    "color": "#ED1B2D",
-    "domain": "valero.com"
-  },
-  {
-    "rank": 175,
     "name": "Cencora",
     "ticker": "COR",
     "sector": "Health Care",
@@ -2619,13 +2604,13 @@
     "change7d": -1.03,
     "changeYtd": 5.72,
     "marketCap": 69890981888,
-    "volume": 447034857,
-    "pe": 43.2,
+    "volume": 449738079,
+    "pe": 43.1,
     "color": "#D52B1E",
     "domain": "cencora.com"
   },
   {
-    "rank": 176,
+    "rank": 175,
     "name": "Ross Stores",
     "ticker": "ROST",
     "sector": "Consumer Discretionary",
@@ -2634,13 +2619,13 @@
     "change7d": 6.6,
     "changeYtd": 14.89,
     "marketCap": 69868363776,
-    "volume": 547452582,
-    "pe": 33.5,
+    "volume": 551206522,
+    "pe": 33.6,
     "color": "#FF9900",
     "domain": "rossstores.com"
   },
   {
-    "rank": 177,
+    "rank": 176,
     "name": "Norfolk Southern",
     "ticker": "NSC",
     "sector": "Industrials",
@@ -2649,10 +2634,25 @@
     "change7d": -0.3,
     "changeYtd": 9.93,
     "marketCap": 69823938560,
-    "volume": 387539099,
+    "volume": 385497287,
     "pe": 24.4,
     "color": "#0039A6",
     "domain": "norfolksouthern.com"
+  },
+  {
+    "rank": 177,
+    "name": "Valero Energy",
+    "ticker": "VLO",
+    "sector": "Energy",
+    "price": 228.03,
+    "change1d": 1.08,
+    "change7d": 14.22,
+    "changeYtd": 24.78,
+    "marketCap": 69551325184,
+    "volume": 760365574,
+    "pe": 30.1,
+    "color": "#ED1B2D",
+    "domain": "valero.com"
   },
   {
     "rank": 178,
@@ -2664,7 +2664,7 @@
     "change7d": -3.11,
     "changeYtd": -2.06,
     "marketCap": 69436850176,
-    "volume": 1021938092,
+    "volume": 1016592080,
     "pe": 147.4,
     "color": "#4285F4",
     "domain": "wbd.com"
@@ -2679,7 +2679,7 @@
     "change7d": 0.62,
     "changeYtd": 8.28,
     "marketCap": 68400173056,
-    "volume": 501073395,
+    "volume": 499400060,
     "pe": 11.2,
     "color": "#003087",
     "domain": "travelers.com"
@@ -2694,8 +2694,8 @@
     "change7d": 5.59,
     "changeYtd": 16.25,
     "marketCap": 67357732864,
-    "volume": 511311760,
-    "pe": 42.3,
+    "volume": 509618930,
+    "pe": 42.2,
     "color": "#0039A6",
     "domain": "l3harris.com"
   },
@@ -2709,7 +2709,7 @@
     "change7d": 9.56,
     "changeYtd": 21.7,
     "marketCap": 66699837440,
-    "volume": 425924127,
+    "volume": 430892361,
     "pe": 15.4,
     "color": "#ED1B2D",
     "domain": "phillips66.com"
@@ -2723,8 +2723,8 @@
     "change1d": -1.54,
     "change7d": 11.03,
     "changeYtd": 26.63,
-    "marketCap": 65338957824,
-    "volume": 523899331,
+    "marketCap": 65338953728,
+    "volume": 528685816,
     "pe": 16.4,
     "color": "#ED1B2D",
     "domain": "marathonpetroleum.com"
@@ -2739,7 +2739,7 @@
     "change7d": 0.02,
     "changeYtd": 9.29,
     "marketCap": 65325359104,
-    "volume": 313646602,
+    "volume": 313458236,
     "pe": 14.2,
     "color": "#003D6B",
     "domain": "simon.com"
@@ -2754,7 +2754,7 @@
     "change7d": -1.0,
     "changeYtd": 7.25,
     "marketCap": 64863817728,
-    "volume": 419931861,
+    "volume": 420610108,
     "pe": 27.3,
     "color": "#0039A6",
     "domain": "paccar.com"
@@ -2769,7 +2769,7 @@
     "change7d": -5.09,
     "changeYtd": -22.58,
     "marketCap": 64566206464,
-    "volume": 486763982,
+    "volume": 487096701,
     "pe": 20.1,
     "color": "#003087",
     "domain": "apollo.com"
@@ -2784,7 +2784,7 @@
     "change7d": -13.32,
     "changeYtd": -21.87,
     "marketCap": 63227478016,
-    "volume": 508851525,
+    "volume": 515873150,
     "pe": 11.4,
     "color": "#D52B1E",
     "domain": "elevancehealth.com"
@@ -2799,7 +2799,7 @@
     "change7d": 0.09,
     "changeYtd": 16.07,
     "marketCap": 62877347840,
-    "volume": 377435275,
+    "volume": 380373109,
     "pe": 50.2,
     "color": "#003D6B",
     "domain": "digitalrealty.com"
@@ -2814,7 +2814,7 @@
     "change7d": 9.14,
     "changeYtd": 5.5,
     "marketCap": 62778773504,
-    "volume": 569159289,
+    "volume": 567474688,
     "pe": 34.9,
     "color": "#3861FB",
     "domain": "fortinet.com"
@@ -2829,28 +2829,13 @@
     "change7d": 1.91,
     "changeYtd": 12.78,
     "marketCap": 62239760384,
-    "volume": 660698538,
+    "volume": 660215818,
     "pe": 26.1,
     "color": "#FF9900",
     "domain": "autozone.com"
   },
   {
     "rank": 190,
-    "name": "Truist Financial",
-    "ticker": "TFC",
-    "sector": "Financials",
-    "price": 48.48,
-    "change1d": -1.28,
-    "change7d": -4.13,
-    "changeYtd": -3.18,
-    "marketCap": 62017863680,
-    "volume": 437948826,
-    "pe": 12.7,
-    "color": "#003087",
-    "domain": "truist.com"
-  },
-  {
-    "rank": 191,
     "name": "TE Connectivity",
     "ticker": "TEL",
     "sector": "Information Technology",
@@ -2859,13 +2844,13 @@
     "change7d": -13.14,
     "changeYtd": -8.01,
     "marketCap": 61806833664,
-    "volume": 461917889,
+    "volume": 465498251,
     "pe": 30.3,
     "color": "#3861FB",
     "domain": "te.com"
   },
   {
-    "rank": 192,
+    "rank": 191,
     "name": "Becton Dickinson",
     "ticker": "BDX",
     "sector": "Health Care",
@@ -2874,13 +2859,13 @@
     "change7d": -6.09,
     "changeYtd": 6.64,
     "marketCap": 61568430080,
-    "volume": 478246174,
+    "volume": 477410409,
     "pe": 27.8,
     "color": "#D52B1E",
     "domain": "bd.com"
   },
   {
-    "rank": 193,
+    "rank": 192,
     "name": "Air Products",
     "ticker": "APD",
     "sector": "Materials",
@@ -2889,13 +2874,13 @@
     "change7d": -1.41,
     "changeYtd": 5.53,
     "marketCap": 61530988544,
-    "volume": 470812807,
+    "volume": 470897923,
     "pe": null,
     "color": "#8A6D3B",
     "domain": "airproducts.com"
   },
   {
-    "rank": 194,
+    "rank": 193,
     "name": "Sempra",
     "ticker": "SRE",
     "sector": "Utilities",
@@ -2903,14 +2888,14 @@
     "change1d": -1.52,
     "change7d": -0.59,
     "changeYtd": 8.78,
-    "marketCap": 61312905216,
-    "volume": 361481599,
-    "pe": 28.9,
+    "marketCap": 61369516032,
+    "volume": 361571405,
+    "pe": 34.2,
     "color": "#00529B",
     "domain": "sempra.com"
   },
   {
-    "rank": 195,
+    "rank": 194,
     "name": "Realty Income",
     "ticker": "O",
     "sector": "Real Estate",
@@ -2919,10 +2904,25 @@
     "change7d": -1.4,
     "changeYtd": 13.45,
     "marketCap": 60638220288,
-    "volume": 435271146,
+    "volume": 436881685,
     "pe": 55.4,
     "color": "#003D6B",
     "domain": "realtyincome.com"
+  },
+  {
+    "rank": 195,
+    "name": "Truist Financial",
+    "ticker": "TFC",
+    "sector": "Financials",
+    "price": 48.48,
+    "change1d": -1.28,
+    "change7d": -4.13,
+    "changeYtd": -3.18,
+    "marketCap": 60559683584,
+    "volume": 436421367,
+    "pe": 12.7,
+    "color": "#003087",
+    "domain": "truist.com"
   },
   {
     "rank": 196,
@@ -2934,7 +2934,7 @@
     "change7d": -7.13,
     "changeYtd": 23.7,
     "marketCap": 59481952256,
-    "volume": 537809254,
+    "volume": 537418139,
     "pe": 23.1,
     "color": "#ED1B2D",
     "domain": "bakerhughes.com"
@@ -2949,8 +2949,8 @@
     "change7d": 5.28,
     "changeYtd": -11.33,
     "marketCap": 59043012608,
-    "volume": 526567915,
-    "pe": 40.1,
+    "volume": 525665620,
+    "pe": 40.0,
     "color": "#003087",
     "domain": "ajg.com"
   },
@@ -2964,7 +2964,7 @@
     "change7d": -1.25,
     "changeYtd": 1.3,
     "marketCap": 58197610496,
-    "volume": 265107002,
+    "volume": 264879926,
     "pe": 16.3,
     "color": "#003087",
     "domain": "aflac.com"
@@ -2979,7 +2979,7 @@
     "change7d": -4.54,
     "changeYtd": 8.28,
     "marketCap": 56719388672,
-    "volume": 932408256,
+    "volume": 930683702,
     "pe": 60.2,
     "color": "#00529B",
     "domain": "vistracorp.com"
@@ -2993,9 +2993,9 @@
     "change1d": 2.42,
     "change7d": 17.49,
     "changeYtd": -10.1,
-    "marketCap": 56257560576,
-    "volume": 551695166,
-    "pe": 50.4,
+    "marketCap": 55993438208,
+    "volume": 552124625,
+    "pe": 50.5,
     "color": "#3861FB",
     "domain": "autodesk.com"
   },
@@ -3009,8 +3009,8 @@
     "change7d": 11.84,
     "changeYtd": -16.35,
     "marketCap": 55471267840,
-    "volume": 2308835013,
-    "pe": 46.2,
+    "volume": 2322012590,
+    "pe": 46.3,
     "color": "#003087",
     "domain": "coinbase.com"
   },
@@ -3024,7 +3024,7 @@
     "change7d": 0.16,
     "changeYtd": 11.54,
     "marketCap": 55363493888,
-    "volume": 413113176,
+    "volume": 412229349,
     "pe": 18.2,
     "color": "#00529B",
     "domain": "dominionenergy.com"
@@ -3039,7 +3039,7 @@
     "change7d": 1.61,
     "changeYtd": 2.61,
     "marketCap": 54922973184,
-    "volume": 369305036,
+    "volume": 368573889,
     "pe": 5.6,
     "color": "#003087",
     "domain": "allstate.com"
@@ -3054,7 +3054,7 @@
     "change7d": 3.37,
     "changeYtd": 17.28,
     "marketCap": 54691479552,
-    "volume": 823545731,
+    "volume": 824140791,
     "pe": 14.6,
     "color": "#0071CE",
     "domain": "target.com"
@@ -3069,7 +3069,7 @@
     "change7d": 2.55,
     "changeYtd": 14.25,
     "marketCap": 54477746176,
-    "volume": 340566868,
+    "volume": 341415839,
     "pe": 32.4,
     "color": "#0039A6",
     "domain": "grainger.com"
@@ -3084,7 +3084,7 @@
     "change7d": 5.98,
     "changeYtd": 17.11,
     "marketCap": 54308876288,
-    "volume": 401254785,
+    "volume": 403637617,
     "pe": 43.4,
     "color": "#0039A6",
     "domain": "fastenal.com"
@@ -3099,7 +3099,7 @@
     "change7d": 4.04,
     "changeYtd": 21.04,
     "marketCap": 53909475328,
-    "volume": 386931681,
+    "volume": 388619370,
     "pe": 15.8,
     "color": "#ED1B2D",
     "domain": "oneok.com"
@@ -3114,8 +3114,8 @@
     "change7d": 2.54,
     "changeYtd": 15.53,
     "marketCap": 53869948928,
-    "volume": 381139678,
-    "pe": 34.1,
+    "volume": 379296810,
+    "pe": 34.0,
     "color": "#003D6B",
     "domain": "publicstorage.com"
   },
@@ -3129,7 +3129,7 @@
     "change7d": -5.21,
     "changeYtd": -2.33,
     "marketCap": 53865934848,
-    "volume": 622110258,
+    "volume": 620174624,
     "pe": 20.3,
     "color": "#D52B1E",
     "domain": "zoetis.com"
@@ -3144,7 +3144,7 @@
     "change7d": -1.35,
     "changeYtd": -4.09,
     "marketCap": 53635760128,
-    "volume": 582321326,
+    "volume": 580111164,
     "pe": 21.8,
     "color": "#0039A6",
     "domain": "unitedrentals.com"
@@ -3159,7 +3159,7 @@
     "change7d": -10.42,
     "changeYtd": -12.02,
     "marketCap": 53212061696,
-    "volume": 607203013,
+    "volume": 608695814,
     "pe": 26.5,
     "color": "#3861FB",
     "domain": "nxp.com"
@@ -3173,9 +3173,9 @@
     "change1d": -1.87,
     "change7d": -12.46,
     "changeYtd": 12.45,
-    "marketCap": 52529729536,
-    "volume": 730004623,
-    "pe": 84.6,
+    "marketCap": 52970811392,
+    "volume": 728408532,
+    "pe": 84.1,
     "color": "#3861FB",
     "domain": "monolithicpower.com"
   },
@@ -3189,7 +3189,7 @@
     "change7d": 4.52,
     "changeYtd": 29.89,
     "marketCap": 52508835840,
-    "volume": 646862825,
+    "volume": 651756913,
     "pe": 39.4,
     "color": "#ED1B2D",
     "domain": "oxy.com"
@@ -3204,7 +3204,7 @@
     "change7d": -2.65,
     "changeYtd": 7.42,
     "marketCap": 52219445248,
-    "volume": 312398598,
+    "volume": 320659884,
     "pe": 35.4,
     "color": "#0039A6",
     "domain": "ametek.com"
@@ -3219,7 +3219,7 @@
     "change7d": -1.17,
     "changeYtd": 11.99,
     "marketCap": 51754307584,
-    "volume": 302506972,
+    "volume": 302397065,
     "pe": 43.8,
     "color": "#8A6D3B",
     "domain": "corteva.com"
@@ -3234,7 +3234,7 @@
     "change7d": 3.85,
     "changeYtd": 36.93,
     "marketCap": 51375628288,
-    "volume": 346548956,
+    "volume": 349424246,
     "pe": 28.2,
     "color": "#ED1B2D",
     "domain": "targaresources.com"
@@ -3245,11 +3245,11 @@
     "ticker": "FANG",
     "sector": "Energy",
     "price": 179.04,
-    "change1d": 1.32,
-    "change7d": 6.72,
-    "changeYtd": 27.48,
+    "change1d": 1.92,
+    "change7d": 7.36,
+    "changeYtd": 28.23,
     "marketCap": 51299540992,
-    "volume": 389058739,
+    "volume": 397689183,
     "pe": 31.2,
     "color": "#ED1B2D",
     "domain": "diamondbackenergy.com"
@@ -3264,8 +3264,8 @@
     "change7d": -4.49,
     "changeYtd": 4.26,
     "marketCap": 50832965632,
-    "volume": 381656366,
-    "pe": 31.1,
+    "volume": 385548831,
+    "pe": 31.0,
     "color": "#D52B1E",
     "domain": "cardinalhealth.com"
   },
@@ -3279,7 +3279,7 @@
     "change7d": -1.79,
     "changeYtd": 15.38,
     "marketCap": 50484973568,
-    "volume": 458820095,
+    "volume": 456646661,
     "pe": 35.7,
     "color": "#0039A6",
     "domain": "carrier.com"
@@ -3294,7 +3294,7 @@
     "change7d": 5.1,
     "changeYtd": -12.08,
     "marketCap": 50401767424,
-    "volume": 412601328,
+    "volume": 409960731,
     "pe": 28.6,
     "color": "#003087",
     "domain": "nasdaq.com"
@@ -3309,8 +3309,8 @@
     "change7d": -0.6,
     "changeYtd": -1.74,
     "marketCap": 50240933888,
-    "volume": 479660797,
-    "pe": 75.5,
+    "volume": 478165738,
+    "pe": 75.2,
     "color": "#4285F4",
     "domain": "ea.com"
   },
@@ -3324,7 +3324,7 @@
     "change7d": 1.0,
     "changeYtd": 14.4,
     "marketCap": 49886474240,
-    "volume": 391456456,
+    "volume": 397882635,
     "pe": 17.9,
     "color": "#00529B",
     "domain": "exeloncorp.com"
@@ -3339,28 +3339,13 @@
     "change7d": -5.85,
     "changeYtd": -13.38,
     "marketCap": 49421582336,
-    "volume": 316417889,
-    "pe": 47.2,
+    "volume": 317447153,
+    "pe": 47.4,
     "color": "#D52B1E",
     "domain": "idexx.com"
   },
   {
     "rank": 224,
-    "name": "Edwards Lifesciences",
-    "ticker": "EW",
-    "sector": "Health Care",
-    "price": 83.89,
-    "change1d": -1.56,
-    "change7d": 0.59,
-    "changeYtd": -1.11,
-    "marketCap": 49251819520,
-    "volume": 340360351,
-    "pe": 46.3,
-    "color": "#D52B1E",
-    "domain": "edwards.com"
-  },
-  {
-    "rank": 225,
     "name": "Ford Motor Company",
     "ticker": "F",
     "sector": "Consumer Discretionary",
@@ -3369,13 +3354,13 @@
     "change7d": -14.48,
     "changeYtd": -9.2,
     "marketCap": 49230127104,
-    "volume": 775742139,
+    "volume": 777598976,
     "pe": null,
     "color": "#FF9900",
     "domain": "ford.com"
   },
   {
-    "rank": 226,
+    "rank": 225,
     "name": "Chipotle Mexican Grill",
     "ticker": "CMG",
     "sector": "Consumer Discretionary",
@@ -3384,13 +3369,13 @@
     "change7d": -1.17,
     "changeYtd": -4.66,
     "marketCap": 49003626496,
-    "volume": 658242215,
+    "volume": 654901292,
     "pe": 32.5,
     "color": "#FF9900",
     "domain": "chipotle.com"
   },
   {
-    "rank": 227,
+    "rank": 226,
     "name": "Keysight Technologies",
     "ticker": "KEYS",
     "sector": "Information Technology",
@@ -3399,13 +3384,13 @@
     "change7d": -5.85,
     "changeYtd": 34.0,
     "marketCap": 48878821376,
-    "volume": 378536015,
+    "volume": 382447743,
     "pe": 50.0,
     "color": "#3861FB",
     "domain": "keysight.com"
   },
   {
-    "rank": 228,
+    "rank": 227,
     "name": "Xcel Energy",
     "ticker": "XEL",
     "sector": "Utilities",
@@ -3414,10 +3399,25 @@
     "change7d": -1.4,
     "changeYtd": 12.51,
     "marketCap": 48731045888,
-    "volume": 453337948,
+    "volume": 452795146,
     "pe": 24.1,
     "color": "#00529B",
     "domain": "xcelenergy.com"
+  },
+  {
+    "rank": 228,
+    "name": "Edwards Lifesciences",
+    "ticker": "EW",
+    "sector": "Health Care",
+    "price": 83.89,
+    "change1d": -1.56,
+    "change7d": 0.59,
+    "changeYtd": -1.11,
+    "marketCap": 48723312640,
+    "volume": 343642631,
+    "pe": 46.3,
+    "color": "#D52B1E",
+    "domain": "edwards.com"
   },
   {
     "rank": 229,
@@ -3427,9 +3427,9 @@
     "price": 72.94,
     "change1d": -0.52,
     "change7d": -3.15,
-    "changeYtd": -6.14,
+    "changeYtd": -6.81,
     "marketCap": 48059559936,
-    "volume": 279815500,
+    "volume": 280909527,
     "pe": 15.5,
     "color": "#003087",
     "domain": "metlife.com"
@@ -3444,7 +3444,7 @@
     "change7d": -10.86,
     "changeYtd": 37.41,
     "marketCap": 47840366592,
-    "volume": 998312092,
+    "volume": 1001725115,
     "pe": 87.8,
     "color": "#3861FB",
     "domain": "teradyne.com"
@@ -3459,7 +3459,7 @@
     "change7d": -0.73,
     "changeYtd": 16.28,
     "marketCap": 47781367808,
-    "volume": 279770625,
+    "volume": 279082684,
     "pe": 27.0,
     "color": "#00529B",
     "domain": "entergy.com"
@@ -3474,7 +3474,7 @@
     "change7d": -7.06,
     "changeYtd": 30.25,
     "marketCap": 47554351104,
-    "volume": 758220036,
+    "volume": 758016455,
     "pe": 46.7,
     "color": "#0039A6",
     "domain": "comfortsystemsusa.com"
@@ -3489,7 +3489,7 @@
     "change7d": 5.89,
     "changeYtd": 21.35,
     "marketCap": 47427878912,
-    "volume": 462889350,
+    "volume": 473252185,
     "pe": 63.3,
     "color": "#0071CE",
     "domain": "thekrogerco.com"
@@ -3504,8 +3504,8 @@
     "change7d": -4.69,
     "changeYtd": 14.0,
     "marketCap": 46228119552,
-    "volume": 252286574,
-    "pe": 28.0,
+    "volume": 251550453,
+    "pe": 27.9,
     "color": "#FF9900",
     "domain": "garmin.com"
   },
@@ -3519,8 +3519,8 @@
     "change7d": -1.33,
     "changeYtd": 26.65,
     "marketCap": 45947052032,
-    "volume": 435633813,
-    "pe": 52.2,
+    "volume": 435030884,
+    "pe": 52.1,
     "color": "#0071CE",
     "domain": "thehersheycompany.com"
   },
@@ -3534,8 +3534,8 @@
     "change7d": 9.67,
     "changeYtd": -8.12,
     "marketCap": 45866065920,
-    "volume": 578234962,
-    "pe": 370.4,
+    "volume": 575618695,
+    "pe": 385.5,
     "color": "#0039A6",
     "domain": "axon.com"
   },
@@ -3549,7 +3549,7 @@
     "change7d": 0.98,
     "changeYtd": -18.33,
     "marketCap": 44574457856,
-    "volume": 1121823751,
+    "volume": 1117670877,
     "pe": 8.8,
     "color": "#003087",
     "domain": "paypal.com"
@@ -3564,8 +3564,8 @@
     "change7d": 10.05,
     "changeYtd": 27.31,
     "marketCap": 44052856832,
-    "volume": 487890198,
-    "pe": 43.5,
+    "volume": 487465046,
+    "pe": 43.4,
     "color": "#0039A6",
     "domain": "odfl.com"
   },
@@ -3579,7 +3579,7 @@
     "change7d": -4.0,
     "changeYtd": 5.89,
     "marketCap": 44041289728,
-    "volume": 325138155,
+    "volume": 325033149,
     "pe": 28.6,
     "color": "#FF9900",
     "domain": "yum.com"
@@ -3594,7 +3594,7 @@
     "change7d": -1.12,
     "changeYtd": -4.77,
     "marketCap": 43934183424,
-    "volume": 318826230,
+    "volume": 317727707,
     "pe": 13.0,
     "color": "#003087",
     "domain": "ameriprise.com"
@@ -3608,8 +3608,8 @@
     "change1d": -1.72,
     "change7d": -5.57,
     "changeYtd": -0.98,
-    "marketCap": 43823357952,
-    "volume": 553911447,
+    "marketCap": 43909566464,
+    "volume": 552701403,
     "pe": 13.8,
     "color": "#003087",
     "domain": "53.com"
@@ -3624,7 +3624,7 @@
     "change7d": -4.81,
     "changeYtd": 7.9,
     "marketCap": 43630002176,
-    "volume": 467847887,
+    "volume": 465833200,
     "pe": 13.6,
     "color": "#FF9900",
     "domain": "drhorton.com"
@@ -3639,7 +3639,7 @@
     "change7d": -0.1,
     "changeYtd": 3.89,
     "marketCap": 43203854336,
-    "volume": 404881079,
+    "volume": 404037702,
     "pe": 14.7,
     "color": "#003087",
     "domain": "aig.com"
@@ -3654,7 +3654,7 @@
     "change7d": 10.9,
     "changeYtd": -13.5,
     "marketCap": 43141210112,
-    "volume": 683322237,
+    "volume": 681356524,
     "pe": 394.7,
     "color": "#3861FB",
     "domain": "datadoghq.com"
@@ -3669,8 +3669,8 @@
     "change7d": -4.27,
     "changeYtd": 16.28,
     "marketCap": 43009409024,
-    "volume": 208937191,
-    "pe": 36.8,
+    "volume": 209768915,
+    "pe": 36.9,
     "color": "#0039A6",
     "domain": "wabteccorp.com"
   },
@@ -3684,7 +3684,7 @@
     "change7d": -5.93,
     "changeYtd": -7.21,
     "marketCap": 42555961344,
-    "volume": 356225275,
+    "volume": 357896731,
     "pe": 43.3,
     "color": "#0039A6",
     "domain": "rockwellautomation.com"
@@ -3699,7 +3699,7 @@
     "change7d": 1.68,
     "changeYtd": -1.77,
     "marketCap": 42544758784,
-    "volume": 370880587,
+    "volume": 373006705,
     "pe": 36.1,
     "color": "#003087",
     "domain": "msci.com"
@@ -3714,8 +3714,8 @@
     "change7d": -15.29,
     "changeYtd": 15.44,
     "marketCap": 42340012032,
-    "volume": 981703361,
-    "pe": 348.0,
+    "volume": 1004543841,
+    "pe": 356.3,
     "color": "#3861FB",
     "domain": "ciena.com"
   },
@@ -3729,7 +3729,7 @@
     "change7d": 9.04,
     "changeYtd": 3.21,
     "marketCap": 42054078464,
-    "volume": 478885816,
+    "volume": 479912978,
     "pe": 21.8,
     "color": "#FF9900",
     "domain": "ebayinc.com"
@@ -3744,8 +3744,8 @@
     "change7d": -4.11,
     "changeYtd": -15.11,
     "marketCap": 42017157120,
-    "volume": 290143195,
-    "pe": 36.6,
+    "volume": 290373476,
+    "pe": 36.7,
     "color": "#003D6B",
     "domain": "cbre.com"
   },
@@ -3759,8 +3759,8 @@
     "change7d": -2.38,
     "changeYtd": 8.17,
     "marketCap": 41889001472,
-    "volume": 252947798,
-    "pe": 20.2,
+    "volume": 253276848,
+    "pe": 19.9,
     "color": "#00529B",
     "domain": "investor.pseg.com"
   },
@@ -3774,7 +3774,7 @@
     "change7d": -3.76,
     "changeYtd": 18.94,
     "marketCap": 41082671104,
-    "volume": 316576403,
+    "volume": 318066316,
     "pe": 23.1,
     "color": "#0071CE",
     "domain": "sysco.com"
@@ -3789,7 +3789,7 @@
     "change7d": 29.73,
     "changeYtd": -5.72,
     "marketCap": 40944467968,
-    "volume": 542518942,
+    "volume": 546769676,
     "pe": 32.1,
     "color": "#003087",
     "domain": "block.xyz"
@@ -3804,7 +3804,7 @@
     "change7d": -1.68,
     "changeYtd": 12.25,
     "marketCap": 40353042432,
-    "volume": 256402480,
+    "volume": 255707337,
     "pe": 157.3,
     "color": "#003D6B",
     "domain": "ventasreit.com"
@@ -3819,7 +3819,7 @@
     "change7d": -11.39,
     "changeYtd": -14.2,
     "marketCap": 40043442176,
-    "volume": 500134619,
+    "volume": 512880417,
     "pe": 8.0,
     "color": "#0039A6",
     "domain": "delta.com"
@@ -3834,7 +3834,7 @@
     "change7d": -0.26,
     "changeYtd": 12.28,
     "marketCap": 39999819776,
-    "volume": 240831557,
+    "volume": 241806248,
     "pe": 19.6,
     "color": "#00529B",
     "domain": "conedison.com"
@@ -3849,7 +3849,7 @@
     "change7d": -2.79,
     "changeYtd": 16.89,
     "marketCap": 39849156608,
-    "volume": 379435989,
+    "volume": 384684316,
     "pe": 15.4,
     "color": "#00529B",
     "domain": "pgecorp.com"
@@ -3864,7 +3864,7 @@
     "change7d": 6.33,
     "changeYtd": -16.36,
     "marketCap": 39397449728,
-    "volume": 594664257,
+    "volume": 594069841,
     "pe": 25.8,
     "color": "#3861FB",
     "domain": "ropertech.com"
@@ -3879,7 +3879,7 @@
     "change7d": -1.93,
     "changeYtd": 4.42,
     "marketCap": 39386574848,
-    "volume": 301094639,
+    "volume": 301227501,
     "pe": 22.9,
     "color": "#8A6D3B",
     "domain": "nucor.com"
@@ -3894,7 +3894,7 @@
     "change7d": 2.52,
     "changeYtd": -17.2,
     "marketCap": 39355338752,
-    "volume": 452940957,
+    "volume": 452875498,
     "pe": null,
     "color": "#4285F4",
     "domain": "take2games.com"
@@ -3909,7 +3909,7 @@
     "change7d": 10.54,
     "changeYtd": -30.29,
     "marketCap": 39297056768,
-    "volume": 663780736,
+    "volume": 665977692,
     "pe": 56.8,
     "color": "#3861FB",
     "domain": "workday.com"
@@ -3924,7 +3924,7 @@
     "change7d": 4.73,
     "changeYtd": 5.9,
     "marketCap": 39294308352,
-    "volume": 301278641,
+    "volume": 301691255,
     "pe": 35.8,
     "color": "#003D6B",
     "domain": "crowncastle.com"
@@ -3939,7 +3939,7 @@
     "change7d": -0.55,
     "changeYtd": 3.22,
     "marketCap": 38956789760,
-    "volume": 220018197,
+    "volume": 221125999,
     "pe": 10.5,
     "color": "#003087",
     "domain": "thehartford.com"
@@ -3954,7 +3954,7 @@
     "change7d": -1.8,
     "changeYtd": -31.48,
     "marketCap": 38730805248,
-    "volume": 493376154,
+    "volume": 490109217,
     "pe": 68.4,
     "color": "#003087",
     "domain": "aresmgmt.com"
@@ -3969,7 +3969,7 @@
     "change7d": 3.86,
     "changeYtd": 13.49,
     "marketCap": 38498975744,
-    "volume": 610847498,
+    "volume": 608314897,
     "pe": 18.6,
     "color": "#ED1B2D",
     "domain": "eqt.com"
@@ -3984,7 +3984,7 @@
     "change7d": -5.88,
     "changeYtd": 1.39,
     "marketCap": 38173302784,
-    "volume": 302572182,
+    "volume": 305928610,
     "pe": 38.8,
     "color": "#8A6D3B",
     "domain": "martinmarietta.com"
@@ -3999,7 +3999,7 @@
     "change7d": -6.97,
     "changeYtd": 2.94,
     "marketCap": 38110584832,
-    "volume": 329377564,
+    "volume": 329629229,
     "pe": 18.3,
     "color": "#0071CE",
     "domain": "keurigdrpepper.com"
@@ -4014,8 +4014,8 @@
     "change7d": -5.99,
     "changeYtd": -1.67,
     "marketCap": 37951959040,
-    "volume": 308607679,
-    "pe": 35.3,
+    "volume": 311576488,
+    "pe": 35.2,
     "color": "#8A6D3B",
     "domain": "vulcanmaterials.com"
   },
@@ -4029,7 +4029,7 @@
     "change7d": 0.58,
     "changeYtd": 11.45,
     "marketCap": 37790932992,
-    "volume": 264059814,
+    "volume": 265598819,
     "pe": 24.1,
     "color": "#00529B",
     "domain": "wecenergygroup.com"
@@ -4044,7 +4044,7 @@
     "change7d": -14.32,
     "changeYtd": -15.02,
     "marketCap": 37620391936,
-    "volume": 570593735,
+    "volume": 576765900,
     "pe": 13.4,
     "color": "#FF9900",
     "domain": "carnivalcorp.com"
@@ -4059,7 +4059,7 @@
     "change7d": 2.94,
     "changeYtd": 10.99,
     "marketCap": 37516648448,
-    "volume": 450884456,
+    "volume": 451138506,
     "pe": null,
     "color": "#4285F4",
     "domain": "livenationentertainment.com"
@@ -4074,7 +4074,7 @@
     "change7d": 0.13,
     "changeYtd": -9.77,
     "marketCap": 37282054144,
-    "volume": 317453768,
+    "volume": 315534014,
     "pe": 23.5,
     "color": "#FF9900",
     "domain": "sands.com"
@@ -4089,7 +4089,7 @@
     "change7d": 1.1,
     "changeYtd": 3.1,
     "marketCap": 37268115456,
-    "volume": 271163124,
+    "volume": 270322866,
     "pe": 25.3,
     "color": "#D52B1E",
     "domain": "resmed.com"
@@ -4104,7 +4104,7 @@
     "change7d": 6.08,
     "changeYtd": -0.45,
     "marketCap": 36804030464,
-    "volume": 353364765,
+    "volume": 353556386,
     "pe": 23.9,
     "color": "#0039A6",
     "domain": "copart.com"
@@ -4119,7 +4119,7 @@
     "change7d": -10.15,
     "changeYtd": -7.75,
     "marketCap": 36694396928,
-    "volume": 597679013,
+    "volume": 598573495,
     "pe": null,
     "color": "#3861FB",
     "domain": "microchip.com"
@@ -4134,8 +4134,8 @@
     "change7d": 2.67,
     "changeYtd": 86.18,
     "marketCap": 36077801472,
-    "volume": 269314687,
-    "pe": 75.1,
+    "volume": 268718637,
+    "pe": 75.2,
     "color": "#ED1B2D",
     "domain": "texaspacific.com"
   },
@@ -4149,7 +4149,7 @@
     "change7d": -2.68,
     "changeYtd": 11.31,
     "marketCap": 35761442816,
-    "volume": 329074093,
+    "volume": 328464689,
     "pe": 62.4,
     "color": "#0039A6",
     "domain": "irco.com"
@@ -4164,7 +4164,7 @@
     "change7d": 1.35,
     "changeYtd": 2.98,
     "marketCap": 35323842560,
-    "volume": 316159659,
+    "volume": 315439887,
     "pe": 25.9,
     "color": "#0039A6",
     "domain": "otis.com"
@@ -4179,7 +4179,7 @@
     "change7d": 7.84,
     "changeYtd": -10.95,
     "marketCap": 35315216384,
-    "volume": 374974769,
+    "volume": 375561802,
     "pe": 22.3,
     "color": "#0039A6",
     "domain": "paychex.com"
@@ -4194,7 +4194,7 @@
     "change7d": -2.3,
     "changeYtd": 2.01,
     "marketCap": 35200102400,
-    "volume": 210700917,
+    "volume": 209669549,
     "pe": 8.4,
     "color": "#003087",
     "domain": "archgroup.com"
@@ -4209,7 +4209,7 @@
     "change7d": -8.24,
     "changeYtd": -11.65,
     "marketCap": 35142864896,
-    "volume": 252785859,
+    "volume": 253636845,
     "pe": 16.9,
     "color": "#D52B1E",
     "domain": "gehealthcare.com"
@@ -4224,8 +4224,8 @@
     "change7d": 13.39,
     "changeYtd": -6.67,
     "marketCap": 34992283648,
-    "volume": 414644839,
-    "pe": 54.8,
+    "volume": 411977876,
+    "pe": 54.7,
     "color": "#3861FB",
     "domain": "fico.com"
   },
@@ -4239,7 +4239,7 @@
     "change7d": -2.77,
     "changeYtd": 10.27,
     "marketCap": 34980360192,
-    "volume": 823712655,
+    "volume": 823255948,
     "pe": 24.0,
     "color": "#0071CE",
     "domain": "kenvue.com"
@@ -4254,7 +4254,7 @@
     "change7d": -4.92,
     "changeYtd": -5.52,
     "marketCap": 34953158656,
-    "volume": 270174630,
+    "volume": 270983160,
     "pe": 13.3,
     "color": "#003087",
     "domain": "statestreet.com"
@@ -4269,7 +4269,7 @@
     "change7d": -3.94,
     "changeYtd": 7.53,
     "marketCap": 34821976064,
-    "volume": 611642316,
+    "volume": 612414874,
     "pe": 21.6,
     "color": "#0071CE",
     "domain": "kimberly-clark.com"
@@ -4284,7 +4284,7 @@
     "change7d": -14.83,
     "changeYtd": -8.64,
     "marketCap": 34678771712,
-    "volume": 378156541,
+    "volume": 377212605,
     "pe": null,
     "color": "#0071CE",
     "domain": "elcompanies.com"
@@ -4299,7 +4299,7 @@
     "change7d": -1.71,
     "changeYtd": -14.01,
     "marketCap": 34500718592,
-    "volume": 207257324,
+    "volume": 208056689,
     "pe": 9.9,
     "color": "#003087",
     "domain": "prudential.com"
@@ -4314,7 +4314,7 @@
     "change7d": -12.6,
     "changeYtd": 7.76,
     "marketCap": 34447159296,
-    "volume": 370933151,
+    "volume": 375659821,
     "pe": 40.0,
     "color": "#00529B",
     "domain": "nrg.com"
@@ -4329,7 +4329,7 @@
     "change7d": 3.65,
     "changeYtd": -8.12,
     "marketCap": 34347223040,
-    "volume": 636443581,
+    "volume": 632962828,
     "pe": 10.1,
     "color": "#003087",
     "domain": "fiserv.com"
@@ -4344,7 +4344,7 @@
     "change7d": -3.47,
     "changeYtd": -8.05,
     "marketCap": 33856937984,
-    "volume": 536161295,
+    "volume": 532678945,
     "pe": 12.0,
     "color": "#003087",
     "domain": "huntington.com"
@@ -4358,9 +4358,9 @@
     "change1d": -2.02,
     "change7d": -5.3,
     "changeYtd": -20.09,
-    "marketCap": 33484052480,
-    "volume": 261371762,
-    "pe": 25.8,
+    "marketCap": 33406191616,
+    "volume": 262246720,
+    "pe": 26.0,
     "color": "#D52B1E",
     "domain": "agilent.com"
   },
@@ -4374,7 +4374,7 @@
     "change7d": -2.26,
     "changeYtd": 3.79,
     "marketCap": 33195673600,
-    "volume": 257592920,
+    "volume": 258416490,
     "pe": 12.7,
     "color": "#003087",
     "domain": "mtb.com"
@@ -4389,7 +4389,7 @@
     "change7d": 0.43,
     "changeYtd": 10.17,
     "marketCap": 32685324288,
-    "volume": 204453732,
+    "volume": 203089800,
     "pe": 32.1,
     "color": "#003D6B",
     "domain": "extraspace.com"
@@ -4404,7 +4404,7 @@
     "change7d": -5.32,
     "changeYtd": 2.12,
     "marketCap": 32258420736,
-    "volume": 469596622,
+    "volume": 471038968,
     "pe": 25.3,
     "color": "#0071CE",
     "domain": "dollargeneral.com"
@@ -4419,8 +4419,8 @@
     "change7d": -10.33,
     "changeYtd": 10.52,
     "marketCap": 32187105280,
-    "volume": 271521907,
-    "pe": 29.0,
+    "volume": 273939937,
+    "pe": 25.5,
     "color": "#0039A6",
     "domain": "emcorgroup.com"
   },
@@ -4434,7 +4434,7 @@
     "change7d": -1.36,
     "changeYtd": 14.55,
     "marketCap": 32014358528,
-    "volume": 228166161,
+    "volume": 227550093,
     "pe": 29.8,
     "color": "#0071CE",
     "domain": "adm.com"
@@ -4449,7 +4449,7 @@
     "change7d": 7.26,
     "changeYtd": -21.39,
     "marketCap": 31748483072,
-    "volume": 419285922,
+    "volume": 420214472,
     "pe": 14.4,
     "color": "#3861FB",
     "domain": "cognizant.com"
@@ -4464,7 +4464,7 @@
     "change7d": -4.01,
     "changeYtd": 23.26,
     "marketCap": 31743117312,
-    "volume": 227234796,
+    "volume": 226296028,
     "pe": 219.0,
     "color": "#003D6B",
     "domain": "ironmountain.com"
@@ -4479,8 +4479,8 @@
     "change7d": -1.82,
     "changeYtd": 7.73,
     "marketCap": 31733010432,
-    "volume": 338281096,
-    "pe": 11.3,
+    "volume": 336856600,
+    "pe": 11.4,
     "color": "#003D6B",
     "domain": "viciproperties.com"
   },
@@ -4494,8 +4494,8 @@
     "change7d": 2.39,
     "changeYtd": 16.88,
     "marketCap": 31137591296,
-    "volume": 248681700,
-    "pe": 28.5,
+    "volume": 248339586,
+    "pe": 28.6,
     "color": "#003087",
     "domain": "cboe.com"
   },
@@ -4509,8 +4509,8 @@
     "change7d": -1.21,
     "changeYtd": -20.99,
     "marketCap": 30959970304,
-    "volume": 297864253,
-    "pe": 29.4,
+    "volume": 301890550,
+    "pe": 29.3,
     "color": "#D52B1E",
     "domain": "waters.com"
   },
@@ -4524,7 +4524,7 @@
     "change7d": -15.45,
     "changeYtd": -18.16,
     "marketCap": 30894315520,
-    "volume": 509807388,
+    "volume": 521451279,
     "pe": 9.4,
     "color": "#0039A6",
     "domain": "united.com"
@@ -4539,7 +4539,7 @@
     "change7d": 1.79,
     "changeYtd": 15.89,
     "marketCap": 30887950336,
-    "volume": 245177814,
+    "volume": 246013468,
     "pe": 21.1,
     "color": "#00529B",
     "domain": "dteenergy.com"
@@ -4554,7 +4554,7 @@
     "change7d": -1.29,
     "changeYtd": -5.36,
     "marketCap": 30864545792,
-    "volume": 216340617,
+    "volume": 216987855,
     "pe": 15.3,
     "color": "#003087",
     "domain": "raymondjames.com"
@@ -4565,12 +4565,12 @@
     "ticker": "EXPE",
     "sector": "Consumer Discretionary",
     "price": 251.54,
-    "change1d": 13.44,
-    "change7d": 23.46,
-    "changeYtd": -15.36,
+    "change1d": 13.69,
+    "change7d": 23.73,
+    "changeYtd": -15.18,
     "marketCap": 30822420480,
-    "volume": 629126677,
-    "pe": 25.7,
+    "volume": 652426826,
+    "pe": 25.6,
     "color": "#FF9900",
     "domain": "expediagroup.com"
   },
@@ -4584,7 +4584,7 @@
     "change7d": -0.03,
     "changeYtd": 12.46,
     "marketCap": 30796455936,
-    "volume": 203945258,
+    "volume": 203324927,
     "pe": 20.8,
     "color": "#00529B",
     "domain": "amereninvestors.com"
@@ -4599,8 +4599,8 @@
     "change7d": -3.32,
     "changeYtd": 23.21,
     "marketCap": 30746322944,
-    "volume": 235214574,
-    "pe": 34.6,
+    "volume": 234932984,
+    "pe": 34.7,
     "color": "#3861FB",
     "domain": "teledyne.com"
   },
@@ -4613,8 +4613,8 @@
     "change1d": -2.48,
     "change7d": -1.61,
     "changeYtd": -9.19,
-    "marketCap": 30739884032,
-    "volume": 203979198,
+    "marketCap": 30723360768,
+    "volume": 204763469,
     "pe": 32.2,
     "color": "#0039A6",
     "domain": "xylem.com"
@@ -4629,8 +4629,8 @@
     "change7d": 1.82,
     "changeYtd": 12.2,
     "marketCap": 30669072384,
-    "volume": 243348517,
-    "pe": 24.1,
+    "volume": 243195950,
+    "pe": 24.2,
     "color": "#00529B",
     "domain": "atmosenergy.com"
   },
@@ -4644,7 +4644,7 @@
     "change7d": -4.66,
     "changeYtd": 14.22,
     "marketCap": 30615605248,
-    "volume": 378153809,
+    "volume": 378632379,
     "pe": 58.2,
     "color": "#FF9900",
     "domain": "tapestry.com"
@@ -4659,7 +4659,7 @@
     "change7d": 10.25,
     "changeYtd": -26.93,
     "marketCap": 30398550016,
-    "volume": 355916148,
+    "volume": 356236555,
     "pe": 22.8,
     "color": "#D52B1E",
     "domain": "iqvia.com"
@@ -4674,8 +4674,8 @@
     "change7d": 1.86,
     "changeYtd": 11.43,
     "marketCap": 29756389376,
-    "volume": 454753722,
-    "pe": 6.4,
+    "volume": 453527912,
+    "pe": 6.3,
     "color": "#4285F4",
     "domain": "corporate.charter.com"
   },
@@ -4689,8 +4689,8 @@
     "change7d": -4.7,
     "changeYtd": 8.38,
     "marketCap": 29567490048,
-    "volume": 272842361,
-    "pe": 27.1,
+    "volume": 274136488,
+    "pe": 27.0,
     "color": "#0039A6",
     "domain": "dovercorporation.com"
   },
@@ -4704,8 +4704,8 @@
     "change7d": 7.86,
     "changeYtd": -3.82,
     "marketCap": 29438275584,
-    "volume": 401130650,
-    "pe": 32.5,
+    "volume": 402340518,
+    "pe": 32.6,
     "color": "#0039A6",
     "domain": "verisk.com"
   },
@@ -4719,7 +4719,7 @@
     "change7d": -4.48,
     "changeYtd": -0.26,
     "marketCap": 29308149760,
-    "volume": 375577630,
+    "volume": 375099819,
     "pe": 25.1,
     "color": "#FF9900",
     "domain": "ulta.com"
@@ -4734,7 +4734,7 @@
     "change7d": -0.63,
     "changeYtd": 14.0,
     "marketCap": 29081581568,
-    "volume": 236978667,
+    "volume": 237566052,
     "pe": 28.6,
     "color": "#00529B",
     "domain": "firstenergycorp.com"
@@ -4745,11 +4745,11 @@
     "ticker": "WTW",
     "sector": "Financials",
     "price": 300.52,
-    "change1d": -1.31,
+    "change1d": -1.3,
     "change7d": 1.24,
     "changeYtd": -9.31,
     "marketCap": 28773896192,
-    "volume": 247527305,
+    "volume": 247632377,
     "pe": 18.5,
     "color": "#003087",
     "domain": "wtwco.com"
@@ -4764,7 +4764,7 @@
     "change7d": -2.68,
     "changeYtd": 13.0,
     "marketCap": 28749965312,
-    "volume": 445111834,
+    "volume": 449513931,
     "pe": 22.8,
     "color": "#ED1B2D",
     "domain": "halliburton.com"
@@ -4779,7 +4779,7 @@
     "change7d": -1.32,
     "changeYtd": 5.3,
     "marketCap": 28682135552,
-    "volume": 374377020,
+    "volume": 375874409,
     "pe": null,
     "color": "#0071CE",
     "domain": "kraftheinzcompany.com"
@@ -4794,7 +4794,7 @@
     "change7d": 4.07,
     "changeYtd": -4.28,
     "marketCap": 28652425216,
-    "volume": 415130509,
+    "volume": 412799876,
     "pe": null,
     "color": "#3861FB",
     "domain": "hpe.com"
@@ -4809,7 +4809,7 @@
     "change7d": -0.84,
     "changeYtd": 10.22,
     "marketCap": 28519606272,
-    "volume": 326419170,
+    "volume": 326710551,
     "pe": 23.9,
     "color": "#00529B",
     "domain": "pplweb.com"
@@ -4824,7 +4824,7 @@
     "change7d": 0.49,
     "changeYtd": 15.61,
     "marketCap": 28334626816,
-    "volume": 238232590,
+    "volume": 238848349,
     "pe": 27.1,
     "color": "#00529B",
     "domain": "centerpointenergy.com"
@@ -4839,7 +4839,7 @@
     "change7d": -1.62,
     "changeYtd": -1.86,
     "marketCap": 27985133568,
-    "volume": 171118858,
+    "volume": 172062375,
     "pe": 53.4,
     "color": "#0039A6",
     "domain": "rollins.com"
@@ -4853,9 +4853,9 @@
     "change1d": -2.03,
     "change7d": -0.81,
     "changeYtd": 13.2,
-    "marketCap": 27965927424,
-    "volume": 251341824,
-    "pe": 23.8,
+    "marketCap": 27743703040,
+    "volume": 251041656,
+    "pe": 23.7,
     "color": "#8A6D3B",
     "domain": "steeldynamics.com"
   },
@@ -4865,11 +4865,11 @@
     "ticker": "ES",
     "sector": "Utilities",
     "price": 73.87,
-    "change1d": -1.93,
-    "change7d": -1.4,
-    "changeYtd": 12.57,
+    "change1d": -0.89,
+    "change7d": -0.36,
+    "changeYtd": 13.77,
     "marketCap": 27737935872,
-    "volume": 189594453,
+    "volume": 189110900,
     "pe": 16.2,
     "color": "#00529B",
     "domain": "eversource.com"
@@ -4884,7 +4884,7 @@
     "change7d": 4.46,
     "changeYtd": 29.16,
     "marketCap": 27614167040,
-    "volume": 455599476,
+    "volume": 461914370,
     "pe": 10.7,
     "color": "#ED1B2D",
     "domain": "devonenergy.com"
@@ -4899,7 +4899,7 @@
     "change7d": -1.39,
     "changeYtd": 0.63,
     "marketCap": 27602343936,
-    "volume": 328812179,
+    "volume": 326132227,
     "pe": 21.4,
     "color": "#D52B1E",
     "domain": "biogen.com"
@@ -4914,7 +4914,7 @@
     "change7d": -3.38,
     "changeYtd": 0.84,
     "marketCap": 27570249728,
-    "volume": 371382369,
+    "volume": 371202109,
     "pe": 33.8,
     "color": "#D52B1E",
     "domain": "dexcom.com"
@@ -4929,7 +4929,7 @@
     "change7d": -5.29,
     "changeYtd": 21.83,
     "marketCap": 27404810240,
-    "volume": 234625676,
+    "volume": 236490857,
     "pe": 6.2,
     "color": "#00529B",
     "domain": "edison.com"
@@ -4944,7 +4944,7 @@
     "change7d": -9.14,
     "changeYtd": 12.4,
     "marketCap": 26941818880,
-    "volume": 307227097,
+    "volume": 308209707,
     "pe": 39.5,
     "color": "#3861FB",
     "domain": "jabil.com"
@@ -4959,7 +4959,7 @@
     "change7d": 2.49,
     "changeYtd": 9.27,
     "marketCap": 26668953600,
-    "volume": 439110108,
+    "volume": 438100328,
     "pe": null,
     "color": "#4285F4",
     "domain": "omnicomgroup.com"
@@ -4974,7 +4974,7 @@
     "change7d": -1.54,
     "changeYtd": 0.62,
     "marketCap": 26666291200,
-    "volume": 155386535,
+    "volume": 155989666,
     "pe": 16.4,
     "color": "#003087",
     "domain": "northerntrust.com"
@@ -4989,7 +4989,7 @@
     "change7d": -2.43,
     "changeYtd": 1.69,
     "marketCap": 26586003456,
-    "volume": 342045879,
+    "volume": 342573102,
     "pe": 24.5,
     "color": "#FF9900",
     "domain": "tractorsupply.com"
@@ -5004,7 +5004,7 @@
     "change7d": -2.81,
     "changeYtd": 1.71,
     "marketCap": 26438074368,
-    "volume": 176864123,
+    "volume": 177289613,
     "pe": 15.6,
     "color": "#003087",
     "domain": "berkley.com"
@@ -5019,7 +5019,7 @@
     "change7d": 0.31,
     "changeYtd": 6.5,
     "marketCap": 26280943616,
-    "volume": 233626409,
+    "volume": 234056013,
     "pe": 23.7,
     "color": "#00529B",
     "domain": "amwater.com"
@@ -5034,7 +5034,7 @@
     "change7d": 3.08,
     "changeYtd": -24.2,
     "marketCap": 26192891904,
-    "volume": 215345369,
+    "volume": 216323738,
     "pe": 69.3,
     "color": "#003087",
     "domain": "fisglobal.com"
@@ -5049,7 +5049,7 @@
     "change7d": 1.58,
     "changeYtd": 2.02,
     "marketCap": 25952118784,
-    "volume": 113442879,
+    "volume": 114164961,
     "pe": 11.0,
     "color": "#003087",
     "domain": "cinfin.com"
@@ -5064,7 +5064,7 @@
     "change7d": -8.6,
     "changeYtd": -14.25,
     "marketCap": 25764556800,
-    "volume": 181508292,
+    "volume": 183377405,
     "pe": 30.0,
     "color": "#D52B1E",
     "domain": "mt.com"
@@ -5079,7 +5079,7 @@
     "change7d": -5.81,
     "changeYtd": 0.8,
     "marketCap": 25760718848,
-    "volume": 338899079,
+    "volume": 337862441,
     "pe": 13.1,
     "color": "#FF9900",
     "domain": "lennar.com"
@@ -5094,8 +5094,8 @@
     "change7d": -5.04,
     "changeYtd": 5.53,
     "marketCap": 25644027904,
-    "volume": 382609695,
-    "pe": 23.1,
+    "volume": 381073209,
+    "pe": 23.2,
     "color": "#0071CE",
     "domain": "cbrands.com"
   },
@@ -5105,11 +5105,11 @@
     "ticker": "EXE",
     "sector": "Energy",
     "price": 106.67,
-    "change1d": 0.75,
-    "change7d": 0.58,
-    "changeYtd": 0.01,
+    "change1d": 1.3,
+    "change7d": 1.13,
+    "changeYtd": 0.56,
     "marketCap": 25643282432,
-    "volume": 382594669,
+    "volume": 381960836,
     "pe": 14.1,
     "color": "#ED1B2D",
     "domain": "expandenergy.com"
@@ -5124,7 +5124,7 @@
     "change7d": -5.58,
     "changeYtd": -1.68,
     "marketCap": 25571608576,
-    "volume": 318412958,
+    "volume": 318392893,
     "pe": 15.4,
     "color": "#003087",
     "domain": "citizensbank.com"
@@ -5139,8 +5139,8 @@
     "change7d": 0.57,
     "changeYtd": -0.12,
     "marketCap": 25386557440,
-    "volume": 203663571,
-    "pe": 24.3,
+    "volume": 202246821,
+    "pe": 24.2,
     "color": "#003D6B",
     "domain": "avalonbay.com"
   },
@@ -5154,7 +5154,7 @@
     "change7d": -9.49,
     "changeYtd": 2.05,
     "marketCap": 25332033536,
-    "volume": 228118683,
+    "volume": 226820194,
     "pe": 28.8,
     "color": "#0039A6",
     "domain": "hubbell.com"
@@ -5169,8 +5169,8 @@
     "change7d": 4.42,
     "changeYtd": -3.1,
     "marketCap": 25320880128,
-    "volume": 363322871,
-    "pe": 38.8,
+    "volume": 361957463,
+    "pe": 38.9,
     "color": "#0039A6",
     "domain": "equifax.com"
   },
@@ -5184,7 +5184,7 @@
     "change7d": -9.14,
     "changeYtd": 8.29,
     "marketCap": 25002354688,
-    "volume": 234205891,
+    "volume": 234600904,
     "pe": 16.2,
     "color": "#8A6D3B",
     "domain": "ppg.com"
@@ -5199,7 +5199,7 @@
     "change7d": 8.4,
     "changeYtd": -19.8,
     "marketCap": 24976685056,
-    "volume": 85677040,
+    "volume": 85561801,
     "pe": 12.8,
     "color": "#4285F4",
     "domain": "foxcorporation.com"
@@ -5214,7 +5214,7 @@
     "change7d": 8.98,
     "changeYtd": -21.39,
     "marketCap": 24966494208,
-    "volume": 230006104,
+    "volume": 229487285,
     "pe": 14.1,
     "color": "#4285F4",
     "domain": "foxcorporation.com"
@@ -5229,7 +5229,7 @@
     "change7d": 4.38,
     "changeYtd": -7.01,
     "marketCap": 24964689920,
-    "volume": 234795713,
+    "volume": 234754401,
     "pe": 23.1,
     "color": "#003087",
     "domain": "bbrown.com"
@@ -5244,7 +5244,7 @@
     "change7d": -3.68,
     "changeYtd": 10.54,
     "marketCap": 24935309312,
-    "volume": 241028673,
+    "volume": 239499840,
     "pe": 11.7,
     "color": "#FF9900",
     "domain": "pultegroupinc.com"
@@ -5259,7 +5259,7 @@
     "change7d": -5.27,
     "changeYtd": -20.8,
     "marketCap": 24841000960,
-    "volume": 309676684,
+    "volume": 308002851,
     "pe": 7.4,
     "color": "#003087",
     "domain": "synchrony.com"
@@ -5274,7 +5274,7 @@
     "change7d": -0.46,
     "changeYtd": 1.89,
     "marketCap": 24747864064,
-    "volume": 164599527,
+    "volume": 164731616,
     "pe": 21.5,
     "color": "#003D6B",
     "domain": "equityapartments.com"
@@ -5289,7 +5289,7 @@
     "change7d": -12.67,
     "changeYtd": -1.68,
     "marketCap": 24484724736,
-    "volume": 557998806,
+    "volume": 556954316,
     "pe": 209.8,
     "color": "#3861FB",
     "domain": "onsemi.com"
@@ -5304,7 +5304,7 @@
     "change7d": -3.43,
     "changeYtd": -1.6,
     "marketCap": 24324552704,
-    "volume": 373707728,
+    "volume": 374212735,
     "pe": 12.1,
     "color": "#003087",
     "domain": "regions.com"
@@ -5318,9 +5318,9 @@
     "change1d": -3.42,
     "change7d": -3.23,
     "changeYtd": 42.06,
-    "marketCap": 24280973312,
-    "volume": 289771015,
-    "pe": 44.6,
+    "marketCap": 24303661056,
+    "volume": 289140178,
+    "pe": 35.1,
     "color": "#3861FB",
     "domain": "qnityelectronics.com"
   },
@@ -5334,7 +5334,7 @@
     "change7d": 13.66,
     "changeYtd": 37.58,
     "marketCap": 24195250176,
-    "volume": 419889784,
+    "volume": 426682138,
     "pe": null,
     "color": "#8A6D3B",
     "domain": "dow.com"
@@ -5349,7 +5349,7 @@
     "change7d": -2.76,
     "changeYtd": 3.99,
     "marketCap": 23985061888,
-    "volume": 322525647,
+    "volume": 323292542,
     "pe": 21.6,
     "color": "#FF9900",
     "domain": "darden.com"
@@ -5364,28 +5364,13 @@
     "change7d": -3.64,
     "changeYtd": 19.42,
     "marketCap": 23979388928,
-    "volume": 243281230,
+    "volume": 242783927,
     "pe": 33.1,
     "color": "#0071CE",
     "domain": "churchdwight.com"
   },
   {
     "rank": 359,
-    "name": "Coterra",
-    "ticker": "CTRA",
-    "sector": "Energy",
-    "price": 31.15,
-    "change1d": 1.96,
-    "change7d": 4.18,
-    "changeYtd": 23.17,
-    "marketCap": 23716909056,
-    "volume": 306169701,
-    "pe": 14.4,
-    "color": "#ED1B2D",
-    "domain": "coterra.com"
-  },
-  {
-    "rank": 360,
     "name": "CMS Energy",
     "ticker": "CMS",
     "sector": "Utilities",
@@ -5394,10 +5379,25 @@
     "change7d": 0.8,
     "changeYtd": 11.82,
     "marketCap": 23655692288,
-    "volume": 227878796,
+    "volume": 228784738,
     "pe": 21.9,
     "color": "#00529B",
     "domain": "cmsenergy.com"
+  },
+  {
+    "rank": 360,
+    "name": "Coterra",
+    "ticker": "CTRA",
+    "sector": "Energy",
+    "price": 31.15,
+    "change1d": 1.96,
+    "change7d": 4.18,
+    "changeYtd": 23.17,
+    "marketCap": 23651344384,
+    "volume": 304872397,
+    "pe": 13.9,
+    "color": "#ED1B2D",
+    "domain": "coterra.com"
   },
   {
     "rank": 361,
@@ -5409,8 +5409,8 @@
     "change7d": -9.23,
     "changeYtd": -11.9,
     "marketCap": 23641913344,
-    "volume": 347902600,
-    "pe": 22.0,
+    "volume": 346819537,
+    "pe": 21.9,
     "color": "#0071CE",
     "domain": "dollartree.com"
   },
@@ -5424,7 +5424,7 @@
     "change7d": 0.87,
     "changeYtd": -5.1,
     "marketCap": 23635425280,
-    "volume": 184126783,
+    "volume": 184381702,
     "pe": 25.3,
     "color": "#0039A6",
     "domain": "veralto.com"
@@ -5439,8 +5439,8 @@
     "change7d": -5.21,
     "changeYtd": -7.75,
     "marketCap": 23409041408,
-    "volume": 173403444,
-    "pe": 33.3,
+    "volume": 174454557,
+    "pe": 33.2,
     "color": "#D52B1E",
     "domain": "steris.com"
   },
@@ -5453,9 +5453,9 @@
     "change1d": -1.33,
     "change7d": -3.0,
     "changeYtd": 13.49,
-    "marketCap": 23293841408,
-    "volume": 263200100,
-    "pe": 30.5,
+    "marketCap": 23376474112,
+    "volume": 263870154,
+    "pe": 33.5,
     "color": "#8A6D3B",
     "domain": "smurfitwestrock.com"
   },
@@ -5469,7 +5469,7 @@
     "change7d": -2.18,
     "changeYtd": 2.88,
     "marketCap": 23248171008,
-    "volume": 347267144,
+    "volume": 347085719,
     "pe": 9.4,
     "color": "#0071CE",
     "domain": "generalmills.com"
@@ -5484,28 +5484,13 @@
     "change7d": -7.47,
     "changeYtd": 1.23,
     "marketCap": 23110912000,
-    "volume": 207546479,
+    "volume": 209436305,
     "pe": 21.3,
     "color": "#FF9900",
     "domain": "williams-sonomainc.com"
   },
   {
     "rank": 367,
-    "name": "Corpay",
-    "ticker": "CPAY",
-    "sector": "Financials",
-    "price": 324.33,
-    "change1d": -1.34,
-    "change7d": -1.79,
-    "changeYtd": 1.16,
-    "marketCap": 22902362112,
-    "volume": 209560307,
-    "pe": 21.6,
-    "color": "#003087",
-    "domain": "corpay.com"
-  },
-  {
-    "rank": 368,
     "name": "Labcorp",
     "ticker": "LH",
     "sector": "Health Care",
@@ -5514,13 +5499,13 @@
     "change7d": -2.18,
     "changeYtd": 9.02,
     "marketCap": 22873769984,
-    "volume": 196568176,
+    "volume": 195751729,
     "pe": 26.4,
     "color": "#D52B1E",
     "domain": "labcorp.com"
   },
   {
-    "rank": 369,
+    "rank": 368,
     "name": "Loews Corporation",
     "ticker": "L",
     "sector": "Financials",
@@ -5529,13 +5514,13 @@
     "change7d": 0.5,
     "changeYtd": 4.37,
     "marketCap": 22732552192,
-    "volume": 85161560,
+    "volume": 84826830,
     "pe": 13.8,
     "color": "#003087",
     "domain": "loews.com"
   },
   {
-    "rank": 370,
+    "rank": 369,
     "name": "Southwest Airlines",
     "ticker": "LUV",
     "sector": "Industrials",
@@ -5544,13 +5529,13 @@
     "change7d": -12.01,
     "changeYtd": 2.95,
     "marketCap": 22703108096,
-    "volume": 468685898,
+    "volume": 472290396,
     "pe": 55.6,
     "color": "#0039A6",
     "domain": "southwest.com"
   },
   {
-    "rank": 371,
+    "rank": 370,
     "name": "Quest Diagnostics",
     "ticker": "DGX",
     "sector": "Health Care",
@@ -5559,10 +5544,25 @@
     "change7d": -1.84,
     "changeYtd": 15.03,
     "marketCap": 22691215360,
-    "volume": 206437750,
+    "volume": 205050890,
     "pe": 23.3,
     "color": "#D52B1E",
     "domain": "questdiagnostics.com"
+  },
+  {
+    "rank": 371,
+    "name": "Corpay",
+    "ticker": "CPAY",
+    "sector": "Financials",
+    "price": 324.33,
+    "change1d": -1.34,
+    "change7d": -1.79,
+    "changeYtd": 1.16,
+    "marketCap": 22689495040,
+    "volume": 209107218,
+    "pe": 21.6,
+    "color": "#003087",
+    "domain": "corpay.com"
   },
   {
     "rank": 372,
@@ -5572,9 +5572,9 @@
     "price": 47.04,
     "change1d": -1.09,
     "change7d": 1.1,
-    "changeYtd": 14.01,
+    "changeYtd": 13.24,
     "marketCap": 22510200832,
-    "volume": 185391699,
+    "volume": 184933577,
     "pe": 24.1,
     "color": "#00529B",
     "domain": "nisource.com"
@@ -5589,7 +5589,7 @@
     "change7d": 3.4,
     "changeYtd": -10.66,
     "marketCap": 22459039744,
-    "volume": 181900325,
+    "volume": 181931065,
     "pe": 15.8,
     "color": "#0039A6",
     "domain": "leidos.com"
@@ -5604,7 +5604,7 @@
     "change7d": 7.65,
     "changeYtd": -13.02,
     "marketCap": 22286161920,
-    "volume": 206310666,
+    "volume": 206220947,
     "pe": 21.1,
     "color": "#0039A6",
     "domain": "broadridge.com"
@@ -5619,7 +5619,7 @@
     "change7d": -4.18,
     "changeYtd": -3.41,
     "marketCap": 22196119552,
-    "volume": 325057343,
+    "volume": 323688683,
     "pe": 13.4,
     "color": "#003087",
     "domain": "key.com"
@@ -5634,7 +5634,7 @@
     "change7d": 11.28,
     "changeYtd": -1.72,
     "marketCap": 22127489024,
-    "volume": 183477946,
+    "volume": 184337982,
     "pe": 27.1,
     "color": "#3861FB",
     "domain": "verisign.com"
@@ -5649,7 +5649,7 @@
     "change7d": 5.06,
     "changeYtd": 10.84,
     "marketCap": 21922316288,
-    "volume": 427952498,
+    "volume": 425817573,
     "pe": 38.3,
     "color": "#0039A6",
     "domain": "chrobinson.com"
@@ -5664,7 +5664,7 @@
     "change7d": 0.45,
     "changeYtd": 1.02,
     "marketCap": 21922119680,
-    "volume": 277705045,
+    "volume": 276692912,
     "pe": 17.7,
     "color": "#003087",
     "domain": "globalpayments.com"
@@ -5679,8 +5679,8 @@
     "change7d": -6.74,
     "changeYtd": 22.96,
     "marketCap": 21905227776,
-    "volume": 176792019,
-    "pe": 23.0,
+    "volume": 177538347,
+    "pe": 22.9,
     "color": "#0071CE",
     "domain": "bunge.com"
   },
@@ -5694,7 +5694,7 @@
     "change7d": -0.08,
     "changeYtd": 11.32,
     "marketCap": 21850021888,
-    "volume": 184739529,
+    "volume": 184375299,
     "pe": 110.8,
     "color": "#0071CE",
     "domain": "tysonfoods.com"
@@ -5709,7 +5709,7 @@
     "change7d": -5.38,
     "changeYtd": 5.46,
     "marketCap": 21813262336,
-    "volume": 267423020,
+    "volume": 265907728,
     "pe": null,
     "color": "#8A6D3B",
     "domain": "internationalpaper.com"
@@ -5724,7 +5724,7 @@
     "change7d": 2.66,
     "changeYtd": -34.29,
     "marketCap": 21797722112,
-    "volume": 349177730,
+    "volume": 348581978,
     "pe": 18.4,
     "color": "#D52B1E",
     "domain": "humana.com"
@@ -5739,8 +5739,8 @@
     "change7d": 3.24,
     "changeYtd": 11.28,
     "marketCap": 21553625088,
-    "volume": 240622944,
-    "pe": 36.9,
+    "volume": 239372984,
+    "pe": 37.0,
     "color": "#0039A6",
     "domain": "jbhunt.com"
   },
@@ -5754,7 +5754,7 @@
     "change7d": -6.27,
     "changeYtd": -2.08,
     "marketCap": 21431623680,
-    "volume": 230648969,
+    "volume": 230358457,
     "pe": 24.0,
     "color": "#FF9900",
     "domain": "ralphlauren.com"
@@ -5769,7 +5769,7 @@
     "change7d": 1.36,
     "changeYtd": -5.46,
     "marketCap": 21278930944,
-    "volume": 264215969,
+    "volume": 262506544,
     "pe": null,
     "color": "#D52B1E",
     "domain": "centene.com"
@@ -5784,7 +5784,7 @@
     "change7d": 4.79,
     "changeYtd": 49.99,
     "marketCap": 21259589632,
-    "volume": 642612065,
+    "volume": 644451597,
     "pe": null,
     "color": "#D52B1E",
     "domain": "modernatx.com"
@@ -5799,7 +5799,7 @@
     "change7d": 17.5,
     "changeYtd": 48.48,
     "marketCap": 21224558592,
-    "volume": 415690924,
+    "volume": 428112993,
     "pe": null,
     "color": "#8A6D3B",
     "domain": "lyondellbasell.com"
@@ -5814,7 +5814,7 @@
     "change7d": -0.75,
     "changeYtd": 7.87,
     "marketCap": 20853313536,
-    "volume": 171212705,
+    "volume": 171801145,
     "pe": 24.6,
     "color": "#003D6B",
     "domain": "sbasite.com"
@@ -5829,7 +5829,7 @@
     "change7d": 9.22,
     "changeYtd": -20.68,
     "marketCap": 20729171968,
-    "volume": 314151325,
+    "volume": 313702136,
     "pe": 2445.5,
     "color": "#003D6B",
     "domain": "costargroup.com"
@@ -5844,7 +5844,7 @@
     "change7d": -8.72,
     "changeYtd": -20.45,
     "marketCap": 20582248448,
-    "volume": 475493880,
+    "volume": 473639558,
     "pe": 13.5,
     "color": "#3861FB",
     "domain": "firstsolar.com"
@@ -5859,7 +5859,7 @@
     "change7d": -1.25,
     "changeYtd": 2.88,
     "marketCap": 20541374464,
-    "volume": 148427884,
+    "volume": 147898861,
     "pe": 17.8,
     "color": "#003087",
     "domain": "principal.com"
@@ -5874,28 +5874,13 @@
     "change7d": -5.13,
     "changeYtd": -18.2,
     "marketCap": 20537270272,
-    "volume": 625373042,
-    "pe": 12.0,
+    "volume": 621161651,
+    "pe": 12.1,
     "color": "#FF9900",
     "domain": "shop.lululemon.com"
   },
   {
     "rank": 393,
-    "name": "NetApp",
-    "ticker": "NTAP",
-    "sector": "Information Technology",
-    "price": 102.11,
-    "change1d": 2.57,
-    "change7d": 0.23,
-    "changeYtd": -2.11,
-    "marketCap": 20383033344,
-    "volume": 232710325,
-    "pe": 17.8,
-    "color": "#3861FB",
-    "domain": "netapp.com"
-  },
-  {
-    "rank": 394,
     "name": "Packaging Corporation of America",
     "ticker": "PKG",
     "sector": "Materials",
@@ -5904,10 +5889,25 @@
     "change7d": -2.04,
     "changeYtd": 9.39,
     "marketCap": 20355000320,
-    "volume": 220208204,
+    "volume": 219415982,
     "pe": 26.4,
     "color": "#8A6D3B",
     "domain": "packagingcorp.com"
+  },
+  {
+    "rank": 394,
+    "name": "NetApp",
+    "ticker": "NTAP",
+    "sector": "Information Technology",
+    "price": 102.11,
+    "change1d": 2.57,
+    "change7d": 0.23,
+    "changeYtd": -2.11,
+    "marketCap": 20223942656,
+    "volume": 233134796,
+    "pe": 17.1,
+    "color": "#3861FB",
+    "domain": "netapp.com"
   },
   {
     "rank": 395,
@@ -5919,7 +5919,7 @@
     "change7d": -10.51,
     "changeYtd": 5.38,
     "marketCap": 20186775552,
-    "volume": 227292979,
+    "volume": 228021117,
     "pe": 32.8,
     "color": "#8A6D3B",
     "domain": "amcor.com"
@@ -5934,7 +5934,7 @@
     "change7d": -2.86,
     "changeYtd": -1.0,
     "marketCap": 20088526848,
-    "volume": 190815505,
+    "volume": 190419314,
     "pe": 16.2,
     "color": "#FF9900",
     "domain": "nvrinc.com"
@@ -5949,7 +5949,7 @@
     "change7d": -3.39,
     "changeYtd": -13.17,
     "marketCap": 20086532096,
-    "volume": 188562349,
+    "volume": 188440212,
     "pe": 10.0,
     "color": "#003087",
     "domain": "troweprice.com"
@@ -5964,7 +5964,7 @@
     "change7d": -1.08,
     "changeYtd": 9.11,
     "marketCap": 19880927232,
-    "volume": 127153701,
+    "volume": 127936590,
     "pe": 19.9,
     "color": "#0039A6",
     "domain": "snapon.com"
@@ -5979,8 +5979,8 @@
     "change7d": 3.42,
     "changeYtd": -6.49,
     "marketCap": 19663550464,
-    "volume": 229468761,
-    "pe": 24.7,
+    "volume": 229006593,
+    "pe": 24.6,
     "color": "#0039A6",
     "domain": "expeditors.com"
   },
@@ -5994,7 +5994,7 @@
     "change7d": -7.55,
     "changeYtd": 8.5,
     "marketCap": 19574528000,
-    "volume": 226862654,
+    "volume": 227265381,
     "pe": 222.5,
     "color": "#8A6D3B",
     "domain": "dupont.com"
@@ -6009,7 +6009,7 @@
     "change7d": 6.58,
     "changeYtd": -5.91,
     "marketCap": 19545110528,
-    "volume": 175898281,
+    "volume": 177026186,
     "pe": 24.2,
     "color": "#3861FB",
     "domain": "ptc.com"
@@ -6024,7 +6024,7 @@
     "change7d": -2.65,
     "changeYtd": -11.97,
     "marketCap": 19370080256,
-    "volume": 195485459,
+    "volume": 194385533,
     "pe": 15.2,
     "color": "#D52B1E",
     "domain": "incyte.com"
@@ -6039,7 +6039,7 @@
     "change7d": -5.63,
     "changeYtd": 12.01,
     "marketCap": 19318919168,
-    "volume": 144818844,
+    "volume": 145841298,
     "pe": null,
     "color": "#8A6D3B",
     "domain": "iff.com"
@@ -6054,7 +6054,7 @@
     "change7d": -16.31,
     "changeYtd": 1.46,
     "marketCap": 19318693888,
-    "volume": 502213302,
+    "volume": 499603373,
     "pe": null,
     "color": "#8A6D3B",
     "domain": "albemarle.com"
@@ -6069,7 +6069,7 @@
     "change7d": -4.05,
     "changeYtd": 7.43,
     "marketCap": 19311421440,
-    "volume": 953386338,
+    "volume": 951978513,
     "pe": 23.5,
     "color": "#3861FB",
     "domain": "supermicro.com"
@@ -6084,7 +6084,7 @@
     "change7d": 0.12,
     "changeYtd": 14.33,
     "marketCap": 19090343936,
-    "volume": 181915763,
+    "volume": 182324957,
     "pe": 22.7,
     "color": "#00529B",
     "domain": "investors.evergy.com"
@@ -6099,7 +6099,7 @@
     "change7d": -2.08,
     "changeYtd": 4.7,
     "marketCap": 18543681536,
-    "volume": 247470025,
+    "volume": 247488531,
     "pe": 23.2,
     "color": "#0039A6",
     "domain": "lennox.com"
@@ -6114,7 +6114,7 @@
     "change7d": -6.41,
     "changeYtd": 0.84,
     "marketCap": 18520066048,
-    "volume": 206373851,
+    "volume": 205864269,
     "pe": 26.3,
     "color": "#D52B1E",
     "domain": "zimmerbiomet.com"
@@ -6129,7 +6129,7 @@
     "change7d": -0.5,
     "changeYtd": 7.19,
     "marketCap": 18431002624,
-    "volume": 223479792,
+    "volume": 223740753,
     "pe": 36.5,
     "color": "#0039A6",
     "domain": "fortive.com"
@@ -6144,7 +6144,7 @@
     "change7d": 0.11,
     "changeYtd": 10.43,
     "marketCap": 18344425472,
-    "volume": 179945224,
+    "volume": 180123217,
     "pe": 22.7,
     "color": "#00529B",
     "domain": "alliantenergy.com"
@@ -6159,7 +6159,7 @@
     "change7d": -0.65,
     "changeYtd": 2.86,
     "marketCap": 17854699520,
-    "volume": 144479335,
+    "volume": 143811526,
     "pe": 24.8,
     "color": "#003D6B",
     "domain": "essexapartmenthomes.com"
@@ -6174,7 +6174,7 @@
     "change7d": 1.11,
     "changeYtd": 6.26,
     "marketCap": 17754806272,
-    "volume": 181363811,
+    "volume": 181912567,
     "pe": 54.7,
     "color": "#003D6B",
     "domain": "weyerhaeuser.com"
@@ -6189,7 +6189,7 @@
     "change7d": 6.21,
     "changeYtd": -8.3,
     "marketCap": 17753821184,
-    "volume": 343550927,
+    "volume": 343038611,
     "pe": 7.3,
     "color": "#3861FB",
     "domain": "hp.com"
@@ -6204,7 +6204,7 @@
     "change7d": -1.42,
     "changeYtd": -12.16,
     "marketCap": 17598451712,
-    "volume": 226432797,
+    "volume": 225960957,
     "pe": 36.0,
     "color": "#D52B1E",
     "domain": "westpharma.com"
@@ -6219,7 +6219,7 @@
     "change7d": -5.45,
     "changeYtd": -0.15,
     "marketCap": 17520963584,
-    "volume": 237725011,
+    "volume": 236071330,
     "pe": 22.3,
     "color": "#0071CE",
     "domain": "mccormickcorporation.com"
@@ -6234,7 +6234,7 @@
     "change7d": 15.23,
     "changeYtd": 43.72,
     "marketCap": 17278869504,
-    "volume": 276177860,
+    "volume": 286722454,
     "pe": 12.4,
     "color": "#8A6D3B",
     "domain": "cfindustries.com"
@@ -6249,7 +6249,7 @@
     "change7d": -2.89,
     "changeYtd": -19.46,
     "marketCap": 16961175552,
-    "volume": 222461349,
+    "volume": 222511224,
     "pe": 69.4,
     "color": "#D52B1E",
     "domain": "insulet.com"
@@ -6264,7 +6264,7 @@
     "change7d": -3.97,
     "changeYtd": 18.46,
     "marketCap": 16942151680,
-    "volume": 150792220,
+    "volume": 150408475,
     "pe": 19.2,
     "color": "#8A6D3B",
     "domain": "ball.com"
@@ -6279,7 +6279,7 @@
     "change7d": 0.54,
     "changeYtd": 1.05,
     "marketCap": 16910801920,
-    "volume": 198124882,
+    "volume": 202960762,
     "pe": 31.4,
     "color": "#D52B1E",
     "domain": "hologic.com"
@@ -6294,28 +6294,13 @@
     "change7d": -0.25,
     "changeYtd": 8.83,
     "marketCap": 16789258240,
-    "volume": 171157335,
+    "volume": 170701073,
     "pe": 18.8,
     "color": "#0039A6",
     "domain": "textron.com"
   },
   {
     "rank": 421,
-    "name": "Viatris",
-    "ticker": "VTRS",
-    "sector": "Health Care",
-    "price": 14.53,
-    "change1d": -1.22,
-    "change7d": -9.64,
-    "changeYtd": 16.61,
-    "marketCap": 16774408192,
-    "volume": 145052318,
-    "pe": null,
-    "color": "#D52B1E",
-    "domain": "viatris.com"
-  },
-  {
-    "rank": 422,
     "name": "Trimble Inc.",
     "ticker": "TRMB",
     "sector": "Information Technology",
@@ -6323,11 +6308,26 @@
     "change1d": 0.77,
     "change7d": 4.94,
     "changeYtd": -12.12,
-    "marketCap": 16767301632,
-    "volume": 135406432,
+    "marketCap": 16763910144,
+    "volume": 135435250,
     "pe": 40.0,
     "color": "#3861FB",
     "domain": "trimble.com"
+  },
+  {
+    "rank": 422,
+    "name": "Viatris",
+    "ticker": "VTRS",
+    "sector": "Health Care",
+    "price": 14.53,
+    "change1d": -1.22,
+    "change7d": -9.64,
+    "changeYtd": 16.61,
+    "marketCap": 16735215616,
+    "volume": 144945290,
+    "pe": null,
+    "color": "#D52B1E",
+    "domain": "viatris.com"
   },
   {
     "rank": 423,
@@ -6339,7 +6339,7 @@
     "change7d": 2.19,
     "changeYtd": 4.36,
     "marketCap": 16711810048,
-    "volume": 210079504,
+    "volume": 211687110,
     "pe": 93.3,
     "color": "#4285F4",
     "domain": "tkogrp.com"
@@ -6354,7 +6354,7 @@
     "change7d": -3.01,
     "changeYtd": 18.53,
     "marketCap": 16527843328,
-    "volume": 241307253,
+    "volume": 240690660,
     "pe": 27.4,
     "color": "#0039A6",
     "domain": "hii.com"
@@ -6369,7 +6369,7 @@
     "change7d": 0.16,
     "changeYtd": -4.45,
     "marketCap": 16291230720,
-    "volume": 152551351,
+    "volume": 152535541,
     "pe": 249.2,
     "color": "#FF9900",
     "domain": "genpt.com"
@@ -6384,7 +6384,7 @@
     "change7d": 3.12,
     "changeYtd": 0.04,
     "marketCap": 16196004864,
-    "volume": 179183029,
+    "volume": 180283501,
     "pe": 27.5,
     "color": "#003D6B",
     "domain": "invitationhomes.com"
@@ -6399,7 +6399,7 @@
     "change7d": 2.25,
     "changeYtd": -3.55,
     "marketCap": 16184374272,
-    "volume": 232943385,
+    "volume": 231740935,
     "pe": 15.4,
     "color": "#3861FB",
     "domain": "cdw.com"
@@ -6414,8 +6414,8 @@
     "change7d": 0.27,
     "changeYtd": 0.71,
     "marketCap": 16132370432,
-    "volume": 137194710,
-    "pe": 35.5,
+    "volume": 137051966,
+    "pe": 35.6,
     "color": "#003D6B",
     "domain": "maac.com"
   },
@@ -6429,7 +6429,7 @@
     "change7d": 1.83,
     "changeYtd": 5.87,
     "marketCap": 16113898496,
-    "volume": 299547397,
+    "volume": 297047961,
     "pe": 23.5,
     "color": "#3861FB",
     "domain": "f5.com"
@@ -6444,8 +6444,8 @@
     "change7d": 1.99,
     "changeYtd": -0.26,
     "marketCap": 16071820288,
-    "volume": 125924216,
-    "pe": 35.9,
+    "volume": 125003228,
+    "pe": 36.0,
     "color": "#0039A6",
     "domain": "jacobs.com"
   },
@@ -6459,7 +6459,7 @@
     "change7d": 0.81,
     "changeYtd": 15.76,
     "marketCap": 15920832512,
-    "volume": 131388104,
+    "volume": 131825038,
     "pe": 28.7,
     "color": "#003D6B",
     "domain": "kimcorealty.com"
@@ -6474,7 +6474,7 @@
     "change7d": 9.18,
     "changeYtd": -18.37,
     "marketCap": 15727045632,
-    "volume": 233786902,
+    "volume": 234553034,
     "pe": 50.7,
     "color": "#3861FB",
     "domain": "tylertech.com"
@@ -6489,7 +6489,7 @@
     "change7d": -3.92,
     "changeYtd": -4.41,
     "marketCap": 15717437440,
-    "volume": 172623756,
+    "volume": 173060365,
     "pe": 42.9,
     "color": "#D52B1E",
     "domain": "coopercos.com"
@@ -6504,7 +6504,7 @@
     "change7d": -4.81,
     "changeYtd": -3.85,
     "marketCap": 15704712192,
-    "volume": 162626349,
+    "volume": 163174242,
     "pe": 24.4,
     "color": "#0039A6",
     "domain": "pentair.com"
@@ -6519,7 +6519,7 @@
     "change7d": -9.91,
     "changeYtd": 4.41,
     "marketCap": 15679228928,
-    "volume": 305592398,
+    "volume": 304447747,
     "pe": 15.3,
     "color": "#FF9900",
     "domain": "deckers.com"
@@ -6534,7 +6534,7 @@
     "change7d": -3.37,
     "changeYtd": 11.14,
     "marketCap": 15676306432,
-    "volume": 139354440,
+    "volume": 138441687,
     "pe": 30.4,
     "color": "#0039A6",
     "domain": "nordson.com"
@@ -6549,7 +6549,7 @@
     "change7d": -5.53,
     "changeYtd": -12.1,
     "marketCap": 15603093504,
-    "volume": 160040176,
+    "volume": 159923196,
     "pe": 96.3,
     "color": "#FF9900",
     "domain": "aptiv.com"
@@ -6564,8 +6564,8 @@
     "change7d": -1.38,
     "changeYtd": 13.07,
     "marketCap": 15219136512,
-    "volume": 155278242,
-    "pe": 31.7,
+    "volume": 154745314,
+    "pe": 31.8,
     "color": "#0039A6",
     "domain": "idexcorp.com"
   },
@@ -6574,12 +6574,12 @@
     "name": "News Corp (Class B)",
     "ticker": "NWS",
     "sector": "Communication Services",
-    "price": 26.93,
-    "change1d": 0.92,
-    "change7d": 2.57,
-    "changeYtd": -10.68,
+    "price": 26.94,
+    "change1d": 0.94,
+    "change7d": 2.59,
+    "changeYtd": -10.65,
     "marketCap": 14910493696,
-    "volume": 34679835,
+    "volume": 34726091,
     "pe": 35.0,
     "color": "#4285F4",
     "domain": "newscorp.com"
@@ -6594,7 +6594,7 @@
     "change7d": 1.77,
     "changeYtd": 13.32,
     "marketCap": 14810725376,
-    "volume": 106845318,
+    "volume": 106573840,
     "pe": 28.1,
     "color": "#003D6B",
     "domain": "regencycenters.com"
@@ -6609,28 +6609,13 @@
     "change7d": 0.96,
     "changeYtd": 14.54,
     "marketCap": 14633699328,
-    "volume": 372377708,
+    "volume": 370854628,
     "pe": 32.9,
     "color": "#3861FB",
     "domain": "akamai.com"
   },
   {
     "rank": 442,
-    "name": "Trade Desk (The)",
-    "ticker": "TTD",
-    "sector": "Communication Services",
-    "price": 29.79,
-    "change1d": 18.36,
-    "change7d": 18.4,
-    "changeYtd": -22.92,
-    "marketCap": 14565608448,
-    "volume": 456916710,
-    "pe": 33.1,
-    "color": "#4285F4",
-    "domain": "thetradedesk.com"
-  },
-  {
-    "rank": 443,
     "name": "Avery Dennison",
     "ticker": "AVY",
     "sector": "Materials",
@@ -6639,13 +6624,13 @@
     "change7d": -4.23,
     "changeYtd": 2.28,
     "marketCap": 14201482240,
-    "volume": 119123363,
+    "volume": 119640563,
     "pe": 20.9,
     "color": "#8A6D3B",
     "domain": "averydennison.com"
   },
   {
-    "rank": 444,
+    "rank": 443,
     "name": "UDR, Inc.",
     "ticker": "UDR",
     "sector": "Real Estate",
@@ -6654,10 +6639,25 @@
     "change7d": 0.0,
     "changeYtd": 3.52,
     "marketCap": 14182341632,
-    "volume": 153327402,
+    "volume": 152654277,
     "pe": 33.3,
     "color": "#003D6B",
     "domain": "udr.com"
+  },
+  {
+    "rank": 444,
+    "name": "Trade Desk (The)",
+    "ticker": "TTD",
+    "sector": "Communication Services",
+    "price": 29.79,
+    "change1d": 18.36,
+    "change7d": 18.4,
+    "changeYtd": -22.92,
+    "marketCap": 14179356672,
+    "volume": 490737387,
+    "pe": 33.1,
+    "color": "#4285F4",
+    "domain": "thetradedesk.com"
   },
   {
     "rank": 445,
@@ -6669,8 +6669,8 @@
     "change7d": -0.04,
     "changeYtd": -4.33,
     "marketCap": 14102578176,
-    "volume": 53379026,
-    "pe": 25.2,
+    "volume": 53265213,
+    "pe": 25.3,
     "color": "#003087",
     "domain": "erieinsurance.com"
   },
@@ -6684,7 +6684,7 @@
     "change7d": -1.25,
     "changeYtd": 7.04,
     "marketCap": 14035836928,
-    "volume": 137027430,
+    "volume": 138617298,
     "pe": 24.9,
     "color": "#003087",
     "domain": "franklinresources.com"
@@ -6699,28 +6699,13 @@
     "change7d": 2.97,
     "changeYtd": -8.07,
     "marketCap": 13994609664,
-    "volume": 95733687,
+    "volume": 95196249,
     "pe": 31.5,
     "color": "#4285F4",
     "domain": "newscorp.com"
   },
   {
     "rank": 448,
-    "name": "Everest Group",
-    "ticker": "EG",
-    "sector": "Financials",
-    "price": 332.84,
-    "change1d": -0.38,
-    "change7d": -0.88,
-    "changeYtd": 0.43,
-    "marketCap": 13971976192,
-    "volume": 127663110,
-    "pe": 8.8,
-    "color": "#003087",
-    "domain": "everestglobal.com"
-  },
-  {
-    "rank": 449,
     "name": "Gen Digital",
     "ticker": "GEN",
     "sector": "Information Technology",
@@ -6729,13 +6714,13 @@
     "change7d": 1.44,
     "changeYtd": -12.94,
     "marketCap": 13943951360,
-    "volume": 133332462,
+    "volume": 133621282,
     "pe": 23.3,
     "color": "#3861FB",
     "domain": "gendigital.com"
   },
   {
-    "rank": 450,
+    "rank": 449,
     "name": "Host Hotels & Resorts",
     "ticker": "HST",
     "sector": "Real Estate",
@@ -6744,13 +6729,13 @@
     "change7d": 1.27,
     "changeYtd": 12.2,
     "marketCap": 13905914880,
-    "volume": 164472348,
+    "volume": 166456312,
     "pe": 18.1,
     "color": "#003D6B",
     "domain": "hosthotels.com"
   },
   {
-    "rank": 451,
+    "rank": 450,
     "name": "Clorox",
     "ticker": "CLX",
     "sector": "Consumer Staples",
@@ -6759,13 +6744,13 @@
     "change7d": -9.93,
     "changeYtd": 12.97,
     "marketCap": 13869168640,
-    "volume": 262228804,
+    "volume": 262371043,
     "pe": 18.6,
     "color": "#0071CE",
     "domain": "thecloroxcompany.com"
   },
   {
-    "rank": 452,
+    "rank": 451,
     "name": "Best Buy",
     "ticker": "BBY",
     "sector": "Consumer Discretionary",
@@ -6774,13 +6759,13 @@
     "change7d": 5.25,
     "changeYtd": -4.69,
     "marketCap": 13782642688,
-    "volume": 314510730,
+    "volume": 315030085,
     "pe": 21.7,
     "color": "#FF9900",
     "domain": "bestbuy.com"
   },
   {
-    "rank": 453,
+    "rank": 452,
     "name": "Domino's",
     "ticker": "DPZ",
     "sector": "Consumer Discretionary",
@@ -6789,10 +6774,25 @@
     "change7d": -0.31,
     "changeYtd": -0.69,
     "marketCap": 13542356992,
-    "volume": 313454038,
+    "volume": 313325174,
     "pe": 22.9,
     "color": "#FF9900",
     "domain": "biz.dominos.com"
+  },
+  {
+    "rank": 453,
+    "name": "Everest Group",
+    "ticker": "EG",
+    "sector": "Financials",
+    "price": 332.84,
+    "change1d": -0.38,
+    "change7d": -0.88,
+    "changeYtd": 0.43,
+    "marketCap": 13443458048,
+    "volume": 127474390,
+    "pe": 8.8,
+    "color": "#003087",
+    "domain": "everestglobal.com"
   },
   {
     "rank": 454,
@@ -6803,8 +6803,8 @@
     "change1d": -1.81,
     "change7d": -4.39,
     "changeYtd": 10.36,
-    "marketCap": 13383942144,
-    "volume": 180375193,
+    "marketCap": 13417201664,
+    "volume": 179154743,
     "pe": null,
     "color": "#FF9900",
     "domain": "shop.hasbro.com"
@@ -6818,8 +6818,8 @@
     "change1d": -1.02,
     "change7d": -4.43,
     "changeYtd": 9.66,
-    "marketCap": 13307095040,
-    "volume": 117111049,
+    "marketCap": 13311375360,
+    "volume": 116663074,
     "pe": 27.2,
     "color": "#0071CE",
     "domain": "hormelfoods.com"
@@ -6834,7 +6834,7 @@
     "change7d": -9.13,
     "changeYtd": 1.98,
     "marketCap": 13295543296,
-    "volume": 167468583,
+    "volume": 168223908,
     "pe": 16.9,
     "color": "#0039A6",
     "domain": "masco.com"
@@ -6849,8 +6849,8 @@
     "change7d": -2.17,
     "changeYtd": -4.25,
     "marketCap": 13116511232,
-    "volume": 136988012,
-    "pe": 20.5,
+    "volume": 137383127,
+    "pe": 20.4,
     "color": "#0039A6",
     "domain": "allegion.com"
   },
@@ -6864,7 +6864,7 @@
     "change7d": 15.55,
     "changeYtd": -5.09,
     "marketCap": 12951181312,
-    "volume": 129894879,
+    "volume": 131142430,
     "pe": 391.3,
     "color": "#4285F4",
     "domain": "paramount.com"
@@ -6879,7 +6879,7 @@
     "change7d": -7.51,
     "changeYtd": 54.24,
     "marketCap": 12840660992,
-    "volume": 259737313,
+    "volume": 259332077,
     "pe": 81.3,
     "color": "#0039A6",
     "domain": "generac.com"
@@ -6893,8 +6893,8 @@
     "change1d": -3.6,
     "change7d": -6.62,
     "changeYtd": 5.27,
-    "marketCap": 12728606720,
-    "volume": 202885437,
+    "marketCap": 12599300096,
+    "volume": 202763746,
     "pe": 31.1,
     "color": "#D52B1E",
     "domain": "aligntech.com"
@@ -6909,7 +6909,7 @@
     "change7d": 17.71,
     "changeYtd": -20.73,
     "marketCap": 12585737216,
-    "volume": 182856558,
+    "volume": 184553946,
     "pe": 15.0,
     "color": "#3861FB",
     "domain": "godaddy.com"
@@ -6924,7 +6924,7 @@
     "change7d": 14.49,
     "changeYtd": -30.4,
     "marketCap": 12323749888,
-    "volume": 248247223,
+    "volume": 249555733,
     "pe": 17.7,
     "color": "#3861FB",
     "domain": "gartner.com"
@@ -6939,7 +6939,7 @@
     "change7d": 1.99,
     "changeYtd": 16.45,
     "marketCap": 12305751040,
-    "volume": 131135589,
+    "volume": 131365408,
     "pe": 20.2,
     "color": "#00529B",
     "domain": "pinnaclewest.com"
@@ -6954,7 +6954,7 @@
     "change7d": -5.73,
     "changeYtd": -14.89,
     "marketCap": 12279834624,
-    "volume": 76255964,
+    "volume": 76560459,
     "pe": 8.0,
     "color": "#D52B1E",
     "domain": "solventum.com"
@@ -6969,7 +6969,7 @@
     "change7d": -0.57,
     "changeYtd": 4.0,
     "marketCap": 12100715520,
-    "volume": 161730245,
+    "volume": 160509926,
     "pe": 174.1,
     "color": "#003D6B",
     "domain": "healthpeak.com"
@@ -6984,7 +6984,7 @@
     "change7d": -7.05,
     "changeYtd": 3.04,
     "marketCap": 12099031040,
-    "volume": 138030125,
+    "volume": 139156132,
     "pe": 15.3,
     "color": "#0071CE",
     "domain": "brown-forman.com"
@@ -6995,11 +6995,11 @@
     "ticker": "JKHY",
     "sector": "Financials",
     "price": 167.05,
-    "change1d": -0.82,
-    "change7d": 6.71,
-    "changeYtd": -10.17,
+    "change1d": -0.46,
+    "change7d": 7.1,
+    "changeYtd": -9.85,
     "marketCap": 12090600448,
-    "volume": 155085213,
+    "volume": 155425160,
     "pe": 24.0,
     "color": "#003087",
     "domain": "jackhenry.com"
@@ -7014,7 +7014,7 @@
     "change7d": -8.6,
     "changeYtd": -0.97,
     "marketCap": 12085343232,
-    "volume": 141832600,
+    "volume": 142625772,
     "pe": 29.4,
     "color": "#0039A6",
     "domain": "stanleyblackanddecker.com"
@@ -7029,7 +7029,7 @@
     "change7d": -14.55,
     "changeYtd": -5.39,
     "marketCap": 12031625216,
-    "volume": 149525340,
+    "volume": 150708085,
     "pe": 8.5,
     "color": "#D52B1E",
     "domain": "uhs.com"
@@ -7044,7 +7044,7 @@
     "change7d": 4.45,
     "changeYtd": 17.78,
     "marketCap": 11879346176,
-    "volume": 215084823,
+    "volume": 215613354,
     "pe": null,
     "color": "#0071CE",
     "domain": "jmsmucker.com"
@@ -7059,7 +7059,7 @@
     "change7d": -3.91,
     "changeYtd": -7.0,
     "marketCap": 11635137536,
-    "volume": 168202497,
+    "volume": 168619808,
     "pe": 28.1,
     "color": "#3861FB",
     "domain": "zebra.com"
@@ -7074,7 +7074,7 @@
     "change7d": -0.54,
     "changeYtd": 2.58,
     "marketCap": 11613476864,
-    "volume": 72375754,
+    "volume": 72859627,
     "pe": 10.2,
     "color": "#003087",
     "domain": "home.globelifeinsurance.com"
@@ -7089,7 +7089,7 @@
     "change7d": 16.31,
     "changeYtd": 39.75,
     "marketCap": 11585126400,
-    "volume": 206070309,
+    "volume": 207831198,
     "pe": 7.7,
     "color": "#ED1B2D",
     "domain": "apacorp.com"
@@ -7104,8 +7104,8 @@
     "change7d": -0.18,
     "changeYtd": 0.38,
     "marketCap": 11558788096,
-    "volume": 143175134,
-    "pe": 30.6,
+    "volume": 141936638,
+    "pe": 30.7,
     "color": "#003D6B",
     "domain": "camdenliving.com"
   },
@@ -7119,7 +7119,7 @@
     "change7d": 1.36,
     "changeYtd": -3.55,
     "marketCap": 11377426432,
-    "volume": 90372428,
+    "volume": 90288144,
     "pe": 13.4,
     "color": "#003087",
     "domain": "assurant.com"
@@ -7134,7 +7134,7 @@
     "change7d": -7.65,
     "changeYtd": -9.97,
     "marketCap": 10972052480,
-    "volume": 139855146,
+    "volume": 140065598,
     "pe": null,
     "color": "#003087",
     "domain": "invesco.com"
@@ -7149,7 +7149,7 @@
     "change7d": -1.94,
     "changeYtd": -9.26,
     "marketCap": 10956007424,
-    "volume": 159288886,
+    "volume": 159320813,
     "pe": 33.6,
     "color": "#FF9900",
     "domain": "wynnresorts.com"
@@ -7164,7 +7164,7 @@
     "change7d": -1.02,
     "changeYtd": -6.18,
     "marketCap": 10948683776,
-    "volume": 131386864,
+    "volume": 131778262,
     "pe": 46.9,
     "color": "#D52B1E",
     "domain": "revvity.com"
@@ -7179,7 +7179,7 @@
     "change7d": -6.94,
     "changeYtd": -9.08,
     "marketCap": 10563890176,
-    "volume": 196106293,
+    "volume": 198804355,
     "pe": 24.6,
     "color": "#0039A6",
     "domain": "bldr.com"
@@ -7194,7 +7194,7 @@
     "change7d": 4.42,
     "changeYtd": 8.82,
     "marketCap": 10155293696,
-    "volume": 172440450,
+    "volume": 172284244,
     "pe": 48.9,
     "color": "#FF9900",
     "domain": "mgmresorts.com"
@@ -7209,7 +7209,7 @@
     "change7d": -13.13,
     "changeYtd": -1.59,
     "marketCap": 10126360576,
-    "volume": 156873009,
+    "volume": 159613786,
     "pe": 9.4,
     "color": "#00529B",
     "domain": "aes.com"
@@ -7224,7 +7224,7 @@
     "change7d": 0.29,
     "changeYtd": 35.07,
     "marketCap": 10023339008,
-    "volume": 157231584,
+    "volume": 156799157,
     "pe": 15.8,
     "color": "#D52B1E",
     "domain": "davita.com"
@@ -7239,7 +7239,7 @@
     "change7d": -5.61,
     "changeYtd": 7.3,
     "marketCap": 9959640064,
-    "volume": 94453217,
+    "volume": 94665100,
     "pe": 18.7,
     "color": "#0039A6",
     "domain": "aosmith.com"
@@ -7253,8 +7253,8 @@
     "change1d": -1.58,
     "change7d": -8.01,
     "changeYtd": -16.12,
-    "marketCap": 9816867840,
-    "volume": 130388783,
+    "marketCap": 9821350912,
+    "volume": 130574496,
     "pe": 31.9,
     "color": "#003D6B",
     "domain": "bxp.com"
@@ -7269,7 +7269,7 @@
     "change7d": -10.23,
     "changeYtd": -8.78,
     "marketCap": 9569515520,
-    "volume": 177691681,
+    "volume": 178092232,
     "pe": null,
     "color": "#D52B1E",
     "domain": "baxter.com"
@@ -7284,7 +7284,7 @@
     "change7d": -12.14,
     "changeYtd": -14.33,
     "marketCap": 9523987456,
-    "volume": 434496267,
+    "volume": 436215682,
     "pe": 15.1,
     "color": "#FF9900",
     "domain": "nclhltd.com"
@@ -7299,7 +7299,7 @@
     "change7d": -2.12,
     "changeYtd": 2.6,
     "marketCap": 9437998080,
-    "volume": 108367069,
+    "volume": 108267257,
     "pe": 24.5,
     "color": "#D52B1E",
     "domain": "henryschein.com"
@@ -7314,7 +7314,7 @@
     "change7d": 0.63,
     "changeYtd": 6.89,
     "marketCap": 9433124864,
-    "volume": 87970862,
+    "volume": 87942065,
     "pe": 23.2,
     "color": "#003D6B",
     "domain": "federalrealty.com"
@@ -7329,7 +7329,7 @@
     "change7d": -0.86,
     "changeYtd": 2.53,
     "marketCap": 9298852864,
-    "volume": 146006933,
+    "volume": 145653495,
     "pe": null,
     "color": "#0071CE",
     "domain": "molsoncoors.com"
@@ -7344,7 +7344,7 @@
     "change7d": -4.2,
     "changeYtd": -0.75,
     "marketCap": 8975225856,
-    "volume": 141707852,
+    "volume": 140549413,
     "pe": null,
     "color": "#003D6B",
     "domain": "are.com"
@@ -7359,7 +7359,7 @@
     "change7d": 8.21,
     "changeYtd": -16.35,
     "marketCap": 8925984768,
-    "volume": 164462323,
+    "volume": 165181801,
     "pe": null,
     "color": "#D52B1E",
     "domain": "criver.com"
@@ -7374,7 +7374,7 @@
     "change7d": -0.32,
     "changeYtd": 18.01,
     "marketCap": 8902456320,
-    "volume": 228949867,
+    "volume": 228027965,
     "pe": null,
     "color": "#0071CE",
     "domain": "conagrabrands.com"
@@ -7389,7 +7389,7 @@
     "change7d": -3.42,
     "changeYtd": -13.96,
     "marketCap": 8744174592,
-    "volume": 124284380,
+    "volume": 124525154,
     "pe": 105.5,
     "color": "#D52B1E",
     "domain": "bio-techne.com"
@@ -7404,7 +7404,7 @@
     "change7d": -5.58,
     "changeYtd": -4.45,
     "marketCap": 8493101568,
-    "volume": 202604263,
+    "volume": 202215511,
     "pe": 21.6,
     "color": "#3861FB",
     "domain": "skyworksinc.com"
@@ -7419,7 +7419,7 @@
     "change7d": 9.42,
     "changeYtd": -22.83,
     "marketCap": 8416492032,
-    "volume": 208181676,
+    "volume": 208396925,
     "pe": 14.3,
     "color": "#003087",
     "domain": "factset.com"
@@ -7434,7 +7434,7 @@
     "change7d": -2.59,
     "changeYtd": 3.87,
     "marketCap": 8344037888,
-    "volume": 190920184,
+    "volume": 192419405,
     "pe": 15.5,
     "color": "#8A6D3B",
     "domain": "mosaicco.com"
@@ -7449,7 +7449,7 @@
     "change7d": 1.48,
     "changeYtd": -8.05,
     "marketCap": 8132340224,
-    "volume": 177659278,
+    "volume": 177172881,
     "pe": 20.1,
     "color": "#FF9900",
     "domain": "poolcorp.com"
@@ -7464,7 +7464,7 @@
     "change7d": 10.3,
     "changeYtd": -33.74,
     "marketCap": 7986978304,
-    "volume": 147119404,
+    "volume": 150212260,
     "pe": 21.5,
     "color": "#3861FB",
     "domain": "epam.com"
@@ -7479,28 +7479,13 @@
     "change7d": 1.48,
     "changeYtd": -16.25,
     "marketCap": 7607065600,
-    "volume": 253656042,
-    "pe": 16.5,
+    "volume": 251255607,
+    "pe": 16.6,
     "color": "#D52B1E",
     "domain": "molinahealthcare.com"
   },
   {
     "rank": 500,
-    "name": "Match Group",
-    "ticker": "MTCH",
-    "sector": "Communication Services",
-    "price": 31.31,
-    "change1d": 1.66,
-    "change7d": -0.22,
-    "changeYtd": -3.93,
-    "marketCap": 7533879296,
-    "volume": 125805800,
-    "pe": 13.2,
-    "color": "#4285F4",
-    "domain": "mtch.com"
-  },
-  {
-    "rank": 501,
     "name": "Paycom",
     "ticker": "PAYC",
     "sector": "Industrials",
@@ -7509,13 +7494,13 @@
     "change7d": 10.29,
     "changeYtd": -12.86,
     "marketCap": 7503470592,
-    "volume": 207311722,
+    "volume": 208228984,
     "pe": 16.9,
     "color": "#0039A6",
     "domain": "paycom.com"
   },
   {
-    "rank": 502,
+    "rank": 501,
     "name": "Campbell's Company (The)",
     "ticker": "CPB",
     "sector": "Consumer Staples",
@@ -7524,10 +7509,25 @@
     "change7d": -5.4,
     "changeYtd": -3.13,
     "marketCap": 7471243776,
-    "volume": 182381087,
+    "volume": 183898119,
     "pe": 12.9,
     "color": "#0071CE",
     "domain": "thecampbellscompany.com"
+  },
+  {
+    "rank": 502,
+    "name": "Match Group",
+    "ticker": "MTCH",
+    "sector": "Communication Services",
+    "price": 31.31,
+    "change1d": 1.66,
+    "change7d": -0.22,
+    "changeYtd": -3.93,
+    "marketCap": 7391357440,
+    "volume": 126269971,
+    "pe": 13.2,
+    "color": "#4285F4",
+    "domain": "mtch.com"
   },
   {
     "rank": 503,
@@ -7539,7 +7539,7 @@
     "change7d": -3.04,
     "changeYtd": 13.3,
     "marketCap": 6361440768,
-    "volume": 131122781,
+    "volume": 130484184,
     "pe": 16.5,
     "color": "#0071CE",
     "domain": "lambweston.com"
