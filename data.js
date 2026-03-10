@@ -112,7 +112,7 @@ const SP500_STOCKS = [
         "price": 342.58,
         "change1d": -0.92,
         "change7d": 7.45,
-        "changeYtd": 3.04,
+        "changeYtd": 14.9,
         "marketCap": 1624265457664,
         "volume": 10967320061,
         "pe": 66.9,
@@ -3457,7 +3457,7 @@ const SP500_STOCKS = [
         "price": 104.76,
         "change1d": 0.11,
         "change7d": -1.75,
-        "changeYtd": -3.51,
+        "changeYtd": 15.64,
         "marketCap": 47455215616,
         "volume": 275554633,
         "pe": 26.8,
@@ -7567,4 +7567,4 @@ const MARKET_SUMMARY = {
     "totalVolume": 471484728192
 };
 
-const DATA_LAST_UPDATED = "2026-03-10T20:45:45Z";
+const DATA_LAST_UPDATED = "2026-03-10T21:11:01Z";
