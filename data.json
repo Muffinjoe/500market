@@ -976,6 +976,21 @@
   },
   {
     "rank": 66,
+    "name": "Boeing",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "price": 213.47,
+    "change1d": 1.71,
+    "change7d": -7.63,
+    "changeYtd": -6.42,
+    "marketCap": 167754153984,
+    "volume": 1564069722,
+    "pe": 86.1,
+    "color": "#0039A6",
+    "domain": "boeing.com"
+  },
+  {
+    "rank": 67,
     "name": "Charles Schwab Corporation",
     "ticker": "SCHW",
     "sector": "Financials",
@@ -990,7 +1005,7 @@
     "domain": "schwab.com"
   },
   {
-    "rank": 67,
+    "rank": 68,
     "name": "Uber",
     "ticker": "UBER",
     "sector": "Industrials",
@@ -1005,7 +1020,7 @@
     "domain": "uber.com"
   },
   {
-    "rank": 68,
+    "rank": 69,
     "name": "Deere & Company",
     "ticker": "DE",
     "sector": "Industrials",
@@ -1020,7 +1035,7 @@
     "domain": "deere.com"
   },
   {
-    "rank": 69,
+    "rank": 70,
     "name": "AppLovin",
     "ticker": "APP",
     "sector": "Information Technology",
@@ -1035,7 +1050,7 @@
     "domain": "applovin.com"
   },
   {
-    "rank": 70,
+    "rank": 71,
     "name": "Analog Devices",
     "ticker": "ADI",
     "sector": "Information Technology",
@@ -1050,7 +1065,7 @@
     "domain": "analog.com"
   },
   {
-    "rank": 71,
+    "rank": 72,
     "name": "Pfizer",
     "ticker": "PFE",
     "sector": "Health Care",
@@ -1065,7 +1080,7 @@
     "domain": "pfizer.com"
   },
   {
-    "rank": 72,
+    "rank": 73,
     "name": "Lockheed Martin",
     "ticker": "LMT",
     "sector": "Industrials",
@@ -1080,7 +1095,7 @@
     "domain": "lockheedmartin.com"
   },
   {
-    "rank": 73,
+    "rank": 74,
     "name": "Honeywell",
     "ticker": "HON",
     "sector": "Industrials",
@@ -1095,7 +1110,7 @@
     "domain": "honeywell.com"
   },
   {
-    "rank": 74,
+    "rank": 75,
     "name": "ConocoPhillips",
     "ticker": "COP",
     "sector": "Energy",
@@ -1110,7 +1125,7 @@
     "domain": "conocophillips.com"
   },
   {
-    "rank": 75,
+    "rank": 76,
     "name": "BlackRock",
     "ticker": "BLK",
     "sector": "Financials",
@@ -1125,7 +1140,7 @@
     "domain": "blackrock.com"
   },
   {
-    "rank": 76,
+    "rank": 77,
     "name": "Welltower",
     "ticker": "WELL",
     "sector": "Real Estate",
@@ -1140,7 +1155,7 @@
     "domain": "welltower.com"
   },
   {
-    "rank": 77,
+    "rank": 78,
     "name": "Union Pacific Corporation",
     "ticker": "UNP",
     "sector": "Industrials",
@@ -1155,7 +1170,7 @@
     "domain": "up.com"
   },
   {
-    "rank": 78,
+    "rank": 79,
     "name": "Eaton Corporation",
     "ticker": "ETN",
     "sector": "Industrials",
@@ -1170,7 +1185,7 @@
     "domain": "eaton.com"
   },
   {
-    "rank": 79,
+    "rank": 80,
     "name": "Booking Holdings",
     "ticker": "BKNG",
     "sector": "Consumer Discretionary",
@@ -1185,7 +1200,7 @@
     "domain": "booking.com"
   },
   {
-    "rank": 80,
+    "rank": 81,
     "name": "Qualcomm",
     "ticker": "QCOM",
     "sector": "Information Technology",
@@ -1200,7 +1215,7 @@
     "domain": "qualcomm.com"
   },
   {
-    "rank": 81,
+    "rank": 82,
     "name": "Palo Alto Networks",
     "ticker": "PANW",
     "sector": "Information Technology",
@@ -1215,7 +1230,7 @@
     "domain": "paloaltonetworks.com"
   },
   {
-    "rank": 82,
+    "rank": 83,
     "name": "Lowe's",
     "ticker": "LOW",
     "sector": "Consumer Discretionary",
@@ -1230,7 +1245,7 @@
     "domain": "lowes.com"
   },
   {
-    "rank": 83,
+    "rank": 84,
     "name": "Danaher Corporation",
     "ticker": "DHR",
     "sector": "Health Care",
@@ -1245,7 +1260,7 @@
     "domain": "danaher.com"
   },
   {
-    "rank": 84,
+    "rank": 85,
     "name": "Stryker Corporation",
     "ticker": "SYK",
     "sector": "Health Care",
@@ -1260,7 +1275,7 @@
     "domain": "stryker.com"
   },
   {
-    "rank": 85,
+    "rank": 86,
     "name": "Blackstone Inc.",
     "ticker": "BX",
     "sector": "Financials",
@@ -1275,7 +1290,7 @@
     "domain": "blackstone.com"
   },
   {
-    "rank": 86,
+    "rank": 87,
     "name": "Chubb Limited",
     "ticker": "CB",
     "sector": "Financials",
@@ -1290,7 +1305,7 @@
     "domain": "chubb.com"
   },
   {
-    "rank": 87,
+    "rank": 88,
     "name": "S&P Global",
     "ticker": "SPGI",
     "sector": "Financials",
@@ -1305,7 +1320,7 @@
     "domain": "spglobal.com"
   },
   {
-    "rank": 88,
+    "rank": 89,
     "name": "Intuit",
     "ticker": "INTU",
     "sector": "Information Technology",
@@ -1320,7 +1335,7 @@
     "domain": "intuit.com"
   },
   {
-    "rank": 89,
+    "rank": 90,
     "name": "Prologis",
     "ticker": "PLD",
     "sector": "Real Estate",
@@ -1335,7 +1350,7 @@
     "domain": "prologis.com"
   },
   {
-    "rank": 90,
+    "rank": 91,
     "name": "Accenture",
     "ticker": "ACN",
     "sector": "Information Technology",
@@ -1350,7 +1365,7 @@
     "domain": "accenture.com"
   },
   {
-    "rank": 91,
+    "rank": 92,
     "name": "Bristol Myers Squibb",
     "ticker": "BMY",
     "sector": "Health Care",
@@ -1365,7 +1380,7 @@
     "domain": "bms.com"
   },
   {
-    "rank": 92,
+    "rank": 93,
     "name": "ServiceNow",
     "ticker": "NOW",
     "sector": "Information Technology",
@@ -1380,7 +1395,7 @@
     "domain": "servicenow.com"
   },
   {
-    "rank": 93,
+    "rank": 94,
     "name": "Newmont",
     "ticker": "NEM",
     "sector": "Materials",
@@ -1395,7 +1410,7 @@
     "domain": "newmont.com"
   },
   {
-    "rank": 94,
+    "rank": 95,
     "name": "Progressive Corporation",
     "ticker": "PGR",
     "sector": "Financials",
@@ -1410,7 +1425,7 @@
     "domain": "progressive.com"
   },
   {
-    "rank": 95,
+    "rank": 96,
     "name": "Vertex Pharmaceuticals",
     "ticker": "VRTX",
     "sector": "Health Care",
@@ -1425,7 +1440,7 @@
     "domain": "vrtx.com"
   },
   {
-    "rank": 96,
+    "rank": 97,
     "name": "HCA Healthcare",
     "ticker": "HCA",
     "sector": "Health Care",
@@ -1440,7 +1455,7 @@
     "domain": "hcahealthcare.com"
   },
   {
-    "rank": 97,
+    "rank": 98,
     "name": "McKesson Corporation",
     "ticker": "MCK",
     "sector": "Health Care",
@@ -1455,7 +1470,7 @@
     "domain": "mckesson.com"
   },
   {
-    "rank": 98,
+    "rank": 99,
     "name": "Interactive Brokers",
     "ticker": "IBKR",
     "sector": "Financials",
@@ -1470,7 +1485,7 @@
     "domain": "interactivebrokers.com"
   },
   {
-    "rank": 99,
+    "rank": 100,
     "name": "Altria",
     "ticker": "MO",
     "sector": "Consumer Staples",
@@ -1485,7 +1500,7 @@
     "domain": "altria.com"
   },
   {
-    "rank": 100,
+    "rank": 101,
     "name": "Corning Inc.",
     "ticker": "GLW",
     "sector": "Information Technology",
@@ -1500,7 +1515,7 @@
     "domain": "corning.com"
   },
   {
-    "rank": 101,
+    "rank": 102,
     "name": "Medtronic",
     "ticker": "MDT",
     "sector": "Health Care",
@@ -1515,7 +1530,7 @@
     "domain": "medtronic.com"
   },
   {
-    "rank": 102,
+    "rank": 103,
     "name": "Parker Hannifin",
     "ticker": "PH",
     "sector": "Industrials",
@@ -1530,7 +1545,7 @@
     "domain": "parker.com"
   },
   {
-    "rank": 103,
+    "rank": 104,
     "name": "CME Group",
     "ticker": "CME",
     "sector": "Financials",
@@ -1545,7 +1560,7 @@
     "domain": "cmegroup.com"
   },
   {
-    "rank": 104,
+    "rank": 105,
     "name": "Capital One",
     "ticker": "COF",
     "sector": "Financials",
@@ -1560,7 +1575,7 @@
     "domain": "capitalone.com"
   },
   {
-    "rank": 105,
+    "rank": 106,
     "name": "Starbucks",
     "ticker": "SBUX",
     "sector": "Consumer Discretionary",
@@ -1575,7 +1590,7 @@
     "domain": "starbucks.com"
   },
   {
-    "rank": 106,
+    "rank": 107,
     "name": "Southern Company",
     "ticker": "SO",
     "sector": "Utilities",
@@ -1590,7 +1605,7 @@
     "domain": "southerncompany.com"
   },
   {
-    "rank": 107,
+    "rank": 108,
     "name": "Constellation Energy",
     "ticker": "CEG",
     "sector": "Utilities",
@@ -1605,7 +1620,7 @@
     "domain": "constellationenergy.com"
   },
   {
-    "rank": 108,
+    "rank": 109,
     "name": "Comcast",
     "ticker": "CMCSA",
     "sector": "Communication Services",
@@ -1620,7 +1635,7 @@
     "domain": "comcast.com"
   },
   {
-    "rank": 109,
+    "rank": 110,
     "name": "CrowdStrike",
     "ticker": "CRWD",
     "sector": "Information Technology",
@@ -1635,7 +1650,7 @@
     "domain": "crowdstrike.com"
   },
   {
-    "rank": 110,
+    "rank": 111,
     "name": "Northrop Grumman",
     "ticker": "NOC",
     "sector": "Industrials",
@@ -1650,7 +1665,7 @@
     "domain": "northropgrumman.com"
   },
   {
-    "rank": 111,
+    "rank": 112,
     "name": "Dell Technologies",
     "ticker": "DELL",
     "sector": "Information Technology",
@@ -1665,7 +1680,7 @@
     "domain": "dell.com"
   },
   {
-    "rank": 112,
+    "rank": 113,
     "name": "Sandisk",
     "ticker": "SNDK",
     "sector": "Information Technology",
@@ -1680,7 +1695,7 @@
     "domain": "sandisk.com"
   },
   {
-    "rank": 113,
+    "rank": 114,
     "name": "Duke Energy",
     "ticker": "DUK",
     "sector": "Utilities",
@@ -1695,7 +1710,7 @@
     "domain": "duke-energy.com"
   },
   {
-    "rank": 114,
+    "rank": 115,
     "name": "Boston Scientific",
     "ticker": "BSX",
     "sector": "Health Care",
@@ -1710,7 +1725,7 @@
     "domain": "bostonscientific.com"
   },
   {
-    "rank": 115,
+    "rank": 116,
     "name": "Adobe Inc.",
     "ticker": "ADBE",
     "sector": "Information Technology",
@@ -1725,7 +1740,7 @@
     "domain": "adobe.com"
   },
   {
-    "rank": 116,
+    "rank": 117,
     "name": "Western Digital",
     "ticker": "WDC",
     "sector": "Information Technology",
@@ -1740,7 +1755,7 @@
     "domain": "westerndigital.com"
   },
   {
-    "rank": 117,
+    "rank": 118,
     "name": "Howmet Aerospace",
     "ticker": "HWM",
     "sector": "Industrials",
@@ -1755,7 +1770,7 @@
     "domain": "howmet.com"
   },
   {
-    "rank": 118,
+    "rank": 119,
     "name": "Equinix",
     "ticker": "EQIX",
     "sector": "Real Estate",
@@ -1770,7 +1785,7 @@
     "domain": "equinix.com"
   },
   {
-    "rank": 119,
+    "rank": 120,
     "name": "CVS Health",
     "ticker": "CVS",
     "sector": "Health Care",
@@ -1785,7 +1800,7 @@
     "domain": "cvshealth.com"
   },
   {
-    "rank": 120,
+    "rank": 121,
     "name": "General Dynamics",
     "ticker": "GD",
     "sector": "Industrials",
@@ -1800,7 +1815,7 @@
     "domain": "gd.com"
   },
   {
-    "rank": 121,
+    "rank": 122,
     "name": "Waste Management",
     "ticker": "WM",
     "sector": "Industrials",
@@ -1815,7 +1830,7 @@
     "domain": "wm.com"
   },
   {
-    "rank": 122,
+    "rank": 123,
     "name": "Trane Technologies",
     "ticker": "TT",
     "sector": "Industrials",
@@ -1830,7 +1845,7 @@
     "domain": "tranetechnologies.com"
   },
   {
-    "rank": 123,
+    "rank": 124,
     "name": "Intercontinental Exchange",
     "ticker": "ICE",
     "sector": "Financials",
@@ -1845,7 +1860,7 @@
     "domain": "ice.com"
   },
   {
-    "rank": 124,
+    "rank": 125,
     "name": "Williams Companies",
     "ticker": "WMB",
     "sector": "Energy",
@@ -1860,7 +1875,7 @@
     "domain": "williams.com"
   },
   {
-    "rank": 125,
+    "rank": 126,
     "name": "Seagate Technology",
     "ticker": "STX",
     "sector": "Information Technology",
@@ -1875,7 +1890,7 @@
     "domain": "seagate.com"
   },
   {
-    "rank": 126,
+    "rank": 127,
     "name": "American Tower",
     "ticker": "AMT",
     "sector": "Real Estate",
@@ -1890,7 +1905,7 @@
     "domain": "americantower.com"
   },
   {
-    "rank": 127,
+    "rank": 128,
     "name": "Quanta Services",
     "ticker": "PWR",
     "sector": "Industrials",
@@ -1905,7 +1920,7 @@
     "domain": "quantaservices.com"
   },
   {
-    "rank": 128,
+    "rank": 129,
     "name": "Marriott International",
     "ticker": "MAR",
     "sector": "Consumer Discretionary",
@@ -1920,7 +1935,7 @@
     "domain": "marriott.com"
   },
   {
-    "rank": 129,
+    "rank": 130,
     "name": "Marsh McLennan",
     "ticker": "MRSH",
     "sector": "Financials",
@@ -1935,7 +1950,7 @@
     "domain": "corporate.marsh.com"
   },
   {
-    "rank": 130,
+    "rank": 131,
     "name": "Automatic Data Processing",
     "ticker": "ADP",
     "sector": "Industrials",
@@ -1950,7 +1965,7 @@
     "domain": "adp.com"
   },
   {
-    "rank": 131,
+    "rank": 132,
     "name": "Freeport-McMoRan",
     "ticker": "FCX",
     "sector": "Materials",
@@ -1965,7 +1980,7 @@
     "domain": "fcx.com"
   },
   {
-    "rank": 132,
+    "rank": 133,
     "name": "FedEx",
     "ticker": "FDX",
     "sector": "Industrials",
@@ -1980,7 +1995,7 @@
     "domain": "fedex.com"
   },
   {
-    "rank": 133,
+    "rank": 134,
     "name": "United Parcel Service",
     "ticker": "UPS",
     "sector": "Industrials",
@@ -1995,7 +2010,7 @@
     "domain": "ups.com"
   },
   {
-    "rank": 134,
+    "rank": 135,
     "name": "Synopsys",
     "ticker": "SNPS",
     "sector": "Information Technology",
@@ -2010,7 +2025,7 @@
     "domain": "synopsys.com"
   },
   {
-    "rank": 135,
+    "rank": 136,
     "name": "PNC Financial Services",
     "ticker": "PNC",
     "sector": "Financials",
@@ -2025,7 +2040,7 @@
     "domain": "pnc.com"
   },
   {
-    "rank": 136,
+    "rank": 137,
     "name": "Nike, Inc.",
     "ticker": "NKE",
     "sector": "Consumer Discretionary",
@@ -2040,7 +2055,7 @@
     "domain": "nike.com"
   },
   {
-    "rank": 137,
+    "rank": 138,
     "name": "Cadence Design Systems",
     "ticker": "CDNS",
     "sector": "Information Technology",
@@ -2055,7 +2070,7 @@
     "domain": "cadence.com"
   },
   {
-    "rank": 138,
+    "rank": 139,
     "name": "Johnson Controls",
     "ticker": "JCI",
     "sector": "Industrials",
@@ -2070,7 +2085,7 @@
     "domain": "johnsoncontrols.com"
   },
   {
-    "rank": 139,
+    "rank": 140,
     "name": "BNY Mellon",
     "ticker": "BK",
     "sector": "Financials",
@@ -2085,7 +2100,7 @@
     "domain": "bny.com"
   },
   {
-    "rank": 140,
+    "rank": 141,
     "name": "Regeneron Pharmaceuticals",
     "ticker": "REGN",
     "sector": "Health Care",
@@ -2100,7 +2115,7 @@
     "domain": "regeneron.com"
   },
   {
-    "rank": 141,
+    "rank": 142,
     "name": "Sherwin-Williams",
     "ticker": "SHW",
     "sector": "Materials",
@@ -2115,7 +2130,7 @@
     "domain": "sherwin-williams.com"
   },
   {
-    "rank": 142,
+    "rank": 143,
     "name": "KKR & Co.",
     "ticker": "KKR",
     "sector": "Financials",
@@ -2130,7 +2145,7 @@
     "domain": "kkr.com"
   },
   {
-    "rank": 143,
+    "rank": 144,
     "name": "U.S. Bancorp",
     "ticker": "USB",
     "sector": "Financials",
@@ -2145,7 +2160,7 @@
     "domain": "usbank.com"
   },
   {
-    "rank": 144,
+    "rank": 145,
     "name": "3M",
     "ticker": "MMM",
     "sector": "Industrials",
@@ -2160,7 +2175,7 @@
     "domain": "3m.com"
   },
   {
-    "rank": 145,
+    "rank": 146,
     "name": "Motorola Solutions",
     "ticker": "MSI",
     "sector": "Information Technology",
@@ -2175,7 +2190,7 @@
     "domain": "motorolasolutions.com"
   },
   {
-    "rank": 146,
+    "rank": 147,
     "name": "Cintas",
     "ticker": "CTAS",
     "sector": "Industrials",
@@ -2190,7 +2205,7 @@
     "domain": "cintas.com"
   },
   {
-    "rank": 147,
+    "rank": 148,
     "name": "Illinois Tool Works",
     "ticker": "ITW",
     "sector": "Industrials",
@@ -2205,7 +2220,7 @@
     "domain": "itw.com"
   },
   {
-    "rank": 148,
+    "rank": 149,
     "name": "Ecolab",
     "ticker": "ECL",
     "sector": "Materials",
@@ -2220,7 +2235,7 @@
     "domain": "ecolab.com"
   },
   {
-    "rank": 149,
+    "rank": 150,
     "name": "Moody's Corporation",
     "ticker": "MCO",
     "sector": "Financials",
@@ -2235,7 +2250,7 @@
     "domain": "moodys.com"
   },
   {
-    "rank": 150,
+    "rank": 151,
     "name": "Airbnb",
     "ticker": "ABNB",
     "sector": "Consumer Discretionary",
@@ -2250,7 +2265,7 @@
     "domain": "airbnb.com"
   },
   {
-    "rank": 151,
+    "rank": 152,
     "name": "Royal Caribbean Group",
     "ticker": "RCL",
     "sector": "Consumer Discretionary",
@@ -2265,7 +2280,7 @@
     "domain": "rclinvestor.com"
   },
   {
-    "rank": 152,
+    "rank": 153,
     "name": "O\u2019Reilly Automotive",
     "ticker": "ORLY",
     "sector": "Consumer Discretionary",
@@ -2280,7 +2295,7 @@
     "domain": "oreillyauto.com"
   },
   {
-    "rank": 153,
+    "rank": 154,
     "name": "Monster Beverage",
     "ticker": "MNST",
     "sector": "Consumer Staples",
@@ -2295,7 +2310,7 @@
     "domain": "monsterbevcorp.com"
   },
   {
-    "rank": 154,
+    "rank": 155,
     "name": "Cummins",
     "ticker": "CMI",
     "sector": "Industrials",
@@ -2310,7 +2325,7 @@
     "domain": "cummins.com"
   },
   {
-    "rank": 155,
+    "rank": 156,
     "name": "Emerson Electric",
     "ticker": "EMR",
     "sector": "Industrials",
@@ -2325,7 +2340,7 @@
     "domain": "emerson.com"
   },
   {
-    "rank": 156,
+    "rank": 157,
     "name": "Kinder Morgan",
     "ticker": "KMI",
     "sector": "Energy",
@@ -2340,7 +2355,7 @@
     "domain": "kindermorgan.com"
   },
   {
-    "rank": 157,
+    "rank": 158,
     "name": "CSX Corporation",
     "ticker": "CSX",
     "sector": "Industrials",
@@ -2355,7 +2370,7 @@
     "domain": "csx.com"
   },
   {
-    "rank": 158,
+    "rank": 159,
     "name": "Mondelez International",
     "ticker": "MDLZ",
     "sector": "Consumer Staples",
@@ -2370,7 +2385,7 @@
     "domain": "mondelezinternational.com"
   },
   {
-    "rank": 159,
+    "rank": 160,
     "name": "EOG Resources",
     "ticker": "EOG",
     "sector": "Energy",
@@ -2385,7 +2400,7 @@
     "domain": "eogresources.com"
   },
   {
-    "rank": 160,
+    "rank": 161,
     "name": "DoorDash",
     "ticker": "DASH",
     "sector": "Consumer Discretionary",
@@ -2400,7 +2415,7 @@
     "domain": "doordash.com"
   },
   {
-    "rank": 161,
+    "rank": 162,
     "name": "American Electric Power",
     "ticker": "AEP",
     "sector": "Utilities",
@@ -2415,7 +2430,7 @@
     "domain": "aep.com"
   },
   {
-    "rank": 162,
+    "rank": 163,
     "name": "Colgate-Palmolive",
     "ticker": "CL",
     "sector": "Consumer Staples",
@@ -2430,7 +2445,7 @@
     "domain": "colgatepalmolive.co.in"
   },
   {
-    "rank": 163,
+    "rank": 164,
     "name": "Cigna",
     "ticker": "CI",
     "sector": "Health Care",
@@ -2445,7 +2460,7 @@
     "domain": "thecignagroup.com"
   },
   {
-    "rank": 164,
+    "rank": 165,
     "name": "Valero Energy",
     "ticker": "VLO",
     "sector": "Energy",
@@ -2460,7 +2475,7 @@
     "domain": "valero.com"
   },
   {
-    "rank": 165,
+    "rank": 166,
     "name": "TransDigm Group",
     "ticker": "TDG",
     "sector": "Industrials",
@@ -2475,7 +2490,7 @@
     "domain": "transdigm.com"
   },
   {
-    "rank": 166,
+    "rank": 167,
     "name": "Aon plc",
     "ticker": "AON",
     "sector": "Financials",
@@ -2490,7 +2505,7 @@
     "domain": "aon.com"
   },
   {
-    "rank": 167,
+    "rank": 168,
     "name": "Phillips 66",
     "ticker": "PSX",
     "sector": "Energy",
@@ -2505,7 +2520,7 @@
     "domain": "phillips66.com"
   },
   {
-    "rank": 168,
+    "rank": 169,
     "name": "Republic Services",
     "ticker": "RSG",
     "sector": "Industrials",
@@ -2520,7 +2535,7 @@
     "domain": "republicservices.com"
   },
   {
-    "rank": 169,
+    "rank": 170,
     "name": "CRH plc",
     "ticker": "CRH",
     "sector": "Materials",
@@ -2535,7 +2550,7 @@
     "domain": "crh.com"
   },
   {
-    "rank": 170,
+    "rank": 171,
     "name": "Marathon Petroleum",
     "ticker": "MPC",
     "sector": "Energy",
@@ -2550,7 +2565,7 @@
     "domain": "marathonpetroleum.com"
   },
   {
-    "rank": 171,
+    "rank": 172,
     "name": "Hilton Worldwide",
     "ticker": "HLT",
     "sector": "Consumer Discretionary",
@@ -2565,7 +2580,7 @@
     "domain": "hilton.com"
   },
   {
-    "rank": 172,
+    "rank": 173,
     "name": "L3Harris",
     "ticker": "LHX",
     "sector": "Industrials",
@@ -2580,7 +2595,7 @@
     "domain": "l3harris.com"
   },
   {
-    "rank": 173,
+    "rank": 174,
     "name": "Warner Bros. Discovery",
     "ticker": "WBD",
     "sector": "Communication Services",
@@ -2595,7 +2610,7 @@
     "domain": "wbd.com"
   },
   {
-    "rank": 174,
+    "rank": 175,
     "name": "General Motors",
     "ticker": "GM",
     "sector": "Consumer Discretionary",
@@ -2610,7 +2625,7 @@
     "domain": "gm.com"
   },
   {
-    "rank": 175,
+    "rank": 176,
     "name": "Travelers Companies (The)",
     "ticker": "TRV",
     "sector": "Financials",
@@ -2625,7 +2640,7 @@
     "domain": "travelers.com"
   },
   {
-    "rank": 176,
+    "rank": 177,
     "name": "Robinhood Markets",
     "ticker": "HOOD",
     "sector": "Financials",
@@ -2640,7 +2655,7 @@
     "domain": "robinhood.com"
   },
   {
-    "rank": 177,
+    "rank": 178,
     "name": "Ross Stores",
     "ticker": "ROST",
     "sector": "Consumer Discretionary",
@@ -2655,7 +2670,7 @@
     "domain": "rossstores.com"
   },
   {
-    "rank": 178,
+    "rank": 179,
     "name": "Schlumberger",
     "ticker": "SLB",
     "sector": "Energy",
@@ -2670,7 +2685,7 @@
     "domain": "slb.com"
   },
   {
-    "rank": 179,
+    "rank": 180,
     "name": "Cencora",
     "ticker": "COR",
     "sector": "Health Care",
@@ -2685,7 +2700,7 @@
     "domain": "cencora.com"
   },
   {
-    "rank": 180,
+    "rank": 181,
     "name": "Carvana",
     "ticker": "CVNA",
     "sector": "Consumer Discretionary",
@@ -2700,7 +2715,7 @@
     "domain": "carvana.com"
   },
   {
-    "rank": 181,
+    "rank": 182,
     "name": "Norfolk Southern",
     "ticker": "NSC",
     "sector": "Industrials",
@@ -2715,7 +2730,7 @@
     "domain": "norfolksouthern.com"
   },
   {
-    "rank": 182,
+    "rank": 183,
     "name": "Elevance Health",
     "ticker": "ELV",
     "sector": "Health Care",
@@ -2730,7 +2745,7 @@
     "domain": "elevancehealth.com"
   },
   {
-    "rank": 183,
+    "rank": 184,
     "name": "Air Products",
     "ticker": "APD",
     "sector": "Materials",
@@ -2745,7 +2760,7 @@
     "domain": "airproducts.com"
   },
   {
-    "rank": 184,
+    "rank": 185,
     "name": "Digital Realty",
     "ticker": "DLR",
     "sector": "Real Estate",
@@ -2760,7 +2775,7 @@
     "domain": "digitalrealty.com"
   },
   {
-    "rank": 185,
+    "rank": 186,
     "name": "Fortinet",
     "ticker": "FTNT",
     "sector": "Information Technology",
@@ -2775,7 +2790,7 @@
     "domain": "fortinet.com"
   },
   {
-    "rank": 186,
+    "rank": 187,
     "name": "Sempra",
     "ticker": "SRE",
     "sector": "Utilities",
@@ -2790,7 +2805,7 @@
     "domain": "sempra.com"
   },
   {
-    "rank": 187,
+    "rank": 188,
     "name": "Simon Property Group",
     "ticker": "SPG",
     "sector": "Real Estate",
@@ -2805,7 +2820,7 @@
     "domain": "simon.com"
   },
   {
-    "rank": 188,
+    "rank": 189,
     "name": "Paccar",
     "ticker": "PCAR",
     "sector": "Industrials",
@@ -2820,7 +2835,7 @@
     "domain": "paccar.com"
   },
   {
-    "rank": 189,
+    "rank": 190,
     "name": "Realty Income",
     "ticker": "O",
     "sector": "Real Estate",
@@ -2835,7 +2850,7 @@
     "domain": "realtyincome.com"
   },
   {
-    "rank": 190,
+    "rank": 191,
     "name": "Apollo Global Management",
     "ticker": "APO",
     "sector": "Financials",
@@ -2850,7 +2865,7 @@
     "domain": "apollo.com"
   },
   {
-    "rank": 191,
+    "rank": 192,
     "name": "TE Connectivity",
     "ticker": "TEL",
     "sector": "Information Technology",
@@ -2865,7 +2880,7 @@
     "domain": "te.com"
   },
   {
-    "rank": 192,
+    "rank": 193,
     "name": "Becton Dickinson",
     "ticker": "BDX",
     "sector": "Health Care",
@@ -2880,7 +2895,7 @@
     "domain": "bd.com"
   },
   {
-    "rank": 193,
+    "rank": 194,
     "name": "AutoZone",
     "ticker": "AZO",
     "sector": "Consumer Discretionary",
@@ -2895,7 +2910,7 @@
     "domain": "autozone.com"
   },
   {
-    "rank": 194,
+    "rank": 195,
     "name": "Occidental Petroleum",
     "ticker": "OXY",
     "sector": "Energy",
@@ -2910,7 +2925,7 @@
     "domain": "oxy.com"
   },
   {
-    "rank": 195,
+    "rank": 196,
     "name": "Aflac",
     "ticker": "AFL",
     "sector": "Financials",
@@ -2925,7 +2940,7 @@
     "domain": "aflac.com"
   },
   {
-    "rank": 196,
+    "rank": 197,
     "name": "Dominion Energy",
     "ticker": "D",
     "sector": "Utilities",
@@ -2940,7 +2955,7 @@
     "domain": "dominionenergy.com"
   },
   {
-    "rank": 197,
+    "rank": 198,
     "name": "Truist Financial",
     "ticker": "TFC",
     "sector": "Financials",
@@ -2955,7 +2970,7 @@
     "domain": "truist.com"
   },
   {
-    "rank": 198,
+    "rank": 199,
     "name": "Vistra Corp.",
     "ticker": "VST",
     "sector": "Utilities",
@@ -2970,7 +2985,7 @@
     "domain": "vistracorp.com"
   },
   {
-    "rank": 199,
+    "rank": 200,
     "name": "Coinbase",
     "ticker": "COIN",
     "sector": "Financials",
@@ -2985,7 +3000,7 @@
     "domain": "coinbase.com"
   },
   {
-    "rank": 200,
+    "rank": 201,
     "name": "Baker Hughes",
     "ticker": "BKR",
     "sector": "Energy",
@@ -3000,7 +3015,7 @@
     "domain": "bakerhughes.com"
   },
   {
-    "rank": 201,
+    "rank": 202,
     "name": "Arthur J. Gallagher & Co.",
     "ticker": "AJG",
     "sector": "Financials",
@@ -3015,7 +3030,7 @@
     "domain": "ajg.com"
   },
   {
-    "rank": 202,
+    "rank": 203,
     "name": "Allstate",
     "ticker": "ALL",
     "sector": "Financials",
@@ -3030,7 +3045,7 @@
     "domain": "allstate.com"
   },
   {
-    "rank": 203,
+    "rank": 204,
     "name": "Oneok",
     "ticker": "OKE",
     "sector": "Energy",
@@ -3045,7 +3060,7 @@
     "domain": "oneok.com"
   },
   {
-    "rank": 204,
+    "rank": 205,
     "name": "Corteva",
     "ticker": "CTVA",
     "sector": "Materials",
@@ -3060,7 +3075,7 @@
     "domain": "corteva.com"
   },
   {
-    "rank": 205,
+    "rank": 206,
     "name": "Target Corporation",
     "ticker": "TGT",
     "sector": "Consumer Staples",
@@ -3075,7 +3090,7 @@
     "domain": "target.com"
   },
   {
-    "rank": 206,
+    "rank": 207,
     "name": "Autodesk",
     "ticker": "ADSK",
     "sector": "Information Technology",
@@ -3090,7 +3105,7 @@
     "domain": "autodesk.com"
   },
   {
-    "rank": 207,
+    "rank": 208,
     "name": "Monolithic Power Systems",
     "ticker": "MPWR",
     "sector": "Information Technology",
@@ -3105,7 +3120,7 @@
     "domain": "monolithicpower.com"
   },
   {
-    "rank": 208,
+    "rank": 209,
     "name": "Fastenal",
     "ticker": "FAST",
     "sector": "Industrials",
@@ -3120,7 +3135,7 @@
     "domain": "fastenal.com"
   },
   {
-    "rank": 209,
+    "rank": 210,
     "name": "Zoetis",
     "ticker": "ZTS",
     "sector": "Health Care",
@@ -3135,7 +3150,7 @@
     "domain": "zoetis.com"
   },
   {
-    "rank": 210,
+    "rank": 211,
     "name": "Diamondback Energy",
     "ticker": "FANG",
     "sector": "Energy",
@@ -3150,7 +3165,7 @@
     "domain": "diamondbackenergy.com"
   },
   {
-    "rank": 211,
+    "rank": 212,
     "name": "Ciena",
     "ticker": "CIEN",
     "sector": "Information Technology",
@@ -3165,7 +3180,7 @@
     "domain": "ciena.com"
   },
   {
-    "rank": 212,
+    "rank": 213,
     "name": "Exelon",
     "ticker": "EXC",
     "sector": "Utilities",
@@ -3180,7 +3195,7 @@
     "domain": "exeloncorp.com"
   },
   {
-    "rank": 213,
+    "rank": 214,
     "name": "Targa Resources",
     "ticker": "TRGP",
     "sector": "Energy",
@@ -3195,7 +3210,7 @@
     "domain": "targaresources.com"
   },
   {
-    "rank": 214,
+    "rank": 215,
     "name": "Cardinal Health",
     "ticker": "CAH",
     "sector": "Health Care",
@@ -3210,7 +3225,7 @@
     "domain": "cardinalhealth.com"
   },
   {
-    "rank": 215,
+    "rank": 216,
     "name": "Xcel Energy",
     "ticker": "XEL",
     "sector": "Utilities",
@@ -3225,7 +3240,7 @@
     "domain": "xcelenergy.com"
   },
   {
-    "rank": 216,
+    "rank": 217,
     "name": "Public Storage",
     "ticker": "PSA",
     "sector": "Real Estate",
@@ -3240,7 +3255,7 @@
     "domain": "publicstorage.com"
   },
   {
-    "rank": 217,
+    "rank": 218,
     "name": "W. W. Grainger",
     "ticker": "GWW",
     "sector": "Industrials",
@@ -3255,7 +3270,7 @@
     "domain": "grainger.com"
   },
   {
-    "rank": 218,
+    "rank": 219,
     "name": "Electronic Arts",
     "ticker": "EA",
     "sector": "Communication Services",
@@ -3270,7 +3285,7 @@
     "domain": "ea.com"
   },
   {
-    "rank": 219,
+    "rank": 220,
     "name": "Comfort Systems USA",
     "ticker": "FIX",
     "sector": "Industrials",
@@ -3285,7 +3300,7 @@
     "domain": "comfortsystemsusa.com"
   },
   {
-    "rank": 220,
+    "rank": 221,
     "name": "Ametek",
     "ticker": "AME",
     "sector": "Industrials",
@@ -3300,7 +3315,7 @@
     "domain": "ametek.com"
   },
   {
-    "rank": 221,
+    "rank": 222,
     "name": "Keysight Technologies",
     "ticker": "KEYS",
     "sector": "Information Technology",
@@ -3315,7 +3330,7 @@
     "domain": "keysight.com"
   },
   {
-    "rank": 222,
+    "rank": 223,
     "name": "Nasdaq, Inc.",
     "ticker": "NDAQ",
     "sector": "Financials",
@@ -3330,7 +3345,7 @@
     "domain": "nasdaq.com"
   },
   {
-    "rank": 223,
+    "rank": 224,
     "name": "Edwards Lifesciences",
     "ticker": "EW",
     "sector": "Health Care",
@@ -3345,7 +3360,7 @@
     "domain": "edwards.com"
   },
   {
-    "rank": 224,
+    "rank": 225,
     "name": "NXP Semiconductors",
     "ticker": "NXPI",
     "sector": "Information Technology",
@@ -3360,7 +3375,7 @@
     "domain": "nxp.com"
   },
   {
-    "rank": 225,
+    "rank": 226,
     "name": "Entergy",
     "ticker": "ETR",
     "sector": "Utilities",
@@ -3375,7 +3390,7 @@
     "domain": "entergy.com"
   },
   {
-    "rank": 226,
+    "rank": 227,
     "name": "United Rentals",
     "ticker": "URI",
     "sector": "Industrials",
@@ -3390,7 +3405,7 @@
     "domain": "unitedrentals.com"
   },
   {
-    "rank": 227,
+    "rank": 228,
     "name": "Idexx Laboratories",
     "ticker": "IDXX",
     "sector": "Health Care",
@@ -3405,7 +3420,7 @@
     "domain": "idexx.com"
   },
   {
-    "rank": 228,
+    "rank": 229,
     "name": "Ford Motor Company",
     "ticker": "F",
     "sector": "Consumer Discretionary",
@@ -3420,7 +3435,7 @@
     "domain": "ford.com"
   },
   {
-    "rank": 229,
+    "rank": 230,
     "name": "Teradyne",
     "ticker": "TER",
     "sector": "Information Technology",
@@ -3435,7 +3450,7 @@
     "domain": "teradyne.com"
   },
   {
-    "rank": 230,
+    "rank": 231,
     "name": "Carrier Global",
     "ticker": "CARR",
     "sector": "Industrials",
@@ -3450,7 +3465,7 @@
     "domain": "carrier.com"
   },
   {
-    "rank": 231,
+    "rank": 232,
     "name": "Kroger",
     "ticker": "KR",
     "sector": "Consumer Staples",
@@ -3465,7 +3480,7 @@
     "domain": "thekrogerco.com"
   },
   {
-    "rank": 232,
+    "rank": 233,
     "name": "MetLife",
     "ticker": "MET",
     "sector": "Financials",
@@ -3480,7 +3495,7 @@
     "domain": "metlife.com"
   },
   {
-    "rank": 233,
+    "rank": 234,
     "name": "Garmin",
     "ticker": "GRMN",
     "sector": "Consumer Discretionary",
@@ -3495,7 +3510,7 @@
     "domain": "garmin.com"
   },
   {
-    "rank": 234,
+    "rank": 235,
     "name": "Chipotle Mexican Grill",
     "ticker": "CMG",
     "sector": "Consumer Discretionary",
@@ -3510,7 +3525,7 @@
     "domain": "chipotle.com"
   },
   {
-    "rank": 235,
+    "rank": 236,
     "name": "Yum! Brands",
     "ticker": "YUM",
     "sector": "Consumer Discretionary",
@@ -3525,7 +3540,7 @@
     "domain": "yum.com"
   },
   {
-    "rank": 236,
+    "rank": 237,
     "name": "Datadog",
     "ticker": "DDOG",
     "sector": "Information Technology",
@@ -3540,7 +3555,7 @@
     "domain": "datadoghq.com"
   },
   {
-    "rank": 237,
+    "rank": 238,
     "name": "Hershey Company (The)",
     "ticker": "HSY",
     "sector": "Consumer Staples",
@@ -3555,7 +3570,7 @@
     "domain": "thehersheycompany.com"
   },
   {
-    "rank": 238,
+    "rank": 239,
     "name": "PayPal",
     "ticker": "PYPL",
     "sector": "Financials",
@@ -3570,7 +3585,7 @@
     "domain": "paypal.com"
   },
   {
-    "rank": 239,
+    "rank": 240,
     "name": "Public Service Enterprise Group",
     "ticker": "PEG",
     "sector": "Utilities",
@@ -3585,7 +3600,7 @@
     "domain": "investor.pseg.com"
   },
   {
-    "rank": 240,
+    "rank": 241,
     "name": "Consolidated Edison",
     "ticker": "ED",
     "sector": "Utilities",
@@ -3600,7 +3615,7 @@
     "domain": "conedison.com"
   },
   {
-    "rank": 241,
+    "rank": 242,
     "name": "Ventas",
     "ticker": "VTR",
     "sector": "Real Estate",
@@ -3615,7 +3630,7 @@
     "domain": "ventasreit.com"
   },
   {
-    "rank": 242,
+    "rank": 243,
     "name": "D. R. Horton",
     "ticker": "DHI",
     "sector": "Consumer Discretionary",
@@ -3630,7 +3645,7 @@
     "domain": "drhorton.com"
   },
   {
-    "rank": 243,
+    "rank": 244,
     "name": "MSCI Inc.",
     "ticker": "MSCI",
     "sector": "Financials",
@@ -3645,7 +3660,7 @@
     "domain": "msci.com"
   },
   {
-    "rank": 244,
+    "rank": 245,
     "name": "eBay Inc.",
     "ticker": "EBAY",
     "sector": "Consumer Discretionary",
@@ -3660,7 +3675,7 @@
     "domain": "ebayinc.com"
   },
   {
-    "rank": 245,
+    "rank": 246,
     "name": "American International Group",
     "ticker": "AIG",
     "sector": "Financials",
@@ -3675,7 +3690,7 @@
     "domain": "aig.com"
   },
   {
-    "rank": 246,
+    "rank": 247,
     "name": "Rockwell Automation",
     "ticker": "ROK",
     "sector": "Industrials",
@@ -3690,7 +3705,7 @@
     "domain": "rockwellautomation.com"
   },
   {
-    "rank": 247,
+    "rank": 248,
     "name": "Wabtec",
     "ticker": "WAB",
     "sector": "Industrials",
@@ -3705,7 +3720,7 @@
     "domain": "wabteccorp.com"
   },
   {
-    "rank": 248,
+    "rank": 249,
     "name": "Ameriprise Financial",
     "ticker": "AMP",
     "sector": "Financials",
@@ -3720,7 +3735,7 @@
     "domain": "ameriprise.com"
   },
   {
-    "rank": 249,
+    "rank": 250,
     "name": "PG&E Corporation",
     "ticker": "PCG",
     "sector": "Utilities",
@@ -3735,7 +3750,7 @@
     "domain": "pgecorp.com"
   },
   {
-    "rank": 250,
+    "rank": 251,
     "name": "Sysco",
     "ticker": "SYY",
     "sector": "Consumer Staples",
@@ -3750,7 +3765,7 @@
     "domain": "sysco.com"
   },
   {
-    "rank": 251,
+    "rank": 252,
     "name": "CBRE Group",
     "ticker": "CBRE",
     "sector": "Real Estate",
@@ -3765,7 +3780,7 @@
     "domain": "cbre.com"
   },
   {
-    "rank": 252,
+    "rank": 253,
     "name": "EQT Corporation",
     "ticker": "EQT",
     "sector": "Energy",
@@ -3780,7 +3795,7 @@
     "domain": "eqt.com"
   },
   {
-    "rank": 253,
+    "rank": 254,
     "name": "Fifth Third Bancorp",
     "ticker": "FITB",
     "sector": "Financials",
@@ -3795,7 +3810,7 @@
     "domain": "53.com"
   },
   {
-    "rank": 254,
+    "rank": 255,
     "name": "Delta Air Lines",
     "ticker": "DAL",
     "sector": "Industrials",
@@ -3810,7 +3825,7 @@
     "domain": "delta.com"
   },
   {
-    "rank": 255,
+    "rank": 256,
     "name": "Axon Enterprise",
     "ticker": "AXON",
     "sector": "Industrials",
@@ -3825,7 +3840,7 @@
     "domain": "axon.com"
   },
   {
-    "rank": 256,
+    "rank": 257,
     "name": "Take-Two Interactive",
     "ticker": "TTWO",
     "sector": "Communication Services",
@@ -3840,7 +3855,7 @@
     "domain": "take2games.com"
   },
   {
-    "rank": 257,
+    "rank": 258,
     "name": "WEC Energy Group",
     "ticker": "WEC",
     "sector": "Utilities",
@@ -3855,7 +3870,7 @@
     "domain": "wecenergygroup.com"
   },
   {
-    "rank": 258,
+    "rank": 259,
     "name": "Crown Castle",
     "ticker": "CCI",
     "sector": "Real Estate",
@@ -3870,7 +3885,7 @@
     "domain": "crowncastle.com"
   },
   {
-    "rank": 259,
+    "rank": 260,
     "name": "Old Dominion",
     "ticker": "ODFL",
     "sector": "Industrials",
@@ -3885,7 +3900,7 @@
     "domain": "odfl.com"
   },
   {
-    "rank": 260,
+    "rank": 261,
     "name": "Roper Technologies",
     "ticker": "ROP",
     "sector": "Information Technology",
@@ -3900,7 +3915,7 @@
     "domain": "ropertech.com"
   },
   {
-    "rank": 261,
+    "rank": 262,
     "name": "Hartford (The)",
     "ticker": "HIG",
     "sector": "Financials",
@@ -3915,7 +3930,7 @@
     "domain": "thehartford.com"
   },
   {
-    "rank": 262,
+    "rank": 263,
     "name": "Keurig Dr Pepper",
     "ticker": "KDP",
     "sector": "Consumer Staples",
@@ -3930,7 +3945,7 @@
     "domain": "keurigdrpepper.com"
   },
   {
-    "rank": 263,
+    "rank": 264,
     "name": "Nucor",
     "ticker": "NUE",
     "sector": "Materials",
@@ -3945,7 +3960,7 @@
     "domain": "nucor.com"
   },
   {
-    "rank": 264,
+    "rank": 265,
     "name": "Live Nation Entertainment",
     "ticker": "LYV",
     "sector": "Communication Services",
@@ -3960,7 +3975,7 @@
     "domain": "livenationentertainment.com"
   },
   {
-    "rank": 265,
+    "rank": 266,
     "name": "Block, Inc.",
     "ticker": "XYZ",
     "sector": "Financials",
@@ -3975,7 +3990,7 @@
     "domain": "block.xyz"
   },
   {
-    "rank": 266,
+    "rank": 267,
     "name": "Texas Pacific Land Corporation",
     "ticker": "TPL",
     "sector": "Energy",
@@ -3990,7 +4005,7 @@
     "domain": "texaspacific.com"
   },
   {
-    "rank": 267,
+    "rank": 268,
     "name": "Las Vegas Sands",
     "ticker": "LVS",
     "sector": "Consumer Discretionary",
@@ -4005,7 +4020,7 @@
     "domain": "sands.com"
   },
   {
-    "rank": 268,
+    "rank": 269,
     "name": "Workday, Inc.",
     "ticker": "WDAY",
     "sector": "Information Technology",
@@ -4020,7 +4035,7 @@
     "domain": "workday.com"
   },
   {
-    "rank": 269,
+    "rank": 270,
     "name": "Martin Marietta Materials",
     "ticker": "MLM",
     "sector": "Materials",
@@ -4035,7 +4050,7 @@
     "domain": "martinmarietta.com"
   },
   {
-    "rank": 270,
+    "rank": 271,
     "name": "Vulcan Materials Company",
     "ticker": "VMC",
     "sector": "Materials",
@@ -4050,7 +4065,7 @@
     "domain": "vulcanmaterials.com"
   },
   {
-    "rank": 271,
+    "rank": 272,
     "name": "Microchip Technology",
     "ticker": "MCHP",
     "sector": "Information Technology",
@@ -4065,7 +4080,7 @@
     "domain": "microchip.com"
   },
   {
-    "rank": 272,
+    "rank": 273,
     "name": "Carnival",
     "ticker": "CCL",
     "sector": "Consumer Discretionary",
@@ -4080,7 +4095,7 @@
     "domain": "carnivalcorp.com"
   },
   {
-    "rank": 273,
+    "rank": 274,
     "name": "Archer Daniels Midland",
     "ticker": "ADM",
     "sector": "Consumer Staples",
@@ -4095,7 +4110,7 @@
     "domain": "adm.com"
   },
   {
-    "rank": 274,
+    "rank": 275,
     "name": "Arch Capital Group",
     "ticker": "ACGL",
     "sector": "Financials",
@@ -4110,7 +4125,7 @@
     "domain": "archgroup.com"
   },
   {
-    "rank": 275,
+    "rank": 276,
     "name": "Kenvue",
     "ticker": "KVUE",
     "sector": "Consumer Staples",
@@ -4125,7 +4140,7 @@
     "domain": "kenvue.com"
   },
   {
-    "rank": 276,
+    "rank": 277,
     "name": "ResMed",
     "ticker": "RMD",
     "sector": "Health Care",
@@ -4140,7 +4155,7 @@
     "domain": "resmed.com"
   },
   {
-    "rank": 277,
+    "rank": 278,
     "name": "State Street Corporation",
     "ticker": "STT",
     "sector": "Financials",
@@ -4155,7 +4170,7 @@
     "domain": "statestreet.com"
   },
   {
-    "rank": 278,
+    "rank": 279,
     "name": "Paychex",
     "ticker": "PAYX",
     "sector": "Industrials",
@@ -4170,7 +4185,7 @@
     "domain": "paychex.com"
   },
   {
-    "rank": 279,
+    "rank": 280,
     "name": "Kimberly-Clark",
     "ticker": "KMB",
     "sector": "Consumer Staples",
@@ -4185,7 +4200,7 @@
     "domain": "kimberly-clark.com"
   },
   {
-    "rank": 280,
+    "rank": 281,
     "name": "Ares Management",
     "ticker": "ARES",
     "sector": "Financials",
@@ -4200,7 +4215,7 @@
     "domain": "aresmgmt.com"
   },
   {
-    "rank": 281,
+    "rank": 282,
     "name": "Ingersoll Rand",
     "ticker": "IR",
     "sector": "Industrials",
@@ -4215,7 +4230,7 @@
     "domain": "irco.com"
   },
   {
-    "rank": 282,
+    "rank": 283,
     "name": "GE HealthCare",
     "ticker": "GEHC",
     "sector": "Health Care",
@@ -4230,7 +4245,7 @@
     "domain": "gehealthcare.com"
   },
   {
-    "rank": 283,
+    "rank": 284,
     "name": "Copart",
     "ticker": "CPRT",
     "sector": "Industrials",
@@ -4245,7 +4260,7 @@
     "domain": "copart.com"
   },
   {
-    "rank": 284,
+    "rank": 285,
     "name": "Otis Worldwide",
     "ticker": "OTIS",
     "sector": "Industrials",
@@ -4260,7 +4275,7 @@
     "domain": "otis.com"
   },
   {
-    "rank": 285,
+    "rank": 286,
     "name": "Emcor",
     "ticker": "EME",
     "sector": "Industrials",
@@ -4275,7 +4290,7 @@
     "domain": "emcorgroup.com"
   },
   {
-    "rank": 286,
+    "rank": 287,
     "name": "Prudential Financial",
     "ticker": "PRU",
     "sector": "Financials",
@@ -4290,7 +4305,7 @@
     "domain": "prudential.com"
   },
   {
-    "rank": 287,
+    "rank": 288,
     "name": "NRG Energy",
     "ticker": "NRG",
     "sector": "Utilities",
@@ -4305,7 +4320,7 @@
     "domain": "nrg.com"
   },
   {
-    "rank": 288,
+    "rank": 289,
     "name": "Est\u00e9e Lauder Companies (The)",
     "ticker": "EL",
     "sector": "Consumer Staples",
@@ -4320,7 +4335,7 @@
     "domain": "elcompanies.com"
   },
   {
-    "rank": 289,
+    "rank": 290,
     "name": "Iron Mountain",
     "ticker": "IRM",
     "sector": "Real Estate",
@@ -4335,7 +4350,7 @@
     "domain": "ironmountain.com"
   },
   {
-    "rank": 290,
+    "rank": 291,
     "name": "Agilent Technologies",
     "ticker": "A",
     "sector": "Health Care",
@@ -4350,7 +4365,7 @@
     "domain": "agilent.com"
   },
   {
-    "rank": 291,
+    "rank": 292,
     "name": "Ameren",
     "ticker": "AEE",
     "sector": "Utilities",
@@ -4365,7 +4380,7 @@
     "domain": "amereninvestors.com"
   },
   {
-    "rank": 292,
+    "rank": 293,
     "name": "Atmos Energy",
     "ticker": "ATO",
     "sector": "Utilities",
@@ -4380,7 +4395,7 @@
     "domain": "atmosenergy.com"
   },
   {
-    "rank": 293,
+    "rank": 294,
     "name": "DTE Energy",
     "ticker": "DTE",
     "sector": "Utilities",
@@ -4395,7 +4410,7 @@
     "domain": "dteenergy.com"
   },
   {
-    "rank": 294,
+    "rank": 295,
     "name": "Huntington Bancshares",
     "ticker": "HBAN",
     "sector": "Financials",
@@ -4410,7 +4425,7 @@
     "domain": "huntington.com"
   },
   {
-    "rank": 295,
+    "rank": 296,
     "name": "Fiserv",
     "ticker": "FISV",
     "sector": "Financials",
@@ -4425,7 +4440,7 @@
     "domain": "fiserv.com"
   },
   {
-    "rank": 296,
+    "rank": 297,
     "name": "Extra Space Storage",
     "ticker": "EXR",
     "sector": "Real Estate",
@@ -4440,7 +4455,7 @@
     "domain": "extraspace.com"
   },
   {
-    "rank": 297,
+    "rank": 298,
     "name": "Vici Properties",
     "ticker": "VICI",
     "sector": "Real Estate",
@@ -4455,7 +4470,7 @@
     "domain": "viciproperties.com"
   },
   {
-    "rank": 298,
+    "rank": 299,
     "name": "Cboe Global Markets",
     "ticker": "CBOE",
     "sector": "Financials",
@@ -4470,7 +4485,7 @@
     "domain": "cboe.com"
   },
   {
-    "rank": 299,
+    "rank": 300,
     "name": "M&T Bank",
     "ticker": "MTB",
     "sector": "Financials",
@@ -4485,7 +4500,7 @@
     "domain": "mtb.com"
   },
   {
-    "rank": 300,
+    "rank": 301,
     "name": "FirstEnergy",
     "ticker": "FE",
     "sector": "Utilities",
@@ -4500,7 +4515,7 @@
     "domain": "firstenergycorp.com"
   },
   {
-    "rank": 301,
+    "rank": 302,
     "name": "Teledyne Technologies",
     "ticker": "TDY",
     "sector": "Information Technology",
@@ -4515,7 +4530,7 @@
     "domain": "teledyne.com"
   },
   {
-    "rank": 302,
+    "rank": 303,
     "name": "Dollar General",
     "ticker": "DG",
     "sector": "Consumer Staples",
@@ -4530,7 +4545,7 @@
     "domain": "dollargeneral.com"
   },
   {
-    "rank": 303,
+    "rank": 304,
     "name": "Xylem Inc.",
     "ticker": "XYL",
     "sector": "Industrials",
@@ -4545,7 +4560,7 @@
     "domain": "xylem.com"
   },
   {
-    "rank": 304,
+    "rank": 305,
     "name": "Cognizant",
     "ticker": "CTSH",
     "sector": "Information Technology",
@@ -4560,7 +4575,7 @@
     "domain": "cognizant.com"
   },
   {
-    "rank": 305,
+    "rank": 306,
     "name": "United Airlines Holdings",
     "ticker": "UAL",
     "sector": "Industrials",
@@ -4575,7 +4590,7 @@
     "domain": "united.com"
   },
   {
-    "rank": 306,
+    "rank": 307,
     "name": "Hewlett Packard Enterprise",
     "ticker": "HPE",
     "sector": "Information Technology",
@@ -4590,7 +4605,7 @@
     "domain": "hpe.com"
   },
   {
-    "rank": 307,
+    "rank": 308,
     "name": "PPL Corporation",
     "ticker": "PPL",
     "sector": "Utilities",
@@ -4605,7 +4620,7 @@
     "domain": "pplweb.com"
   },
   {
-    "rank": 308,
+    "rank": 309,
     "name": "Tapestry, Inc.",
     "ticker": "TPR",
     "sector": "Consumer Discretionary",
@@ -4620,7 +4635,7 @@
     "domain": "tapestry.com"
   },
   {
-    "rank": 309,
+    "rank": 310,
     "name": "Devon Energy",
     "ticker": "DVN",
     "sector": "Energy",
@@ -4635,7 +4650,7 @@
     "domain": "devonenergy.com"
   },
   {
-    "rank": 310,
+    "rank": 311,
     "name": "CenterPoint Energy",
     "ticker": "CNP",
     "sector": "Utilities",
@@ -4650,7 +4665,7 @@
     "domain": "centerpointenergy.com"
   },
   {
-    "rank": 311,
+    "rank": 312,
     "name": "Halliburton",
     "ticker": "HAL",
     "sector": "Energy",
@@ -4665,7 +4680,7 @@
     "domain": "halliburton.com"
   },
   {
-    "rank": 312,
+    "rank": 313,
     "name": "Verisk Analytics",
     "ticker": "VRSK",
     "sector": "Industrials",
@@ -4680,7 +4695,7 @@
     "domain": "verisk.com"
   },
   {
-    "rank": 313,
+    "rank": 314,
     "name": "Waters Corporation",
     "ticker": "WAT",
     "sector": "Health Care",
@@ -4695,7 +4710,7 @@
     "domain": "waters.com"
   },
   {
-    "rank": 314,
+    "rank": 315,
     "name": "Dover Corporation",
     "ticker": "DOV",
     "sector": "Industrials",
@@ -4710,7 +4725,7 @@
     "domain": "dovercorporation.com"
   },
   {
-    "rank": 315,
+    "rank": 316,
     "name": "Raymond James Financial",
     "ticker": "RJF",
     "sector": "Financials",
@@ -4725,7 +4740,7 @@
     "domain": "raymondjames.com"
   },
   {
-    "rank": 316,
+    "rank": 317,
     "name": "Expedia Group",
     "ticker": "EXPE",
     "sector": "Consumer Discretionary",
@@ -4740,7 +4755,7 @@
     "domain": "expediagroup.com"
   },
   {
-    "rank": 317,
+    "rank": 318,
     "name": "Charter Communications",
     "ticker": "CHTR",
     "sector": "Communication Services",
@@ -4755,7 +4770,7 @@
     "domain": "corporate.charter.com"
   },
   {
-    "rank": 318,
+    "rank": 319,
     "name": "Edison International",
     "ticker": "EIX",
     "sector": "Utilities",
@@ -4770,7 +4785,7 @@
     "domain": "edison.com"
   },
   {
-    "rank": 319,
+    "rank": 320,
     "name": "IQVIA",
     "ticker": "IQV",
     "sector": "Health Care",
@@ -4785,7 +4800,7 @@
     "domain": "iqvia.com"
   },
   {
-    "rank": 320,
+    "rank": 321,
     "name": "Willis Towers Watson",
     "ticker": "WTW",
     "sector": "Financials",
@@ -4800,7 +4815,7 @@
     "domain": "wtwco.com"
   },
   {
-    "rank": 321,
+    "rank": 322,
     "name": "Jabil",
     "ticker": "JBL",
     "sector": "Information Technology",
@@ -4815,7 +4830,7 @@
     "domain": "jabil.com"
   },
   {
-    "rank": 322,
+    "rank": 323,
     "name": "Fair Isaac",
     "ticker": "FICO",
     "sector": "Information Technology",
@@ -4830,7 +4845,7 @@
     "domain": "fico.com"
   },
   {
-    "rank": 323,
+    "rank": 324,
     "name": "Eversource Energy",
     "ticker": "ES",
     "sector": "Utilities",
@@ -4845,7 +4860,7 @@
     "domain": "eversource.com"
   },
   {
-    "rank": 324,
+    "rank": 325,
     "name": "American Water Works",
     "ticker": "AWK",
     "sector": "Utilities",
@@ -4860,7 +4875,7 @@
     "domain": "amwater.com"
   },
   {
-    "rank": 325,
+    "rank": 326,
     "name": "Biogen",
     "ticker": "BIIB",
     "sector": "Health Care",
@@ -4875,7 +4890,7 @@
     "domain": "biogen.com"
   },
   {
-    "rank": 326,
+    "rank": 327,
     "name": "Kraft Heinz",
     "ticker": "KHC",
     "sector": "Consumer Staples",
@@ -4890,7 +4905,7 @@
     "domain": "kraftheinzcompany.com"
   },
   {
-    "rank": 327,
+    "rank": 328,
     "name": "Rollins, Inc.",
     "ticker": "ROL",
     "sector": "Industrials",
@@ -4905,7 +4920,7 @@
     "domain": "rollins.com"
   },
   {
-    "rank": 328,
+    "rank": 329,
     "name": "Constellation Brands",
     "ticker": "STZ",
     "sector": "Consumer Staples",
@@ -4920,7 +4935,7 @@
     "domain": "cbrands.com"
   },
   {
-    "rank": 329,
+    "rank": 330,
     "name": "Fidelity National Information Services",
     "ticker": "FIS",
     "sector": "Financials",
@@ -4935,7 +4950,7 @@
     "domain": "fisglobal.com"
   },
   {
-    "rank": 330,
+    "rank": 331,
     "name": "W. R. Berkley Corporation",
     "ticker": "WRB",
     "sector": "Financials",
@@ -4950,7 +4965,7 @@
     "domain": "berkley.com"
   },
   {
-    "rank": 331,
+    "rank": 332,
     "name": "Cincinnati Financial",
     "ticker": "CINF",
     "sector": "Financials",
@@ -4965,7 +4980,7 @@
     "domain": "cinfin.com"
   },
   {
-    "rank": 332,
+    "rank": 333,
     "name": "Dow Inc.",
     "ticker": "DOW",
     "sector": "Materials",
@@ -4980,7 +4995,7 @@
     "domain": "dow.com"
   },
   {
-    "rank": 333,
+    "rank": 334,
     "name": "Expand Energy",
     "ticker": "EXE",
     "sector": "Energy",
@@ -4995,7 +5010,7 @@
     "domain": "expandenergy.com"
   },
   {
-    "rank": 334,
+    "rank": 335,
     "name": "Dexcom",
     "ticker": "DXCM",
     "sector": "Health Care",
@@ -5010,7 +5025,7 @@
     "domain": "dexcom.com"
   },
   {
-    "rank": 335,
+    "rank": 336,
     "name": "Tractor Supply",
     "ticker": "TSCO",
     "sector": "Consumer Discretionary",
@@ -5025,7 +5040,7 @@
     "domain": "tractorsupply.com"
   },
   {
-    "rank": 336,
+    "rank": 337,
     "name": "Steel Dynamics",
     "ticker": "STLD",
     "sector": "Materials",
@@ -5040,7 +5055,7 @@
     "domain": "steeldynamics.com"
   },
   {
-    "rank": 337,
+    "rank": 338,
     "name": "Northern Trust",
     "ticker": "NTRS",
     "sector": "Financials",
@@ -5055,7 +5070,7 @@
     "domain": "northerntrust.com"
   },
   {
-    "rank": 338,
+    "rank": 339,
     "name": "Hubbell Incorporated",
     "ticker": "HUBB",
     "sector": "Industrials",
@@ -5070,7 +5085,7 @@
     "domain": "hubbell.com"
   },
   {
-    "rank": 339,
+    "rank": 340,
     "name": "Omnicom Group",
     "ticker": "OMC",
     "sector": "Communication Services",
@@ -5085,7 +5100,7 @@
     "domain": "omnicomgroup.com"
   },
   {
-    "rank": 340,
+    "rank": 341,
     "name": "Coterra",
     "ticker": "CTRA",
     "sector": "Energy",
@@ -5100,7 +5115,7 @@
     "domain": "coterra.com"
   },
   {
-    "rank": 341,
+    "rank": 342,
     "name": "Mettler Toledo",
     "ticker": "MTD",
     "sector": "Health Care",
@@ -5115,7 +5130,7 @@
     "domain": "mt.com"
   },
   {
-    "rank": 342,
+    "rank": 343,
     "name": "Fox Corporation (Class A)",
     "ticker": "FOXA",
     "sector": "Communication Services",
@@ -5130,7 +5145,7 @@
     "domain": "foxcorporation.com"
   },
   {
-    "rank": 343,
+    "rank": 344,
     "name": "Fox Corporation (Class B)",
     "ticker": "FOX",
     "sector": "Communication Services",
@@ -5145,7 +5160,7 @@
     "domain": "foxcorporation.com"
   },
   {
-    "rank": 344,
+    "rank": 345,
     "name": "Citizens Financial Group",
     "ticker": "CFG",
     "sector": "Financials",
@@ -5160,7 +5175,7 @@
     "domain": "citizensbank.com"
   },
   {
-    "rank": 345,
+    "rank": 346,
     "name": "ON Semiconductor",
     "ticker": "ON",
     "sector": "Information Technology",
@@ -5175,7 +5190,7 @@
     "domain": "onsemi.com"
   },
   {
-    "rank": 346,
+    "rank": 347,
     "name": "Darden Restaurants",
     "ticker": "DRI",
     "sector": "Consumer Discretionary",
@@ -5190,7 +5205,7 @@
     "domain": "darden.com"
   },
   {
-    "rank": 347,
+    "rank": 348,
     "name": "CMS Energy",
     "ticker": "CMS",
     "sector": "Utilities",
@@ -5205,7 +5220,7 @@
     "domain": "cmsenergy.com"
   },
   {
-    "rank": 348,
+    "rank": 349,
     "name": "AvalonBay Communities",
     "ticker": "AVB",
     "sector": "Real Estate",
@@ -5220,7 +5235,7 @@
     "domain": "avalonbay.com"
   },
   {
-    "rank": 349,
+    "rank": 350,
     "name": "Bunge Global",
     "ticker": "BG",
     "sector": "Consumer Staples",
@@ -5235,7 +5250,7 @@
     "domain": "bunge.com"
   },
   {
-    "rank": 350,
+    "rank": 351,
     "name": "Lennar",
     "ticker": "LEN",
     "sector": "Consumer Discretionary",
@@ -5250,7 +5265,7 @@
     "domain": "lennar.com"
   },
   {
-    "rank": 351,
+    "rank": 352,
     "name": "Brown & Brown",
     "ticker": "BRO",
     "sector": "Financials",
@@ -5265,7 +5280,7 @@
     "domain": "bbrown.com"
   },
   {
-    "rank": 352,
+    "rank": 353,
     "name": "Church & Dwight",
     "ticker": "CHD",
     "sector": "Consumer Staples",
@@ -5280,7 +5295,7 @@
     "domain": "churchdwight.com"
   },
   {
-    "rank": 353,
+    "rank": 354,
     "name": "Equity Residential",
     "ticker": "EQR",
     "sector": "Real Estate",
@@ -5295,7 +5310,7 @@
     "domain": "equityapartments.com"
   },
   {
-    "rank": 354,
+    "rank": 355,
     "name": "Qnity Electronics",
     "ticker": "Q",
     "sector": "Information Technology",
@@ -5310,7 +5325,7 @@
     "domain": "qnityelectronics.com"
   },
   {
-    "rank": 355,
+    "rank": 356,
     "name": "PulteGroup",
     "ticker": "PHM",
     "sector": "Consumer Discretionary",
@@ -5325,7 +5340,7 @@
     "domain": "pultegroupinc.com"
   },
   {
-    "rank": 356,
+    "rank": 357,
     "name": "Dollar Tree",
     "ticker": "DLTR",
     "sector": "Consumer Staples",
@@ -5340,7 +5355,7 @@
     "domain": "dollartree.com"
   },
   {
-    "rank": 357,
+    "rank": 358,
     "name": "Ulta Beauty",
     "ticker": "ULTA",
     "sector": "Consumer Discretionary",
@@ -5355,7 +5370,7 @@
     "domain": "ulta.com"
   },
   {
-    "rank": 358,
+    "rank": 359,
     "name": "PPG Industries",
     "ticker": "PPG",
     "sector": "Materials",
@@ -5370,7 +5385,7 @@
     "domain": "ppg.com"
   },
   {
-    "rank": 359,
+    "rank": 360,
     "name": "Synchrony Financial",
     "ticker": "SYF",
     "sector": "Financials",
@@ -5385,7 +5400,7 @@
     "domain": "synchrony.com"
   },
   {
-    "rank": 360,
+    "rank": 361,
     "name": "LyondellBasell",
     "ticker": "LYB",
     "sector": "Materials",
@@ -5400,7 +5415,7 @@
     "domain": "lyondellbasell.com"
   },
   {
-    "rank": 361,
+    "rank": 362,
     "name": "NiSource",
     "ticker": "NI",
     "sector": "Utilities",
@@ -5415,7 +5430,7 @@
     "domain": "nisource.com"
   },
   {
-    "rank": 362,
+    "rank": 363,
     "name": "Equifax",
     "ticker": "EFX",
     "sector": "Industrials",
@@ -5430,7 +5445,7 @@
     "domain": "equifax.com"
   },
   {
-    "rank": 363,
+    "rank": 364,
     "name": "Veralto",
     "ticker": "VLTO",
     "sector": "Industrials",
@@ -5445,7 +5460,7 @@
     "domain": "veralto.com"
   },
   {
-    "rank": 364,
+    "rank": 365,
     "name": "Loews Corporation",
     "ticker": "L",
     "sector": "Financials",
@@ -5460,7 +5475,7 @@
     "domain": "loews.com"
   },
   {
-    "rank": 365,
+    "rank": 366,
     "name": "Verisign",
     "ticker": "VRSN",
     "sector": "Information Technology",
@@ -5475,7 +5490,7 @@
     "domain": "verisign.com"
   },
   {
-    "rank": 366,
+    "rank": 367,
     "name": "Regions Financial Corporation",
     "ticker": "RF",
     "sector": "Financials",
@@ -5490,7 +5505,7 @@
     "domain": "regions.com"
   },
   {
-    "rank": 367,
+    "rank": 368,
     "name": "Quest Diagnostics",
     "ticker": "DGX",
     "sector": "Health Care",
@@ -5505,7 +5520,7 @@
     "domain": "questdiagnostics.com"
   },
   {
-    "rank": 368,
+    "rank": 369,
     "name": "Labcorp",
     "ticker": "LH",
     "sector": "Health Care",
@@ -5520,7 +5535,7 @@
     "domain": "labcorp.com"
   },
   {
-    "rank": 369,
+    "rank": 370,
     "name": "Williams-Sonoma, Inc.",
     "ticker": "WSM",
     "sector": "Consumer Discretionary",
@@ -5535,7 +5550,7 @@
     "domain": "williams-sonomainc.com"
   },
   {
-    "rank": 370,
+    "rank": 371,
     "name": "Tyson Foods",
     "ticker": "TSN",
     "sector": "Consumer Staples",
@@ -5550,7 +5565,7 @@
     "domain": "tysonfoods.com"
   },
   {
-    "rank": 371,
+    "rank": 372,
     "name": "Corpay",
     "ticker": "CPAY",
     "sector": "Financials",
@@ -5565,7 +5580,7 @@
     "domain": "corpay.com"
   },
   {
-    "rank": 372,
+    "rank": 373,
     "name": "Steris",
     "ticker": "STE",
     "sector": "Health Care",
@@ -5580,7 +5595,7 @@
     "domain": "steris.com"
   },
   {
-    "rank": 373,
+    "rank": 374,
     "name": "Leidos",
     "ticker": "LDOS",
     "sector": "Industrials",
@@ -5595,7 +5610,7 @@
     "domain": "leidos.com"
   },
   {
-    "rank": 374,
+    "rank": 375,
     "name": "First Solar",
     "ticker": "FSLR",
     "sector": "Information Technology",
@@ -5610,7 +5625,7 @@
     "domain": "firstsolar.com"
   },
   {
-    "rank": 375,
+    "rank": 376,
     "name": "Moderna",
     "ticker": "MRNA",
     "sector": "Health Care",
@@ -5625,7 +5640,7 @@
     "domain": "modernatx.com"
   },
   {
-    "rank": 376,
+    "rank": 377,
     "name": "Broadridge Financial Solutions",
     "ticker": "BR",
     "sector": "Industrials",
@@ -5640,7 +5655,7 @@
     "domain": "broadridge.com"
   },
   {
-    "rank": 377,
+    "rank": 378,
     "name": "Southwest Airlines",
     "ticker": "LUV",
     "sector": "Industrials",
@@ -5655,7 +5670,7 @@
     "domain": "southwest.com"
   },
   {
-    "rank": 378,
+    "rank": 379,
     "name": "General Mills",
     "ticker": "GIS",
     "sector": "Consumer Staples",
@@ -5670,7 +5685,7 @@
     "domain": "generalmills.com"
   },
   {
-    "rank": 379,
+    "rank": 380,
     "name": "Smurfit Westrock",
     "ticker": "SW",
     "sector": "Materials",
@@ -5685,7 +5700,7 @@
     "domain": "smurfitwestrock.com"
   },
   {
-    "rank": 380,
+    "rank": 381,
     "name": "KeyCorp",
     "ticker": "KEY",
     "sector": "Financials",
@@ -5700,7 +5715,7 @@
     "domain": "key.com"
   },
   {
-    "rank": 381,
+    "rank": 382,
     "name": "Ralph Lauren Corporation",
     "ticker": "RL",
     "sector": "Consumer Discretionary",
@@ -5715,7 +5730,7 @@
     "domain": "ralphlauren.com"
   },
   {
-    "rank": 382,
+    "rank": 383,
     "name": "Humana",
     "ticker": "HUM",
     "sector": "Health Care",
@@ -5730,7 +5745,7 @@
     "domain": "humana.com"
   },
   {
-    "rank": 383,
+    "rank": 384,
     "name": "NetApp",
     "ticker": "NTAP",
     "sector": "Information Technology",
@@ -5745,7 +5760,7 @@
     "domain": "netapp.com"
   },
   {
-    "rank": 384,
+    "rank": 385,
     "name": "C.H. Robinson",
     "ticker": "CHRW",
     "sector": "Industrials",
@@ -5760,7 +5775,7 @@
     "domain": "chrobinson.com"
   },
   {
-    "rank": 385,
+    "rank": 386,
     "name": "International Paper",
     "ticker": "IP",
     "sector": "Materials",
@@ -5775,7 +5790,7 @@
     "domain": "internationalpaper.com"
   },
   {
-    "rank": 386,
+    "rank": 387,
     "name": "SBA Communications",
     "ticker": "SBAC",
     "sector": "Real Estate",
@@ -5790,7 +5805,7 @@
     "domain": "sbasite.com"
   },
   {
-    "rank": 387,
+    "rank": 388,
     "name": "Packaging Corporation of America",
     "ticker": "PKG",
     "sector": "Materials",
@@ -5805,7 +5820,7 @@
     "domain": "packagingcorp.com"
   },
   {
-    "rank": 388,
+    "rank": 389,
     "name": "J.B. Hunt",
     "ticker": "JBHT",
     "sector": "Industrials",
@@ -5820,7 +5835,7 @@
     "domain": "jbhunt.com"
   },
   {
-    "rank": 389,
+    "rank": 390,
     "name": "Snap-on",
     "ticker": "SNA",
     "sector": "Industrials",
@@ -5835,7 +5850,7 @@
     "domain": "snapon.com"
   },
   {
-    "rank": 390,
+    "rank": 391,
     "name": "Evergy",
     "ticker": "EVRG",
     "sector": "Utilities",
@@ -5850,7 +5865,7 @@
     "domain": "investors.evergy.com"
   },
   {
-    "rank": 391,
+    "rank": 392,
     "name": "Albemarle Corporation",
     "ticker": "ALB",
     "sector": "Materials",
@@ -5865,7 +5880,7 @@
     "domain": "albemarle.com"
   },
   {
-    "rank": 392,
+    "rank": 393,
     "name": "Expeditors International",
     "ticker": "EXPD",
     "sector": "Industrials",
@@ -5880,7 +5895,7 @@
     "domain": "expeditors.com"
   },
   {
-    "rank": 393,
+    "rank": 394,
     "name": "Supermicro",
     "ticker": "SMCI",
     "sector": "Information Technology",
@@ -5895,7 +5910,7 @@
     "domain": "supermicro.com"
   },
   {
-    "rank": 394,
+    "rank": 395,
     "name": "CF Industries",
     "ticker": "CF",
     "sector": "Materials",
@@ -5910,7 +5925,7 @@
     "domain": "cfindustries.com"
   },
   {
-    "rank": 395,
+    "rank": 396,
     "name": "T. Rowe Price",
     "ticker": "TROW",
     "sector": "Financials",
@@ -5925,7 +5940,7 @@
     "domain": "troweprice.com"
   },
   {
-    "rank": 396,
+    "rank": 397,
     "name": "Global Payments",
     "ticker": "GPN",
     "sector": "Financials",
@@ -5940,7 +5955,7 @@
     "domain": "globalpayments.com"
   },
   {
-    "rank": 397,
+    "rank": 398,
     "name": "DuPont",
     "ticker": "DD",
     "sector": "Materials",
@@ -5955,7 +5970,7 @@
     "domain": "dupont.com"
   },
   {
-    "rank": 398,
+    "rank": 399,
     "name": "Principal Financial Group",
     "ticker": "PFG",
     "sector": "Financials",
@@ -5970,7 +5985,7 @@
     "domain": "principal.com"
   },
   {
-    "rank": 399,
+    "rank": 400,
     "name": "Lululemon Athletica",
     "ticker": "LULU",
     "sector": "Consumer Discretionary",
@@ -5985,7 +6000,7 @@
     "domain": "shop.lululemon.com"
   },
   {
-    "rank": 400,
+    "rank": 401,
     "name": "Alliant Energy",
     "ticker": "LNT",
     "sector": "Utilities",
@@ -6000,7 +6015,7 @@
     "domain": "alliantenergy.com"
   },
   {
-    "rank": 401,
+    "rank": 402,
     "name": "Amcor",
     "ticker": "AMCR",
     "sector": "Materials",
@@ -6015,7 +6030,7 @@
     "domain": "amcor.com"
   },
   {
-    "rank": 402,
+    "rank": 403,
     "name": "NVR, Inc.",
     "ticker": "NVR",
     "sector": "Consumer Discretionary",
@@ -6030,7 +6045,7 @@
     "domain": "nvrinc.com"
   },
   {
-    "rank": 403,
+    "rank": 404,
     "name": "PTC Inc.",
     "ticker": "PTC",
     "sector": "Information Technology",
@@ -6045,7 +6060,7 @@
     "domain": "ptc.com"
   },
   {
-    "rank": 404,
+    "rank": 405,
     "name": "Incyte",
     "ticker": "INCY",
     "sector": "Health Care",
@@ -6060,7 +6075,7 @@
     "domain": "incyte.com"
   },
   {
-    "rank": 405,
+    "rank": 406,
     "name": "Zimmer Biomet",
     "ticker": "ZBH",
     "sector": "Health Care",
@@ -6075,7 +6090,7 @@
     "domain": "zimmerbiomet.com"
   },
   {
-    "rank": 406,
+    "rank": 407,
     "name": "CoStar Group",
     "ticker": "CSGP",
     "sector": "Real Estate",
@@ -6090,7 +6105,7 @@
     "domain": "costargroup.com"
   },
   {
-    "rank": 407,
+    "rank": 408,
     "name": "International Flavors & Fragrances",
     "ticker": "IFF",
     "sector": "Materials",
@@ -6105,7 +6120,7 @@
     "domain": "iff.com"
   },
   {
-    "rank": 408,
+    "rank": 409,
     "name": "West Pharmaceutical Services",
     "ticker": "WST",
     "sector": "Health Care",
@@ -6120,7 +6135,7 @@
     "domain": "westpharma.com"
   },
   {
-    "rank": 409,
+    "rank": 410,
     "name": "Essex Property Trust",
     "ticker": "ESS",
     "sector": "Real Estate",
@@ -6135,7 +6150,7 @@
     "domain": "essexapartmenthomes.com"
   },
   {
-    "rank": 410,
+    "rank": 411,
     "name": "HP Inc.",
     "ticker": "HPQ",
     "sector": "Information Technology",
@@ -6150,7 +6165,7 @@
     "domain": "hp.com"
   },
   {
-    "rank": 411,
+    "rank": 412,
     "name": "Weyerhaeuser",
     "ticker": "WY",
     "sector": "Real Estate",
@@ -6165,7 +6180,7 @@
     "domain": "weyerhaeuser.com"
   },
   {
-    "rank": 412,
+    "rank": 413,
     "name": "Centene Corporation",
     "ticker": "CNC",
     "sector": "Health Care",
@@ -6180,7 +6195,7 @@
     "domain": "centene.com"
   },
   {
-    "rank": 413,
+    "rank": 414,
     "name": "Fortive",
     "ticker": "FTV",
     "sector": "Industrials",
@@ -6195,7 +6210,7 @@
     "domain": "fortive.com"
   },
   {
-    "rank": 414,
+    "rank": 415,
     "name": "Lennox International",
     "ticker": "LII",
     "sector": "Industrials",
@@ -6210,7 +6225,7 @@
     "domain": "lennox.com"
   },
   {
-    "rank": 415,
+    "rank": 416,
     "name": "Hologic",
     "ticker": "HOLX",
     "sector": "Health Care",
@@ -6225,7 +6240,7 @@
     "domain": "hologic.com"
   },
   {
-    "rank": 416,
+    "rank": 417,
     "name": "Ball Corporation",
     "ticker": "BALL",
     "sector": "Materials",
@@ -6240,7 +6255,7 @@
     "domain": "ball.com"
   },
   {
-    "rank": 417,
+    "rank": 418,
     "name": "Huntington Ingalls Industries",
     "ticker": "HII",
     "sector": "Industrials",
@@ -6255,7 +6270,7 @@
     "domain": "hii.com"
   },
   {
-    "rank": 418,
+    "rank": 419,
     "name": "F5, Inc.",
     "ticker": "FFIV",
     "sector": "Information Technology",
@@ -6270,7 +6285,7 @@
     "domain": "f5.com"
   },
   {
-    "rank": 419,
+    "rank": 420,
     "name": "Textron",
     "ticker": "TXT",
     "sector": "Industrials",
@@ -6285,7 +6300,7 @@
     "domain": "textron.com"
   },
   {
-    "rank": 420,
+    "rank": 421,
     "name": "Trimble Inc.",
     "ticker": "TRMB",
     "sector": "Information Technology",
@@ -6300,7 +6315,7 @@
     "domain": "trimble.com"
   },
   {
-    "rank": 421,
+    "rank": 422,
     "name": "Insulet Corporation",
     "ticker": "PODD",
     "sector": "Health Care",
@@ -6315,7 +6330,7 @@
     "domain": "insulet.com"
   },
   {
-    "rank": 422,
+    "rank": 423,
     "name": "TKO Group Holdings",
     "ticker": "TKO",
     "sector": "Communication Services",
@@ -6330,7 +6345,7 @@
     "domain": "tkogrp.com"
   },
   {
-    "rank": 423,
+    "rank": 424,
     "name": "Kimco Realty",
     "ticker": "KIM",
     "sector": "Real Estate",
@@ -6345,7 +6360,7 @@
     "domain": "kimcorealty.com"
   },
   {
-    "rank": 424,
+    "rank": 425,
     "name": "Viatris",
     "ticker": "VTRS",
     "sector": "Health Care",
@@ -6360,7 +6375,7 @@
     "domain": "viatris.com"
   },
   {
-    "rank": 425,
+    "rank": 426,
     "name": "McCormick & Company",
     "ticker": "MKC",
     "sector": "Consumer Staples",
@@ -6375,7 +6390,7 @@
     "domain": "mccormickcorporation.com"
   },
   {
-    "rank": 426,
+    "rank": 427,
     "name": "Aptiv",
     "ticker": "APTV",
     "sector": "Consumer Discretionary",
@@ -6390,7 +6405,7 @@
     "domain": "aptiv.com"
   },
   {
-    "rank": 427,
+    "rank": 428,
     "name": "Invitation Homes",
     "ticker": "INVH",
     "sector": "Real Estate",
@@ -6405,7 +6420,7 @@
     "domain": "invitationhomes.com"
   },
   {
-    "rank": 428,
+    "rank": 429,
     "name": "CDW Corporation",
     "ticker": "CDW",
     "sector": "Information Technology",
@@ -6420,7 +6435,7 @@
     "domain": "cdw.com"
   },
   {
-    "rank": 429,
+    "rank": 430,
     "name": "Akamai Technologies",
     "ticker": "AKAM",
     "sector": "Information Technology",
@@ -6435,7 +6450,7 @@
     "domain": "akamai.com"
   },
   {
-    "rank": 430,
+    "rank": 431,
     "name": "Jacobs Solutions",
     "ticker": "J",
     "sector": "Industrials",
@@ -6450,7 +6465,7 @@
     "domain": "jacobs.com"
   },
   {
-    "rank": 431,
+    "rank": 432,
     "name": "Mid-America Apartment Communities",
     "ticker": "MAA",
     "sector": "Real Estate",
@@ -6465,7 +6480,7 @@
     "domain": "maac.com"
   },
   {
-    "rank": 432,
+    "rank": 433,
     "name": "News Corp (Class B)",
     "ticker": "NWS",
     "sector": "Communication Services",
@@ -6480,7 +6495,7 @@
     "domain": "newscorp.com"
   },
   {
-    "rank": 433,
+    "rank": 434,
     "name": "Nordson Corporation",
     "ticker": "NDSN",
     "sector": "Industrials",
@@ -6495,7 +6510,7 @@
     "domain": "nordson.com"
   },
   {
-    "rank": 434,
+    "rank": 435,
     "name": "Tyler Technologies",
     "ticker": "TYL",
     "sector": "Information Technology",
@@ -6510,7 +6525,7 @@
     "domain": "tylertech.com"
   },
   {
-    "rank": 435,
+    "rank": 436,
     "name": "Deckers Brands",
     "ticker": "DECK",
     "sector": "Consumer Discretionary",
@@ -6525,7 +6540,7 @@
     "domain": "deckers.com"
   },
   {
-    "rank": 436,
+    "rank": 437,
     "name": "Pentair",
     "ticker": "PNR",
     "sector": "Industrials",
@@ -6540,7 +6555,7 @@
     "domain": "pentair.com"
   },
   {
-    "rank": 437,
+    "rank": 438,
     "name": "Genuine Parts Company",
     "ticker": "GPC",
     "sector": "Consumer Discretionary",
@@ -6555,7 +6570,7 @@
     "domain": "genpt.com"
   },
   {
-    "rank": 438,
+    "rank": 439,
     "name": "Regency Centers",
     "ticker": "REG",
     "sector": "Real Estate",
@@ -6570,7 +6585,7 @@
     "domain": "regencycenters.com"
   },
   {
-    "rank": 439,
+    "rank": 440,
     "name": "IDEX Corporation",
     "ticker": "IEX",
     "sector": "Industrials",
@@ -6585,7 +6600,7 @@
     "domain": "idexcorp.com"
   },
   {
-    "rank": 440,
+    "rank": 441,
     "name": "News Corp (Class A)",
     "ticker": "NWSA",
     "sector": "Communication Services",
@@ -6600,7 +6615,7 @@
     "domain": "newscorp.com"
   },
   {
-    "rank": 441,
+    "rank": 442,
     "name": "Cooper Companies (The)",
     "ticker": "COO",
     "sector": "Health Care",
@@ -6615,7 +6630,7 @@
     "domain": "coopercos.com"
   },
   {
-    "rank": 442,
+    "rank": 443,
     "name": "Clorox",
     "ticker": "CLX",
     "sector": "Consumer Staples",
@@ -6630,7 +6645,7 @@
     "domain": "thecloroxcompany.com"
   },
   {
-    "rank": 443,
+    "rank": 444,
     "name": "UDR, Inc.",
     "ticker": "UDR",
     "sector": "Real Estate",
@@ -6645,7 +6660,7 @@
     "domain": "udr.com"
   },
   {
-    "rank": 444,
+    "rank": 445,
     "name": "Avery Dennison",
     "ticker": "AVY",
     "sector": "Materials",
@@ -6660,7 +6675,7 @@
     "domain": "averydennison.com"
   },
   {
-    "rank": 445,
+    "rank": 446,
     "name": "Best Buy",
     "ticker": "BBY",
     "sector": "Consumer Discretionary",
@@ -6675,7 +6690,7 @@
     "domain": "bestbuy.com"
   },
   {
-    "rank": 446,
+    "rank": 447,
     "name": "Domino's",
     "ticker": "DPZ",
     "sector": "Consumer Discretionary",
@@ -6690,7 +6705,7 @@
     "domain": "biz.dominos.com"
   },
   {
-    "rank": 447,
+    "rank": 448,
     "name": "Hasbro",
     "ticker": "HAS",
     "sector": "Consumer Discretionary",
@@ -6705,7 +6720,7 @@
     "domain": "shop.hasbro.com"
   },
   {
-    "rank": 448,
+    "rank": 449,
     "name": "Host Hotels & Resorts",
     "ticker": "HST",
     "sector": "Real Estate",
@@ -6720,7 +6735,7 @@
     "domain": "hosthotels.com"
   },
   {
-    "rank": 449,
+    "rank": 450,
     "name": "Everest Group",
     "ticker": "EG",
     "sector": "Financials",
@@ -6735,7 +6750,7 @@
     "domain": "everestglobal.com"
   },
   {
-    "rank": 450,
+    "rank": 451,
     "name": "Erie Indemnity",
     "ticker": "ERIE",
     "sector": "Financials",
@@ -6750,7 +6765,7 @@
     "domain": "erieinsurance.com"
   },
   {
-    "rank": 451,
+    "rank": 452,
     "name": "Trade Desk (The)",
     "ticker": "TTD",
     "sector": "Communication Services",
@@ -6765,7 +6780,7 @@
     "domain": "thetradedesk.com"
   },
   {
-    "rank": 452,
+    "rank": 453,
     "name": "Franklin Resources",
     "ticker": "BEN",
     "sector": "Financials",
@@ -6780,7 +6795,7 @@
     "domain": "franklinresources.com"
   },
   {
-    "rank": 453,
+    "rank": 454,
     "name": "Gen Digital",
     "ticker": "GEN",
     "sector": "Information Technology",
@@ -6795,7 +6810,7 @@
     "domain": "gendigital.com"
   },
   {
-    "rank": 454,
+    "rank": 455,
     "name": "Masco",
     "ticker": "MAS",
     "sector": "Industrials",
@@ -6810,7 +6825,7 @@
     "domain": "masco.com"
   },
   {
-    "rank": 455,
+    "rank": 456,
     "name": "Allegion",
     "ticker": "ALLE",
     "sector": "Industrials",
@@ -6825,7 +6840,7 @@
     "domain": "allegion.com"
   },
   {
-    "rank": 456,
+    "rank": 457,
     "name": "Hormel Foods",
     "ticker": "HRL",
     "sector": "Consumer Staples",
@@ -6840,7 +6855,7 @@
     "domain": "hormelfoods.com"
   },
   {
-    "rank": 457,
+    "rank": 458,
     "name": "Pinnacle West Capital",
     "ticker": "PNW",
     "sector": "Utilities",
@@ -6855,7 +6870,7 @@
     "domain": "pinnaclewest.com"
   },
   {
-    "rank": 458,
+    "rank": 459,
     "name": "APA Corporation",
     "ticker": "APA",
     "sector": "Energy",
@@ -6870,7 +6885,7 @@
     "domain": "apacorp.com"
   },
   {
-    "rank": 459,
+    "rank": 460,
     "name": "Align Technology",
     "ticker": "ALGN",
     "sector": "Health Care",
@@ -6885,7 +6900,7 @@
     "domain": "aligntech.com"
   },
   {
-    "rank": 460,
+    "rank": 461,
     "name": "Jack Henry & Associates",
     "ticker": "JKHY",
     "sector": "Financials",
@@ -6900,7 +6915,7 @@
     "domain": "jackhenry.com"
   },
   {
-    "rank": 461,
+    "rank": 462,
     "name": "Healthpeak Properties",
     "ticker": "DOC",
     "sector": "Real Estate",
@@ -6915,7 +6930,7 @@
     "domain": "healthpeak.com"
   },
   {
-    "rank": 462,
+    "rank": 463,
     "name": "Generac",
     "ticker": "GNRC",
     "sector": "Industrials",
@@ -6930,7 +6945,7 @@
     "domain": "generac.com"
   },
   {
-    "rank": 463,
+    "rank": 464,
     "name": "Universal Health Services",
     "ticker": "UHS",
     "sector": "Health Care",
@@ -6945,7 +6960,7 @@
     "domain": "uhs.com"
   },
   {
-    "rank": 464,
+    "rank": 465,
     "name": "Solventum",
     "ticker": "SOLV",
     "sector": "Health Care",
@@ -6960,7 +6975,7 @@
     "domain": "solventum.com"
   },
   {
-    "rank": 465,
+    "rank": 466,
     "name": "Gartner",
     "ticker": "IT",
     "sector": "Information Technology",
@@ -6975,7 +6990,7 @@
     "domain": "gartner.com"
   },
   {
-    "rank": 466,
+    "rank": 467,
     "name": "J.M. Smucker Company (The)",
     "ticker": "SJM",
     "sector": "Consumer Staples",
@@ -6990,7 +7005,7 @@
     "domain": "jmsmucker.com"
   },
   {
-    "rank": 467,
+    "rank": 468,
     "name": "Globe Life",
     "ticker": "GL",
     "sector": "Financials",
@@ -7005,7 +7020,7 @@
     "domain": "home.globelifeinsurance.com"
   },
   {
-    "rank": 468,
+    "rank": 469,
     "name": "Assurant",
     "ticker": "AIZ",
     "sector": "Financials",
@@ -7020,7 +7035,7 @@
     "domain": "assurant.com"
   },
   {
-    "rank": 469,
+    "rank": 470,
     "name": "GoDaddy",
     "ticker": "GDDY",
     "sector": "Information Technology",
@@ -7035,7 +7050,7 @@
     "domain": "godaddy.com"
   },
   {
-    "rank": 470,
+    "rank": 471,
     "name": "Stanley Black & Decker",
     "ticker": "SWK",
     "sector": "Industrials",
@@ -7050,7 +7065,7 @@
     "domain": "stanleyblackanddecker.com"
   },
   {
-    "rank": 471,
+    "rank": 472,
     "name": "Camden Property Trust",
     "ticker": "CPT",
     "sector": "Real Estate",
@@ -7065,7 +7080,7 @@
     "domain": "camdenliving.com"
   },
   {
-    "rank": 472,
+    "rank": 473,
     "name": "Brown\u2013Forman",
     "ticker": "BF.B",
     "sector": "Consumer Staples",
@@ -7080,7 +7095,7 @@
     "domain": "brown-forman.com"
   },
   {
-    "rank": 473,
+    "rank": 474,
     "name": "Paramount Skydance Corporation",
     "ticker": "PSKY",
     "sector": "Communication Services",
@@ -7095,7 +7110,7 @@
     "domain": "paramount.com"
   },
   {
-    "rank": 474,
+    "rank": 475,
     "name": "Wynn Resorts",
     "ticker": "WYNN",
     "sector": "Consumer Discretionary",
@@ -7110,7 +7125,7 @@
     "domain": "wynnresorts.com"
   },
   {
-    "rank": 475,
+    "rank": 476,
     "name": "Zebra Technologies",
     "ticker": "ZBRA",
     "sector": "Information Technology",
@@ -7125,7 +7140,7 @@
     "domain": "zebra.com"
   },
   {
-    "rank": 476,
+    "rank": 477,
     "name": "Invesco",
     "ticker": "IVZ",
     "sector": "Financials",
@@ -7140,7 +7155,7 @@
     "domain": "invesco.com"
   },
   {
-    "rank": 477,
+    "rank": 478,
     "name": "AES Corporation",
     "ticker": "AES",
     "sector": "Utilities",
@@ -7155,7 +7170,7 @@
     "domain": "aes.com"
   },
   {
-    "rank": 478,
+    "rank": 479,
     "name": "DaVita",
     "ticker": "DVA",
     "sector": "Health Care",
@@ -7170,7 +7185,7 @@
     "domain": "davita.com"
   },
   {
-    "rank": 479,
+    "rank": 480,
     "name": "MGM Resorts",
     "ticker": "MGM",
     "sector": "Consumer Discretionary",
@@ -7185,7 +7200,7 @@
     "domain": "mgmresorts.com"
   },
   {
-    "rank": 480,
+    "rank": 481,
     "name": "Revvity",
     "ticker": "RVTY",
     "sector": "Health Care",
@@ -7200,7 +7215,7 @@
     "domain": "revvity.com"
   },
   {
-    "rank": 481,
+    "rank": 482,
     "name": "Builders FirstSource",
     "ticker": "BLDR",
     "sector": "Industrials",
@@ -7215,7 +7230,7 @@
     "domain": "bldr.com"
   },
   {
-    "rank": 482,
+    "rank": 483,
     "name": "BXP, Inc.",
     "ticker": "BXP",
     "sector": "Real Estate",
@@ -7230,7 +7245,7 @@
     "domain": "bxp.com"
   },
   {
-    "rank": 483,
+    "rank": 484,
     "name": "Federal Realty Investment Trust",
     "ticker": "FRT",
     "sector": "Real Estate",
@@ -7245,7 +7260,7 @@
     "domain": "federalrealty.com"
   },
   {
-    "rank": 484,
+    "rank": 485,
     "name": "A. O. Smith",
     "ticker": "AOS",
     "sector": "Industrials",
@@ -7260,7 +7275,7 @@
     "domain": "aosmith.com"
   },
   {
-    "rank": 485,
+    "rank": 486,
     "name": "Norwegian Cruise Line Holdings",
     "ticker": "NCLH",
     "sector": "Consumer Discretionary",
@@ -7275,7 +7290,7 @@
     "domain": "nclhltd.com"
   },
   {
-    "rank": 486,
+    "rank": 487,
     "name": "Baxter International",
     "ticker": "BAX",
     "sector": "Health Care",
@@ -7290,7 +7305,7 @@
     "domain": "baxter.com"
   },
   {
-    "rank": 487,
+    "rank": 488,
     "name": "Mosaic Company (The)",
     "ticker": "MOS",
     "sector": "Materials",
@@ -7305,7 +7320,7 @@
     "domain": "mosaicco.com"
   },
   {
-    "rank": 488,
+    "rank": 489,
     "name": "Henry Schein",
     "ticker": "HSIC",
     "sector": "Health Care",
@@ -7320,7 +7335,7 @@
     "domain": "henryschein.com"
   },
   {
-    "rank": 489,
+    "rank": 490,
     "name": "Alexandria Real Estate Equities",
     "ticker": "ARE",
     "sector": "Real Estate",
@@ -7335,7 +7350,7 @@
     "domain": "are.com"
   },
   {
-    "rank": 490,
+    "rank": 491,
     "name": "Molson Coors Beverage Company",
     "ticker": "TAP",
     "sector": "Consumer Staples",
@@ -7350,7 +7365,7 @@
     "domain": "molsoncoors.com"
   },
   {
-    "rank": 491,
+    "rank": 492,
     "name": "Skyworks Solutions",
     "ticker": "SWKS",
     "sector": "Information Technology",
@@ -7365,7 +7380,7 @@
     "domain": "skyworksinc.com"
   },
   {
-    "rank": 492,
+    "rank": 493,
     "name": "Pool Corporation",
     "ticker": "POOL",
     "sector": "Consumer Discretionary",
@@ -7380,7 +7395,7 @@
     "domain": "poolcorp.com"
   },
   {
-    "rank": 493,
+    "rank": 494,
     "name": "FactSet",
     "ticker": "FDS",
     "sector": "Financials",
@@ -7395,7 +7410,7 @@
     "domain": "factset.com"
   },
   {
-    "rank": 494,
+    "rank": 495,
     "name": "Conagra Brands",
     "ticker": "CAG",
     "sector": "Consumer Staples",
@@ -7410,7 +7425,7 @@
     "domain": "conagrabrands.com"
   },
   {
-    "rank": 495,
+    "rank": 496,
     "name": "Bio-Techne",
     "ticker": "TECH",
     "sector": "Health Care",
@@ -7425,7 +7440,7 @@
     "domain": "bio-techne.com"
   },
   {
-    "rank": 496,
+    "rank": 497,
     "name": "EPAM Systems",
     "ticker": "EPAM",
     "sector": "Information Technology",
@@ -7440,7 +7455,7 @@
     "domain": "epam.com"
   },
   {
-    "rank": 497,
+    "rank": 498,
     "name": "Molina Healthcare",
     "ticker": "MOH",
     "sector": "Health Care",
@@ -7455,7 +7470,7 @@
     "domain": "molinahealthcare.com"
   },
   {
-    "rank": 498,
+    "rank": 499,
     "name": "Charles River Laboratories",
     "ticker": "CRL",
     "sector": "Health Care",
@@ -7470,7 +7485,7 @@
     "domain": "criver.com"
   },
   {
-    "rank": 499,
+    "rank": 500,
     "name": "Match Group",
     "ticker": "MTCH",
     "sector": "Communication Services",
@@ -7485,7 +7500,7 @@
     "domain": "mtch.com"
   },
   {
-    "rank": 500,
+    "rank": 501,
     "name": "Paycom",
     "ticker": "PAYC",
     "sector": "Industrials",
@@ -7500,7 +7515,7 @@
     "domain": "paycom.com"
   },
   {
-    "rank": 501,
+    "rank": 502,
     "name": "Campbell's Company (The)",
     "ticker": "CPB",
     "sector": "Consumer Staples",
@@ -7515,7 +7530,7 @@
     "domain": "thecampbellscompany.com"
   },
   {
-    "rank": 502,
+    "rank": 503,
     "name": "Lamb Weston",
     "ticker": "LW",
     "sector": "Consumer Staples",
