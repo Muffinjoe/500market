@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumentum (LITE) Stock Price, Chart & Market Cap | 500Market</title>
+    <meta name="description" content="Lumentum (LITE) stock price today is $800.15. View live chart, market cap of $57.12B, P/E ratio, and sector peers on 500Market.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://500market.com/s/lite.html">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Lumentum (LITE) Stock Price, Chart & Market Cap | 500Market">
+    <meta property="og:description" content="Lumentum (LITE) stock price today is $800.15. View live chart, market cap of $57.12B, P/E ratio, and sector peers on 500Market.">
+    <meta property="og:url" content="https://500market.com/s/lite.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="500Market">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Lumentum (LITE) Stock Price, Chart & Market Cap | 500Market">
+    <meta name="twitter:description" content="Lumentum (LITE) stock price today is $800.15. View live chart, market cap of $57.12B, P/E ratio, and sector peers on 500Market.">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FinancialProduct", "name": "Lumentum (LITE)", "description": "Lumentum (LITE) is a Information Technology company listed on the S&P 500 with a market capitalization of $57.12B. The stock is currently trading at $800.15 per share.", "url": "https://500market.com/s/lite.html", "provider": {"@type": "Organization", "name": "Lumentum", "url": "https://lumentum.com"}}</script>
+
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="e6f6d801-d98f-4c20-9ad6-f4ede5cab47c"></script>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .stock-page { max-width: 900px; margin: 0 auto; padding: 24px; }
+        .sp-header { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }
+        .sp-logo { width: 56px; height: 56px; border-radius: 50%; object-fit: contain; background: var(--bg-secondary); border: 1px solid var(--border); }
+        .sp-icon { width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 18px; color: white; }
+        .sp-title { font-size: 28px; font-weight: 800; color: var(--text); }
+        .sp-ticker-row { display: flex; align-items: center; gap: 8px; margin-top: 2px; }
+        .sp-ticker { font-size: 15px; color: var(--text-secondary); }
+        .sp-badge { font-size: 12px; padding: 2px 10px; border-radius: 10px; background: var(--bg-secondary); color: var(--text-secondary); font-weight: 500; }
+        .sp-price-row { margin-bottom: 24px; }
+        .sp-price { font-size: 40px; font-weight: 800; color: var(--text); }
+        .sp-price-chg { font-size: 18px; font-weight: 600; margin-left: 10px; }
+        .sp-chart { height: 280px; margin-bottom: 28px; border: 1px solid var(--border); border-radius: 12px; padding: 16px; background: var(--card-bg); }
+        .sp-chart-periods { display: flex; gap: 4px; margin-bottom: 12px; }
+        .sp-chart-area { height: 220px; }
+        .sp-chart-area svg { width: 100%; height: 100%; display: block; }
+        .sp-stats { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; margin-bottom: 28px; }
+        .sp-stat { padding: 16px; background: var(--bg); }
+        .sp-stat-label { font-size: 12px; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+        .sp-stat-val { font-size: 16px; font-weight: 700; color: var(--text); }
+        .sp-range { grid-column: 1 / -1; padding: 16px; background: var(--bg); }
+        .sp-range-labels { display: flex; justify-content: space-between; font-size: 12px; color: var(--text-secondary); margin-bottom: 8px; }
+        .sp-range-bar { height: 8px; border-radius: 4px; background: var(--border); position: relative; }
+        .sp-range-fill { height: 100%; border-radius: 4px; background: var(--blue); }
+        .sp-range-dot { position: absolute; top: 50%; transform: translate(-50%, -50%); width: 14px; height: 14px; border-radius: 50%; background: var(--blue); border: 2px solid white; box-shadow: 0 1px 3px rgba(0,0,0,0.2); }
+        .sp-about { margin-bottom: 28px; }
+        .sp-about h2 { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
+        .sp-about p { font-size: 15px; color: var(--text-secondary); line-height: 1.7; }
+        .sp-peers { margin-bottom: 28px; }
+        .sp-section-title { font-size: 18px; font-weight: 700; color: var(--text); margin-bottom: 14px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
+        .news-list { display: flex; flex-direction: column; margin-bottom: 28px; border-radius: 10px; overflow: hidden; }
+        .news-item { display: block; padding: 12px 14px; border-bottom: 1px solid var(--border); text-decoration: none; color: var(--text); transition: all 0.15s; }
+        .news-item:first-child { border-top: 1px solid var(--border); }
+        .news-item:hover { background: var(--bg-secondary); }
+        .news-content { }
+        .news-headline { font-size: 14px; font-weight: 600; color: var(--text); line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+        .news-meta { font-size: 12px; color: var(--text-secondary); margin-top: 4px; }
+        .news-source { font-weight: 500; }
+        .news-loading { text-align: center; padding: 20px; color: var(--text-secondary); font-size: 14px; }
+        .peer-row { display: flex; align-items: center; padding: 10px 14px; border: 1px solid var(--border); border-radius: 8px; margin-bottom: 6px; text-decoration: none; color: var(--text); transition: all 0.15s; gap: 12px; }
+        .peer-row:hover { border-color: var(--blue); background: var(--bg-secondary); }
+        .peer-name { flex: 1; font-weight: 600; font-size: 14px; }
+        .peer-price { width: 90px; text-align: right; font-size: 14px; color: var(--text-secondary); }
+        .peer-change { width: 70px; text-align: right; font-size: 13px; font-weight: 600; }
+        .peer-name { font-weight: 600; font-size: 14px; }
+        .peer-price { font-size: 14px; color: var(--text-secondary); }
+        .sp-back { display: inline-flex; align-items: center; gap: 6px; color: var(--blue); text-decoration: none; font-size: 14px; font-weight: 500; margin-bottom: 20px; }
+        .sp-back:hover { text-decoration: underline; }
+        .sp-breadcrumb { font-size: 13px; color: var(--text-secondary); margin-bottom: 16px; }
+        .sp-breadcrumb a { color: var(--blue); text-decoration: none; }
+        .sp-breadcrumb a:hover { text-decoration: underline; }
+        @media (max-width: 640px) {
+            .sp-stats { grid-template-columns: 1fr 1fr; }
+            .sp-price { font-size: 32px; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-inner">
+            <span>Stocks: <strong>503</strong></span>
+            <span>Market Cap: <strong>$51.2T</strong></span>
+            <span>S&P 500: <strong>5,954.50</strong> <span class="change-up">+0.82%</span></span>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="header-inner">
+            <a href="../index.html" style="text-decoration:none;display:flex;align-items:center;gap:8px">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                    <rect width="28" height="28" rx="6" fill="#3861FB"/>
+                    <text x="14" y="18" text-anchor="middle" fill="white" font-size="10" font-weight="700" font-family="system-ui">500</text>
+                </svg>
+                <span class="logo-text">500Market</span>
+            </a>
+            <nav class="nav">
+                <a href="../index.html">Stocks</a>
+                <a href="../index.html#sectors">Sectors</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="stock-page">
+        <nav class="sp-breadcrumb">
+            <a href="../index.html">Home</a> &rsaquo; <a href="../index.html">Stocks</a> &rsaquo; Lumentum (LITE)
+        </nav>
+
+        <div class="sp-header">
+            <img class="sp-logo" src="https://www.google.com/s2/favicons?domain=lumentum.com&sz=128" alt="LITE logo"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="sp-icon" style="background:#3861FB;display:none">LI</div>
+            <div>
+                <div class="sp-title">Lumentum</div>
+                <div class="sp-ticker-row">
+                    <span class="sp-ticker">LITE</span>
+                    <span class="sp-badge">Rank #198</span>
+                    <span class="sp-badge">Information Technology</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="sp-price-row">
+            <span class="sp-price">$800.15</span>
+            <span id="periodChange"><span class="sp-price-chg change-down">-0.23%</span></span>
+        </div>
+
+        <div class="sp-chart">
+            <div class="sp-chart-periods">
+                <button class="chart-period active" data-d="1">1D</button>
+                <button class="chart-period" data-d="7">1W</button>
+                <button class="chart-period" data-d="30">1M</button>
+                <button class="chart-period" data-d="90">3M</button>
+                <button class="chart-period" data-d="180">6M</button>
+                <button class="chart-period" data-d="365">1Y</button>
+                <button class="chart-period" data-d="1825">5Y</button>
+            </div>
+            <div class="sp-chart-area" id="stockChart"></div>
+        </div>
+
+        <h2 class="sp-section-title">Key Statistics</h2>
+        <div class="sp-stats">
+            <div class="sp-stat">
+                <div class="sp-stat-label">Market Cap</div>
+                <div class="sp-stat-val">$57.12B</div>
+            </div>
+            <div class="sp-stat">
+                <div class="sp-stat-label">Volume (24h)</div>
+                <div class="sp-stat-val">$4.5B</div>
+            </div>
+            <div class="sp-stat">
+                <div class="sp-stat-label">P/E Ratio</div>
+                <div class="sp-stat-val">231.9</div>
+            </div>
+            <div class="sp-stat">
+                <div class="sp-stat-label">EPS</div>
+                <div class="sp-stat-val">$3.45</div>
+            </div>
+            <div class="sp-stat">
+                <div class="sp-stat-label">1 Day</div>
+                <div class="sp-stat-val"><span class="change-down">-0.23%</span></div>
+            </div>
+            <div class="sp-stat">
+                <div class="sp-stat-label">7 Day</div>
+                <div class="sp-stat-val"><span class="change-up">+23.18%</span></div>
+            </div>
+            <div class="sp-stat">
+                <div class="sp-stat-label">YTD</div>
+                <div class="sp-stat-val"><span class="change-up">+129.43%</span></div>
+            </div>
+            <div class="sp-stat">
+                <div class="sp-stat-label">Sector</div>
+                <div class="sp-stat-val">Information Technology</div>
+            </div>
+            <div class="sp-stat">
+                <div class="sp-stat-label">S&P 500 Rank</div>
+                <div class="sp-stat-val">#198</div>
+            </div>
+            <div class="sp-range">
+                <div class="sp-range-labels">
+                    <span>52W Low: $-299.50</span>
+                    <span>52W High: $1,931.80</span>
+                </div>
+                <div class="sp-range-bar">
+                    <div class="sp-range-fill" style="width:49.3%"></div>
+                    <div class="sp-range-dot" style="left:49.3%"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sp-about">
+            <h2 class="sp-section-title">About Lumentum</h2>
+            <p>Lumentum (LITE) is a Information Technology company listed on the S&P 500 with a market capitalization of $57.12B. The stock is currently trading at $800.15 per share.</p>
+        </div>
+
+        <div>
+            <h2 class="sp-section-title">Latest News</h2>
+            <div class="news-list" id="newsList">
+                <div class="news-loading">Loading latest news...</div>
+            </div>
+        </div>
+
+        <div class="sp-peers">
+            <h3 class="sp-section-title">Sector Peers &mdash; Information Technology</h3>
+            
+            <a href="nvda.html" class="peer-row">
+                <span class="peer-name">NVDA — Nvidia</span>
+                <span class="peer-price">$180.20</span>
+                <span class="peer-change change-up">+2.85%</span>
+            </a>
+            <a href="aapl.html" class="peer-row">
+                <span class="peer-name">AAPL — Apple Inc.</span>
+                <span class="peer-price">$252.55</span>
+                <span class="peer-change change-up">+0.36%</span>
+            </a>
+            <a href="msft.html" class="peer-row">
+                <span class="peer-name">MSFT — Microsoft</span>
+                <span class="peer-price">$373.65</span>
+                <span class="peer-change change-up">+0.24%</span>
+            </a>
+            <a href="avgo.html" class="peer-row">
+                <span class="peer-name">AVGO — Broadcom</span>
+                <span class="peer-price">$323.54</span>
+                <span class="peer-change change-up">+1.65%</span>
+            </a>
+            <a href="mu.html" class="peer-row">
+                <span class="peer-name">MU — Micron Technology</span>
+                <span class="peer-price">$387.15</span>
+                <span class="peer-change change-down">-2.12%</span>
+            </a>
+            <a href="orcl.html" class="peer-row">
+                <span class="peer-name">ORCL — Oracle Corporation</span>
+                <span class="peer-price">$149.03</span>
+                <span class="peer-change change-up">+1.32%</span>
+            </a>
+            <a href="pltr.html" class="peer-row">
+                <span class="peer-name">PLTR — Palantir Technologies</span>
+                <span class="peer-price">$158.79</span>
+                <span class="peer-change change-up">+2.59%</span>
+            </a>
+            <a href="amd.html" class="peer-row">
+                <span class="peer-name">AMD — Advanced Micro Devices</span>
+                <span class="peer-price">$219.68</span>
+                <span class="peer-change change-up">+6.97%</span>
+            </a>
+            <a href="../index.html" style="display:block;text-align:center;margin-top:12px;color:#3861FB;font-size:13px;font-weight:600;text-decoration:none">View all Information Technology stocks &rarr;</a>
+        </div>
+    </div>
+
+    <div class="subscribe-section" style="background:var(--bg-secondary);border-top:1px solid var(--border);padding:40px 24px;margin-top:32px">
+        <div style="max-width:480px;margin:0 auto;text-align:center">
+            <h2 style="font-size:20px;font-weight:800;color:var(--text);margin-bottom:6px">Daily Market Brief</h2>
+            <p style="font-size:13px;color:var(--text-secondary);margin-bottom:16px">S&P 500 closing prices, top movers, and sector performance — delivered daily.</p>
+            <form id="subForm" style="display:flex;gap:8px;max-width:380px;margin:0 auto">
+                <input type="email" id="subEmail" placeholder="Enter your email" required style="flex:1;padding:10px 14px;border:1px solid var(--border);border-radius:8px;font-size:14px;background:var(--bg);color:var(--text);outline:none">
+                <button type="submit" style="padding:10px 20px;border:none;border-radius:8px;background:#3861FB;color:#fff;font-size:14px;font-weight:600;cursor:pointer">Subscribe</button>
+            </form>
+            <div id="subMsg" style="margin-top:10px;font-size:13px;min-height:18px"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>500Market &mdash; S&P 500 stock tracker. Not financial advice.</p>
+    </footer>
+
+    <script>
+    // Inline chart renderer for this stock
+    const STOCK = {"ticker": "LITE", "price": 800.15, "change1d": -0.23, "change7d": 23.18};
+    const STOCK_CHART = {"daily":{"start":"2021-03-25","prices":[85.74,91.93,90.09,90.36,91.35,92.57,93.6,90.95,90.4,91.27,91.2,92.61,92.5,92.47,93.04,93.19,92.52,91.97,93.12,92.3,94.08,94.5,94.71,94.45,92.64,85.05,83.87,83.72,81.17,81.39,82.93,80.77,82.14,68.24,67.43,70.05,72.18,74.67,76.63,79.27,79.35,80.28,80.05,80.53,81.15,81.37,80.06,81.33,80.69,81.94,80.05,81.45,80.19,81.28,80.79,82.18,81.32,81.08,81.14,80.02,81.17,80.24,80.95,82.98,82.64,83.7,83.1,82.03,83.98,83.47,83.72,82.41,82.23,82.67,82.51,82.29,82.63,81.33,80.27,80.64,81.21,82.8,82.47,82.97,83.09,81.09,83.3,83.68,83.99,83.47,81.53,81.66,80.87,81.26,80.65,79.83,79.7,79.11,78.64,78.38,80.24,81.67,84.96,84.58,86.21,86.75,86.91,85.52,86.96,87.07,86.64,87.45,88.33,89.03,87.99,88.17,88.72,85.82,87.57,85.91,86.5,86.47,85.38,84.79,84.22,84.37,85.48,86.58,85.99,84.49,83.98,83.54,85.37,82.26,81.98,81.85,84.83,84.16,85.54,84.62,85.15,86.39,85.19,84.65,85.22,85.37,84.88,84.05,81.34,80.78,80.7,82.1,82.58,84.49,86.78,86.81,88.34,93.34,91.16,92.26,91.33,91.16,91.8,90.06,89.94,91.47,90.07,91.19,89.98,90.36,89.21,86.82,87.29,86.77,85.51,85.32,85.9,87.08,90.58,93.41,96.97,100.6,99.46,102.59,104.3,102.76,104.19,103.7,103.8,104.5,104.49,106.99,106.19,106.89,106.35,105.77,107.13,107.05,105.02,104.72,105.3,106.09,107.61,107.43,105.32,106.36,104.02,99.44,98.98,97.49,98.52,95.48,97.83,97.25,97.37,101.48,100.38,100.95,86.37,90.4,92.77,95.37,97.82,96.88,94.31,93.36,97.15,101.58,101.13,99.08,97.26,95.42,98.93,101.41,98.86,97.19,101.28,98.89,93.33,92.99,90.59,94.66,93.46,91.44,85.01,88.54,91.49,92.27,95.0,92.87,94.15,93.11,97.85,98.83,97.39,99.73,97.8,97.6,95.5,95.46,93.07,90.78,90.24,88.72,86.97,86.6,90.0,85.65,85.5,86.95,87.95,85.6,84.46,86.11,82.85,80.85,83.26,81.21,83.08,82.14,89.5,88.82,89.01,87.02,89.33,89.22,87.21,90.08,87.18,90.53,87.95,86.75,87.08,87.08,83.65,84.61,85.78,87.99,86.08,86.8,88.03,84.0,85.9,88.26,87.38,84.56,82.92,79.34,79.29,80.32,75.21,76.67,78.67,78.09,78.2,82.18,82.28,80.41,80.61,79.42,77.82,76.59,76.93,78.1,80.14,78.51,77.62,78.06,79.08,81.96,81.0,83.59,85.48,86.42,85.02,84.46,85.42,87.06,88.15,90.46,90.66,90.74,93.43,91.08,90.99,92.19,89.19,92.17,92.5,94.27,96.19,89.6,89.31,92.71,92.42,91.57,91.75,91.1,89.4,86.73,85.73,84.82,83.55,80.17,79.59,78.44,79.09,80.6,81.22,82.07,79.44,78.85,75.92,74.99,74.22,72.76,72.59,71.27,70.4,68.66,70.02,70.83,69.49,68.57,70.94,74.03,74.28,73.97,72.7,72.11,71.38,69.48,69.16,65.7,69.75,71.02,70.49,70.33,71.9,72.41,73.92,73.27,72.88,74.85,74.45,75.42,73.22,72.46,71.56,70.38,59.0,55.25,56.55,57.73,56.59,57.71,55.84,55.47,56.2,54.84,55.0,55.32,55.83,54.39,53.53,54.94,54.35,55.0,54.45,52.72,51.7,55.71,54.41,54.45,55.39,54.46,52.66,52.09,50.8,50.45,50.35,50.6,50.56,50.79,49.41,51.39,52.17,52.74,53.12,53.21,55.16,56.51,56.51,56.61,57.25,57.58,58.21,58.47,58.68,58.84,60.3,58.9,59.3,59.87,60.3,59.36,60.18,60.8,62.36,61.94,60.92,61.44,61.17,60.3,59.4,59.1,59.32,59.93,58.41,58.16,56.96,56.95,57.9,53.83,52.51,53.81,52.84,53.18,53.91,53.13,52.22,53.85,52.47,51.54,50.34,50.54,50.08,50.6,49.97,51.25,51.98,50.86,51.47,51.39,51.09,50.89,52.24,53.27,54.01,52.95,52.45,51.31,46.33,47.47,46.84,45.38,45.63,45.24,46.22,46.49,46.47,46.1,47.05,47.6,47.52,47.9,48.43,48.25,48.3,47.19,48.46,47.5,47.78,47.89,45.99,44.56,43.3,42.22,45.12,44.33,46.1,47.37,46.69,48.27,47.06,45.53,47.99,53.63,54.86,52.9,52.22,53.0,51.42,50.09,50.8,51.08,51.06,53.29,53.49,56.43,56.4,57.8,61.37,55.8,56.63,55.29,55.71,57.91,56.31,56.92,56.73,57.4,54.62,53.6,54.4,54.55,54.82,54.48,55.58,51.92,52.39,52.1,52.98,52.46,51.85,51.89,53.0,52.79,52.76,52.36,52.36,51.44,50.51,50.96,52.4,52.36,52.46,50.32,49.91,49.53,50.58,51.34,46.81,46.2,47.98,48.66,51.31,53.18,52.12,51.59,51.08,52.97,52.63,54.13,53.89,52.97,52.33,49.83,49.66,48.52,47.83,47.01,48.24,48.25,48.36,47.86,48.33,46.62,46.41,45.99,44.8,43.83,44.95,45.18,45.68,44.75,43.07,41.61,41.22,41.26,42.0,42.87,41.83,41.42,42.16,41.25,39.84,39.35,38.64,37.63,38.56,36.93,36.12,36.07,39.79,39.21,38.72,40.45,42.76,42.34,42.02,42.87,39.52,40.54,40.92,43.56,45.14,43.77,44.17,44.32,42.94,43.56,43.79,43.01,42.3,43.1,42.8,44.25,44.08,41.95,41.32,43.55,44.03,45.06,44.86,46.46,49.86,49.52,49.65,50.48,50.06,51.5,53.0,53.51,53.38,53.26,52.42,52.04,49.95,50.2,50.47,51.17,51.78,52.0,51.44,50.7,52.65,51.58,52.83,53.8,54.18,54.3,54.61,55.92,55.27,56.93,55.74,54.94,56.15,56.48,55.6,58.84,58.77,45.58,50.21,50.34,47.59,49.59,49.19,49.77,49.33,48.01,50.12,49.08,49.42,48.39,47.17,48.47,50.49,50.76,50.79,50.33,48.86,47.68,46.87,46.88,47.06,46.25,45.55,46.79,46.52,48.81,50.56,50.88,51.08,48.41,48.45,47.35,48.15,47.5,47.85,46.5,45.9,45.89,47.25,45.34,45.18,43.45,41.81,43.31,41.98,42.44,41.74,41.34,42.01,42.06,42.01,43.42,43.52,43.76,43.52,44.29,44.74,44.11,41.4,42.59,43.61,43.79,44.0,44.61,45.72,46.8,46.05,47.19,46.01,45.49,45.92,46.28,44.88,43.43,43.36,43.5,44.21,43.02,45.4,45.59,45.79,46.97,45.47,46.91,47.55,47.28,50.0,49.58,47.91,48.66,47.58,49.19,49.13,49.04,50.92,51.43,53.94,54.24,55.35,56.19,55.84,56.26,57.33,59.24,57.97,59.09,57.41,55.5,54.77,55.42,54.8,52.71,50.83,51.83,51.8,49.05,51.78,48.01,44.33,41.47,41.59,40.28,43.34,43.25,44.94,46.24,45.53,52.26,51.98,52.82,56.09,56.39,55.59,59.17,56.41,57.48,56.57,56.53,57.61,53.01,55.43,55.08,52.11,51.2,51.1,53.95,54.25,55.78,56.59,58.37,58.28,61.14,61.35,61.23,60.79,60.95,64.74,64.53,63.38,61.49,65.0,66.16,68.8,67.27,67.75,67.68,67.1,68.24,69.23,66.58,68.78,69.62,66.23,65.56,66.54,65.66,64.64,64.37,64.96,65.76,65.35,63.87,65.35,64.17,66.18,71.97,73.64,83.85,86.72,86.65,88.06,85.13,81.45,80.54,82.48,82.47,85.61,89.09,87.2,86.98,83.77,86.97,86.37,88.7,94.9,92.64,92.84,89.8,86.97,88.2,90.75,92.92,93.18,88.92,82.9,83.56,85.08,83.22,84.34,85.69,84.36,83.84,83.95,85.6,89.35,90.44,86.59,85.19,84.38,83.74,85.08,88.4,89.36,94.41,97.45,100.38,99.33,95.65,74.17,77.8,77.91,83.98,85.06,84.31,86.33,89.19,92.67,85.9,81.93,79.6,79.22,78.13,77.68,80.22,77.29,76.34,73.35,72.47,70.39,72.5,69.62,70.33,65.69,65.09,67.34,61.09,62.11,57.41,62.05,64.02,60.29,63.61,68.31,65.88,67.17,68.83,66.61,73.63,71.07,66.11,63.98,62.58,62.34,63.59,66.82,53.45,49.56,52.26,50.02,59.81,54.47,51.27,52.36,52.69,52.21,52.0,50.07,51.64,55.17,58.77,60.0,60.08,59.96,59.04,61.52,62.86,63.17,64.42,66.24,65.66,64.87,71.73,74.51,78.29,77.76,77.95,77.87,77.11,75.95,75.88,75.77,78.37,77.9,75.41,72.28,75.86,77.65,80.28,81.64,81.46,82.11,81.96,82.36,85.5,82.46,85.78,86.35,88.46,89.66,89.16,91.81,91.77,94.71,94.75,95.06,91.49,91.24,92.75,91.08,91.31,90.44,92.62,92.99,92.24,98.14,99.63,102.64,102.22,103.84,99.63,102.13,102.85,104.52,107.17,109.48,109.85,110.08,106.68,111.13,108.15,110.01,111.13,116.27,115.03,119.66,120.23,114.62,115.86,118.98,117.96,115.89,117.43,119.34,123.42,124.62,125.84,135.55,132.81,132.55,134.12,141.91,149.46,149.4,151.73,164.88,164.88,163.02,168.77,170.9,163.34,171.5,168.73,164.71,163.99,152.75,159.11,160.75,162.58,162.71,171.4,169.75,163.81,160.6,157.15,163.09,159.76,149.61,160.56,156.78,156.57,163.23,164.77,161.0,162.95,158.06,168.5,179.3,193.8,198.39,214.28,200.13,201.56,199.58,188.36,232.75,239.68,240.11,259.89,252.47,253.81,226.86,232.15,242.07,247.43,268.92,233.24,255.59,299.36,291.27,308.28,325.16,317.93,302.81,302.98,327.85,331.41,342.56,360.33,366.0,372.09,324.35,334.69,316.15,320.25,337.13,371.43,389.88,387.41,395.92,390.77,372.61,371.18,368.59,386.11,357.05,397.42,392.88,348.26,351.42,339.87,361.33,331.62,343.27,324.25,356.83,362.44,354.49,339.19,332.45,370.66,385.0,381.44,391.84,423.42,435.1,465.54,504.42,551.99,577.15,561.13,574.11,583.46,562.74,600.42,594.26,635.64,667.77,674.73,688.27,723.39,677.0,700.91,783.25,694.43,680.8,650.82,558.44,640.69,672.0,672.0,616.09,622.5,624.84,649.56,700.81,772.13,706.35,728.95,801.99,799.0]},"intraday":{"date":"2026-03-25","times":["13:30","13:45","14:00","14:15"],"prices":[782.12,768.34,795.45,797.89]}};
+
+    function getStockChartData(days) {
+        const entry = STOCK_CHART;
+        if (!entry) return null;
+        if (days === 1) {
+            if (!entry.intraday || !entry.intraday.times) return null;
+            const { times, prices, date: iDate } = entry.intraday;
+            const data = [];
+            for (let i = 0; i < times.length; i++) {
+                const [hh, mm] = times[i].split(':').map(Number);
+                const d = new Date(iDate + 'T00:00:00');
+                d.setHours(hh, mm, 0, 0);
+                data.push({ date: d, price: prices[i] });
+            }
+            return data.length > 2 ? data : null;
+        }
+        if (!entry.daily || !entry.daily.prices || entry.daily.prices.length < 10) return null;
+        const { prices } = entry.daily;
+        let sliced = days < prices.length ? prices.slice(prices.length - days) : prices;
+        let sampled = sliced;
+        if (sliced.length > 500) {
+            const step = sliced.length / 250;
+            sampled = [];
+            for (let i = 0; i < 250; i++) sampled.push(sliced[Math.round(i * step)]);
+        }
+        const data = [];
+        const dates = [];
+        let d = new Date();
+        while (dates.length < sampled.length) {
+            const dow = d.getDay();
+            if (dow !== 0 && dow !== 6) dates.unshift(new Date(d));
+            d.setDate(d.getDate() - 1);
+        }
+        for (let i = 0; i < sampled.length; i++) data.push({ date: dates[i], price: sampled[i] });
+        return data.length > 2 ? data : null;
+    }
+
+    function genChart(days) {
+        const container = document.getElementById("stockChart");
+        const w = container.clientWidth || 600, h = container.clientHeight || 220;
+        const pT=10,pB=24,pL=55,pR=10, cW=w-pL-pR, cH=h-pT-pB;
+        // Try real data first
+        const realData = getStockChartData(days);
+        let prices, chartDates;
+        if (realData) {
+            prices = realData.map(d => d.price);
+            chartDates = realData.map(d => d.date);
+        } else {
+            // Fallback: pseudorandom
+            let seed = 0;
+            for (let i = 0; i < STOCK.ticker.length; i++) seed += STOCK.ticker.charCodeAt(i) * (i + 1);
+            seed += days;
+            function rand() { seed = (seed * 16807) % 2147483647; return (seed & 0x7fffffff) / 0x7fffffff; }
+            prices=[STOCK.price];
+            if (days===1) {
+                const vol=0.003, drift=STOCK.change1d>=0?0.0001:-0.0001;
+                for(let i=1;i<26;i++) { const p=prices[i-1]; prices.push(p+p*((rand()-0.5)*2*vol-drift)); }
+            } else {
+                const vol=0.012, drift=STOCK.change7d>0?0.0004:-0.0003;
+                for(let i=1;i<days;i++) { const p=prices[i-1]; prices.push(p+p*((rand()-0.5)*2*vol-drift)); }
+            }
+            prices.reverse();
+            chartDates = null;
+        }
+        // For 1D, prepend previous close so chart starts from yesterday's close
+        if (days===1) {
+            const prevClose=STOCK.price/(1+STOCK.change1d/100);
+            prices.unshift(prevClose);
+            if (chartDates) { const t=new Date(chartDates[0]); t.setMinutes(t.getMinutes()-1); chartDates.unshift(t); }
+        }
+        const mn=Math.min(...prices),mx=Math.max(...prices),rng=mx-mn||1;
+        const up=prices[prices.length-1]>=prices[0], col=up?"#16c784":"#ea3943";
+        const pts=prices.map((p,i)=>{const x=pL+(i/(prices.length-1))*cW; const y=pT+(1-(p-mn)/rng)*cH; return {x,y};});
+        let pathD=pts.map((p,i)=>(i===0?`M${p.x},${p.y}`:`L${p.x},${p.y}`)).join(" ");
+        const fillD=pathD+` L${pts[pts.length-1].x},${pT+cH} L${pL},${pT+cH} Z`;
+        let yL="",gL="";
+        for(let i=0;i<=4;i++){const v=mn+(rng*i/4);const y=pT+(1-i/4)*cH;yL+=`<text x="${pL-8}" y="${y+4}" text-anchor="end" fill="#9ca3af" font-size="11" font-family="system-ui">$${v.toFixed(0)}</text>`;gL+=`<line x1="${pL}" y1="${y}" x2="${w-pR}" y2="${y}" stroke="#f3f4f6" stroke-width="1"/>`;}
+        let xL="";const lc=Math.min(6,prices.length);const now=new Date();
+        for(let i=0;i<lc;i++){const idx=Math.round(i*(prices.length-1)/(lc-1));const x=pts[idx].x;let label;
+        if(chartDates){const d=chartDates[idx];label=days===1?d.toLocaleTimeString("en-US",{hour:"numeric",minute:"2-digit"}):days<=30?`${d.getMonth()+1}/${d.getDate()}`:d.toLocaleDateString("en-US",{month:"short",day:"numeric"});}
+        else if(days===1){const d=new Date(now);d.setHours(9,30,0,0);d.setMinutes(d.getMinutes()+idx*15);label=d.toLocaleTimeString("en-US",{hour:"numeric",minute:"2-digit"});}
+        else{const d=new Date(now);d.setDate(d.getDate()-(prices.length-1-idx));label=days<=30?`${d.getMonth()+1}/${d.getDate()}`:d.toLocaleDateString("en-US",{month:"short",day:"numeric"});}
+        xL+=`<text x="${x}" y="${h-4}" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="system-ui">${label}</text>`;}
+        const lp=pts[pts.length-1];
+        container.innerHTML=`<svg viewBox="0 0 ${w} ${h}"><defs><linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="${col}" stop-opacity="0.2"/><stop offset="100%" stop-color="${col}" stop-opacity="0.01"/></linearGradient></defs>${gL}${yL}${xL}<path d="${fillD}" fill="url(#g1)"/><path d="${pathD}" fill="none" stroke="${col}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="${lp.x}" cy="${lp.y}" r="4.5" fill="${col}"/><circle cx="${lp.x}" cy="${lp.y}" r="8" fill="${col}" opacity="0.15"/></svg>`;
+        // Update period change %
+        const pctChg=days===1?STOCK.change1d:((prices[prices.length-1]-prices[0])/prices[0]*100);
+        const chgEl=document.getElementById("periodChange");
+        const labels={1:"Today",7:"Past week",30:"Past month",90:"Past 3 months",180:"Past 6 months",365:"Past year",1825:"Past 5 years"};
+        if(chgEl){const sign=pctChg>=0?"+":"";const cls=pctChg>=0?"change-up":"change-down";chgEl.innerHTML=`<span class="sp-price-chg ${cls}">${sign}${pctChg.toFixed(2)}%</span> <span style="font-size:13px;color:var(--text-secondary);margin-left:4px">${labels[days]||""}</span>`;}
+    }
+    let activeDays=1;
+    document.querySelectorAll(".chart-period").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll(".chart-period").forEach(x=>x.classList.remove("active"));b.classList.add("active");activeDays=parseInt(b.dataset.d);genChart(activeDays);}));
+    window.addEventListener("resize",()=>genChart(activeDays));
+    genChart(1);
+    const KEY='d6ismgpr01qleu95dlfgd6ismgpr01qleu95dlg0';
+    // Fetch latest news from Finnhub
+    (function(){
+        const container=document.getElementById('newsList');
+        const today=new Date();const from=new Date(today);from.setDate(from.getDate()-7);
+        const fmt=d=>d.toISOString().split('T')[0];
+        fetch('https://finnhub.io/api/v1/company-news?symbol='+STOCK.ticker+'&from='+fmt(from)+'&to='+fmt(today)+'&token='+KEY)
+        .then(r=>r.json()).then(articles=>{
+            if(!articles||articles.length===0){container.innerHTML='<div class="news-loading">No recent news found</div>';return;}
+            const name='Lumentum'.split('(')[0].trim().split(',')[0].trim().toLowerCase();
+            const tick=STOCK.ticker.toLowerCase();
+            const nameWords=name.split(/\s+/).filter(w=>w.length>2);
+            function mentionsStock(h){const l=h.toLowerCase();if(l.includes(tick))return true;if(l.includes(name))return true;if(nameWords.length>0&&nameWords.every(w=>l.includes(w)))return true;return false;}
+            const sorted=articles.sort((a,b)=>b.datetime-a.datetime);
+            const direct=sorted.filter(a=>mentionsStock(a.headline));
+            const relevant=direct.length>=4?direct.slice(0,8):direct.concat(sorted.filter(a=>!direct.includes(a)&&!['top movers','stocks to watch','sector update','stay informed'].some(g=>a.headline.toLowerCase().includes(g)))).slice(0,8);
+            if(relevant.length===0){container.innerHTML='<div class="news-loading">No recent news found</div>';return;}
+            container.innerHTML=relevant.map(a=>{
+                const date=new Date(a.datetime*1000);
+                const ago=Math.round((Date.now()-date)/3600000);
+                const timeStr=ago<1?'Just now':ago<24?ago+'h ago':Math.round(ago/24)+'d ago';
+                return '<a href="'+a.url+'" target="_blank" rel="noopener" class="news-item"><div class="news-content"><div class="news-headline">'+a.headline+'</div><div class="news-meta">'+timeStr+'</div></div></a>';
+            }).join('');
+        }).catch(()=>{container.innerHTML='<div class="news-loading">Unable to load news</div>';});
+    })();
+    // Live price via Finnhub WebSocket
+    (function(){
+        const ws=new WebSocket('wss://ws.finnhub.io?token='+KEY);
+        const priceEl=document.querySelector('.sp-price');
+        ws.onopen=()=>{ws.send(JSON.stringify({type:'subscribe',symbol:STOCK.ticker}));
+            const badge=document.createElement('span');badge.innerHTML='<span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:#16c784;animation:pulse-dot 1.5s infinite;margin-right:4px"></span>LIVE';badge.style.cssText='font-size:11px;font-weight:600;color:#16c784;margin-left:12px';
+            const hdr=document.querySelector('.sp-price-row');if(hdr)hdr.appendChild(badge);
+            const s=document.createElement('style');s.textContent='@keyframes pulse-dot{0%,100%{opacity:1}50%{opacity:0.3}}@keyframes pfu{0%,60%{background:rgba(22,199,132,0.25)}100%{background:transparent}}@keyframes pfd{0%,60%{background:rgba(234,57,67,0.25)}100%{background:transparent}}';document.head.appendChild(s);
+        };
+        let lastP=STOCK.price;
+        ws.onmessage=(e)=>{const d=JSON.parse(e.data);if(d.type==='trade'&&d.data){const p=d.data[d.data.length-1].p;if(priceEl){priceEl.textContent='$'+p.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});priceEl.style.animation=p>lastP?'pfu 2s':'pfd 2s';setTimeout(()=>priceEl.style.animation='',2000);lastP=p;}}};
+        document.addEventListener('visibilitychange',()=>{if(document.hidden)ws.close();});
+    })();
+    // Subscribe form
+    const sf=document.getElementById("subForm");
+    if(sf)sf.addEventListener("submit",async e=>{e.preventDefault();const em=document.getElementById("subEmail").value.trim();const msg=document.getElementById("subMsg");const btn=sf.querySelector("button");if(!em)return;btn.disabled=true;btn.textContent="...";msg.textContent="";try{const r=await fetch("/.netlify/functions/subscribe",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({email:em})});const d=await r.json();if(r.ok){msg.style.color="#16c784";msg.textContent="Subscribed!";document.getElementById("subEmail").value="";}else{msg.style.color="#ea3943";msg.textContent=d.error||"Failed";}}catch{msg.style.color="#ea3943";msg.textContent="Network error";}btn.disabled=false;btn.textContent="Subscribe";});
+    </script>
+</body>
+</html>
