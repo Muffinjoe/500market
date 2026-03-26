@@ -97,7 +97,7 @@ const SP500_STOCKS = [
         "price": 309.42,
         "change1d": -2.95,
         "change7d": -2.06,
-        "changeYtd": -9.92,
+        "changeYtd": -9.73,
         "marketCap": 1467021262848,
         "volume": 8117259858,
         "pe": 60.3,
@@ -1926,7 +1926,7 @@ const SP500_STOCKS = [
         "sector": "Information Technology",
         "price": 378.79,
         "change1d": -8.33,
-        "change7d": -6.88,
+        "change7d": -6.72,
         "changeYtd": 22.88,
         "marketCap": 84858576896,
         "volume": 1532166947,
@@ -6726,7 +6726,7 @@ const SP500_STOCKS = [
         "sector": "Consumer Discretionary",
         "price": 63.21,
         "change1d": 4.65,
-        "change7d": 0.54,
+        "change7d": 2.07,
         "changeYtd": -8.17,
         "marketCap": 13244713984,
         "volume": 300538893,
@@ -7411,21 +7411,6 @@ const SP500_STOCKS = [
     },
     {
         "rank": 495,
-        "name": "Molson Coors Beverage Company",
-        "ticker": "TAP",
-        "sector": "Consumer Staples",
-        "price": 41.91,
-        "change1d": 1.55,
-        "change7d": 0.02,
-        "changeYtd": -7.83,
-        "marketCap": 8274202624,
-        "volume": 128231062,
-        "pe": null,
-        "color": "#0071CE",
-        "domain": "molsoncoors.com"
-    },
-    {
-        "rank": 496,
         "name": "Bio-Techne",
         "ticker": "TECH",
         "sector": "Health Care",
@@ -7440,7 +7425,7 @@ const SP500_STOCKS = [
         "domain": "bio-techne.com"
     },
     {
-        "rank": 497,
+        "rank": 496,
         "name": "Charles River Laboratories",
         "ticker": "CRL",
         "sector": "Health Care",
@@ -7455,7 +7440,7 @@ const SP500_STOCKS = [
         "domain": "criver.com"
     },
     {
-        "rank": 498,
+        "rank": 497,
         "name": "Mosaic Company (The)",
         "ticker": "MOS",
         "sector": "Materials",
@@ -7470,7 +7455,7 @@ const SP500_STOCKS = [
         "domain": "mosaicco.com"
     },
     {
-        "rank": 499,
+        "rank": 498,
         "name": "EPAM Systems",
         "ticker": "EPAM",
         "sector": "Information Technology",
@@ -7485,7 +7470,7 @@ const SP500_STOCKS = [
         "domain": "epam.com"
     },
     {
-        "rank": 500,
+        "rank": 499,
         "name": "Pool Corporation",
         "ticker": "POOL",
         "sector": "Consumer Discretionary",
@@ -7500,7 +7485,7 @@ const SP500_STOCKS = [
         "domain": "poolcorp.com"
     },
     {
-        "rank": 501,
+        "rank": 500,
         "name": "FactSet",
         "ticker": "FDS",
         "sector": "Financials",
@@ -7515,7 +7500,7 @@ const SP500_STOCKS = [
         "domain": "factset.com"
     },
     {
-        "rank": 502,
+        "rank": 501,
         "name": "Conagra Brands",
         "ticker": "CAG",
         "sector": "Consumer Staples",
@@ -7530,7 +7515,7 @@ const SP500_STOCKS = [
         "domain": "conagrabrands.com"
     },
     {
-        "rank": 503,
+        "rank": 502,
         "name": "Campbell's Company (The)",
         "ticker": "CPB",
         "sector": "Consumer Staples",
@@ -7560,11 +7545,11 @@ const MARKET_SUMMARY = {
     },
     "fearGreed": 28,
     "fearGreedLabel": "Fear",
-    "advancing": 186,
+    "advancing": 185,
     "declining": 316,
     "high52Count": 27,
-    "totalMarketCap": 62581710285312,
-    "totalVolume": 453296586063
+    "totalMarketCap": 62573436082688,
+    "totalVolume": 453168355001
 };
 
-const DATA_LAST_UPDATED = "2026-03-26T20:46:14Z";
+const DATA_LAST_UPDATED = "2026-03-26T21:11:01Z";
