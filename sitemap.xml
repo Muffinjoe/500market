@@ -631,13 +631,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/mck.html</loc>
+    <loc>https://500market.com/s/cme.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/cme.html</loc>
+    <loc>https://500market.com/s/mck.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -721,13 +721,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/tt.html</loc>
+    <loc>https://500market.com/s/gd.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/gd.html</loc>
+    <loc>https://500market.com/s/tt.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1117,13 +1117,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/hood.html</loc>
+    <loc>https://500market.com/s/dlr.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/dlr.html</loc>
+    <loc>https://500market.com/s/hood.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1237,13 +1237,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/d.html</loc>
+    <loc>https://500market.com/s/tgt.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/tgt.html</loc>
+    <loc>https://500market.com/s/d.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1873,13 +1873,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/dow.html</loc>
+    <loc>https://500market.com/s/cboe.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/cboe.html</loc>
+    <loc>https://500market.com/s/dow.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -2029,13 +2029,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/vrsk.html</loc>
+    <loc>https://500market.com/s/el.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/el.html</loc>
+    <loc>https://500market.com/s/vrsk.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -2143,6 +2143,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://500market.com/s/eqr.html</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://500market.com/s/avb.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
@@ -2150,12 +2156,6 @@
   </url>
   <url>
     <loc>https://500market.com/s/omc.html</loc>
-    <lastmod>2026-04-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://500market.com/s/eqr.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -2215,13 +2215,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/dgx.html</loc>
+    <loc>https://500market.com/s/chd.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/chd.html</loc>
+    <loc>https://500market.com/s/dgx.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -2275,19 +2275,25 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://500market.com/s/hum.html</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://500market.com/s/len.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/sw.html</loc>
+    <loc>https://500market.com/s/alb.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/alb.html</loc>
+    <loc>https://500market.com/s/sw.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -2413,13 +2419,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/nvr.html</loc>
+    <loc>https://500market.com/s/lulu.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/lulu.html</loc>
+    <loc>https://500market.com/s/nvr.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -2563,13 +2569,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/trmb.html</loc>
+    <loc>https://500market.com/s/txt.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/txt.html</loc>
+    <loc>https://500market.com/s/trmb.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -2815,13 +2821,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/gl.html</loc>
+    <loc>https://500market.com/s/swk.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/swk.html</loc>
+    <loc>https://500market.com/s/gl.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
