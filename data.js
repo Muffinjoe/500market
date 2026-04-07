@@ -775,7 +775,7 @@ const SP500_STOCKS = [
         "changeYtd": 14.06,
         "marketCap": 203507023872,
         "volume": 1730917290,
-        "pe": 45.2,
+        "pe": 45.1,
         "color": "#3861FB",
         "domain": "kla.com"
     },
@@ -985,7 +985,7 @@ const SP500_STOCKS = [
         "changeYtd": 41.37,
         "marketCap": 161067646976,
         "volume": 1294072099,
-        "pe": 20.7,
+        "pe": 20.8,
         "color": "#ED1B2D",
         "domain": "conocophillips.com"
     },
@@ -1015,7 +1015,7 @@ const SP500_STOCKS = [
         "changeYtd": 12.13,
         "marketCap": 159842926592,
         "volume": 1328125583,
-        "pe": 59.7,
+        "pe": 59.9,
         "color": "#3861FB",
         "domain": "analog.com"
     },
@@ -1180,7 +1180,7 @@ const SP500_STOCKS = [
         "changeYtd": -35.15,
         "marketCap": 138710253568,
         "volume": 2529703037,
-        "pe": 40.8,
+        "pe": 40.9,
         "color": "#3861FB",
         "domain": "applovin.com"
     },
@@ -1255,7 +1255,7 @@ const SP500_STOCKS = [
         "changeYtd": -30.7,
         "marketCap": 132512358400,
         "volume": 1426170750,
-        "pe": 25.0,
+        "pe": 25.1,
         "color": "#3861FB",
         "domain": "qualcomm.com"
     },
@@ -2035,7 +2035,7 @@ const SP500_STOCKS = [
         "changeYtd": 27.19,
         "marketCap": 83124068352,
         "volume": 639525524,
-        "pe": 81.9,
+        "pe": 81.5,
         "color": "#0039A6",
         "domain": "quantaservices.com"
     },
@@ -4270,7 +4270,7 @@ const SP500_STOCKS = [
         "changeYtd": 3.11,
         "marketCap": 32506300416,
         "volume": 401003571,
-        "pe": 38.1,
+        "pe": 38.2,
         "color": "#00529B",
         "domain": "nrg.com"
     },
@@ -4315,7 +4315,7 @@ const SP500_STOCKS = [
         "changeYtd": -22.78,
         "marketCap": 32209778688,
         "volume": 254897028,
-        "pe": 25.1,
+        "pe": 25.2,
         "color": "#D52B1E",
         "domain": "agilent.com"
     },
@@ -6790,7 +6790,7 @@ const SP500_STOCKS = [
         "changeYtd": -6.76,
         "marketCap": 12883602432,
         "volume": 108952217,
-        "pe": 19.0,
+        "pe": 19.1,
         "color": "#8A6D3B",
         "domain": "averydennison.com"
     },
@@ -7567,4 +7567,4 @@ const MARKET_SUMMARY = {
     "totalVolume": 483584752262
 };
 
-const DATA_LAST_UPDATED = "2026-04-07T20:47:51Z";
+const DATA_LAST_UPDATED = "2026-04-07T21:17:14Z";
