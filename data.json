@@ -398,7 +398,7 @@
     "change1d": -1.02,
     "change7d": 0.74,
     "changeYtd": 4.49,
-    "marketCap": 339744849920,
+    "marketCap": 339200245760,
     "volume": 1659569757,
     "pe": 21.5,
     "color": "#0071CE",
@@ -1981,21 +1981,6 @@
   },
   {
     "rank": 133,
-    "name": "ServiceNow",
-    "ticker": "NOW",
-    "sector": "Information Technology",
-    "price": 83.0,
-    "change1d": -7.58,
-    "change7d": -20.22,
-    "changeYtd": -44.22,
-    "marketCap": 87576870912,
-    "volume": 1650406694,
-    "pe": 49.7,
-    "color": "#3861FB",
-    "domain": "servicenow.com"
-  },
-  {
-    "rank": 134,
     "name": "Johnson Controls",
     "ticker": "JCI",
     "sector": "Industrials",
@@ -2008,6 +1993,21 @@
     "pe": 47.8,
     "color": "#0039A6",
     "domain": "johnsoncontrols.com"
+  },
+  {
+    "rank": 134,
+    "name": "ServiceNow",
+    "ticker": "NOW",
+    "sector": "Information Technology",
+    "price": 83.0,
+    "change1d": -7.58,
+    "change7d": -20.22,
+    "changeYtd": -44.22,
+    "marketCap": 86817996800,
+    "volume": 1650406694,
+    "pe": 49.7,
+    "color": "#3861FB",
+    "domain": "servicenow.com"
   },
   {
     "rank": 135,
@@ -3310,7 +3310,7 @@
     "changeYtd": 10.24,
     "marketCap": 51784970240,
     "volume": 368373580,
-    "pe": 32.3,
+    "pe": 32.8,
     "color": "#003D6B",
     "domain": "publicstorage.com"
   },
@@ -5530,7 +5530,7 @@
     "changeYtd": 4.13,
     "marketCap": 22556608512,
     "volume": 78470176,
-    "pe": 13.6,
+    "pe": 13.7,
     "color": "#003087",
     "domain": "loews.com"
   },
@@ -7066,21 +7066,6 @@
   },
   {
     "rank": 472,
-    "name": "Assurant",
-    "ticker": "AIZ",
-    "sector": "Financials",
-    "price": 219.4,
-    "change1d": -1.74,
-    "change7d": 1.42,
-    "changeYtd": -6.51,
-    "marketCap": 10987795456,
-    "volume": 86500641,
-    "pe": 13.0,
-    "color": "#003087",
-    "domain": "assurant.com"
-  },
-  {
-    "rank": 473,
     "name": "Zebra Technologies",
     "ticker": "ZBRA",
     "sector": "Information Technology",
@@ -7093,6 +7078,21 @@
     "pe": 27.2,
     "color": "#3861FB",
     "domain": "zebra.com"
+  },
+  {
+    "rank": 473,
+    "name": "Assurant",
+    "ticker": "AIZ",
+    "sector": "Financials",
+    "price": 219.4,
+    "change1d": -1.74,
+    "change7d": 1.42,
+    "changeYtd": -6.51,
+    "marketCap": 10923267072,
+    "volume": 86500641,
+    "pe": 13.0,
+    "color": "#003087",
+    "domain": "assurant.com"
   },
   {
     "rank": 474,
