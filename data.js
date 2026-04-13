@@ -694,12 +694,12 @@ const SP500_STOCKS = [
         "name": "American Express",
         "ticker": "AXP",
         "sector": "Financials",
-        "price": 323.95,
-        "change1d": 3.33,
-        "change7d": 7.92,
+        "price": 323.82,
+        "change1d": 3.29,
+        "change7d": 7.88,
         "changeYtd": -14.11,
         "marketCap": 222339350528,
-        "volume": 1183034669,
+        "volume": 1182559903,
         "pe": 21.0,
         "color": "#003087",
         "domain": "americanexpress.com"
@@ -6034,12 +6034,12 @@ const SP500_STOCKS = [
         "name": "NVR, Inc.",
         "ticker": "NVR",
         "sector": "Consumer Discretionary",
-        "price": 6771.7,
-        "change1d": 0.32,
-        "change7d": 1.63,
+        "price": 6781.69,
+        "change1d": 0.47,
+        "change7d": 1.78,
         "changeYtd": -5.1,
         "marketCap": 18946414592,
-        "volume": 184434026,
+        "volume": 184706107,
         "pe": 15.5,
         "color": "#FF9900",
         "domain": "nvrinc.com"
@@ -7564,7 +7564,7 @@ const MARKET_SUMMARY = {
     "declining": 145,
     "high52Count": 37,
     "totalMarketCap": 66749887532032,
-    "totalVolume": 509019917498
+    "totalVolume": 509019714813
 };
 
-const DATA_LAST_UPDATED = "2026-04-13T20:20:24Z";
+const DATA_LAST_UPDATED = "2026-04-13T20:48:23Z";
