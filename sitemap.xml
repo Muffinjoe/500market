@@ -757,12 +757,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/now.html</loc>
-    <lastmod>2026-04-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://500market.com/s/gd.html</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>daily</changefreq>
@@ -770,6 +764,12 @@
   </url>
   <url>
     <loc>https://500market.com/s/ice.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://500market.com/s/now.html</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -2833,13 +2833,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/aiz.html</loc>
+    <loc>https://500market.com/s/uhs.html</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/uhs.html</loc>
+    <loc>https://500market.com/s/aiz.html</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
