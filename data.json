@@ -428,7 +428,7 @@
     "change1d": 0.56,
     "change7d": 1.13,
     "changeYtd": 5.33,
-    "marketCap": 337377591296,
+    "marketCap": 337919279104,
     "volume": 1618182651,
     "pe": 21.4,
     "color": "#0071CE",
@@ -1876,6 +1876,21 @@
   },
   {
     "rank": 126,
+    "name": "ServiceNow",
+    "ticker": "NOW",
+    "sector": "Information Technology",
+    "price": 87.79,
+    "change1d": -1.43,
+    "change7d": -14.28,
+    "changeYtd": -41.82,
+    "marketCap": 92630999040,
+    "volume": 1850930580,
+    "pe": 52.6,
+    "color": "#3861FB",
+    "domain": "servicenow.com"
+  },
+  {
+    "rank": 127,
     "name": "General Dynamics",
     "ticker": "GD",
     "sector": "Industrials",
@@ -1890,7 +1905,7 @@
     "domain": "gd.com"
   },
   {
-    "rank": 127,
+    "rank": 128,
     "name": "Intercontinental Exchange",
     "ticker": "ICE",
     "sector": "Financials",
@@ -1903,21 +1918,6 @@
     "pe": 28.1,
     "color": "#003087",
     "domain": "ice.com"
-  },
-  {
-    "rank": 128,
-    "name": "ServiceNow",
-    "ticker": "NOW",
-    "sector": "Information Technology",
-    "price": 87.79,
-    "change1d": -1.43,
-    "change7d": -14.28,
-    "changeYtd": -41.82,
-    "marketCap": 91828338688,
-    "volume": 1850930580,
-    "pe": 52.6,
-    "color": "#3861FB",
-    "domain": "servicenow.com"
   },
   {
     "rank": 129,
@@ -7066,6 +7066,21 @@
   },
   {
     "rank": 472,
+    "name": "Assurant",
+    "ticker": "AIZ",
+    "sector": "Financials",
+    "price": 222.27,
+    "change1d": -0.06,
+    "change7d": 1.96,
+    "changeYtd": -5.63,
+    "marketCap": 11131529216,
+    "volume": 87990026,
+    "pe": 13.1,
+    "color": "#003087",
+    "domain": "assurant.com"
+  },
+  {
+    "rank": 473,
     "name": "Universal Health Services",
     "ticker": "UHS",
     "sector": "Health Care",
@@ -7078,21 +7093,6 @@
     "pe": 7.9,
     "color": "#D52B1E",
     "domain": "uhs.com"
-  },
-  {
-    "rank": 473,
-    "name": "Assurant",
-    "ticker": "AIZ",
-    "sector": "Financials",
-    "price": 222.27,
-    "change1d": -0.06,
-    "change7d": 1.96,
-    "changeYtd": -5.63,
-    "marketCap": 11066156032,
-    "volume": 87990026,
-    "pe": 13.1,
-    "color": "#003087",
-    "domain": "assurant.com"
   },
   {
     "rank": 474,
