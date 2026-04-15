@@ -4300,7 +4300,7 @@ const SP500_STOCKS = [
         "changeYtd": -1.14,
         "marketCap": 32948256768,
         "volume": 331311052,
-        "pe": 57.1,
+        "pe": 57.5,
         "color": "#0039A6",
         "domain": "irco.com"
     },
@@ -5992,7 +5992,7 @@ const SP500_STOCKS = [
         "price": 162.74,
         "change1d": 1.33,
         "change7d": 5.9,
-        "changeYtd": 11.8,
+        "changeYtd": -23.3,
         "marketCap": 19091212288,
         "volume": 422062298,
         "pe": 12.3,
@@ -7567,4 +7567,4 @@ const MARKET_SUMMARY = {
     "totalVolume": 519661140155
 };
 
-const DATA_LAST_UPDATED = "2026-04-15T21:21:12Z";
+const DATA_LAST_UPDATED = "2026-04-15T21:48:24Z";
