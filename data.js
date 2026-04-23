@@ -1126,6 +1126,21 @@ const SP500_STOCKS = [
     },
     {
         "rank": 76,
+        "name": "Blackstone Inc.",
+        "ticker": "BX",
+        "sector": "Financials",
+        "price": 122.33,
+        "change1d": -5.7,
+        "change7d": -6.04,
+        "changeYtd": -19.43,
+        "marketCap": 149519319040,
+        "volume": 1108479243,
+        "pe": 31.6,
+        "color": "#003087",
+        "domain": "blackstone.com"
+    },
+    {
+        "rank": 77,
         "name": "Welltower",
         "ticker": "WELL",
         "sector": "Real Estate",
@@ -1140,7 +1155,7 @@ const SP500_STOCKS = [
         "domain": "welltower.com"
     },
     {
-        "rank": 77,
+        "rank": 78,
         "name": "Corning Inc.",
         "ticker": "GLW",
         "sector": "Information Technology",
@@ -1155,7 +1170,7 @@ const SP500_STOCKS = [
         "domain": "corning.com"
     },
     {
-        "rank": 78,
+        "rank": 79,
         "name": "Qualcomm",
         "ticker": "QCOM",
         "sector": "Information Technology",
@@ -1170,7 +1185,7 @@ const SP500_STOCKS = [
         "domain": "qualcomm.com"
     },
     {
-        "rank": 79,
+        "rank": 80,
         "name": "Salesforce",
         "ticker": "CRM",
         "sector": "Information Technology",
@@ -1185,7 +1200,7 @@ const SP500_STOCKS = [
         "domain": "salesforce.com"
     },
     {
-        "rank": 80,
+        "rank": 81,
         "name": "Palo Alto Networks",
         "ticker": "PANW",
         "sector": "Information Technology",
@@ -1200,7 +1215,7 @@ const SP500_STOCKS = [
         "domain": "paloaltonetworks.com"
     },
     {
-        "rank": 81,
+        "rank": 82,
         "name": "Lowe's",
         "ticker": "LOW",
         "sector": "Consumer Discretionary",
@@ -1215,7 +1230,7 @@ const SP500_STOCKS = [
         "domain": "lowes.com"
     },
     {
-        "rank": 82,
+        "rank": 83,
         "name": "Dell Technologies",
         "ticker": "DELL",
         "sector": "Information Technology",
@@ -1230,7 +1245,7 @@ const SP500_STOCKS = [
         "domain": "dell.com"
     },
     {
-        "rank": 83,
+        "rank": 84,
         "name": "Western Digital",
         "ticker": "WDC",
         "sector": "Information Technology",
@@ -1245,7 +1260,7 @@ const SP500_STOCKS = [
         "domain": "westerndigital.com"
     },
     {
-        "rank": 84,
+        "rank": 85,
         "name": "Sandisk",
         "ticker": "SNDK",
         "sector": "Information Technology",
@@ -1260,7 +1275,7 @@ const SP500_STOCKS = [
         "domain": "sandisk.com"
     },
     {
-        "rank": 85,
+        "rank": 86,
         "name": "Booking Holdings",
         "ticker": "BKNG",
         "sector": "Consumer Discretionary",
@@ -1275,7 +1290,7 @@ const SP500_STOCKS = [
         "domain": "booking.com"
     },
     {
-        "rank": 86,
+        "rank": 87,
         "name": "Honeywell",
         "ticker": "HON",
         "sector": "Industrials",
@@ -1290,7 +1305,7 @@ const SP500_STOCKS = [
         "domain": "honeywell.com"
     },
     {
-        "rank": 87,
+        "rank": 88,
         "name": "Prologis",
         "ticker": "PLD",
         "sector": "Real Estate",
@@ -1305,7 +1320,7 @@ const SP500_STOCKS = [
         "domain": "prologis.com"
     },
     {
-        "rank": 88,
+        "rank": 89,
         "name": "Seagate Technology",
         "ticker": "STX",
         "sector": "Information Technology",
@@ -1320,7 +1335,7 @@ const SP500_STOCKS = [
         "domain": "seagate.com"
     },
     {
-        "rank": 89,
+        "rank": 90,
         "name": "S&P Global",
         "ticker": "SPGI",
         "sector": "Financials",
@@ -1335,7 +1350,7 @@ const SP500_STOCKS = [
         "domain": "spglobal.com"
     },
     {
-        "rank": 90,
+        "rank": 91,
         "name": "Chubb Limited",
         "ticker": "CB",
         "sector": "Financials",
@@ -1350,7 +1365,7 @@ const SP500_STOCKS = [
         "domain": "chubb.com"
     },
     {
-        "rank": 91,
+        "rank": 92,
         "name": "Danaher Corporation",
         "ticker": "DHR",
         "sector": "Health Care",
@@ -1365,7 +1380,7 @@ const SP500_STOCKS = [
         "domain": "danaher.com"
     },
     {
-        "rank": 92,
+        "rank": 93,
         "name": "Stryker Corporation",
         "ticker": "SYK",
         "sector": "Health Care",
@@ -1380,7 +1395,7 @@ const SP500_STOCKS = [
         "domain": "stryker.com"
     },
     {
-        "rank": 93,
+        "rank": 94,
         "name": "Vertiv",
         "ticker": "VRT",
         "sector": "Industrials",
@@ -1395,7 +1410,7 @@ const SP500_STOCKS = [
         "domain": "vertiv.com"
     },
     {
-        "rank": 94,
+        "rank": 95,
         "name": "Parker Hannifin",
         "ticker": "PH",
         "sector": "Industrials",
@@ -1410,7 +1425,7 @@ const SP500_STOCKS = [
         "domain": "parker.com"
     },
     {
-        "rank": 95,
+        "rank": 96,
         "name": "Lockheed Martin",
         "ticker": "LMT",
         "sector": "Industrials",
@@ -1425,7 +1440,7 @@ const SP500_STOCKS = [
         "domain": "lockheedmartin.com"
     },
     {
-        "rank": 96,
+        "rank": 97,
         "name": "Capital One",
         "ticker": "COF",
         "sector": "Financials",
@@ -1440,7 +1455,7 @@ const SP500_STOCKS = [
         "domain": "capitalone.com"
     },
     {
-        "rank": 97,
+        "rank": 98,
         "name": "Bristol Myers Squibb",
         "ticker": "BMY",
         "sector": "Health Care",
@@ -1455,7 +1470,7 @@ const SP500_STOCKS = [
         "domain": "bms.com"
     },
     {
-        "rank": 98,
+        "rank": 99,
         "name": "Progressive Corporation",
         "ticker": "PGR",
         "sector": "Financials",
@@ -1470,7 +1485,7 @@ const SP500_STOCKS = [
         "domain": "progressive.com"
     },
     {
-        "rank": 99,
+        "rank": 100,
         "name": "Newmont",
         "ticker": "NEM",
         "sector": "Materials",
@@ -1485,7 +1500,7 @@ const SP500_STOCKS = [
         "domain": "newmont.com"
     },
     {
-        "rank": 100,
+        "rank": 101,
         "name": "Comcast",
         "ticker": "CMCSA",
         "sector": "Communication Services",
@@ -1500,7 +1515,7 @@ const SP500_STOCKS = [
         "domain": "comcast.com"
     },
     {
-        "rank": 101,
+        "rank": 102,
         "name": "Starbucks",
         "ticker": "SBUX",
         "sector": "Consumer Discretionary",
@@ -1515,7 +1530,7 @@ const SP500_STOCKS = [
         "domain": "starbucks.com"
     },
     {
-        "rank": 102,
+        "rank": 103,
         "name": "CrowdStrike",
         "ticker": "CRWD",
         "sector": "Information Technology",
@@ -1530,7 +1545,7 @@ const SP500_STOCKS = [
         "domain": "crowdstrike.com"
     },
     {
-        "rank": 103,
+        "rank": 104,
         "name": "Altria",
         "ticker": "MO",
         "sector": "Consumer Staples",
@@ -1545,7 +1560,7 @@ const SP500_STOCKS = [
         "domain": "altria.com"
     },
     {
-        "rank": 104,
+        "rank": 105,
         "name": "Vertex Pharmaceuticals",
         "ticker": "VRTX",
         "sector": "Health Care",
@@ -1560,7 +1575,7 @@ const SP500_STOCKS = [
         "domain": "vrtx.com"
     },
     {
-        "rank": 105,
+        "rank": 106,
         "name": "Equinix",
         "ticker": "EQIX",
         "sector": "Real Estate",
@@ -1575,7 +1590,7 @@ const SP500_STOCKS = [
         "domain": "equinix.com"
     },
     {
-        "rank": 106,
+        "rank": 107,
         "name": "Accenture",
         "ticker": "ACN",
         "sector": "Information Technology",
@@ -1590,7 +1605,7 @@ const SP500_STOCKS = [
         "domain": "accenture.com"
     },
     {
-        "rank": 107,
+        "rank": 108,
         "name": "Trane Technologies",
         "ticker": "TT",
         "sector": "Industrials",
@@ -1605,7 +1620,7 @@ const SP500_STOCKS = [
         "domain": "tranetechnologies.com"
     },
     {
-        "rank": 108,
+        "rank": 109,
         "name": "Medtronic",
         "ticker": "MDT",
         "sector": "Health Care",
@@ -1620,7 +1635,7 @@ const SP500_STOCKS = [
         "domain": "medtronic.com"
     },
     {
-        "rank": 109,
+        "rank": 110,
         "name": "Intuit",
         "ticker": "INTU",
         "sector": "Information Technology",
@@ -1635,7 +1650,7 @@ const SP500_STOCKS = [
         "domain": "intuit.com"
     },
     {
-        "rank": 110,
+        "rank": 111,
         "name": "Constellation Energy",
         "ticker": "CEG",
         "sector": "Utilities",
@@ -1650,7 +1665,7 @@ const SP500_STOCKS = [
         "domain": "constellationenergy.com"
     },
     {
-        "rank": 111,
+        "rank": 112,
         "name": "HCA Healthcare",
         "ticker": "HCA",
         "sector": "Health Care",
@@ -1665,7 +1680,7 @@ const SP500_STOCKS = [
         "domain": "hcahealthcare.com"
     },
     {
-        "rank": 112,
+        "rank": 113,
         "name": "Southern Company",
         "ticker": "SO",
         "sector": "Utilities",
@@ -1680,7 +1695,7 @@ const SP500_STOCKS = [
         "domain": "southerncompany.com"
     },
     {
-        "rank": 113,
+        "rank": 114,
         "name": "CME Group",
         "ticker": "CME",
         "sector": "Financials",
@@ -1695,7 +1710,7 @@ const SP500_STOCKS = [
         "domain": "cmegroup.com"
     },
     {
-        "rank": 114,
+        "rank": 115,
         "name": "McKesson Corporation",
         "ticker": "MCK",
         "sector": "Health Care",
@@ -1710,7 +1725,7 @@ const SP500_STOCKS = [
         "domain": "mckesson.com"
     },
     {
-        "rank": 115,
+        "rank": 116,
         "name": "CVS Health",
         "ticker": "CVS",
         "sector": "Health Care",
@@ -1725,7 +1740,7 @@ const SP500_STOCKS = [
         "domain": "cvshealth.com"
     },
     {
-        "rank": 116,
+        "rank": 117,
         "name": "Duke Energy",
         "ticker": "DUK",
         "sector": "Utilities",
@@ -1740,7 +1755,7 @@ const SP500_STOCKS = [
         "domain": "duke-energy.com"
     },
     {
-        "rank": 117,
+        "rank": 118,
         "name": "Howmet Aerospace",
         "ticker": "HWM",
         "sector": "Industrials",
@@ -1755,7 +1770,7 @@ const SP500_STOCKS = [
         "domain": "howmet.com"
     },
     {
-        "rank": 118,
+        "rank": 119,
         "name": "Boston Scientific",
         "ticker": "BSX",
         "sector": "Health Care",
@@ -1770,7 +1785,7 @@ const SP500_STOCKS = [
         "domain": "bostonscientific.com"
     },
     {
-        "rank": 119,
+        "rank": 120,
         "name": "Marriott International",
         "ticker": "MAR",
         "sector": "Consumer Discretionary",
@@ -1785,7 +1800,7 @@ const SP500_STOCKS = [
         "domain": "marriott.com"
     },
     {
-        "rank": 120,
+        "rank": 121,
         "name": "Adobe Inc.",
         "ticker": "ADBE",
         "sector": "Information Technology",
@@ -1800,7 +1815,7 @@ const SP500_STOCKS = [
         "domain": "adobe.com"
     },
     {
-        "rank": 121,
+        "rank": 122,
         "name": "Quanta Services",
         "ticker": "PWR",
         "sector": "Industrials",
@@ -1813,21 +1828,6 @@ const SP500_STOCKS = [
         "pe": 93.0,
         "color": "#0039A6",
         "domain": "quantaservices.com"
-    },
-    {
-        "rank": 122,
-        "name": "Blackstone Inc.",
-        "ticker": "BX",
-        "sector": "Financials",
-        "price": 122.33,
-        "change1d": -5.7,
-        "change7d": -6.04,
-        "changeYtd": -19.43,
-        "marketCap": 95010734080,
-        "volume": 1108479243,
-        "pe": 31.6,
-        "color": "#003087",
-        "domain": "blackstone.com"
     },
     {
         "rank": 123,
@@ -7563,8 +7563,8 @@ const MARKET_SUMMARY = {
     "advancing": 272,
     "declining": 230,
     "high52Count": 49,
-    "totalMarketCap": 68713986952192,
+    "totalMarketCap": 68768495537152,
     "totalVolume": 520455944940
 };
 
-const DATA_LAST_UPDATED = "2026-04-23T20:24:00Z";
+const DATA_LAST_UPDATED = "2026-04-23T20:47:54Z";
