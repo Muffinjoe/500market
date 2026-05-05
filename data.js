@@ -970,7 +970,7 @@ const SP500_STOCKS = [
         "changeYtd": -1.8,
         "marketCap": 171356979200,
         "volume": 700881011,
-        "pe": 32.2,
+        "pe": 31.8,
         "color": "#FF9900",
         "domain": "tjx.com"
     },
@@ -3970,7 +3970,7 @@ const SP500_STOCKS = [
         "changeYtd": 5.66,
         "marketCap": 39347380224,
         "volume": 325671591,
-        "pe": 21.4,
+        "pe": 21.6,
         "color": "#0071CE",
         "domain": "keurigdrpepper.com"
     },
@@ -7567,4 +7567,4 @@ const MARKET_SUMMARY = {
     "totalVolume": 532324742786
 };
 
-const DATA_LAST_UPDATED = "2026-05-05T20:50:23Z";
+const DATA_LAST_UPDATED = "2026-05-05T21:22:44Z";
