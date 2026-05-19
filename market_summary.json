@@ -1,20 +1,20 @@
 {
   "index": {
-    "price": 7382.92,
-    "change": -20.13,
-    "changePct": -0.27,
+    "price": 7376.87,
+    "change": -26.18,
+    "changePct": -0.35,
     "open": 7375.75,
     "high": 7395.32,
     "low": 7333.68,
     "high52": 7517.12,
     "low52": 5767.41,
-    "ytd": 7.65
+    "ytd": 7.56
   },
-  "fearGreed": 49,
-  "fearGreedLabel": "Neutral",
-  "advancing": 251,
-  "declining": 249,
-  "high52Count": 34,
-  "totalMarketCap": 71937621562368,
-  "totalVolume": 539180770041
+  "fearGreed": 39,
+  "fearGreedLabel": "Fear",
+  "advancing": 220,
+  "declining": 282,
+  "high52Count": 32,
+  "totalMarketCap": 71909852116480,
+  "totalVolume": 538763023964
 }
