@@ -9,7 +9,7 @@ const SP500_STOCKS = [
         "change7d": -8.66,
         "changeYtd": 13.87,
         "marketCap": 5215507972096,
-        "volume": 36889941644,
+        "volume": 36587902342,
         "pe": 33.0,
         "color": "#3861FB",
         "domain": "nvidia.com"
@@ -24,7 +24,7 @@ const SP500_STOCKS = [
         "change7d": -4.51,
         "changeYtd": 19.03,
         "marketCap": 4639851282432,
-        "volume": 11006130823,
+        "volume": 10949071357,
         "pe": 29.2,
         "color": "#4285F4",
         "domain": "google.com"
@@ -39,7 +39,7 @@ const SP500_STOCKS = [
         "change7d": -4.48,
         "changeYtd": 17.75,
         "marketCap": 4596356874240,
-        "volume": 7257483724,
+        "volume": 7249614624,
         "pe": 28.9,
         "color": "#4285F4",
         "domain": "google.com"
@@ -54,8 +54,8 @@ const SP500_STOCKS = [
         "change7d": 3.56,
         "changeYtd": 18.85,
         "marketCap": 4535749181440,
-        "volume": 13486100852,
-        "pe": 37.3,
+        "volume": 13551889087,
+        "pe": 37.4,
         "color": "#3861FB",
         "domain": "apple.com"
     },
@@ -69,7 +69,7 @@ const SP500_STOCKS = [
         "change7d": 2.45,
         "changeYtd": -13.04,
         "marketCap": 3109320130560,
-        "volume": 14341663400,
+        "volume": 14137253900,
         "pe": 24.9,
         "color": "#3861FB",
         "domain": "microsoft.com"
@@ -84,8 +84,8 @@ const SP500_STOCKS = [
         "change7d": -0.34,
         "changeYtd": 10.25,
         "marketCap": 2864833626112,
-        "volume": 12125101184,
-        "pe": 31.4,
+        "volume": 12048888920,
+        "pe": 31.6,
         "color": "#FF9900",
         "domain": "amazon.com"
     },
@@ -99,7 +99,7 @@ const SP500_STOCKS = [
         "change7d": -5.83,
         "changeYtd": 20.82,
         "marketCap": 1960815624192,
-        "volume": 9900489583,
+        "volume": 9911686273,
         "pe": 80.6,
         "color": "#3861FB",
         "domain": "broadcom.com"
@@ -114,8 +114,8 @@ const SP500_STOCKS = [
         "change7d": -3.9,
         "changeYtd": -1.25,
         "marketCap": 1599975981056,
-        "volume": 26439140580,
-        "pe": 390.8,
+        "volume": 26349393477,
+        "pe": 383.8,
         "color": "#FF9900",
         "domain": "tesla.com"
     },
@@ -129,7 +129,7 @@ const SP500_STOCKS = [
         "change7d": -1.32,
         "changeYtd": -5.84,
         "marketCap": 1549098287104,
-        "volume": 9346832017,
+        "volume": 9469420438,
         "pe": 22.2,
         "color": "#4285F4",
         "domain": "meta.com"
@@ -144,7 +144,7 @@ const SP500_STOCKS = [
         "change7d": 0.48,
         "changeYtd": -1.96,
         "marketCap": 1049050546176,
-        "volume": 2354963948,
+        "volume": 2385039742,
         "pe": 14.5,
         "color": "#003087",
         "domain": "berkshirehathaway.com"
@@ -159,7 +159,7 @@ const SP500_STOCKS = [
         "change7d": -9.2,
         "changeYtd": 7.13,
         "marketCap": 958671028224,
-        "volume": 2298522601,
+        "volume": 2309253090,
         "pe": 42.3,
         "color": "#0071CE",
         "domain": "walmart.com"
@@ -174,7 +174,7 @@ const SP500_STOCKS = [
         "change7d": 5.97,
         "changeYtd": -3.56,
         "marketCap": 949704589312,
-        "volume": 3286729515,
+        "volume": 3279597210,
         "pe": 37.9,
         "color": "#D52B1E",
         "domain": "lilly.com"
@@ -189,8 +189,8 @@ const SP500_STOCKS = [
         "change7d": -3.22,
         "changeYtd": 121.27,
         "marketCap": 846928216064,
-        "volume": 34176354045,
-        "pe": 35.4,
+        "volume": 34679852232,
+        "pe": 35.5,
         "color": "#3861FB",
         "domain": "micron.com"
     },
@@ -204,7 +204,7 @@ const SP500_STOCKS = [
         "change7d": 2.16,
         "changeYtd": -5.82,
         "marketCap": 820948697088,
-        "volume": 2913801606,
+        "volume": 2865545530,
         "pe": 14.7,
         "color": "#003087",
         "domain": "jpmorganchase.com"
@@ -219,8 +219,8 @@ const SP500_STOCKS = [
         "change7d": 3.96,
         "changeYtd": 122.6,
         "marketCap": 762322092032,
-        "volume": 18133952640,
-        "pe": 155.3,
+        "volume": 17813753631,
+        "pe": 156.4,
         "color": "#3861FB",
         "domain": "amd.com"
     },
@@ -234,8 +234,8 @@ const SP500_STOCKS = [
         "change7d": 2.09,
         "changeYtd": 32.51,
         "marketCap": 642135228416,
-        "volume": 3270252717,
-        "pe": 26.0,
+        "volume": 3294801185,
+        "pe": 26.1,
         "color": "#ED1B2D",
         "domain": "corporate.exxonmobil.com"
     },
@@ -249,8 +249,8 @@ const SP500_STOCKS = [
         "change7d": 1.97,
         "changeYtd": -7.2,
         "marketCap": 625445502976,
-        "volume": 2440493541,
-        "pe": 28.7,
+        "volume": 2400120232,
+        "pe": 28.6,
         "color": "#003087",
         "domain": "visa.com"
     },
@@ -264,7 +264,7 @@ const SP500_STOCKS = [
         "change7d": 3.37,
         "changeYtd": 181.12,
         "marketCap": 602315816960,
-        "volume": 14094971222,
+        "volume": 14264419584,
         "pe": null,
         "color": "#3861FB",
         "domain": "intel.com"
@@ -279,7 +279,7 @@ const SP500_STOCKS = [
         "change7d": 1.53,
         "changeYtd": 13.54,
         "marketCap": 564107214848,
-        "volume": 1837971709,
+        "volume": 1824841171,
         "pe": 27.2,
         "color": "#D52B1E",
         "domain": "jnj.com"
@@ -294,8 +294,8 @@ const SP500_STOCKS = [
         "change7d": -1.8,
         "changeYtd": 0.22,
         "marketCap": 552430927872,
-        "volume": 5279354961,
-        "pe": 34.4,
+        "volume": 5233599968,
+        "pe": 34.5,
         "color": "#3861FB",
         "domain": "oracle.com"
     },
@@ -309,7 +309,7 @@ const SP500_STOCKS = [
         "change7d": 4.22,
         "changeYtd": 62.02,
         "marketCap": 474588151808,
-        "volume": 2770114013,
+        "volume": 2773164480,
         "pe": 40.1,
         "color": "#3861FB",
         "domain": "cisco.com"
@@ -324,7 +324,7 @@ const SP500_STOCKS = [
         "change7d": -1.25,
         "changeYtd": 16.83,
         "marketCap": 456181284864,
-        "volume": 1906229440,
+        "volume": 1923798976,
         "pe": 53.5,
         "color": "#0071CE",
         "domain": "costco.com"
@@ -339,7 +339,7 @@ const SP500_STOCKS = [
         "change7d": 1.76,
         "changeYtd": -13.76,
         "marketCap": 440501895168,
-        "volume": 1807357591,
+        "volume": 1753953487,
         "pe": 28.8,
         "color": "#003087",
         "domain": "mastercard.com"
@@ -354,8 +354,8 @@ const SP500_STOCKS = [
         "change7d": -4.38,
         "changeYtd": 48.13,
         "marketCap": 405270265856,
-        "volume": 2232127866,
-        "pe": 43.8,
+        "volume": 2225652755,
+        "pe": 43.9,
         "color": "#0039A6",
         "domain": "caterpillar.com"
     },
@@ -369,8 +369,8 @@ const SP500_STOCKS = [
         "change7d": 2.07,
         "changeYtd": 50.54,
         "marketCap": 381861855232,
-        "volume": 3030404302,
-        "pe": 57.7,
+        "volume": 3026904380,
+        "pe": 57.8,
         "color": "#3861FB",
         "domain": "lamresearch.com"
     },
@@ -384,8 +384,8 @@ const SP500_STOCKS = [
         "change7d": 3.51,
         "changeYtd": 25.69,
         "marketCap": 381251518464,
-        "volume": 2328875267,
-        "pe": 33.3,
+        "volume": 2352739504,
+        "pe": 33.4,
         "color": "#ED1B2D",
         "domain": "chevron.com"
     },
@@ -399,8 +399,8 @@ const SP500_STOCKS = [
         "change7d": 2.34,
         "changeYtd": -6.07,
         "marketCap": 381097213952,
-        "volume": 1447463026,
-        "pe": 105.7,
+        "volume": 1458326756,
+        "pe": 105.2,
         "color": "#D52B1E",
         "domain": "abbvie.com"
     },
@@ -414,7 +414,7 @@ const SP500_STOCKS = [
         "change7d": 1.91,
         "changeYtd": -2.35,
         "marketCap": 373076754432,
-        "volume": 3891745364,
+        "volume": 3849515769,
         "pe": 28.6,
         "color": "#4285F4",
         "domain": "netflix.com"
@@ -429,7 +429,7 @@ const SP500_STOCKS = [
         "change7d": 3.91,
         "changeYtd": -6.38,
         "marketCap": 367603384320,
-        "volume": 2022016648,
+        "volume": 1987795651,
         "pe": 12.9,
         "color": "#003087",
         "domain": "bankofamerica.com"
@@ -444,8 +444,8 @@ const SP500_STOCKS = [
         "change7d": -2.66,
         "changeYtd": 14.57,
         "marketCap": 352786841600,
-        "volume": 3281236338,
-        "pe": 29.3,
+        "volume": 3244187177,
+        "pe": 29.2,
         "color": "#D52B1E",
         "domain": "unitedhealthgroup.com"
     },
@@ -459,7 +459,7 @@ const SP500_STOCKS = [
         "change7d": 1.28,
         "changeYtd": 21.47,
         "marketCap": 350566285312,
-        "volume": 1254514449,
+        "volume": 1237611341,
         "pe": 25.6,
         "color": "#0071CE",
         "domain": "coca-colacompany.com"
@@ -473,9 +473,9 @@ const SP500_STOCKS = [
         "change1d": 1.12,
         "change7d": -1.78,
         "changeYtd": 48.27,
-        "marketCap": 342966435840,
-        "volume": 2944650968,
-        "pe": 40.6,
+        "marketCap": 343117496320,
+        "volume": 2923295782,
+        "pe": 40.7,
         "color": "#3861FB",
         "domain": "appliedmaterials.com"
     },
@@ -489,7 +489,7 @@ const SP500_STOCKS = [
         "change7d": 1.21,
         "changeYtd": 6.17,
         "marketCap": 336342843392,
-        "volume": 1394512036,
+        "volume": 1374542628,
         "pe": 21.1,
         "color": "#0071CE",
         "domain": "pg.com"
@@ -504,7 +504,7 @@ const SP500_STOCKS = [
         "change7d": 2.36,
         "changeYtd": -24.66,
         "marketCap": 328144093184,
-        "volume": 6453455719,
+        "volume": 6384242482,
         "pe": 153.8,
         "color": "#3861FB",
         "domain": "palantir.com"
@@ -519,7 +519,7 @@ const SP500_STOCKS = [
         "change7d": 3.34,
         "changeYtd": 9.98,
         "marketCap": 317081583616,
-        "volume": 1299880678,
+        "volume": 1281293846,
         "pe": 18.2,
         "color": "#003087",
         "domain": "morganstanley.com"
@@ -534,7 +534,7 @@ const SP500_STOCKS = [
         "change7d": 3.88,
         "changeYtd": -6.29,
         "marketCap": 316416196608,
-        "volume": 1802222925,
+        "volume": 1798044944,
         "pe": 37.6,
         "color": "#0039A6",
         "domain": "ge.com"
@@ -549,7 +549,7 @@ const SP500_STOCKS = [
         "change7d": 2.87,
         "changeYtd": -9.71,
         "marketCap": 311826382848,
-        "volume": 1370909455,
+        "volume": 1347895992,
         "pe": 22.2,
         "color": "#FF9900",
         "domain": "homedepot.com"
@@ -564,7 +564,7 @@ const SP500_STOCKS = [
         "change7d": 7.94,
         "changeYtd": 13.55,
         "marketCap": 302331232256,
-        "volume": 1166221649,
+        "volume": 1175471438,
         "pe": 34.5,
         "color": "#D52B1E",
         "domain": "merck.com"
@@ -579,7 +579,7 @@ const SP500_STOCKS = [
         "change7d": -1.5,
         "changeYtd": 22.9,
         "marketCap": 294552043520,
-        "volume": 952014851,
+        "volume": 941305544,
         "pe": 26.6,
         "color": "#0071CE",
         "domain": "pmi.com"
@@ -594,7 +594,7 @@ const SP500_STOCKS = [
         "change7d": 2.87,
         "changeYtd": 6.48,
         "marketCap": 294042730496,
-        "volume": 2182664229,
+        "volume": 2183215421,
         "pe": 18.2,
         "color": "#003087",
         "domain": "goldmansachs.com"
@@ -609,7 +609,7 @@ const SP500_STOCKS = [
         "change7d": 0.34,
         "changeYtd": 68.44,
         "marketCap": 281409781760,
-        "volume": 2225529018,
+        "volume": 2211114267,
         "pe": 52.9,
         "color": "#3861FB",
         "domain": "ti.com"
@@ -624,8 +624,8 @@ const SP500_STOCKS = [
         "change7d": -4.75,
         "changeYtd": 51.44,
         "marketCap": 279130210304,
-        "volume": 2588207658,
-        "pe": 30.3,
+        "volume": 2595399894,
+        "pe": 30.4,
         "color": "#0039A6",
         "domain": "gevernova.com"
     },
@@ -639,7 +639,7 @@ const SP500_STOCKS = [
         "change7d": 19.03,
         "changeYtd": 33.02,
         "marketCap": 251020640256,
-        "volume": 4236721663,
+        "volume": 4390040738,
         "pe": 25.6,
         "color": "#3861FB",
         "domain": "qualcomm.com"
@@ -654,8 +654,8 @@ const SP500_STOCKS = [
         "change7d": -0.11,
         "changeYtd": 39.24,
         "marketCap": 246674391040,
-        "volume": 1862305253,
-        "pe": 53.4,
+        "volume": 1871667841,
+        "pe": 53.5,
         "color": "#3861FB",
         "domain": "kla.com"
     },
@@ -669,8 +669,8 @@ const SP500_STOCKS = [
         "change7d": 1.16,
         "changeYtd": 19.62,
         "marketCap": 239301722112,
-        "volume": 1209070542,
-        "pe": 34.3,
+        "volume": 1189744105,
+        "pe": 34.4,
         "color": "#8A6D3B",
         "domain": "linde.com"
     },
@@ -684,8 +684,8 @@ const SP500_STOCKS = [
         "change7d": 16.24,
         "changeYtd": -13.33,
         "marketCap": 238580482048,
-        "volume": 1682647206,
-        "pe": 22.4,
+        "volume": 1645706125,
+        "pe": 22.5,
         "color": "#3861FB",
         "domain": "ibm.com"
     },
@@ -695,11 +695,11 @@ const SP500_STOCKS = [
         "ticker": "RTX",
         "sector": "Industrials",
         "price": 177.01,
-        "change1d": 0.59,
-        "change7d": 0.76,
-        "changeYtd": -4.38,
+        "change1d": 1.0,
+        "change7d": 1.18,
+        "changeYtd": -3.98,
         "marketCap": 238376419328,
-        "volume": 1010993291,
+        "volume": 993969001,
         "pe": 33.2,
         "color": "#0039A6",
         "domain": "rtx.com"
@@ -714,7 +714,7 @@ const SP500_STOCKS = [
         "change7d": 3.54,
         "changeYtd": -18.11,
         "marketCap": 233798483968,
-        "volume": 1366865704,
+        "volume": 1352422360,
         "pe": 11.8,
         "color": "#003087",
         "domain": "wellsfargo.com"
@@ -728,8 +728,8 @@ const SP500_STOCKS = [
         "change1d": -4.12,
         "change7d": 6.94,
         "changeYtd": 437.24,
-        "marketCap": 218978844672,
-        "volume": 25474611539,
+        "marketCap": 218977370112,
+        "volume": 24907072596,
         "pe": 50.5,
         "color": "#3861FB",
         "domain": "sandisk.com"
@@ -744,7 +744,7 @@ const SP500_STOCKS = [
         "change7d": 0.22,
         "changeYtd": 4.09,
         "marketCap": 213350612992,
-        "volume": 1699154961,
+        "volume": 1672235844,
         "pe": 15.5,
         "color": "#003087",
         "domain": "citigroup.com"
@@ -759,8 +759,8 @@ const SP500_STOCKS = [
         "change7d": -0.32,
         "changeYtd": -17.31,
         "marketCap": 212735737856,
-        "volume": 1150498749,
-        "pe": 19.5,
+        "volume": 1103106007,
+        "pe": 19.4,
         "color": "#003087",
         "domain": "americanexpress.com"
     },
@@ -774,7 +774,7 @@ const SP500_STOCKS = [
         "change7d": 9.39,
         "changeYtd": 34.39,
         "marketCap": 211330367488,
-        "volume": 2224810297,
+        "volume": 2088080590,
         "pe": 144.8,
         "color": "#3861FB",
         "domain": "paloaltonetworks.com"
@@ -789,8 +789,8 @@ const SP500_STOCKS = [
         "change7d": 1.74,
         "changeYtd": -2.49,
         "marketCap": 207209725952,
-        "volume": 1093932450,
-        "pe": 20.3,
+        "volume": 1089230713,
+        "pe": 20.4,
         "color": "#4285F4",
         "domain": "t-mobile.com"
     },
@@ -804,7 +804,7 @@ const SP500_STOCKS = [
         "change7d": 1.28,
         "changeYtd": 10.88,
         "marketCap": 205820313600,
-        "volume": 953520105,
+        "volume": 954721955,
         "pe": 23.6,
         "color": "#0071CE",
         "domain": "pepsico.com"
@@ -819,7 +819,7 @@ const SP500_STOCKS = [
         "change7d": 2.74,
         "changeYtd": 24.42,
         "marketCap": 201888268288,
-        "volume": 1213448469,
+        "volume": 1204961739,
         "pe": 11.8,
         "color": "#4285F4",
         "domain": "verizon.com"
@@ -834,7 +834,7 @@ const SP500_STOCKS = [
         "change7d": 2.65,
         "changeYtd": -6.68,
         "marketCap": 200554479616,
-        "volume": 985931247,
+        "volume": 989025773,
         "pe": 23.3,
         "color": "#FF9900",
         "domain": "mcdonalds.com"
@@ -849,7 +849,7 @@ const SP500_STOCKS = [
         "change7d": 4.21,
         "changeYtd": 18.41,
         "marketCap": 193949859840,
-        "volume": 1339019592,
+        "volume": 1345385344,
         "pe": 52.9,
         "color": "#3861FB",
         "domain": "arista.com"
@@ -864,8 +864,8 @@ const SP500_STOCKS = [
         "change7d": -6.96,
         "changeYtd": 35.99,
         "marketCap": 193407647744,
-        "volume": 1514993215,
-        "pe": 59.1,
+        "volume": 1525683927,
+        "pe": 59.2,
         "color": "#3861FB",
         "domain": "analog.com"
     },
@@ -879,7 +879,7 @@ const SP500_STOCKS = [
         "change7d": 19.08,
         "changeYtd": 147.68,
         "marketCap": 191746048000,
-        "volume": 2370664120,
+        "volume": 2424901445,
         "pe": 34.0,
         "color": "#3861FB",
         "domain": "dell.com"
@@ -894,7 +894,7 @@ const SP500_STOCKS = [
         "change7d": -7.45,
         "changeYtd": 13.76,
         "marketCap": 184680366080,
-        "volume": 913029075,
+        "volume": 916407257,
         "pe": 22.5,
         "color": "#00529B",
         "domain": "nexteraenergy.com"
@@ -908,8 +908,8 @@ const SP500_STOCKS = [
         "change1d": 0.56,
         "change7d": 1.68,
         "changeYtd": 0.76,
-        "marketCap": 183221993472,
-        "volume": 905776925,
+        "marketCap": 183123017728,
+        "volume": 900435325,
         "pe": 23.6,
         "color": "#D52B1E",
         "domain": "amgen.com"
@@ -924,8 +924,8 @@ const SP500_STOCKS = [
         "change7d": 0.99,
         "changeYtd": 164.11,
         "marketCap": 182237626368,
-        "volume": 3225062917,
-        "pe": 77.1,
+        "volume": 3245944388,
+        "pe": 76.9,
         "color": "#3861FB",
         "domain": "seagate.com"
     },
@@ -939,7 +939,7 @@ const SP500_STOCKS = [
         "change7d": -2.3,
         "changeYtd": -8.78,
         "marketCap": 178860687360,
-        "volume": 1014856528,
+        "volume": 1002400017,
         "pe": 16.5,
         "color": "#4285F4",
         "domain": "thewaltdisneycompany.com"
@@ -954,7 +954,7 @@ const SP500_STOCKS = [
         "change7d": 2.47,
         "changeYtd": 7.72,
         "marketCap": 175515041792,
-        "volume": 1004435036,
+        "volume": 997623450,
         "pe": 8.3,
         "color": "#4285F4",
         "domain": "att.com"
@@ -969,8 +969,8 @@ const SP500_STOCKS = [
         "change7d": 7.41,
         "changeYtd": 3.38,
         "marketCap": 175017230336,
-        "volume": 786004451,
-        "pe": 30.9,
+        "volume": 774967493,
+        "pe": 30.8,
         "color": "#FF9900",
         "domain": "tjx.com"
     },
@@ -984,8 +984,8 @@ const SP500_STOCKS = [
         "change7d": -4.45,
         "changeYtd": -3.99,
         "marketCap": 172653985792,
-        "volume": 1507419415,
-        "pe": 86.6,
+        "volume": 1522421190,
+        "pe": 86.2,
         "color": "#0039A6",
         "domain": "boeing.com"
     },
@@ -999,7 +999,7 @@ const SP500_STOCKS = [
         "change7d": 14.4,
         "changeYtd": 38.54,
         "marketCap": 168874803200,
-        "volume": 2631872926,
+        "volume": 2444815017,
         "pe": null,
         "color": "#3861FB",
         "domain": "crowdstrike.com"
@@ -1014,8 +1014,8 @@ const SP500_STOCKS = [
         "change7d": -6.83,
         "changeYtd": 120.94,
         "marketCap": 167006765056,
-        "volume": 2634324846,
-        "pe": 93.7,
+        "volume": 2587302261,
+        "pe": 93.3,
         "color": "#3861FB",
         "domain": "corning.com"
     },
@@ -1029,8 +1029,8 @@ const SP500_STOCKS = [
         "change7d": -1.0,
         "changeYtd": 142.41,
         "marketCap": 166922665984,
-        "volume": 3977924337,
-        "pe": 28.9,
+        "volume": 3921051947,
+        "pe": 29.0,
         "color": "#3861FB",
         "domain": "westerndigital.com"
     },
@@ -1044,7 +1044,7 @@ const SP500_STOCKS = [
         "change7d": 1.74,
         "changeYtd": 8.66,
         "marketCap": 166817333248,
-        "volume": 820729464,
+        "volume": 815561575,
         "pe": 18.3,
         "color": "#D52B1E",
         "domain": "gilead.com"
@@ -1059,7 +1059,7 @@ const SP500_STOCKS = [
         "change7d": 0.02,
         "changeYtd": -27.29,
         "marketCap": 166590480384,
-        "volume": 960745624,
+        "volume": 972202764,
         "pe": 24.6,
         "color": "#D52B1E",
         "domain": "thermofisher.com"
@@ -1074,7 +1074,7 @@ const SP500_STOCKS = [
         "change7d": -2.81,
         "changeYtd": 0.36,
         "marketCap": 166566068224,
-        "volume": 850237689,
+        "volume": 846666745,
         "pe": 27.0,
         "color": "#003087",
         "domain": "blackrock.com"
@@ -1089,8 +1089,8 @@ const SP500_STOCKS = [
         "change7d": 2.22,
         "changeYtd": -4.75,
         "marketCap": 162464759808,
-        "volume": 1242510257,
-        "pe": 37.9,
+        "volume": 1278942177,
+        "pe": 37.8,
         "color": "#3861FB",
         "domain": "amphenol.com"
     },
@@ -1104,7 +1104,7 @@ const SP500_STOCKS = [
         "change7d": -0.72,
         "changeYtd": -23.9,
         "marketCap": 161815347200,
-        "volume": 2294242286,
+        "volume": 2255004152,
         "pe": 41.8,
         "color": "#3861FB",
         "domain": "applovin.com"
@@ -1119,7 +1119,7 @@ const SP500_STOCKS = [
         "change7d": -1.28,
         "changeYtd": 19.06,
         "marketCap": 157856464896,
-        "volume": 780673679,
+        "volume": 779738313,
         "pe": 21.9,
         "color": "#0039A6",
         "domain": "up.com"
@@ -1134,7 +1134,7 @@ const SP500_STOCKS = [
         "change7d": 0.79,
         "changeYtd": -10.94,
         "marketCap": 156783067136,
-        "volume": 925950498,
+        "volume": 917020960,
         "pe": 17.9,
         "color": "#003087",
         "domain": "schwab.com"
@@ -1149,8 +1149,8 @@ const SP500_STOCKS = [
         "change7d": 2.35,
         "changeYtd": -26.03,
         "marketCap": 155158740992,
-        "volume": 869416033,
-        "pe": 53.3,
+        "volume": 874784072,
+        "pe": 53.2,
         "color": "#D52B1E",
         "domain": "intuitive.com"
     },
@@ -1164,8 +1164,8 @@ const SP500_STOCKS = [
         "change7d": -0.73,
         "changeYtd": 17.25,
         "marketCap": 152597528576,
-        "volume": 667721670,
-        "pe": 104.4,
+        "volume": 672201793,
+        "pe": 103.9,
         "color": "#003D6B",
         "domain": "welltower.com"
     },
@@ -1179,7 +1179,7 @@ const SP500_STOCKS = [
         "change7d": 2.96,
         "changeYtd": -30.41,
         "marketCap": 152251891712,
-        "volume": 1067630330,
+        "volume": 1080892875,
         "pe": 24.5,
         "color": "#D52B1E",
         "domain": "abbott.com"
@@ -1194,7 +1194,7 @@ const SP500_STOCKS = [
         "change7d": -4.1,
         "changeYtd": 22.0,
         "marketCap": 151961206784,
-        "volume": 1031255402,
+        "volume": 1031381416,
         "pe": 38.3,
         "color": "#0039A6",
         "domain": "eaton.com"
@@ -1209,7 +1209,7 @@ const SP500_STOCKS = [
         "change7d": 0.58,
         "changeYtd": 5.89,
         "marketCap": 147615596544,
-        "volume": 972476816,
+        "volume": 970725614,
         "pe": 19.8,
         "color": "#D52B1E",
         "domain": "pfizer.com"
@@ -1224,7 +1224,7 @@ const SP500_STOCKS = [
         "change7d": 7.45,
         "changeYtd": -32.17,
         "marketCap": 147306938368,
-        "volume": 2446821151,
+        "volume": 2400870886,
         "pe": 23.1,
         "color": "#3861FB",
         "domain": "salesforce.com"
@@ -1239,8 +1239,8 @@ const SP500_STOCKS = [
         "change7d": 1.25,
         "changeYtd": 30.18,
         "marketCap": 146755698688,
-        "volume": 1141481601,
-        "pe": 20.5,
+        "volume": 1155248251,
+        "pe": 20.4,
         "color": "#ED1B2D",
         "domain": "conocophillips.com"
     },
@@ -1254,7 +1254,7 @@ const SP500_STOCKS = [
         "change7d": -3.84,
         "changeYtd": -16.67,
         "marketCap": 146196725760,
-        "volume": 1215774484,
+        "volume": 1205405185,
         "pe": 17.8,
         "color": "#0039A6",
         "domain": "uber.com"
@@ -1269,7 +1269,7 @@ const SP500_STOCKS = [
         "change7d": -3.23,
         "changeYtd": -21.22,
         "marketCap": 144850272256,
-        "volume": 964475757,
+        "volume": 932561013,
         "pe": 30.4,
         "color": "#003087",
         "domain": "blackstone.com"
@@ -1284,7 +1284,7 @@ const SP500_STOCKS = [
         "change7d": 5.26,
         "changeYtd": 15.44,
         "marketCap": 144422223872,
-        "volume": 886555231,
+        "volume": 903041824,
         "pe": 36.4,
         "color": "#0039A6",
         "domain": "honeywell.com"
@@ -1299,8 +1299,8 @@ const SP500_STOCKS = [
         "change7d": -7.92,
         "changeYtd": 11.68,
         "marketCap": 142927282176,
-        "volume": 667030117,
-        "pe": 30.0,
+        "volume": 655854997,
+        "pe": 29.9,
         "color": "#0039A6",
         "domain": "deere.com"
     },
@@ -1314,7 +1314,7 @@ const SP500_STOCKS = [
         "change7d": -7.85,
         "changeYtd": 14.16,
         "marketCap": 138299736064,
-        "volume": 379106612,
+        "volume": 389165376,
         "pe": 34.9,
         "color": "#003087",
         "domain": "interactivebrokers.com"
@@ -1329,7 +1329,7 @@ const SP500_STOCKS = [
         "change7d": 2.27,
         "changeYtd": 15.89,
         "marketCap": 136028102656,
-        "volume": 503579081,
+        "volume": 503730671,
         "pe": 36.7,
         "color": "#003D6B",
         "domain": "prologis.com"
@@ -1344,7 +1344,7 @@ const SP500_STOCKS = [
         "change7d": 2.44,
         "changeYtd": 7.25,
         "marketCap": 127175450624,
-        "volume": 541085413,
+        "volume": 540159452,
         "pe": 11.6,
         "color": "#003087",
         "domain": "chubb.com"
@@ -1359,8 +1359,8 @@ const SP500_STOCKS = [
         "change7d": -12.96,
         "changeYtd": 90.94,
         "marketCap": 125780262912,
-        "volume": 2480015625,
-        "pe": 82.3,
+        "volume": 2500864348,
+        "pe": 81.9,
         "color": "#0039A6",
         "domain": "vertiv.com"
     },
@@ -1374,7 +1374,7 @@ const SP500_STOCKS = [
         "change7d": 4.26,
         "changeYtd": -25.89,
         "marketCap": 124801925120,
-        "volume": 1456615343,
+        "volume": 1369915780,
         "pe": 21.2,
         "color": "#FF9900",
         "domain": "booking.com"
@@ -1389,7 +1389,7 @@ const SP500_STOCKS = [
         "change7d": 3.39,
         "changeYtd": -22.13,
         "marketCap": 123609604096,
-        "volume": 864761916,
+        "volume": 845810810,
         "pe": 26.4,
         "color": "#003087",
         "domain": "spglobal.com"
@@ -1404,7 +1404,7 @@ const SP500_STOCKS = [
         "change7d": 2.06,
         "changeYtd": 37.31,
         "marketCap": 123404959744,
-        "volume": 694495660,
+        "volume": 697619857,
         "pe": 15.4,
         "color": "#0071CE",
         "domain": "altria.com"
@@ -1419,7 +1419,7 @@ const SP500_STOCKS = [
         "change7d": 2.47,
         "changeYtd": 7.88,
         "marketCap": 122945740800,
-        "volume": 829726223,
+        "volume": 829211647,
         "pe": 25.8,
         "color": "#0039A6",
         "domain": "lockheedmartin.com"
@@ -1434,7 +1434,7 @@ const SP500_STOCKS = [
         "change7d": 4.53,
         "changeYtd": -26.83,
         "marketCap": 121736544256,
-        "volume": 763709928,
+        "volume": 773546264,
         "pe": 33.3,
         "color": "#D52B1E",
         "domain": "danaher.com"
@@ -1449,7 +1449,7 @@ const SP500_STOCKS = [
         "change7d": 4.74,
         "changeYtd": 5.91,
         "marketCap": 121421553664,
-        "volume": 692659340,
+        "volume": 682217510,
         "pe": 16.7,
         "color": "#D52B1E",
         "domain": "bms.com"
@@ -1464,7 +1464,7 @@ const SP500_STOCKS = [
         "change7d": 3.59,
         "changeYtd": -13.71,
         "marketCap": 121326018560,
-        "volume": 729328501,
+        "volume": 741763634,
         "pe": 36.6,
         "color": "#D52B1E",
         "domain": "stryker.com"
@@ -1479,7 +1479,7 @@ const SP500_STOCKS = [
         "change7d": -3.84,
         "changeYtd": -12.18,
         "marketCap": 120631828480,
-        "volume": 598214316,
+        "volume": 585728169,
         "pe": 18.2,
         "color": "#FF9900",
         "domain": "lowes.com"
@@ -1494,7 +1494,7 @@ const SP500_STOCKS = [
         "change7d": -4.0,
         "changeYtd": 18.88,
         "marketCap": 118992986112,
-        "volume": 770406888,
+        "volume": 762053590,
         "pe": 40.9,
         "color": "#D52B1E",
         "domain": "cvshealth.com"
@@ -1509,7 +1509,7 @@ const SP500_STOCKS = [
         "change7d": -2.52,
         "changeYtd": 20.41,
         "marketCap": 117514461184,
-        "volume": 792371174,
+        "volume": 799032286,
         "pe": 78.7,
         "color": "#FF9900",
         "domain": "starbucks.com"
@@ -1524,7 +1524,7 @@ const SP500_STOCKS = [
         "change7d": 1.51,
         "changeYtd": -25.25,
         "marketCap": 116860362752,
-        "volume": 930738473,
+        "volume": 902483591,
         "pe": 57.8,
         "color": "#003087",
         "domain": "capitalone.com"
@@ -1539,8 +1539,8 @@ const SP500_STOCKS = [
         "change7d": 1.34,
         "changeYtd": -4.54,
         "marketCap": 116414087168,
-        "volume": 569758248,
-        "pe": 10.1,
+        "volume": 577408658,
+        "pe": 10.2,
         "color": "#003087",
         "domain": "progressive.com"
     },
@@ -1554,7 +1554,7 @@ const SP500_STOCKS = [
         "change7d": -7.47,
         "changeYtd": -0.14,
         "marketCap": 114911379456,
-        "volume": 1002203849,
+        "volume": 996673091,
         "pe": 14.0,
         "color": "#8A6D3B",
         "domain": "newmont.com"
@@ -1569,7 +1569,7 @@ const SP500_STOCKS = [
         "change7d": 9.3,
         "changeYtd": -34.03,
         "marketCap": 110310596608,
-        "volume": 1217615356,
+        "volume": 1164003595,
         "pe": 14.7,
         "color": "#3861FB",
         "domain": "accenture.com"
@@ -1584,7 +1584,7 @@ const SP500_STOCKS = [
         "change7d": -3.53,
         "changeYtd": -10.25,
         "marketCap": 110283530240,
-        "volume": 559902904,
+        "volume": 566528465,
         "pe": 25.8,
         "color": "#D52B1E",
         "domain": "vrtx.com"
@@ -1599,8 +1599,8 @@ const SP500_STOCKS = [
         "change7d": -1.53,
         "changeYtd": -4.17,
         "marketCap": 109311860736,
-        "volume": 656366763,
-        "pe": 32.0,
+        "volume": 664165068,
+        "pe": 31.9,
         "color": "#0039A6",
         "domain": "parker.com"
     },
@@ -1614,7 +1614,7 @@ const SP500_STOCKS = [
         "change7d": -7.26,
         "changeYtd": 65.62,
         "marketCap": 108559507456,
-        "volume": 832101414,
+        "volume": 829342937,
         "pe": 99.0,
         "color": "#0039A6",
         "domain": "quantaservices.com"
@@ -1629,7 +1629,7 @@ const SP500_STOCKS = [
         "change7d": 1.76,
         "changeYtd": 11.38,
         "marketCap": 106586324992,
-        "volume": 497541593,
+        "volume": 492163116,
         "pe": 24.2,
         "color": "#00529B",
         "domain": "southerncompany.com"
@@ -1644,8 +1644,8 @@ const SP500_STOCKS = [
         "change7d": 0.5,
         "changeYtd": 40.5,
         "marketCap": 106493476864,
-        "volume": 625417629,
-        "pe": 74.7,
+        "volume": 621786296,
+        "pe": 74.6,
         "color": "#003D6B",
         "domain": "equinix.com"
     },
@@ -1659,8 +1659,8 @@ const SP500_STOCKS = [
         "change7d": 7.0,
         "changeYtd": -8.56,
         "marketCap": 106215161856,
-        "volume": 933295863,
-        "pe": 25.5,
+        "volume": 915721945,
+        "pe": 25.6,
         "color": "#00529B",
         "domain": "constellationenergy.com"
     },
@@ -1674,8 +1674,8 @@ const SP500_STOCKS = [
         "change7d": 12.85,
         "changeYtd": -32.32,
         "marketCap": 105327484928,
-        "volume": 2424747926,
-        "pe": 60.8,
+        "volume": 2446580153,
+        "pe": 61.2,
         "color": "#3861FB",
         "domain": "servicenow.com"
     },
@@ -1689,8 +1689,8 @@ const SP500_STOCKS = [
         "change7d": -2.17,
         "changeYtd": 11.75,
         "marketCap": 105228025856,
-        "volume": 688516963,
-        "pe": 24.8,
+        "volume": 672994113,
+        "pe": 24.9,
         "color": "#003087",
         "domain": "cmegroup.com"
     },
@@ -1704,7 +1704,7 @@ const SP500_STOCKS = [
         "change7d": 5.88,
         "changeYtd": 16.55,
         "marketCap": 103042097152,
-        "volume": 898151819,
+        "volume": 883972584,
         "pe": 86.9,
         "color": "#3861FB",
         "domain": "cadence.com"
@@ -1719,7 +1719,7 @@ const SP500_STOCKS = [
         "change7d": -5.81,
         "changeYtd": 21.77,
         "marketCap": 102647570432,
-        "volume": 595031779,
+        "volume": 597690150,
         "pe": 59.5,
         "color": "#0039A6",
         "domain": "howmet.com"
@@ -1734,7 +1734,7 @@ const SP500_STOCKS = [
         "change7d": 2.12,
         "changeYtd": -20.57,
         "marketCap": 100913356800,
-        "volume": 690850913,
+        "volume": 696296636,
         "pe": 22.0,
         "color": "#D52B1E",
         "domain": "medtronic.com"
@@ -1749,8 +1749,8 @@ const SP500_STOCKS = [
         "change7d": 2.89,
         "changeYtd": 0.97,
         "marketCap": 100520255488,
-        "volume": 1000224211,
-        "pe": 80.7,
+        "volume": 988271159,
+        "pe": 80.6,
         "color": "#3861FB",
         "domain": "synopsys.com"
     },
@@ -1764,7 +1764,7 @@ const SP500_STOCKS = [
         "change7d": -6.36,
         "changeYtd": 20.11,
         "marketCap": 99700432896,
-        "volume": 598044387,
+        "volume": 597829701,
         "pe": 34.5,
         "color": "#0039A6",
         "domain": "tranetechnologies.com"
@@ -1779,7 +1779,7 @@ const SP500_STOCKS = [
         "change7d": 3.27,
         "changeYtd": -27.61,
         "marketCap": 98931990528,
-        "volume": 1362628820,
+        "volume": 1349306289,
         "pe": 14.3,
         "color": "#3861FB",
         "domain": "adobe.com"
@@ -1794,7 +1794,7 @@ const SP500_STOCKS = [
         "change7d": 9.9,
         "changeYtd": 67.37,
         "marketCap": 98123595776,
-        "volume": 827599094,
+        "volume": 815037666,
         "pe": 51.9,
         "color": "#3861FB",
         "domain": "fortinet.com"
@@ -1809,8 +1809,8 @@ const SP500_STOCKS = [
         "change7d": 1.97,
         "changeYtd": 10.02,
         "marketCap": 97971855360,
-        "volume": 482725984,
-        "pe": 19.4,
+        "volume": 476858201,
+        "pe": 19.3,
         "color": "#00529B",
         "domain": "duke-energy.com"
     },
@@ -1820,11 +1820,11 @@ const SP500_STOCKS = [
         "ticker": "MAR",
         "sector": "Consumer Discretionary",
         "price": 369.15,
-        "change1d": -0.38,
-        "change7d": 4.44,
-        "changeYtd": 15.85,
+        "change1d": -0.18,
+        "change7d": 4.64,
+        "changeYtd": 16.08,
         "marketCap": 97340653568,
-        "volume": 551949379,
+        "volume": 541219665,
         "pe": 38.6,
         "color": "#FF9900",
         "domain": "marriott.com"
@@ -1839,7 +1839,7 @@ const SP500_STOCKS = [
         "change7d": 1.0,
         "changeYtd": 30.87,
         "marketCap": 95968673792,
-        "volume": 498221731,
+        "volume": 501855128,
         "pe": 34.4,
         "color": "#ED1B2D",
         "domain": "williams.com"
@@ -1854,7 +1854,7 @@ const SP500_STOCKS = [
         "change7d": 2.33,
         "changeYtd": 16.5,
         "marketCap": 95509635072,
-        "volume": 509760696,
+        "volume": 508093122,
         "pe": 17.3,
         "color": "#003087",
         "domain": "bny.com"
@@ -1869,8 +1869,8 @@ const SP500_STOCKS = [
         "change7d": 3.74,
         "changeYtd": 28.79,
         "marketCap": 94058782720,
-        "volume": 693180617,
-        "pe": 21.0,
+        "volume": 700511949,
+        "pe": 21.1,
         "color": "#0039A6",
         "domain": "fedex.com"
     },
@@ -1884,7 +1884,7 @@ const SP500_STOCKS = [
         "change7d": 0.67,
         "changeYtd": 0.07,
         "marketCap": 92727803904,
-        "volume": 463521122,
+        "volume": 466725429,
         "pe": 21.6,
         "color": "#0039A6",
         "domain": "gd.com"
@@ -1899,8 +1899,8 @@ const SP500_STOCKS = [
         "change7d": 2.52,
         "changeYtd": -6.95,
         "marketCap": 92085919744,
-        "volume": 700522719,
-        "pe": 19.9,
+        "volume": 731355142,
+        "pe": 20.0,
         "color": "#D52B1E",
         "domain": "mckesson.com"
     },
@@ -1914,7 +1914,7 @@ const SP500_STOCKS = [
         "change7d": 8.13,
         "changeYtd": -13.05,
         "marketCap": 90064125952,
-        "volume": 803440355,
+        "volume": 782162529,
         "pe": 21.0,
         "color": "#0039A6",
         "domain": "adp.com"
@@ -1924,12 +1924,12 @@ const SP500_STOCKS = [
         "name": "Comcast",
         "ticker": "CMCSA",
         "sector": "Communication Services",
-        "price": 25.2,
-        "change1d": 0.5,
-        "change7d": 0.14,
-        "changeYtd": -7.56,
+        "price": 25.21,
+        "change1d": 0.52,
+        "change7d": 0.16,
+        "changeYtd": -7.52,
         "marketCap": 90038018048,
-        "volume": 815768543,
+        "volume": 823672686,
         "pe": 4.9,
         "color": "#4285F4",
         "domain": "comcast.com"
@@ -1944,7 +1944,7 @@ const SP500_STOCKS = [
         "change7d": -6.27,
         "changeYtd": 12.22,
         "marketCap": 89114337280,
-        "volume": 1056242183,
+        "volume": 1045905350,
         "pe": 32.8,
         "color": "#8A6D3B",
         "domain": "fcx.com"
@@ -1955,12 +1955,12 @@ const SP500_STOCKS = [
         "ticker": "CMI",
         "sector": "Industrials",
         "price": 639.55,
-        "change1d": 0.12,
-        "change7d": -10.73,
-        "changeYtd": 19.05,
+        "change1d": 0.43,
+        "change7d": -10.45,
+        "changeYtd": 19.42,
         "marketCap": 88250908672,
-        "volume": 558724939,
-        "pe": 33.3,
+        "volume": 563769070,
+        "pe": 33.2,
         "color": "#0039A6",
         "domain": "cummins.com"
     },
@@ -1974,7 +1974,7 @@ const SP500_STOCKS = [
         "change7d": 2.71,
         "changeYtd": 2.93,
         "marketCap": 88035016704,
-        "volume": 504000333,
+        "volume": 500085543,
         "pe": 12.7,
         "color": "#003087",
         "domain": "pnc.com"
@@ -1989,7 +1989,7 @@ const SP500_STOCKS = [
         "change7d": -5.37,
         "changeYtd": -27.85,
         "marketCap": 87686799360,
-        "volume": 634696560,
+        "volume": 608546387,
         "pe": 32.0,
         "color": "#003087",
         "domain": "kkr.com"
@@ -2004,7 +2004,7 @@ const SP500_STOCKS = [
         "change7d": -15.42,
         "changeYtd": -50.62,
         "marketCap": 87515422720,
-        "volume": 1255418654,
+        "volume": 1271046443,
         "pe": 19.5,
         "color": "#3861FB",
         "domain": "intuit.com"
@@ -2019,8 +2019,8 @@ const SP500_STOCKS = [
         "change7d": -0.42,
         "changeYtd": 1.3,
         "marketCap": 87503355904,
-        "volume": 461903971,
-        "pe": 31.6,
+        "volume": 458763596,
+        "pe": 31.5,
         "color": "#0039A6",
         "domain": "wm.com"
     },
@@ -2034,7 +2034,7 @@ const SP500_STOCKS = [
         "change7d": -8.93,
         "changeYtd": -16.15,
         "marketCap": 87420411904,
-        "volume": 473492452,
+        "volume": 472231822,
         "pe": 13.6,
         "color": "#D52B1E",
         "domain": "hcahealthcare.com"
@@ -2049,7 +2049,7 @@ const SP500_STOCKS = [
         "change7d": -1.77,
         "changeYtd": -5.22,
         "marketCap": 86506446848,
-        "volume": 505479884,
+        "volume": 496671719,
         "pe": 22.3,
         "color": "#003087",
         "domain": "ice.com"
@@ -2064,7 +2064,7 @@ const SP500_STOCKS = [
         "change7d": 7.9,
         "changeYtd": -41.43,
         "marketCap": 85881602048,
-        "volume": 952134643,
+        "volume": 956584050,
         "pe": 24.2,
         "color": "#D52B1E",
         "domain": "bostonscientific.com"
@@ -2079,7 +2079,7 @@ const SP500_STOCKS = [
         "change7d": 4.37,
         "changeYtd": -1.19,
         "marketCap": 85867634688,
-        "volume": 631317195,
+        "volume": 639890964,
         "pe": 16.3,
         "color": "#0039A6",
         "domain": "ups.com"
@@ -2094,7 +2094,7 @@ const SP500_STOCKS = [
         "change7d": -0.51,
         "changeYtd": 8.3,
         "marketCap": 85711822848,
-        "volume": 767340515,
+        "volume": 777133563,
         "pe": 16.7,
         "color": "#D52B1E",
         "domain": "elevancehealth.com"
@@ -2109,7 +2109,7 @@ const SP500_STOCKS = [
         "change7d": 7.83,
         "changeYtd": 9.59,
         "marketCap": 85654437888,
-        "volume": 582662587,
+        "volume": 578143370,
         "pe": 29.7,
         "color": "#003D6B",
         "domain": "americantower.com"
@@ -2124,7 +2124,7 @@ const SP500_STOCKS = [
         "change7d": 2.74,
         "changeYtd": 35.99,
         "marketCap": 85636898816,
-        "volume": 937433404,
+        "volume": 944112023,
         "pe": 25.2,
         "color": "#ED1B2D",
         "domain": "slb.com"
@@ -2139,7 +2139,7 @@ const SP500_STOCKS = [
         "change7d": 2.64,
         "changeYtd": 0.96,
         "marketCap": 85112602624,
-        "volume": 530178154,
+        "volume": 527230603,
         "pe": 11.5,
         "color": "#003087",
         "domain": "usbank.com"
@@ -2154,7 +2154,7 @@ const SP500_STOCKS = [
         "change7d": 1.13,
         "changeYtd": 13.97,
         "marketCap": 84881326080,
-        "volume": 484227538,
+        "volume": 478949838,
         "pe": 41.9,
         "color": "#0071CE",
         "domain": "monsterbevcorp.com"
@@ -2169,7 +2169,7 @@ const SP500_STOCKS = [
         "change7d": -0.87,
         "changeYtd": 30.32,
         "marketCap": 84582481920,
-        "volume": 576052601,
+        "volume": 579556822,
         "pe": 27.9,
         "color": "#0039A6",
         "domain": "csx.com"
@@ -2184,8 +2184,8 @@ const SP500_STOCKS = [
         "change7d": -4.6,
         "changeYtd": 23.47,
         "marketCap": 84415594496,
-        "volume": 517279477,
-        "pe": 42.4,
+        "volume": 507606730,
+        "pe": 42.3,
         "color": "#0039A6",
         "domain": "johnsoncontrols.com"
     },
@@ -2199,8 +2199,8 @@ const SP500_STOCKS = [
         "change7d": -1.32,
         "changeYtd": 125.15,
         "marketCap": 82539921408,
-        "volume": 1588507118,
-        "pe": 367.1,
+        "volume": 1590896949,
+        "pe": 369.5,
         "color": "#3861FB",
         "domain": "ciena.com"
     },
@@ -2214,8 +2214,8 @@ const SP500_STOCKS = [
         "change7d": 7.58,
         "changeYtd": 32.91,
         "marketCap": 79899516928,
-        "volume": 1030717476,
-        "pe": 30.3,
+        "volume": 1052435230,
+        "pe": 30.2,
         "color": "#3861FB",
         "domain": "nxp.com"
     },
@@ -2225,11 +2225,11 @@ const SP500_STOCKS = [
         "ticker": "MMM",
         "sector": "Industrials",
         "price": 152.44,
-        "change1d": 0.55,
-        "change7d": 5.04,
-        "changeYtd": -6.01,
+        "change1d": 1.07,
+        "change7d": 5.59,
+        "changeYtd": -5.52,
         "marketCap": 79507718144,
-        "volume": 598749725,
+        "volume": 605462573,
         "pe": 29.4,
         "color": "#0039A6",
         "domain": "3m.com"
@@ -2244,7 +2244,7 @@ const SP500_STOCKS = [
         "change7d": 1.3,
         "changeYtd": 20.93,
         "marketCap": 79278211072,
-        "volume": 549629152,
+        "volume": 550787152,
         "pe": 30.6,
         "color": "#0071CE",
         "domain": "mondelezinternational.com"
@@ -2259,8 +2259,8 @@ const SP500_STOCKS = [
         "change7d": 9.6,
         "changeYtd": 57.17,
         "marketCap": 79137071104,
-        "volume": 1232675734,
-        "pe": 570.1,
+        "volume": 1198929781,
+        "pe": 555.8,
         "color": "#3861FB",
         "domain": "datadoghq.com"
     },
@@ -2274,7 +2274,7 @@ const SP500_STOCKS = [
         "change7d": 2.56,
         "changeYtd": -9.35,
         "marketCap": 79067291648,
-        "volume": 491109515,
+        "volume": 485529283,
         "pe": 20.5,
         "color": "#003087",
         "domain": "corporate.marsh.com"
@@ -2289,7 +2289,7 @@ const SP500_STOCKS = [
         "change7d": 1.26,
         "changeYtd": -3.41,
         "marketCap": 78910955520,
-        "volume": 457689040,
+        "volume": 451883229,
         "pe": 17.4,
         "color": "#0039A6",
         "domain": "northropgrumman.com"
@@ -2304,7 +2304,7 @@ const SP500_STOCKS = [
         "change7d": -0.99,
         "changeYtd": -3.42,
         "marketCap": 78550376448,
-        "volume": 521632667,
+        "volume": 506475679,
         "pe": 32.7,
         "color": "#FF9900",
         "domain": "airbnb.com"
@@ -2319,8 +2319,8 @@ const SP500_STOCKS = [
         "change7d": 4.05,
         "changeYtd": -15.11,
         "marketCap": 78450679808,
-        "volume": 548910865,
-        "pe": 32.2,
+        "volume": 536265442,
+        "pe": 32.3,
         "color": "#003087",
         "domain": "moodys.com"
     },
@@ -2334,8 +2334,8 @@ const SP500_STOCKS = [
         "change7d": -1.5,
         "changeYtd": 66.09,
         "marketCap": 78107369472,
-        "volume": 943730328,
-        "pe": 114.4,
+        "volume": 947763676,
+        "pe": 113.6,
         "color": "#3861FB",
         "domain": "monolithicpower.com"
     },
@@ -2349,7 +2349,7 @@ const SP500_STOCKS = [
         "change7d": 0.79,
         "changeYtd": 12.41,
         "marketCap": 77671636992,
-        "volume": 312187222,
+        "volume": 314088848,
         "pe": 14.2,
         "color": "#003D6B",
         "domain": "simon.com"
@@ -2364,7 +2364,7 @@ const SP500_STOCKS = [
         "change7d": -0.66,
         "changeYtd": -3.28,
         "marketCap": 76408840192,
-        "volume": 404568101,
+        "volume": 407003607,
         "pe": 31.6,
         "color": "#0039A6",
         "domain": "emerson.com"
@@ -2375,11 +2375,11 @@ const SP500_STOCKS = [
         "ticker": "SHW",
         "sector": "Materials",
         "price": 309.08,
-        "change1d": -0.08,
-        "change7d": -0.03,
-        "changeYtd": -6.53,
+        "change1d": 0.18,
+        "change7d": 0.23,
+        "changeYtd": -6.29,
         "marketCap": 76230131712,
-        "volume": 565833967,
+        "volume": 565729807,
         "pe": 29.7,
         "color": "#8A6D3B",
         "domain": "sherwin-williams.com"
@@ -2394,7 +2394,7 @@ const SP500_STOCKS = [
         "change7d": 2.3,
         "changeYtd": 0.98,
         "marketCap": 76026322944,
-        "volume": 522388923,
+        "volume": 519655621,
         "pe": 29.9,
         "color": "#FF9900",
         "domain": "oreillyauto.com"
@@ -2409,8 +2409,8 @@ const SP500_STOCKS = [
         "change7d": 10.1,
         "changeYtd": 25.84,
         "marketCap": 75948105728,
-        "volume": 625785784,
-        "pe": 35.6,
+        "volume": 641374585,
+        "pe": 32.8,
         "color": "#FF9900",
         "domain": "rossstores.com"
     },
@@ -2424,7 +2424,7 @@ const SP500_STOCKS = [
         "change7d": -2.95,
         "changeYtd": 3.12,
         "marketCap": 75719753728,
-        "volume": 483039715,
+        "volume": 478961082,
         "pe": 2.5,
         "color": "#D52B1E",
         "domain": "thecignagroup.com"
@@ -2439,7 +2439,7 @@ const SP500_STOCKS = [
         "change7d": 3.85,
         "changeYtd": 40.1,
         "marketCap": 75217805312,
-        "volume": 672267224,
+        "volume": 659627892,
         "pe": 13.9,
         "color": "#ED1B2D",
         "domain": "eogresources.com"
@@ -2454,7 +2454,7 @@ const SP500_STOCKS = [
         "change7d": 1.17,
         "changeYtd": 27.51,
         "marketCap": 75176869888,
-        "volume": 429417219,
+        "volume": 429478108,
         "pe": 22.7,
         "color": "#ED1B2D",
         "domain": "kindermorgan.com"
@@ -2469,7 +2469,7 @@ const SP500_STOCKS = [
         "change7d": -1.8,
         "changeYtd": -24.27,
         "marketCap": 74891943936,
-        "volume": 935633175,
+        "volume": 918032026,
         "pe": 39.5,
         "color": "#FF9900",
         "domain": "carvana.com"
@@ -2484,7 +2484,7 @@ const SP500_STOCKS = [
         "change7d": 2.73,
         "changeYtd": 48.92,
         "marketCap": 74341662720,
-        "volume": 663579686,
+        "volume": 668171280,
         "pe": 16.8,
         "color": "#ED1B2D",
         "domain": "marathonpetroleum.com"
@@ -2499,8 +2499,8 @@ const SP500_STOCKS = [
         "change7d": -4.77,
         "changeYtd": -10.19,
         "marketCap": 74088259584,
-        "volume": 664327661,
-        "pe": 81.3,
+        "volume": 643137905,
+        "pe": 80.8,
         "color": "#003087",
         "domain": "apollo.com"
     },
@@ -2514,8 +2514,8 @@ const SP500_STOCKS = [
         "change7d": -6.76,
         "changeYtd": 97.04,
         "marketCap": 73867542528,
-        "volume": 2856212140,
-        "pe": 178.1,
+        "volume": 2872860712,
+        "pe": 178.9,
         "color": "#3861FB",
         "domain": "coherent.com"
     },
@@ -2529,8 +2529,8 @@ const SP500_STOCKS = [
         "change7d": -5.48,
         "changeYtd": 141.02,
         "marketCap": 73668820992,
-        "volume": 6172524047,
-        "pe": 166.4,
+        "volume": 6224948220,
+        "pe": 166.7,
         "color": "#3861FB",
         "domain": "lumentum.com"
     },
@@ -2544,8 +2544,8 @@ const SP500_STOCKS = [
         "change7d": 1.37,
         "changeYtd": 35.78,
         "marketCap": 73330515968,
-        "volume": 922118288,
-        "pe": 18.0,
+        "volume": 937618733,
+        "pe": 18.1,
         "color": "#ED1B2D",
         "domain": "valero.com"
     },
@@ -2555,11 +2555,11 @@ const SP500_STOCKS = [
         "ticker": "HLT",
         "sector": "Consumer Discretionary",
         "price": 321.08,
-        "change1d": -0.52,
-        "change7d": 1.44,
-        "changeYtd": 9.45,
+        "change1d": -0.47,
+        "change7d": 1.49,
+        "changeYtd": 9.5,
         "marketCap": 73093332992,
-        "volume": 546406536,
+        "volume": 545312616,
         "pe": 49.0,
         "color": "#FF9900",
         "domain": "hilton.com"
@@ -2574,7 +2574,7 @@ const SP500_STOCKS = [
         "change7d": 0.57,
         "changeYtd": 2.75,
         "marketCap": 72557936640,
-        "volume": 336055234,
+        "volume": 333983411,
         "pe": 23.4,
         "color": "#0039A6",
         "domain": "itw.com"
@@ -2589,7 +2589,7 @@ const SP500_STOCKS = [
         "change7d": 1.99,
         "changeYtd": 18.99,
         "marketCap": 72505155584,
-        "volume": 536250914,
+        "volume": 534615766,
         "pe": 35.1,
         "color": "#0071CE",
         "domain": "colgatepalmolive.co.in"
@@ -2604,8 +2604,8 @@ const SP500_STOCKS = [
         "change7d": 2.33,
         "changeYtd": 17.5,
         "marketCap": 71598776320,
-        "volume": 488228230,
-        "pe": 19.4,
+        "volume": 489176468,
+        "pe": 19.5,
         "color": "#00529B",
         "domain": "aep.com"
     },
@@ -2619,8 +2619,8 @@ const SP500_STOCKS = [
         "change7d": 1.78,
         "changeYtd": -5.49,
         "marketCap": 71293747200,
-        "volume": 393306416,
-        "pe": 34.3,
+        "volume": 397713424,
+        "pe": 34.2,
         "color": "#8A6D3B",
         "domain": "ecolab.com"
     },
@@ -2634,8 +2634,8 @@ const SP500_STOCKS = [
         "change7d": 4.36,
         "changeYtd": 30.88,
         "marketCap": 71242145792,
-        "volume": 562953911,
-        "pe": 17.6,
+        "volume": 565172016,
+        "pe": 17.5,
         "color": "#ED1B2D",
         "domain": "phillips66.com"
     },
@@ -2649,7 +2649,7 @@ const SP500_STOCKS = [
         "change7d": 1.34,
         "changeYtd": -3.59,
         "marketCap": 71042203648,
-        "volume": 571921804,
+        "volume": 569785098,
         "pe": 28.8,
         "color": "#FF9900",
         "domain": "gm.com"
@@ -2664,7 +2664,7 @@ const SP500_STOCKS = [
         "change7d": -0.98,
         "changeYtd": 11.69,
         "marketCap": 70641549312,
-        "volume": 411725744,
+        "volume": 406346966,
         "pe": 26.5,
         "color": "#0039A6",
         "domain": "norfolksouthern.com"
@@ -2679,8 +2679,8 @@ const SP500_STOCKS = [
         "change7d": 4.26,
         "changeYtd": -30.48,
         "marketCap": 69823922176,
-        "volume": 740147636,
-        "pe": 76.3,
+        "volume": 720062061,
+        "pe": 75.6,
         "color": "#FF9900",
         "domain": "doordash.com"
     },
@@ -2694,7 +2694,7 @@ const SP500_STOCKS = [
         "change7d": 2.97,
         "changeYtd": -6.94,
         "marketCap": 69365522432,
-        "volume": 457908294,
+        "volume": 454933634,
         "pe": 17.8,
         "color": "#003087",
         "domain": "aon.com"
@@ -2709,7 +2709,7 @@ const SP500_STOCKS = [
         "change7d": 4.49,
         "changeYtd": -6.91,
         "marketCap": 69195669504,
-        "volume": 391107463,
+        "volume": 390701251,
         "pe": 36.5,
         "color": "#0039A6",
         "domain": "cintas.com"
@@ -2724,8 +2724,8 @@ const SP500_STOCKS = [
         "change7d": -0.42,
         "changeYtd": 24.84,
         "marketCap": 68688953344,
-        "volume": 385758694,
-        "pe": 50.9,
+        "volume": 388277360,
+        "pe": 51.1,
         "color": "#003D6B",
         "domain": "digitalrealty.com"
     },
@@ -2739,7 +2739,7 @@ const SP500_STOCKS = [
         "change7d": -3.5,
         "changeYtd": -14.87,
         "marketCap": 68684734464,
-        "volume": 704615629,
+        "volume": 708989305,
         "pe": 15.6,
         "color": "#FF9900",
         "domain": "rclinvestor.com"
@@ -2754,7 +2754,7 @@ const SP500_STOCKS = [
         "change7d": 2.94,
         "changeYtd": -12.4,
         "marketCap": 67875962880,
-        "volume": 479425040,
+        "volume": 486366317,
         "pe": 37.9,
         "color": "#0039A6",
         "domain": "transdigm.com"
@@ -2769,7 +2769,7 @@ const SP500_STOCKS = [
         "change7d": -0.33,
         "changeYtd": -5.46,
         "marketCap": 67767910400,
-        "volume": 614175107,
+        "volume": 615053691,
         "pe": null,
         "color": "#4285F4",
         "domain": "wbd.com"
@@ -2784,7 +2784,7 @@ const SP500_STOCKS = [
         "change7d": 1.19,
         "changeYtd": 7.33,
         "marketCap": 67075493888,
-        "volume": 437117970,
+        "volume": 436904212,
         "pe": 32.6,
         "color": "#3861FB",
         "domain": "motorolasolutions.com"
@@ -2799,7 +2799,7 @@ const SP500_STOCKS = [
         "change7d": -6.41,
         "changeYtd": -17.73,
         "marketCap": 67067256832,
-        "volume": 537353894,
+        "volume": 537320571,
         "pe": 18.6,
         "color": "#8A6D3B",
         "domain": "crh.com"
@@ -2814,7 +2814,7 @@ const SP500_STOCKS = [
         "change7d": -10.25,
         "changeYtd": -21.13,
         "marketCap": 66979561472,
-        "volume": 481358389,
+        "volume": 487764439,
         "pe": 15.6,
         "color": "#D52B1E",
         "domain": "regeneron.com"
@@ -2829,7 +2829,7 @@ const SP500_STOCKS = [
         "change7d": -8.75,
         "changeYtd": -36.18,
         "marketCap": 66313195520,
-        "volume": 2100534883,
+        "volume": 2090203854,
         "pe": 35.7,
         "color": "#003087",
         "domain": "robinhood.com"
@@ -2844,7 +2844,7 @@ const SP500_STOCKS = [
         "change7d": 6.31,
         "changeYtd": -28.87,
         "marketCap": 66151223296,
-        "volume": 964234519,
+        "volume": 976343126,
         "pe": 29.4,
         "color": "#FF9900",
         "domain": "nike.com"
@@ -2859,7 +2859,7 @@ const SP500_STOCKS = [
         "change7d": 2.24,
         "changeYtd": 36.23,
         "marketCap": 65536053248,
-        "volume": 608562996,
+        "volume": 612916878,
         "pe": 21.1,
         "color": "#ED1B2D",
         "domain": "bakerhughes.com"
@@ -2874,7 +2874,7 @@ const SP500_STOCKS = [
         "change7d": 2.74,
         "changeYtd": 8.61,
         "marketCap": 65167089664,
-        "volume": 439869993,
+        "volume": 436415883,
         "pe": 9.1,
         "color": "#003087",
         "domain": "travelers.com"
@@ -2889,7 +2889,7 @@ const SP500_STOCKS = [
         "change7d": -3.47,
         "changeYtd": 11.23,
         "marketCap": 64459378688,
-        "volume": 364929620,
+        "volume": 360385230,
         "pe": 30.5,
         "color": "#8A6D3B",
         "domain": "airproducts.com"
@@ -2903,9 +2903,9 @@ const SP500_STOCKS = [
         "change1d": -0.39,
         "change7d": -10.45,
         "changeYtd": 76.78,
-        "marketCap": 64358830080,
-        "volume": 776616832,
-        "pe": 52.7,
+        "marketCap": 64325091328,
+        "volume": 760197319,
+        "pe": 52.9,
         "color": "#0039A6",
         "domain": "comfortsystemsusa.com"
     },
@@ -2919,8 +2919,8 @@ const SP500_STOCKS = [
         "change7d": 0.12,
         "changeYtd": 0.21,
         "marketCap": 64280256512,
-        "volume": 328921621,
-        "pe": 30.0,
+        "volume": 331300916,
+        "pe": 29.9,
         "color": "#0039A6",
         "domain": "republicservices.com"
     },
@@ -2934,7 +2934,7 @@ const SP500_STOCKS = [
         "change7d": -0.06,
         "changeYtd": 8.21,
         "marketCap": 60662439936,
-        "volume": 321777514,
+        "volume": 320343568,
         "pe": 31.6,
         "color": "#00529B",
         "domain": "sempra.com"
@@ -2949,7 +2949,7 @@ const SP500_STOCKS = [
         "change7d": 2.65,
         "changeYtd": -2.36,
         "marketCap": 60275630080,
-        "volume": 423357375,
+        "volume": 424022745,
         "pe": 12.0,
         "color": "#003087",
         "domain": "truist.com"
@@ -2964,7 +2964,7 @@ const SP500_STOCKS = [
         "change7d": 1.79,
         "changeYtd": 8.09,
         "marketCap": 59988959232,
-        "volume": 269174562,
+        "volume": 271567002,
         "pe": 13.5,
         "color": "#003087",
         "domain": "aflac.com"
@@ -2979,7 +2979,7 @@ const SP500_STOCKS = [
         "change7d": 7.46,
         "changeYtd": 19.81,
         "marketCap": 59516608512,
-        "volume": 390266887,
+        "volume": 384567043,
         "pe": 20.0,
         "color": "#00529B",
         "domain": "dominionenergy.com"
@@ -2994,7 +2994,7 @@ const SP500_STOCKS = [
         "change7d": 3.11,
         "changeYtd": 11.25,
         "marketCap": 59491463168,
-        "volume": 842246599,
+        "volume": 849786802,
         "pe": null,
         "color": "#FF9900",
         "domain": "ford.com"
@@ -3009,8 +3009,8 @@ const SP500_STOCKS = [
         "change7d": 3.47,
         "changeYtd": 60.14,
         "marketCap": 59402698752,
-        "volume": 390451077,
-        "pe": 28.3,
+        "volume": 388461244,
+        "pe": 28.2,
         "color": "#ED1B2D",
         "domain": "targaresources.com"
     },
@@ -3024,7 +3024,7 @@ const SP500_STOCKS = [
         "change7d": 3.3,
         "changeYtd": 36.39,
         "marketCap": 59241988096,
-        "volume": 457143952,
+        "volume": 442659853,
         "pe": 16.8,
         "color": "#ED1B2D",
         "domain": "oneok.com"
@@ -3035,11 +3035,11 @@ const SP500_STOCKS = [
         "ticker": "TEL",
         "sector": "Information Technology",
         "price": 202.78,
-        "change1d": 0.1,
-        "change7d": -1.89,
-        "changeYtd": -11.41,
+        "change1d": 0.49,
+        "change7d": -1.51,
+        "changeYtd": -11.07,
         "marketCap": 59190632448,
-        "volume": 508974755,
+        "volume": 512376389,
         "pe": 20.7,
         "color": "#3861FB",
         "domain": "te.com"
@@ -3054,8 +3054,8 @@ const SP500_STOCKS = [
         "change7d": -4.15,
         "changeYtd": 63.23,
         "marketCap": 59171131392,
-        "volume": 558012540,
-        "pe": 55.8,
+        "volume": 513756135,
+        "pe": 55.9,
         "color": "#3861FB",
         "domain": "keysight.com"
     },
@@ -3069,7 +3069,7 @@ const SP500_STOCKS = [
         "change7d": -2.83,
         "changeYtd": 24.68,
         "marketCap": 58912059392,
-        "volume": 315551127,
+        "volume": 320468667,
         "pe": 33.6,
         "color": "#0039A6",
         "domain": "grainger.com"
@@ -3084,7 +3084,7 @@ const SP500_STOCKS = [
         "change7d": -3.53,
         "changeYtd": 7.02,
         "marketCap": 58801311744,
-        "volume": 552106605,
+        "volume": 548977246,
         "pe": 24.0,
         "color": "#0039A6",
         "domain": "unitedrentals.com"
@@ -3099,7 +3099,7 @@ const SP500_STOCKS = [
         "change7d": 3.47,
         "changeYtd": 44.14,
         "marketCap": 58494468096,
-        "volume": 986410625,
+        "volume": 995599394,
         "pe": 79.5,
         "color": "#ED1B2D",
         "domain": "oxy.com"
@@ -3114,8 +3114,8 @@ const SP500_STOCKS = [
         "change7d": 1.42,
         "changeYtd": 1.07,
         "marketCap": 58120298496,
-        "volume": 446285221,
-        "pe": 33.8,
+        "volume": 446923844,
+        "pe": 33.9,
         "color": "#0039A6",
         "domain": "l3harris.com"
     },
@@ -3129,7 +3129,7 @@ const SP500_STOCKS = [
         "change7d": 0.1,
         "changeYtd": 10.02,
         "marketCap": 57833189376,
-        "volume": 366556312,
+        "volume": 364372278,
         "pe": 50.8,
         "color": "#003D6B",
         "domain": "realtyincome.com"
@@ -3144,7 +3144,7 @@ const SP500_STOCKS = [
         "change7d": -2.89,
         "changeYtd": -4.61,
         "marketCap": 57549398016,
-        "volume": 311190959,
+        "volume": 308372135,
         "pe": 23.3,
         "color": "#0039A6",
         "domain": "paccar.com"
@@ -3159,7 +3159,7 @@ const SP500_STOCKS = [
         "change7d": 2.05,
         "changeYtd": 23.54,
         "marketCap": 57044643840,
-        "volume": 740943027,
+        "volume": 739552761,
         "pe": 16.6,
         "color": "#0071CE",
         "domain": "target.com"
@@ -3174,7 +3174,7 @@ const SP500_STOCKS = [
         "change7d": 0.22,
         "changeYtd": 44.55,
         "marketCap": 56462397440,
-        "volume": 652326187,
+        "volume": 648565283,
         "pe": 204.8,
         "color": "#ED1B2D",
         "domain": "diamondbackenergy.com"
@@ -3189,7 +3189,7 @@ const SP500_STOCKS = [
         "change7d": 0.8,
         "changeYtd": 2.66,
         "marketCap": 56438284288,
-        "volume": 668968470,
+        "volume": 698066793,
         "pe": 23.9,
         "color": "#FF9900",
         "domain": "autozone.com"
@@ -3204,8 +3204,8 @@ const SP500_STOCKS = [
         "change7d": 0.57,
         "changeYtd": 61.24,
         "marketCap": 56110972928,
-        "volume": 1275547818,
-        "pe": 66.3,
+        "volume": 1286628991,
+        "pe": 66.6,
         "color": "#3861FB",
         "domain": "teradyne.com"
     },
@@ -3219,7 +3219,7 @@ const SP500_STOCKS = [
         "change7d": 0.07,
         "changeYtd": 5.03,
         "marketCap": 55757373440,
-        "volume": 322242543,
+        "volume": 321307914,
         "pe": 4.8,
         "color": "#003087",
         "domain": "allstate.com"
@@ -3234,7 +3234,7 @@ const SP500_STOCKS = [
         "change7d": -0.04,
         "changeYtd": 37.71,
         "marketCap": 54444187648,
-        "volume": 731668441,
+        "volume": 743698350,
         "pe": 13.2,
         "color": "#ED1B2D",
         "domain": "devonenergy.com"
@@ -3249,7 +3249,7 @@ const SP500_STOCKS = [
         "change7d": 6.16,
         "changeYtd": 9.0,
         "marketCap": 54087294976,
-        "volume": 313160813,
+        "volume": 309682074,
         "pe": 16.3,
         "color": "#003087",
         "domain": "metlife.com"
@@ -3264,8 +3264,8 @@ const SP500_STOCKS = [
         "change7d": 0.73,
         "changeYtd": 16.06,
         "marketCap": 53585338368,
-        "volume": 341343065,
-        "pe": 31.6,
+        "volume": 341071698,
+        "pe": 31.5,
         "color": "#003D6B",
         "domain": "publicstorage.com"
     },
@@ -3279,7 +3279,7 @@ const SP500_STOCKS = [
         "change7d": 5.53,
         "changeYtd": -18.92,
         "marketCap": 53486780416,
-        "volume": 460236184,
+        "volume": 473443685,
         "pe": 21.0,
         "color": "#D52B1E",
         "domain": "cencora.com"
@@ -3294,7 +3294,7 @@ const SP500_STOCKS = [
         "change7d": -4.49,
         "changeYtd": 16.33,
         "marketCap": 53211316224,
-        "volume": 311480015,
+        "volume": 307987650,
         "pe": 43.0,
         "color": "#8A6D3B",
         "domain": "corteva.com"
@@ -3309,7 +3309,7 @@ const SP500_STOCKS = [
         "change7d": -0.37,
         "changeYtd": 41.25,
         "marketCap": 52835897344,
-        "volume": 344778680,
+        "volume": 340337504,
         "pe": 23.0,
         "color": "#8A6D3B",
         "domain": "nucor.com"
@@ -3324,7 +3324,7 @@ const SP500_STOCKS = [
         "change7d": 10.13,
         "changeYtd": 1.22,
         "marketCap": 52691505152,
-        "volume": 731921975,
+        "volume": 742462074,
         "pe": 26.1,
         "color": "#00529B",
         "domain": "vistracorp.com"
@@ -3339,7 +3339,7 @@ const SP500_STOCKS = [
         "change7d": 3.58,
         "changeYtd": -20.7,
         "marketCap": 52608876544,
-        "volume": 422979306,
+        "volume": 415422598,
         "pe": 33.1,
         "color": "#003087",
         "domain": "ajg.com"
@@ -3354,7 +3354,7 @@ const SP500_STOCKS = [
         "change7d": -5.38,
         "changeYtd": 21.05,
         "marketCap": 52442845184,
-        "volume": 416622151,
+        "volume": 420700426,
         "pe": 42.1,
         "color": "#0039A6",
         "domain": "carrier.com"
@@ -3369,7 +3369,7 @@ const SP500_STOCKS = [
         "change7d": 0.09,
         "changeYtd": -9.06,
         "marketCap": 51469869056,
-        "volume": 310926935,
+        "volume": 304807786,
         "pe": 27.4,
         "color": "#003087",
         "domain": "nasdaq.com"
@@ -3384,7 +3384,7 @@ const SP500_STOCKS = [
         "change7d": -0.44,
         "changeYtd": 24.58,
         "marketCap": 51466481664,
-        "volume": 369432391,
+        "volume": 371104790,
         "pe": 28.7,
         "color": "#00529B",
         "domain": "entergy.com"
@@ -3399,7 +3399,7 @@ const SP500_STOCKS = [
         "change7d": -3.28,
         "changeYtd": 6.48,
         "marketCap": 51460661248,
-        "volume": 294247161,
+        "volume": 296282659,
         "pe": 33.9,
         "color": "#0039A6",
         "domain": "ametek.com"
@@ -3414,7 +3414,7 @@ const SP500_STOCKS = [
         "change7d": 2.22,
         "changeYtd": 28.83,
         "marketCap": 51392999424,
-        "volume": 665431123,
+        "volume": 658725610,
         "pe": 26.7,
         "color": "#FF9900",
         "domain": "ebayinc.com"
@@ -3429,13 +3429,28 @@ const SP500_STOCKS = [
         "change7d": 3.05,
         "changeYtd": -17.97,
         "marketCap": 50883895296,
-        "volume": 491049428,
-        "pe": 46.0,
+        "volume": 492274622,
+        "pe": 46.1,
         "color": "#3861FB",
         "domain": "autodesk.com"
     },
     {
         "rank": 230,
+        "name": "Microchip Technology",
+        "ticker": "MCHP",
+        "sector": "Information Technology",
+        "price": 93.43,
+        "change1d": 3.06,
+        "change7d": -3.24,
+        "changeYtd": 27.74,
+        "marketCap": 50646470656,
+        "volume": 920009417,
+        "pe": 424.7,
+        "color": "#3861FB",
+        "domain": "microchip.com"
+    },
+    {
+        "rank": 231,
         "name": "Xcel Energy",
         "ticker": "XEL",
         "sector": "Utilities",
@@ -3444,25 +3459,10 @@ const SP500_STOCKS = [
         "change7d": 1.31,
         "changeYtd": 11.56,
         "marketCap": 50615779328,
-        "volume": 384700122,
+        "volume": 381851052,
         "pe": 23.4,
         "color": "#00529B",
         "domain": "xcelenergy.com"
-    },
-    {
-        "rank": 231,
-        "name": "Microchip Technology",
-        "ticker": "MCHP",
-        "sector": "Information Technology",
-        "price": 93.43,
-        "change1d": 2.55,
-        "change7d": -3.72,
-        "changeYtd": 27.1,
-        "marketCap": 50558287872,
-        "volume": 905064541,
-        "pe": 424.7,
-        "color": "#3861FB",
-        "domain": "microchip.com"
     },
     {
         "rank": 232,
@@ -3474,7 +3474,7 @@ const SP500_STOCKS = [
         "change7d": -0.09,
         "changeYtd": 9.39,
         "marketCap": 50444660736,
-        "volume": 328334653,
+        "volume": 330057496,
         "pe": 38.9,
         "color": "#0039A6",
         "domain": "fastenal.com"
@@ -3489,8 +3489,8 @@ const SP500_STOCKS = [
         "change7d": 0.09,
         "changeYtd": -1.63,
         "marketCap": 50393526272,
-        "volume": 403306598,
-        "pe": 57.3,
+        "volume": 402741470,
+        "pe": 57.1,
         "color": "#4285F4",
         "domain": "ea.com"
     },
@@ -3504,8 +3504,8 @@ const SP500_STOCKS = [
         "change7d": -0.63,
         "changeYtd": 11.22,
         "marketCap": 50328096768,
-        "volume": 397535327,
-        "pe": 46.9,
+        "volume": 386427537,
+        "pe": 47.0,
         "color": "#0039A6",
         "domain": "rockwellautomation.com"
     },
@@ -3519,7 +3519,7 @@ const SP500_STOCKS = [
         "change7d": 6.42,
         "changeYtd": 6.83,
         "marketCap": 50023550976,
-        "volume": 871940501,
+        "volume": 881004816,
         "pe": 11.1,
         "color": "#0039A6",
         "domain": "delta.com"
@@ -3534,7 +3534,7 @@ const SP500_STOCKS = [
         "change7d": 10.11,
         "changeYtd": 68.6,
         "marketCap": 49863180288,
-        "volume": 649948724,
+        "volume": 665345552,
         "pe": null,
         "color": "#3861FB",
         "domain": "hpe.com"
@@ -3549,7 +3549,7 @@ const SP500_STOCKS = [
         "change7d": 5.46,
         "changeYtd": 1.12,
         "marketCap": 49392123904,
-        "volume": 422040167,
+        "volume": 422896509,
         "pe": 46.4,
         "color": "#D52B1E",
         "domain": "edwards.com"
@@ -3564,8 +3564,8 @@ const SP500_STOCKS = [
         "change7d": -12.74,
         "changeYtd": -24.78,
         "marketCap": 48737607680,
-        "volume": 2077763344,
-        "pe": 67.8,
+        "volume": 2027574630,
+        "pe": 68.0,
         "color": "#003087",
         "domain": "coinbase.com"
     },
@@ -3579,7 +3579,7 @@ const SP500_STOCKS = [
         "change7d": 4.12,
         "changeYtd": 8.44,
         "marketCap": 47302909952,
-        "volume": 390343001,
+        "volume": 394371483,
         "pe": 16.9,
         "color": "#00529B",
         "domain": "exeloncorp.com"
@@ -3594,8 +3594,8 @@ const SP500_STOCKS = [
         "change7d": 3.24,
         "changeYtd": -2.91,
         "marketCap": 47000428544,
-        "volume": 396361046,
-        "pe": 30.6,
+        "volume": 402355960,
+        "pe": 30.7,
         "color": "#D52B1E",
         "domain": "cardinalhealth.com"
     },
@@ -3609,8 +3609,8 @@ const SP500_STOCKS = [
         "change7d": 2.68,
         "changeYtd": 14.69,
         "marketCap": 46422417408,
-        "volume": 195932890,
-        "pe": 26.8,
+        "volume": 193974714,
+        "pe": 26.9,
         "color": "#FF9900",
         "domain": "garmin.com"
     },
@@ -3624,7 +3624,7 @@ const SP500_STOCKS = [
         "change7d": -1.83,
         "changeYtd": 87.75,
         "marketCap": 45178929152,
-        "volume": 1141516466,
+        "volume": 1161499844,
         "pe": 85.4,
         "color": "#3861FB",
         "domain": "onsemi.com"
@@ -3639,7 +3639,7 @@ const SP500_STOCKS = [
         "change7d": 3.73,
         "changeYtd": 1.54,
         "marketCap": 44844294144,
-        "volume": 401187893,
+        "volume": 394815018,
         "pe": 16.7,
         "color": "#003087",
         "domain": "53.com"
@@ -3654,8 +3654,8 @@ const SP500_STOCKS = [
         "change7d": 4.98,
         "changeYtd": -21.72,
         "marketCap": 44124782592,
-        "volume": 316168227,
-        "pe": 41.1,
+        "volume": 314200363,
+        "pe": 41.2,
         "color": "#D52B1E",
         "domain": "idexx.com"
     },
@@ -3669,7 +3669,7 @@ const SP500_STOCKS = [
         "change7d": 5.86,
         "changeYtd": 27.18,
         "marketCap": 43771084800,
-        "volume": 438595278,
+        "volume": 443985415,
         "pe": 43.8,
         "color": "#0039A6",
         "domain": "odfl.com"
@@ -3680,12 +3680,12 @@ const SP500_STOCKS = [
         "ticker": "WAB",
         "sector": "Industrials",
         "price": 256.41,
-        "change1d": 0.49,
-        "change7d": -4.83,
-        "changeYtd": 18.51,
+        "change1d": 0.61,
+        "change7d": -4.72,
+        "changeYtd": 18.66,
         "marketCap": 43506966528,
-        "volume": 247724371,
-        "pe": 36.3,
+        "volume": 251847444,
+        "pe": 36.2,
         "color": "#0039A6",
         "domain": "wabteccorp.com"
     },
@@ -3699,7 +3699,7 @@ const SP500_STOCKS = [
         "change7d": -1.98,
         "changeYtd": 17.25,
         "marketCap": 42870448128,
-        "volume": 345011746,
+        "volume": 350883652,
         "pe": 160.3,
         "color": "#003D6B",
         "domain": "ventasreit.com"
@@ -3714,7 +3714,7 @@ const SP500_STOCKS = [
         "change7d": 3.68,
         "changeYtd": 2.47,
         "marketCap": 42803822592,
-        "volume": 348474562,
+        "volume": 344319987,
         "pe": 33.6,
         "color": "#003087",
         "domain": "msci.com"
@@ -3729,7 +3729,7 @@ const SP500_STOCKS = [
         "change7d": 3.0,
         "changeYtd": 3.57,
         "marketCap": 42762629120,
-        "volume": 267745447,
+        "volume": 263507990,
         "pe": 25.0,
         "color": "#FF9900",
         "domain": "yum.com"
@@ -3744,7 +3744,7 @@ const SP500_STOCKS = [
         "change7d": 0.12,
         "changeYtd": 17.01,
         "marketCap": 42608283648,
-        "volume": 325961715,
+        "volume": 327524307,
         "pe": 15.6,
         "color": "#003087",
         "domain": "statestreet.com"
@@ -3759,7 +3759,7 @@ const SP500_STOCKS = [
         "change7d": 2.49,
         "changeYtd": -15.38,
         "marketCap": 42189119488,
-        "volume": 522109400,
+        "volume": 526539289,
         "pe": 30.2,
         "color": "#FF9900",
         "domain": "chipotle.com"
@@ -3773,8 +3773,8 @@ const SP500_STOCKS = [
         "change1d": -4.42,
         "change7d": -6.13,
         "changeYtd": -11.35,
-        "marketCap": 42136674304,
-        "volume": 419604936,
+        "marketCap": 42187771904,
+        "volume": 435974200,
         "pe": null,
         "color": "#4285F4",
         "domain": "take2games.com"
@@ -3789,7 +3789,7 @@ const SP500_STOCKS = [
         "change7d": 1.22,
         "changeYtd": 14.6,
         "marketCap": 41463705600,
-        "volume": 400454045,
+        "volume": 399843214,
         "pe": 43.7,
         "color": "#0071CE",
         "domain": "thekrogerco.com"
@@ -3804,8 +3804,8 @@ const SP500_STOCKS = [
         "change7d": -3.21,
         "changeYtd": -26.17,
         "marketCap": 41036218368,
-        "volume": 463468070,
-        "pe": 57.3,
+        "volume": 450539755,
+        "pe": 57.6,
         "color": "#003087",
         "domain": "aresmgmt.com"
     },
@@ -3819,7 +3819,7 @@ const SP500_STOCKS = [
         "change7d": 1.77,
         "changeYtd": 0.56,
         "marketCap": 40852389888,
-        "volume": 330719955,
+        "volume": 332814329,
         "pe": 13.6,
         "color": "#003087",
         "domain": "aig.com"
@@ -3834,7 +3834,7 @@ const SP500_STOCKS = [
         "change7d": 3.14,
         "changeYtd": 3.78,
         "marketCap": 40758898688,
-        "volume": 372979770,
+        "volume": 372920553,
         "pe": 13.5,
         "color": "#FF9900",
         "domain": "drhorton.com"
@@ -3849,7 +3849,7 @@ const SP500_STOCKS = [
         "change7d": 2.19,
         "changeYtd": -6.77,
         "marketCap": 40678031360,
-        "volume": 428361007,
+        "volume": 424342814,
         "pe": 25.8,
         "color": "#D52B1E",
         "domain": "bd.com"
@@ -3864,7 +3864,7 @@ const SP500_STOCKS = [
         "change7d": -4.18,
         "changeYtd": -8.58,
         "marketCap": 40661352448,
-        "volume": 301546029,
+        "volume": 299501135,
         "pe": 11.3,
         "color": "#003087",
         "domain": "ameriprise.com"
@@ -3879,7 +3879,7 @@ const SP500_STOCKS = [
         "change7d": -4.82,
         "changeYtd": -4.74,
         "marketCap": 40519921664,
-        "volume": 507257353,
+        "volume": 494900833,
         "pe": 53.2,
         "color": "#003087",
         "domain": "block.xyz"
@@ -3894,7 +3894,7 @@ const SP500_STOCKS = [
         "change7d": 1.32,
         "changeYtd": 11.0,
         "marketCap": 40000212992,
-        "volume": 242022494,
+        "volume": 232232294,
         "pe": 18.3,
         "color": "#00529B",
         "domain": "conedison.com"
@@ -3909,7 +3909,7 @@ const SP500_STOCKS = [
         "change7d": 4.75,
         "changeYtd": 8.83,
         "marketCap": 39917895680,
-        "volume": 293153533,
+        "volume": 292566726,
         "pe": 38.6,
         "color": "#003D6B",
         "domain": "crowncastle.com"
@@ -3924,7 +3924,7 @@ const SP500_STOCKS = [
         "change7d": 2.26,
         "changeYtd": 3.31,
         "marketCap": 39621537792,
-        "volume": 225468898,
+        "volume": 226600484,
         "pe": 17.6,
         "color": "#00529B",
         "domain": "investor.pseg.com"
@@ -3939,7 +3939,7 @@ const SP500_STOCKS = [
         "change7d": 0.07,
         "changeYtd": 7.81,
         "marketCap": 39619493888,
-        "volume": 325518424,
+        "volume": 316155062,
         "pe": 21.6,
         "color": "#0071CE",
         "domain": "keurigdrpepper.com"
@@ -3954,8 +3954,8 @@ const SP500_STOCKS = [
         "change7d": 3.13,
         "changeYtd": 9.72,
         "marketCap": 39509831680,
-        "volume": 363424222,
-        "pe": 36.3,
+        "volume": 363991616,
+        "pe": 36.2,
         "color": "#0071CE",
         "domain": "thehersheycompany.com"
     },
@@ -3969,7 +3969,7 @@ const SP500_STOCKS = [
         "change7d": -1.8,
         "changeYtd": -24.17,
         "marketCap": 39015526400,
-        "volume": 809455919,
+        "volume": 715417190,
         "pe": 8.3,
         "color": "#003087",
         "domain": "paypal.com"
@@ -3984,7 +3984,7 @@ const SP500_STOCKS = [
         "change7d": -2.61,
         "changeYtd": 15.0,
         "marketCap": 38525603840,
-        "volume": 497438192,
+        "volume": 490433109,
         "pe": null,
         "color": "#4285F4",
         "domain": "livenationentertainment.com"
@@ -3999,8 +3999,8 @@ const SP500_STOCKS = [
         "change7d": 2.85,
         "changeYtd": 62.42,
         "marketCap": 38439882752,
-        "volume": 444832372,
-        "pe": 49.2,
+        "volume": 444625056,
+        "pe": 49.0,
         "color": "#3861FB",
         "domain": "jabil.com"
     },
@@ -4014,7 +4014,7 @@ const SP500_STOCKS = [
         "change7d": -1.04,
         "changeYtd": -21.2,
         "marketCap": 38379470848,
-        "volume": 284648667,
+        "volume": 279456721,
         "pe": 29.9,
         "color": "#003D6B",
         "domain": "cbre.com"
@@ -4029,7 +4029,7 @@ const SP500_STOCKS = [
         "change7d": -8.72,
         "changeYtd": 30.55,
         "marketCap": 37804142592,
-        "volume": 323876132,
+        "volume": 321702923,
         "pe": 28.5,
         "color": "#0039A6",
         "domain": "emcorgroup.com"
@@ -4044,7 +4044,7 @@ const SP500_STOCKS = [
         "change7d": -1.01,
         "changeYtd": 46.45,
         "marketCap": 37624971264,
-        "volume": 198448997,
+        "volume": 194988799,
         "pe": 137.5,
         "color": "#003D6B",
         "domain": "ironmountain.com"
@@ -4059,7 +4059,7 @@ const SP500_STOCKS = [
         "change7d": -0.37,
         "changeYtd": 40.4,
         "marketCap": 37398032384,
-        "volume": 325267837,
+        "volume": 323906691,
         "pe": 30.5,
         "color": "#003087",
         "domain": "cboe.com"
@@ -4074,7 +4074,7 @@ const SP500_STOCKS = [
         "change7d": -4.15,
         "changeYtd": 34.35,
         "marketCap": 37361266688,
-        "volume": 306898798,
+        "volume": 310942861,
         "pe": 34.6,
         "color": "#0071CE",
         "domain": "adm.com"
@@ -4089,7 +4089,7 @@ const SP500_STOCKS = [
         "change7d": 1.31,
         "changeYtd": 0.52,
         "marketCap": 37287276544,
-        "volume": 211635428,
+        "volume": 210830326,
         "pe": 9.6,
         "color": "#003087",
         "domain": "thehartford.com"
@@ -4104,8 +4104,8 @@ const SP500_STOCKS = [
         "change7d": 2.19,
         "changeYtd": 12.53,
         "marketCap": 36972941312,
-        "volume": 557873927,
-        "pe": 32.8,
+        "volume": 553355376,
+        "pe": 32.9,
         "color": "#D52B1E",
         "domain": "humana.com"
     },
@@ -4119,7 +4119,7 @@ const SP500_STOCKS = [
         "change7d": 1.59,
         "changeYtd": 9.81,
         "marketCap": 36940550144,
-        "volume": 218641671,
+        "volume": 220757335,
         "pe": 22.7,
         "color": "#00529B",
         "domain": "wecenergygroup.com"
@@ -4134,7 +4134,7 @@ const SP500_STOCKS = [
         "change7d": 4.44,
         "changeYtd": 6.58,
         "marketCap": 36480548864,
-        "volume": 357545906,
+        "volume": 362861945,
         "pe": 21.2,
         "color": "#0071CE",
         "domain": "sysco.com"
@@ -4149,7 +4149,7 @@ const SP500_STOCKS = [
         "change7d": -1.9,
         "changeYtd": 6.59,
         "marketCap": 36314685440,
-        "volume": 363549302,
+        "volume": 368533867,
         "pe": 12.8,
         "color": "#00529B",
         "domain": "pgecorp.com"
@@ -4164,7 +4164,7 @@ const SP500_STOCKS = [
         "change7d": 2.39,
         "changeYtd": 6.9,
         "marketCap": 36227686400,
-        "volume": 472369267,
+        "volume": 469321517,
         "pe": 11.0,
         "color": "#ED1B2D",
         "domain": "eqt.com"
@@ -4179,7 +4179,7 @@ const SP500_STOCKS = [
         "change7d": 0.89,
         "changeYtd": -9.69,
         "marketCap": 36163493888,
-        "volume": 239542538,
+        "volume": 236864260,
         "pe": 10.7,
         "color": "#003087",
         "domain": "prudential.com"
@@ -4194,7 +4194,7 @@ const SP500_STOCKS = [
         "change7d": -8.07,
         "changeYtd": 10.73,
         "marketCap": 35994836992,
-        "volume": 778661199,
+        "volume": 808003821,
         "pe": null,
         "color": "#4285F4",
         "domain": "echostar.com"
@@ -4209,7 +4209,7 @@ const SP500_STOCKS = [
         "change7d": 3.73,
         "changeYtd": -18.22,
         "marketCap": 35985924096,
-        "volume": 754407876,
+        "volume": 763622072,
         "pe": 11.4,
         "color": "#FF9900",
         "domain": "carnivalcorp.com"
@@ -4224,7 +4224,7 @@ const SP500_STOCKS = [
         "change7d": 9.2,
         "changeYtd": -11.07,
         "marketCap": 34754215936,
-        "volume": 372928916,
+        "volume": 369346900,
         "pe": 21.4,
         "color": "#0039A6",
         "domain": "paychex.com"
@@ -4239,7 +4239,7 @@ const SP500_STOCKS = [
         "change7d": 0.44,
         "changeYtd": 37.18,
         "marketCap": 34643947520,
-        "volume": 605170774,
+        "volume": 608595905,
         "pe": 22.9,
         "color": "#ED1B2D",
         "domain": "halliburton.com"
@@ -4254,7 +4254,7 @@ const SP500_STOCKS = [
         "change7d": 2.28,
         "changeYtd": 43.46,
         "marketCap": 34615394304,
-        "volume": 275155028,
+        "volume": 274752018,
         "pe": 25.7,
         "color": "#8A6D3B",
         "domain": "steeldynamics.com"
@@ -4269,7 +4269,7 @@ const SP500_STOCKS = [
         "change7d": 7.74,
         "changeYtd": -34.73,
         "marketCap": 34091630592,
-        "volume": 438148336,
+        "volume": 447129723,
         "pe": 13.3,
         "color": "#D52B1E",
         "domain": "zoetis.com"
@@ -4280,12 +4280,12 @@ const SP500_STOCKS = [
         "ticker": "VMC",
         "sector": "Materials",
         "price": 260.65,
-        "change1d": -0.55,
-        "change7d": -5.25,
-        "changeYtd": -10.6,
+        "change1d": -0.35,
+        "change7d": -5.06,
+        "changeYtd": -10.43,
         "marketCap": 33820610560,
-        "volume": 319274608,
-        "pe": 30.9,
+        "volume": 316181214,
+        "pe": 30.8,
         "color": "#8A6D3B",
         "domain": "vulcanmaterials.com"
     },
@@ -4299,7 +4299,7 @@ const SP500_STOCKS = [
         "change7d": 1.98,
         "changeYtd": 7.22,
         "marketCap": 33657753600,
-        "volume": 380460266,
+        "volume": 371103558,
         "pe": 20.9,
         "color": "#0071CE",
         "domain": "kenvue.com"
@@ -4314,7 +4314,7 @@ const SP500_STOCKS = [
         "change7d": 3.04,
         "changeYtd": 1.2,
         "marketCap": 33646219264,
-        "volume": 196965863,
+        "volume": 199465040,
         "pe": 7.4,
         "color": "#003087",
         "domain": "archgroup.com"
@@ -4329,8 +4329,8 @@ const SP500_STOCKS = [
         "change7d": 2.75,
         "changeYtd": -14.28,
         "marketCap": 33615890432,
-        "volume": 371283825,
-        "pe": 43.4,
+        "volume": 367730367,
+        "pe": 43.5,
         "color": "#D52B1E",
         "domain": "waters.com"
     },
@@ -4344,7 +4344,7 @@ const SP500_STOCKS = [
         "change7d": 2.83,
         "changeYtd": -25.1,
         "marketCap": 32993921024,
-        "volume": 422295323,
+        "volume": 412915414,
         "pe": 20.4,
         "color": "#3861FB",
         "domain": "ropertech.com"
@@ -4359,7 +4359,7 @@ const SP500_STOCKS = [
         "change7d": 2.56,
         "changeYtd": 2.87,
         "marketCap": 32908566528,
-        "volume": 474740214,
+        "volume": 470395999,
         "pe": 19.2,
         "color": "#0071CE",
         "domain": "kimberly-clark.com"
@@ -4374,8 +4374,8 @@ const SP500_STOCKS = [
         "change7d": -4.38,
         "changeYtd": 92.32,
         "marketCap": 32851599360,
-        "volume": 329059910,
-        "pe": 50.6,
+        "volume": 321018817,
+        "pe": 50.5,
         "color": "#3861FB",
         "domain": "qnityelectronics.com"
     },
@@ -4389,7 +4389,7 @@ const SP500_STOCKS = [
         "change7d": -2.41,
         "changeYtd": -18.65,
         "marketCap": 32754161664,
-        "volume": 213981482,
+        "volume": 211665390,
         "pe": 18.2,
         "color": "#FF9900",
         "domain": "sands.com"
@@ -4404,7 +4404,7 @@ const SP500_STOCKS = [
         "change7d": 3.49,
         "changeYtd": -11.52,
         "marketCap": 32550193152,
-        "volume": 293736410,
+        "volume": 290274827,
         "pe": 21.3,
         "color": "#0039A6",
         "domain": "copart.com"
@@ -4419,7 +4419,7 @@ const SP500_STOCKS = [
         "change7d": 1.5,
         "changeYtd": -22.05,
         "marketCap": 32487960576,
-        "volume": 258052089,
+        "volume": 256106506,
         "pe": 25.4,
         "color": "#D52B1E",
         "domain": "agilent.com"
@@ -4434,7 +4434,7 @@ const SP500_STOCKS = [
         "change7d": 4.1,
         "changeYtd": -14.27,
         "marketCap": 32443990016,
-        "volume": 781965881,
+        "volume": 789098127,
         "pe": 8.9,
         "color": "#0039A6",
         "domain": "united.com"
@@ -4449,7 +4449,7 @@ const SP500_STOCKS = [
         "change7d": 2.64,
         "changeYtd": -11.36,
         "marketCap": 32271919104,
-        "volume": 384652387,
+        "volume": 381145672,
         "pe": 12.2,
         "color": "#003087",
         "domain": "huntington.com"
@@ -4464,7 +4464,7 @@ const SP500_STOCKS = [
         "change7d": -6.74,
         "changeYtd": -14.06,
         "marketCap": 32213424128,
-        "volume": 281690079,
+        "volume": 278994804,
         "pe": 33.7,
         "color": "#8A6D3B",
         "domain": "martinmarietta.com"
@@ -4479,8 +4479,8 @@ const SP500_STOCKS = [
         "change7d": 7.91,
         "changeYtd": -39.31,
         "marketCap": 31994705920,
-        "volume": 706622516,
-        "pe": 49.3,
+        "volume": 669921554,
+        "pe": 39.8,
         "color": "#3861FB",
         "domain": "workday.com"
     },
@@ -4494,7 +4494,7 @@ const SP500_STOCKS = [
         "change7d": 9.27,
         "changeYtd": -15.84,
         "marketCap": 31953727488,
-        "volume": 391782572,
+        "volume": 402164058,
         "pe": null,
         "color": "#0071CE",
         "domain": "elcompanies.com"
@@ -4509,8 +4509,8 @@ const SP500_STOCKS = [
         "change7d": 0.78,
         "changeYtd": 8.27,
         "marketCap": 31625439232,
-        "volume": 171589573,
-        "pe": 32.2,
+        "volume": 169889605,
+        "pe": 32.1,
         "color": "#003D6B",
         "domain": "extraspace.com"
     },
@@ -4524,7 +4524,7 @@ const SP500_STOCKS = [
         "change7d": 3.62,
         "changeYtd": 2.44,
         "marketCap": 31219154944,
-        "volume": 239532024,
+        "volume": 235104275,
         "pe": 12.0,
         "color": "#003087",
         "domain": "mtb.com"
@@ -4539,8 +4539,8 @@ const SP500_STOCKS = [
         "change7d": -0.56,
         "changeYtd": -37.83,
         "marketCap": 31112402944,
-        "volume": 440886498,
-        "pe": 155.0,
+        "volume": 421387708,
+        "pe": 156.3,
         "color": "#0039A6",
         "domain": "axon.com"
     },
@@ -4554,7 +4554,7 @@ const SP500_STOCKS = [
         "change7d": 2.11,
         "changeYtd": 18.3,
         "marketCap": 31045380096,
-        "volume": 183445259,
+        "volume": 183534009,
         "pe": 17.6,
         "color": "#003087",
         "domain": "northerntrust.com"
@@ -4569,7 +4569,7 @@ const SP500_STOCKS = [
         "change7d": 1.54,
         "changeYtd": 13.1,
         "marketCap": 30799687680,
-        "volume": 192020546,
+        "volume": 190070523,
         "pe": 20.0,
         "color": "#00529B",
         "domain": "amereninvestors.com"
@@ -4584,7 +4584,7 @@ const SP500_STOCKS = [
         "change7d": 2.22,
         "changeYtd": 5.09,
         "marketCap": 30688235520,
-        "volume": 243848194,
+        "volume": 247398496,
         "pe": 9.8,
         "color": "#003D6B",
         "domain": "viciproperties.com"
@@ -4599,7 +4599,7 @@ const SP500_STOCKS = [
         "change7d": -5.98,
         "changeYtd": 44.06,
         "marketCap": 30580961280,
-        "volume": 491871160,
+        "volume": 502804325,
         "pe": 47.4,
         "color": "#0071CE",
         "domain": "caseys.com"
@@ -4614,7 +4614,7 @@ const SP500_STOCKS = [
         "change7d": 6.86,
         "changeYtd": -17.8,
         "marketCap": 30464800768,
-        "volume": 369620480,
+        "volume": 364651656,
         "pe": 9.7,
         "color": "#003087",
         "domain": "fiserv.com"
@@ -4629,7 +4629,7 @@ const SP500_STOCKS = [
         "change7d": 1.04,
         "changeYtd": 14.18,
         "marketCap": 30226515968,
-        "volume": 198158255,
+        "volume": 197624423,
         "pe": 23.9,
         "color": "#00529B",
         "domain": "dteenergy.com"
@@ -4644,7 +4644,7 @@ const SP500_STOCKS = [
         "change7d": 2.76,
         "changeYtd": -15.74,
         "marketCap": 30178981888,
-        "volume": 241658816,
+        "volume": 244546550,
         "pe": 20.1,
         "color": "#D52B1E",
         "domain": "resmed.com"
@@ -4659,7 +4659,7 @@ const SP500_STOCKS = [
         "change7d": -1.69,
         "changeYtd": 7.61,
         "marketCap": 29680013312,
-        "volume": 192342586,
+        "volume": 196064327,
         "pe": 21.9,
         "color": "#00529B",
         "domain": "atmosenergy.com"
@@ -4674,7 +4674,7 @@ const SP500_STOCKS = [
         "change7d": -2.64,
         "changeYtd": -7.94,
         "marketCap": 29516986368,
-        "volume": 205224219,
+        "volume": 206061793,
         "pe": 14.3,
         "color": "#003087",
         "domain": "raymondjames.com"
@@ -4689,7 +4689,7 @@ const SP500_STOCKS = [
         "change7d": 2.49,
         "changeYtd": -26.38,
         "marketCap": 29217699840,
-        "volume": 291719508,
+        "volume": 296930937,
         "pe": 15.4,
         "color": "#D52B1E",
         "domain": "gehealthcare.com"
@@ -4704,7 +4704,7 @@ const SP500_STOCKS = [
         "change7d": 0.75,
         "changeYtd": 29.21,
         "marketCap": 29203152896,
-        "volume": 382501429,
+        "volume": 384579550,
         "pe": null,
         "color": "#D52B1E",
         "domain": "centene.com"
@@ -4719,8 +4719,8 @@ const SP500_STOCKS = [
         "change7d": 2.17,
         "changeYtd": -6.99,
         "marketCap": 29042284544,
-        "volume": 408519578,
-        "pe": 152.9,
+        "volume": 407356161,
+        "pe": 151.3,
         "color": "#00529B",
         "domain": "nrg.com"
     },
@@ -4734,8 +4734,8 @@ const SP500_STOCKS = [
         "change7d": 15.13,
         "changeYtd": -21.55,
         "marketCap": 28754636800,
-        "volume": 478020035,
-        "pe": 39.3,
+        "volume": 474969856,
+        "pe": 39.4,
         "color": "#3861FB",
         "domain": "fico.com"
     },
@@ -4749,7 +4749,7 @@ const SP500_STOCKS = [
         "change7d": -2.84,
         "changeYtd": 16.74,
         "marketCap": 28744912896,
-        "volume": 195614859,
+        "volume": 195528616,
         "pe": 31.4,
         "color": "#3861FB",
         "domain": "teledyne.com"
@@ -4764,7 +4764,7 @@ const SP500_STOCKS = [
         "change7d": 1.25,
         "changeYtd": 3.66,
         "marketCap": 28606167040,
-        "volume": 222804617,
+        "volume": 224885406,
         "pe": 20.8,
         "color": "#D52B1E",
         "domain": "biogen.com"
@@ -4779,7 +4779,7 @@ const SP500_STOCKS = [
         "change7d": -2.08,
         "changeYtd": 5.52,
         "marketCap": 28265428992,
-        "volume": 220398561,
+        "volume": 217780479,
         "pe": 26.2,
         "color": "#0039A6",
         "domain": "dovercorporation.com"
@@ -4794,8 +4794,8 @@ const SP500_STOCKS = [
         "change7d": 6.1,
         "changeYtd": 27.98,
         "marketCap": 28209999872,
-        "volume": 259838280,
-        "pe": 34.2,
+        "volume": 259803250,
+        "pe": 34.3,
         "color": "#3861FB",
         "domain": "verisign.com"
     },
@@ -4809,7 +4809,7 @@ const SP500_STOCKS = [
         "change7d": 2.06,
         "changeYtd": 5.13,
         "marketCap": 28209651712,
-        "volume": 362888249,
+        "volume": 364085123,
         "pe": null,
         "color": "#0071CE",
         "domain": "kraftheinzcompany.com"
@@ -4824,7 +4824,7 @@ const SP500_STOCKS = [
         "change7d": -1.63,
         "changeYtd": -31.27,
         "marketCap": 28022509568,
-        "volume": 298494623,
+        "volume": 289936761,
         "pe": 20.9,
         "color": "#D52B1E",
         "domain": "iqvia.com"
@@ -4839,7 +4839,7 @@ const SP500_STOCKS = [
         "change7d": 1.23,
         "changeYtd": 14.7,
         "marketCap": 28018079744,
-        "volume": 213329086,
+        "volume": 206446348,
         "pe": 26.3,
         "color": "#00529B",
         "domain": "centerpointenergy.com"
@@ -4854,7 +4854,7 @@ const SP500_STOCKS = [
         "change7d": 6.33,
         "changeYtd": 6.03,
         "marketCap": 27981174784,
-        "volume": 299491422,
+        "volume": 297810708,
         "pe": 42.2,
         "color": "#FF9900",
         "domain": "tapestry.com"
@@ -4869,7 +4869,7 @@ const SP500_STOCKS = [
         "change7d": 0.21,
         "changeYtd": -16.82,
         "marketCap": 27923015680,
-        "volume": 280718994,
+        "volume": 280384325,
         "pe": 19.4,
         "color": "#0039A6",
         "domain": "otis.com"
@@ -4884,7 +4884,7 @@ const SP500_STOCKS = [
         "change7d": 24.7,
         "changeYtd": 2.85,
         "marketCap": 27821443072,
-        "volume": 361297202,
+        "volume": 366621570,
         "pe": 30.9,
         "color": "#D52B1E",
         "domain": "dexcom.com"
@@ -4899,7 +4899,7 @@ const SP500_STOCKS = [
         "change7d": -1.27,
         "changeYtd": -12.77,
         "marketCap": 27749695488,
-        "volume": 248243371,
+        "volume": 249608034,
         "pe": 47.9,
         "color": "#0039A6",
         "domain": "irco.com"
@@ -4914,8 +4914,8 @@ const SP500_STOCKS = [
         "change7d": 3.48,
         "changeYtd": 43.04,
         "marketCap": 27729790976,
-        "volume": 201570604,
-        "pe": 55.1,
+        "volume": 190212855,
+        "pe": 55.2,
         "color": "#ED1B2D",
         "domain": "texaspacific.com"
     },
@@ -4929,7 +4929,7 @@ const SP500_STOCKS = [
         "change7d": 11.32,
         "changeYtd": 6.94,
         "marketCap": 27706849280,
-        "volume": 605248225,
+        "volume": 572988610,
         "pe": 16.7,
         "color": "#3861FB",
         "domain": "firstsolar.com"
@@ -4944,7 +4944,7 @@ const SP500_STOCKS = [
         "change7d": 16.2,
         "changeYtd": 34.28,
         "marketCap": 27601690624,
-        "volume": 319457995,
+        "volume": 327640099,
         "pe": 23.4,
         "color": "#3861FB",
         "domain": "netapp.com"
@@ -4959,7 +4959,7 @@ const SP500_STOCKS = [
         "change7d": 0.64,
         "changeYtd": 23.23,
         "marketCap": 27389634560,
-        "volume": 223767855,
+        "volume": 222872837,
         "pe": 7.7,
         "color": "#00529B",
         "domain": "edison.com"
@@ -4974,7 +4974,7 @@ const SP500_STOCKS = [
         "change7d": 1.51,
         "changeYtd": 6.26,
         "marketCap": 27325364224,
-        "volume": 314064775,
+        "volume": 287640269,
         "pe": 22.3,
         "color": "#00529B",
         "domain": "pplweb.com"
@@ -4989,7 +4989,7 @@ const SP500_STOCKS = [
         "change7d": -2.05,
         "changeYtd": -14.3,
         "marketCap": 26883520512,
-        "volume": 226517477,
+        "volume": 224075936,
         "pe": 16.8,
         "color": "#4285F4",
         "domain": "foxcorporation.com"
@@ -5004,7 +5004,7 @@ const SP500_STOCKS = [
         "change7d": 4.07,
         "changeYtd": 6.0,
         "marketCap": 26787147776,
-        "volume": 223812624,
+        "volume": 224841725,
         "pe": 25.2,
         "color": "#00529B",
         "domain": "firstenergycorp.com"
@@ -5019,7 +5019,7 @@ const SP500_STOCKS = [
         "change7d": 2.8,
         "changeYtd": 4.59,
         "marketCap": 26595045376,
-        "volume": 296234411,
+        "volume": 295966689,
         "pe": 14.9,
         "color": "#003087",
         "domain": "citizensbank.com"
@@ -5034,7 +5034,7 @@ const SP500_STOCKS = [
         "change7d": 1.15,
         "changeYtd": 4.58,
         "marketCap": 26338547712,
-        "volume": 192346946,
+        "volume": 195524345,
         "pe": 23.0,
         "color": "#003D6B",
         "domain": "avalonbay.com"
@@ -5049,7 +5049,7 @@ const SP500_STOCKS = [
         "change7d": 2.94,
         "changeYtd": 9.09,
         "marketCap": 26325602304,
-        "volume": 166486950,
+        "volume": 165746420,
         "pe": 15.0,
         "color": "#00529B",
         "domain": "eversource.com"
@@ -5064,7 +5064,7 @@ const SP500_STOCKS = [
         "change7d": 0.77,
         "changeYtd": -20.64,
         "marketCap": 26212837376,
-        "volume": 240015043,
+        "volume": 241679830,
         "pe": 27.4,
         "color": "#0039A6",
         "domain": "xylem.com"
@@ -5079,7 +5079,7 @@ const SP500_STOCKS = [
         "change7d": 2.51,
         "changeYtd": -33.08,
         "marketCap": 26139535360,
-        "volume": 460495471,
+        "volume": 464165767,
         "pe": 29.4,
         "color": "#D52B1E",
         "domain": "veeva.com"
@@ -5094,7 +5094,7 @@ const SP500_STOCKS = [
         "change7d": 1.69,
         "changeYtd": 3.71,
         "marketCap": 26002841600,
-        "volume": 129591152,
+        "volume": 126891970,
         "pe": 9.6,
         "color": "#003087",
         "domain": "cinfin.com"
@@ -5109,7 +5109,7 @@ const SP500_STOCKS = [
         "change7d": -7.14,
         "changeYtd": 46.92,
         "marketCap": 25953898496,
-        "volume": 505580700,
+        "volume": 509150587,
         "pe": null,
         "color": "#8A6D3B",
         "domain": "dow.com"
@@ -5124,8 +5124,8 @@ const SP500_STOCKS = [
         "change7d": -1.16,
         "changeYtd": -27.62,
         "marketCap": 25762738176,
-        "volume": 449994608,
-        "pe": 19.0,
+        "volume": 430170178,
+        "pe": 18.9,
         "color": "#FF9900",
         "domain": "expediagroup.com"
     },
@@ -5139,7 +5139,7 @@ const SP500_STOCKS = [
         "change7d": 6.32,
         "changeYtd": 7.82,
         "marketCap": 25747589120,
-        "volume": 295596333,
+        "volume": 293654926,
         "pe": 15.6,
         "color": "#0071CE",
         "domain": "cbrands.com"
@@ -5154,7 +5154,7 @@ const SP500_STOCKS = [
         "change7d": 0.07,
         "changeYtd": -9.5,
         "marketCap": 25739046912,
-        "volume": 155236771,
+        "volume": 152863307,
         "pe": 49.0,
         "color": "#0039A6",
         "domain": "rollins.com"
@@ -5168,8 +5168,8 @@ const SP500_STOCKS = [
         "change1d": 0.67,
         "change7d": 1.81,
         "changeYtd": 8.17,
-        "marketCap": 25575413760,
-        "volume": 172882748,
+        "marketCap": 25578090496,
+        "volume": 172158454,
         "pe": 26.5,
         "color": "#003D6B",
         "domain": "equityapartments.com"
@@ -5184,7 +5184,7 @@ const SP500_STOCKS = [
         "change7d": 2.29,
         "changeYtd": -1.26,
         "marketCap": 25143570432,
-        "volume": 141743700,
+        "volume": 142167919,
         "pe": 14.3,
         "color": "#003087",
         "domain": "berkley.com"
@@ -5199,7 +5199,7 @@ const SP500_STOCKS = [
         "change7d": -1.46,
         "changeYtd": 1.73,
         "marketCap": 25100371968,
-        "volume": 269874561,
+        "volume": 285143758,
         "pe": 28.1,
         "color": "#0039A6",
         "domain": "hubbell.com"
@@ -5214,7 +5214,7 @@ const SP500_STOCKS = [
         "change7d": 15.36,
         "changeYtd": -36.52,
         "marketCap": 24950749184,
-        "volume": 366157425,
+        "volume": 360705766,
         "pe": 11.4,
         "color": "#3861FB",
         "domain": "cognizant.com"
@@ -5229,7 +5229,7 @@ const SP500_STOCKS = [
         "change7d": -0.62,
         "changeYtd": -0.25,
         "marketCap": 24449122304,
-        "volume": 234628550,
+        "volume": 233677781,
         "pe": 22.2,
         "color": "#00529B",
         "domain": "amwater.com"
@@ -5244,7 +5244,7 @@ const SP500_STOCKS = [
         "change7d": 1.61,
         "changeYtd": 27.45,
         "marketCap": 24401803264,
-        "volume": 246948082,
+        "volume": 250645387,
         "pe": 40.2,
         "color": "#0039A6",
         "domain": "jbhunt.com"
@@ -5259,7 +5259,7 @@ const SP500_STOCKS = [
         "change7d": 3.94,
         "changeYtd": -22.07,
         "marketCap": 24310908928,
-        "volume": 186887067,
+        "volume": 184501741,
         "pe": 15.1,
         "color": "#003087",
         "domain": "wtwco.com"
@@ -5274,7 +5274,7 @@ const SP500_STOCKS = [
         "change7d": 0.8,
         "changeYtd": -17.17,
         "marketCap": 24161474560,
-        "volume": 287747324,
+        "volume": 281236652,
         "pe": 7.4,
         "color": "#003087",
         "domain": "synchrony.com"
@@ -5289,7 +5289,7 @@ const SP500_STOCKS = [
         "change7d": -2.32,
         "changeYtd": -14.2,
         "marketCap": 24051464192,
-        "volume": 86570579,
+        "volume": 85524690,
         "pe": 15.1,
         "color": "#4285F4",
         "domain": "foxcorporation.com"
@@ -5304,7 +5304,7 @@ const SP500_STOCKS = [
         "change7d": 1.76,
         "changeYtd": 5.01,
         "marketCap": 24024162304,
-        "volume": 225327559,
+        "volume": 227493183,
         "pe": 15.4,
         "color": "#8A6D3B",
         "domain": "ppg.com"
@@ -5319,7 +5319,7 @@ const SP500_STOCKS = [
         "change7d": 3.84,
         "changeYtd": -1.28,
         "marketCap": 23749552128,
-        "volume": 352342855,
+        "volume": 347482345,
         "pe": 11.5,
         "color": "#003087",
         "domain": "regions.com"
@@ -5334,7 +5334,7 @@ const SP500_STOCKS = [
         "change7d": 1.28,
         "changeYtd": -7.11,
         "marketCap": 23430074368,
-        "volume": 347721189,
+        "volume": 342522828,
         "pe": 7.3,
         "color": "#ED1B2D",
         "domain": "expandenergy.com"
@@ -5345,11 +5345,11 @@ const SP500_STOCKS = [
         "ticker": "BG",
         "sector": "Consumer Staples",
         "price": 120.71,
-        "change1d": 0.21,
-        "change7d": -1.99,
-        "changeYtd": 31.12,
+        "change1d": 0.81,
+        "change7d": -1.4,
+        "changeYtd": 31.91,
         "marketCap": 23419926528,
-        "volume": 209883424,
+        "volume": 211033911,
         "pe": 31.8,
         "color": "#0071CE",
         "domain": "bunge.com"
@@ -5364,7 +5364,7 @@ const SP500_STOCKS = [
         "change7d": 2.28,
         "changeYtd": 2.23,
         "marketCap": 23375904768,
-        "volume": 304202278,
+        "volume": 296891088,
         "pe": 13.2,
         "color": "#003087",
         "domain": "key.com"
@@ -5379,8 +5379,8 @@ const SP500_STOCKS = [
         "change7d": 4.57,
         "changeYtd": 3.42,
         "marketCap": 23309017088,
-        "volume": 264895935,
-        "pe": 21.4,
+        "volume": 268371275,
+        "pe": 21.5,
         "color": "#FF9900",
         "domain": "darden.com"
     },
@@ -5394,7 +5394,7 @@ const SP500_STOCKS = [
         "change7d": 0.57,
         "changeYtd": -26.03,
         "marketCap": 23266910208,
-        "volume": 358439182,
+        "volume": 360742352,
         "pe": 15.4,
         "color": "#0071CE",
         "domain": "dollargeneral.com"
@@ -5409,7 +5409,7 @@ const SP500_STOCKS = [
         "change7d": 21.52,
         "changeYtd": 21.64,
         "marketCap": 23169929216,
-        "volume": 459908005,
+        "volume": 456495961,
         "pe": 9.6,
         "color": "#3861FB",
         "domain": "hp.com"
@@ -5424,7 +5424,7 @@ const SP500_STOCKS = [
         "change7d": 1.73,
         "changeYtd": 8.79,
         "marketCap": 23023777792,
-        "volume": 210736999,
+        "volume": 207307874,
         "pe": 20.6,
         "color": "#00529B",
         "domain": "cmsenergy.com"
@@ -5439,28 +5439,13 @@ const SP500_STOCKS = [
         "change7d": 0.91,
         "changeYtd": 16.71,
         "marketCap": 22941165568,
-        "volume": 207918483,
+        "volume": 205814901,
         "pe": 23.8,
         "color": "#00529B",
         "domain": "nisource.com"
     },
     {
         "rank": 364,
-        "name": "Ralph Lauren Corporation",
-        "ticker": "RL",
-        "sector": "Consumer Discretionary",
-        "price": 377.78,
-        "change1d": 0.77,
-        "change7d": 13.09,
-        "changeYtd": 4.95,
-        "marketCap": 22908827648,
-        "volume": 244034923,
-        "pe": 25.0,
-        "color": "#FF9900",
-        "domain": "ralphlauren.com"
-    },
-    {
-        "rank": 365,
         "name": "Tyson Foods",
         "ticker": "TSN",
         "sector": "Consumer Staples",
@@ -5469,13 +5454,13 @@ const SP500_STOCKS = [
         "change7d": -2.42,
         "changeYtd": 16.68,
         "marketCap": 22906019840,
-        "volume": 191048931,
+        "volume": 189616855,
         "pe": 51.2,
         "color": "#0071CE",
         "domain": "tysonfoods.com"
     },
     {
-        "rank": 366,
+        "rank": 365,
         "name": "Church & Dwight",
         "ticker": "CHD",
         "sector": "Consumer Staples",
@@ -5484,13 +5469,13 @@ const SP500_STOCKS = [
         "change7d": 2.02,
         "changeYtd": 15.48,
         "marketCap": 22805821440,
-        "volume": 195290768,
+        "volume": 195471237,
         "pe": 31.7,
         "color": "#0071CE",
         "domain": "churchdwight.com"
     },
     {
-        "rank": 367,
+        "rank": 366,
         "name": "Corpay",
         "ticker": "CPAY",
         "sector": "Financials",
@@ -5499,13 +5484,13 @@ const SP500_STOCKS = [
         "change7d": 5.69,
         "changeYtd": 8.51,
         "marketCap": 22739410944,
-        "volume": 212567939,
+        "volume": 207689338,
         "pe": 20.8,
         "color": "#003087",
         "domain": "corpay.com"
     },
     {
-        "rank": 368,
+        "rank": 367,
         "name": "Williams-Sonoma, Inc.",
         "ticker": "WSM",
         "sector": "Consumer Discretionary",
@@ -5514,13 +5499,13 @@ const SP500_STOCKS = [
         "change7d": 10.86,
         "changeYtd": 1.06,
         "marketCap": 22665463808,
-        "volume": 243525012,
+        "volume": 246773835,
         "pe": 21.6,
         "color": "#FF9900",
         "domain": "williams-sonomainc.com"
     },
     {
-        "rank": 369,
+        "rank": 368,
         "name": "Ulta Beauty",
         "ticker": "ULTA",
         "sector": "Consumer Discretionary",
@@ -5529,13 +5514,13 @@ const SP500_STOCKS = [
         "change7d": 3.36,
         "changeYtd": -21.41,
         "marketCap": 22526113792,
-        "volume": 382079317,
+        "volume": 387796261,
         "pe": 20.1,
         "color": "#FF9900",
         "domain": "ulta.com"
     },
     {
-        "rank": 370,
+        "rank": 369,
         "name": "Fidelity National Information Services",
         "ticker": "FIS",
         "sector": "Financials",
@@ -5544,13 +5529,13 @@ const SP500_STOCKS = [
         "change7d": 4.19,
         "changeYtd": -34.16,
         "marketCap": 22515255296,
-        "volume": 279913301,
+        "volume": 278549176,
         "pe": 8.4,
         "color": "#003087",
         "domain": "fisglobal.com"
     },
     {
-        "rank": 371,
+        "rank": 370,
         "name": "LyondellBasell",
         "ticker": "LYB",
         "sector": "Materials",
@@ -5559,10 +5544,25 @@ const SP500_STOCKS = [
         "change7d": -4.85,
         "changeYtd": 57.13,
         "marketCap": 22504554496,
-        "volume": 547079951,
+        "volume": 548668382,
         "pe": null,
         "color": "#8A6D3B",
         "domain": "lyondellbasell.com"
+    },
+    {
+        "rank": 371,
+        "name": "Ralph Lauren Corporation",
+        "ticker": "RL",
+        "sector": "Consumer Discretionary",
+        "price": 377.78,
+        "change1d": 0.77,
+        "change7d": 13.09,
+        "changeYtd": 4.95,
+        "marketCap": 22484084736,
+        "volume": 245364709,
+        "pe": 25.0,
+        "color": "#FF9900",
+        "domain": "ralphlauren.com"
     },
     {
         "rank": 372,
@@ -5574,7 +5574,7 @@ const SP500_STOCKS = [
         "change7d": 3.06,
         "changeYtd": 15.3,
         "marketCap": 22432884736,
-        "volume": 157932689,
+        "volume": 152801979,
         "pe": 14.9,
         "color": "#003087",
         "domain": "principal.com"
@@ -5589,7 +5589,7 @@ const SP500_STOCKS = [
         "change7d": 9.1,
         "changeYtd": -21.89,
         "marketCap": 22419146752,
-        "volume": 343376875,
+        "volume": 333883693,
         "pe": 26.1,
         "color": "#0039A6",
         "domain": "verisk.com"
@@ -5604,7 +5604,7 @@ const SP500_STOCKS = [
         "change7d": 3.49,
         "changeYtd": 3.3,
         "marketCap": 22402058240,
-        "volume": 77632586,
+        "volume": 77850217,
         "pe": 13.9,
         "color": "#003087",
         "domain": "loews.com"
@@ -5619,8 +5619,8 @@ const SP500_STOCKS = [
         "change7d": 5.41,
         "changeYtd": 13.83,
         "marketCap": 22354311168,
-        "volume": 280263014,
-        "pe": 42.2,
+        "volume": 279696939,
+        "pe": 42.4,
         "color": "#D52B1E",
         "domain": "westpharma.com"
     },
@@ -5634,7 +5634,7 @@ const SP500_STOCKS = [
         "change7d": 5.87,
         "changeYtd": -25.0,
         "marketCap": 22290800640,
-        "volume": 194094194,
+        "volume": 196993115,
         "pe": 25.9,
         "color": "#D52B1E",
         "domain": "mt.com"
@@ -5649,7 +5649,7 @@ const SP500_STOCKS = [
         "change7d": 7.97,
         "changeYtd": 46.92,
         "marketCap": 22208309248,
-        "volume": 295642900,
+        "volume": 292429305,
         "pe": 32.4,
         "color": "#3861FB",
         "domain": "f5.com"
@@ -5664,7 +5664,7 @@ const SP500_STOCKS = [
         "change7d": 2.25,
         "changeYtd": -0.52,
         "marketCap": 22178326528,
-        "volume": 219362154,
+        "volume": 219375660,
         "pe": 11.3,
         "color": "#FF9900",
         "domain": "pultegroupinc.com"
@@ -5679,7 +5679,7 @@ const SP500_STOCKS = [
         "change7d": 0.96,
         "changeYtd": -1.01,
         "marketCap": 22153023488,
-        "volume": 239766474,
+        "volume": 241204216,
         "pe": 11.1,
         "color": "#003087",
         "domain": "troweprice.com"
@@ -5694,7 +5694,7 @@ const SP500_STOCKS = [
         "change7d": 4.23,
         "changeYtd": -13.66,
         "marketCap": 21886066688,
-        "volume": 262984370,
+        "volume": 265465875,
         "pe": 12.8,
         "color": "#FF9900",
         "domain": "lennar.com"
@@ -5705,12 +5705,12 @@ const SP500_STOCKS = [
         "ticker": "SBAC",
         "sector": "Real Estate",
         "price": 205.57,
-        "change1d": -1.2,
-        "change7d": 2.17,
-        "changeYtd": 14.09,
+        "change1d": -0.6,
+        "change7d": 2.78,
+        "changeYtd": 14.77,
         "marketCap": 21803374592,
-        "volume": 245275031,
-        "pe": 21.7,
+        "volume": 247012509,
+        "pe": 21.6,
         "color": "#003D6B",
         "domain": "sbasite.com"
     },
@@ -5724,8 +5724,8 @@ const SP500_STOCKS = [
         "change7d": 3.87,
         "changeYtd": 10.56,
         "marketCap": 21609052160,
-        "volume": 174943303,
-        "pe": 21.6,
+        "volume": 175583983,
+        "pe": 21.5,
         "color": "#D52B1E",
         "domain": "questdiagnostics.com"
     },
@@ -5739,8 +5739,8 @@ const SP500_STOCKS = [
         "change7d": -5.42,
         "changeYtd": 66.97,
         "marketCap": 21405100032,
-        "volume": 830672077,
-        "pe": 49.9,
+        "volume": 827812871,
+        "pe": 49.7,
         "color": "#3861FB",
         "domain": "akamai.com"
     },
@@ -5754,7 +5754,7 @@ const SP500_STOCKS = [
         "change7d": 7.72,
         "changeYtd": 18.56,
         "marketCap": 21398470656,
-        "volume": 1340073696,
+        "volume": 1365128137,
         "pe": 18.7,
         "color": "#3861FB",
         "domain": "supermicro.com"
@@ -5769,7 +5769,7 @@ const SP500_STOCKS = [
         "change7d": 4.68,
         "changeYtd": -2.45,
         "marketCap": 21355515904,
-        "volume": 354319993,
+        "volume": 347282118,
         "pe": null,
         "color": "#4285F4",
         "domain": "omnicomgroup.com"
@@ -5784,7 +5784,7 @@ const SP500_STOCKS = [
         "change7d": 1.79,
         "changeYtd": -13.34,
         "marketCap": 21318017024,
-        "volume": 174121066,
+        "volume": 172769677,
         "pe": 22.4,
         "color": "#0039A6",
         "domain": "veralto.com"
@@ -5799,7 +5799,7 @@ const SP500_STOCKS = [
         "change7d": 2.33,
         "changeYtd": 2.7,
         "marketCap": 21314258944,
-        "volume": 160657529,
+        "volume": 159979112,
         "pe": 23.0,
         "color": "#D52B1E",
         "domain": "labcorp.com"
@@ -5814,7 +5814,7 @@ const SP500_STOCKS = [
         "change7d": 0.27,
         "changeYtd": -16.23,
         "marketCap": 21255698432,
-        "volume": 177783185,
+        "volume": 174990298,
         "pe": 27.3,
         "color": "#D52B1E",
         "domain": "steris.com"
@@ -5829,7 +5829,7 @@ const SP500_STOCKS = [
         "change7d": 3.17,
         "changeYtd": 1.01,
         "marketCap": 20727779328,
-        "volume": 194947669,
+        "volume": 185990538,
         "pe": 25.6,
         "color": "#0039A6",
         "domain": "expeditors.com"
@@ -5844,8 +5844,8 @@ const SP500_STOCKS = [
         "change7d": 9.04,
         "changeYtd": 4.86,
         "marketCap": 20537018368,
-        "volume": 328685061,
-        "pe": 35.3,
+        "volume": 326381043,
+        "pe": 35.2,
         "color": "#0039A6",
         "domain": "chrobinson.com"
     },
@@ -5859,7 +5859,7 @@ const SP500_STOCKS = [
         "change7d": -1.93,
         "changeYtd": -29.66,
         "marketCap": 20492040192,
-        "volume": 367585392,
+        "volume": 375685197,
         "pe": 3.9,
         "color": "#4285F4",
         "domain": "corporate.charter.com"
@@ -5874,7 +5874,7 @@ const SP500_STOCKS = [
         "change7d": -10.21,
         "changeYtd": 6.46,
         "marketCap": 20235227136,
-        "volume": 367031242,
+        "volume": 357182550,
         "pe": null,
         "color": "#8A6D3B",
         "domain": "albemarle.com"
@@ -5889,7 +5889,7 @@ const SP500_STOCKS = [
         "change7d": 8.81,
         "changeYtd": -5.17,
         "marketCap": 20039798784,
-        "volume": 253762830,
+        "volume": 245941812,
         "pe": 26.9,
         "color": "#003087",
         "domain": "globalpayments.com"
@@ -5904,7 +5904,7 @@ const SP500_STOCKS = [
         "change7d": 3.89,
         "changeYtd": -3.77,
         "marketCap": 19971295232,
-        "volume": 340095477,
+        "volume": 336923311,
         "pe": 27.2,
         "color": "#0039A6",
         "domain": "southwest.com"
@@ -5919,7 +5919,7 @@ const SP500_STOCKS = [
         "change7d": -3.84,
         "changeYtd": -2.06,
         "marketCap": 19955857408,
-        "volume": 207151653,
+        "volume": 207732030,
         "pe": 52.8,
         "color": "#8A6D3B",
         "domain": "smurfitwestrock.com"
@@ -5930,11 +5930,11 @@ const SP500_STOCKS = [
         "ticker": "EFX",
         "sector": "Industrials",
         "price": 164.04,
-        "change1d": 0.58,
-        "change7d": 4.01,
-        "changeYtd": -22.96,
+        "change1d": 0.92,
+        "change7d": 4.37,
+        "changeYtd": -22.69,
         "marketCap": 19788898304,
-        "volume": 272793751,
+        "volume": 271856755,
         "pe": 28.9,
         "color": "#0039A6",
         "domain": "equifax.com"
@@ -5949,7 +5949,7 @@ const SP500_STOCKS = [
         "change7d": -4.52,
         "changeYtd": 12.19,
         "marketCap": 19725412352,
-        "volume": 182288324,
+        "volume": 183344895,
         "pe": 126.6,
         "color": "#8A6D3B",
         "domain": "dupont.com"
@@ -5964,7 +5964,7 @@ const SP500_STOCKS = [
         "change7d": 3.66,
         "changeYtd": -26.25,
         "marketCap": 19597963264,
-        "volume": 187956282,
+        "volume": 187646656,
         "pe": 18.8,
         "color": "#003087",
         "domain": "bbrown.com"
@@ -5979,7 +5979,7 @@ const SP500_STOCKS = [
         "change7d": -0.48,
         "changeYtd": -12.13,
         "marketCap": 19410835456,
-        "volume": 145865050,
+        "volume": 144571850,
         "pe": 13.7,
         "color": "#D52B1E",
         "domain": "incyte.com"
@@ -5990,11 +5990,11 @@ const SP500_STOCKS = [
         "ticker": "VTRS",
         "sector": "Health Care",
         "price": 16.65,
-        "change1d": 1.15,
-        "change7d": -3.53,
-        "changeYtd": 34.82,
+        "change1d": 1.9,
+        "change7d": -2.83,
+        "changeYtd": 35.81,
         "marketCap": 19389802496,
-        "volume": 191282488,
+        "volume": 190318220,
         "pe": null,
         "color": "#D52B1E",
         "domain": "viatris.com"
@@ -6005,11 +6005,11 @@ const SP500_STOCKS = [
         "ticker": "EVRG",
         "sector": "Utilities",
         "price": 83.94,
-        "change1d": 0.35,
-        "change7d": 1.46,
-        "changeYtd": 16.75,
+        "change1d": 1.19,
+        "change7d": 2.31,
+        "changeYtd": 17.71,
         "marketCap": 19349264384,
-        "volume": 166780978,
+        "volume": 165103101,
         "pe": 22.3,
         "color": "#00529B",
         "domain": "investors.evergy.com"
@@ -6024,7 +6024,7 @@ const SP500_STOCKS = [
         "change7d": -1.9,
         "changeYtd": 5.01,
         "marketCap": 19237289984,
-        "volume": 204126067,
+        "volume": 199749571,
         "pe": 26.2,
         "color": "#8A6D3B",
         "domain": "packagingcorp.com"
@@ -6039,7 +6039,7 @@ const SP500_STOCKS = [
         "change7d": -1.06,
         "changeYtd": 12.53,
         "marketCap": 19219245056,
-        "volume": 132537438,
+        "volume": 132986785,
         "pe": 23.3,
         "color": "#8A6D3B",
         "domain": "iff.com"
@@ -6054,7 +6054,7 @@ const SP500_STOCKS = [
         "change7d": 2.07,
         "changeYtd": 16.27,
         "marketCap": 19099586560,
-        "volume": 180201056,
+        "volume": 176397734,
         "pe": 23.3,
         "color": "#00529B",
         "domain": "alliantenergy.com"
@@ -6069,8 +6069,8 @@ const SP500_STOCKS = [
         "change7d": 3.04,
         "changeYtd": 11.4,
         "marketCap": 19071879168,
-        "volume": 133913398,
-        "pe": 31.1,
+        "volume": 133521590,
+        "pe": 31.2,
         "color": "#003D6B",
         "domain": "essexapartmenthomes.com"
     },
@@ -6084,7 +6084,7 @@ const SP500_STOCKS = [
         "change7d": 0.76,
         "changeYtd": 5.37,
         "marketCap": 18993172480,
-        "volume": 145589379,
+        "volume": 146311680,
         "pe": 18.9,
         "color": "#0039A6",
         "domain": "snapon.com"
@@ -6099,7 +6099,7 @@ const SP500_STOCKS = [
         "change7d": -0.63,
         "changeYtd": 58.53,
         "marketCap": 18696683520,
-        "volume": 578525275,
+        "volume": 587131412,
         "pe": 11.0,
         "color": "#8A6D3B",
         "domain": "cfindustries.com"
@@ -6114,7 +6114,7 @@ const SP500_STOCKS = [
         "change7d": -6.3,
         "changeYtd": 30.62,
         "marketCap": 18601340928,
-        "volume": 359758440,
+        "volume": 354458281,
         "pe": null,
         "color": "#D52B1E",
         "domain": "modernatx.com"
@@ -6129,7 +6129,7 @@ const SP500_STOCKS = [
         "change7d": 5.57,
         "changeYtd": -27.8,
         "marketCap": 18495019008,
-        "volume": 319334453,
+        "volume": 322100936,
         "pe": 16.0,
         "color": "#0071CE",
         "domain": "dollartree.com"
@@ -6144,8 +6144,8 @@ const SP500_STOCKS = [
         "change7d": 0.36,
         "changeYtd": 9.34,
         "marketCap": 18026432512,
-        "volume": 185885151,
-        "pe": 34.6,
+        "volume": 185231883,
+        "pe": 34.8,
         "color": "#0039A6",
         "domain": "fortive.com"
     },
@@ -6159,7 +6159,7 @@ const SP500_STOCKS = [
         "change7d": 1.69,
         "changeYtd": -19.11,
         "marketCap": 17979719680,
-        "volume": 312959367,
+        "volume": 315236643,
         "pe": 8.2,
         "color": "#0071CE",
         "domain": "generalmills.com"
@@ -6174,7 +6174,7 @@ const SP500_STOCKS = [
         "change7d": -0.54,
         "changeYtd": -7.43,
         "marketCap": 17744828416,
-        "volume": 206368574,
+        "volume": 206775633,
         "pe": 31.0,
         "color": "#8A6D3B",
         "domain": "amcor.com"
@@ -6189,7 +6189,7 @@ const SP500_STOCKS = [
         "change7d": 4.97,
         "changeYtd": -31.05,
         "marketCap": 17405417472,
-        "volume": 234925282,
+        "volume": 235682849,
         "pe": 16.1,
         "color": "#0039A6",
         "domain": "broadridge.com"
@@ -6204,7 +6204,7 @@ const SP500_STOCKS = [
         "change7d": 2.84,
         "changeYtd": 12.27,
         "marketCap": 17399490560,
-        "volume": 181046357,
+        "volume": 179520788,
         "pe": 30.8,
         "color": "#003D6B",
         "domain": "invitationhomes.com"
@@ -6219,7 +6219,7 @@ const SP500_STOCKS = [
         "change7d": 5.99,
         "changeYtd": -15.09,
         "marketCap": 17121423360,
-        "volume": 183098582,
+        "volume": 183542679,
         "pe": 14.2,
         "color": "#3861FB",
         "domain": "ptc.com"
@@ -6234,7 +6234,7 @@ const SP500_STOCKS = [
         "change7d": 1.33,
         "changeYtd": 2.96,
         "marketCap": 17059868672,
-        "volume": 127201813,
+        "volume": 126906442,
         "pe": 42.2,
         "color": "#003D6B",
         "domain": "weyerhaeuser.com"
@@ -6249,7 +6249,7 @@ const SP500_STOCKS = [
         "change7d": -5.78,
         "changeYtd": -3.74,
         "marketCap": 16865457152,
-        "volume": 221023955,
+        "volume": 223022126,
         "pe": 21.5,
         "color": "#0039A6",
         "domain": "lennox.com"
@@ -6264,7 +6264,7 @@ const SP500_STOCKS = [
         "change7d": 3.71,
         "changeYtd": -36.34,
         "marketCap": 16583096320,
-        "volume": 282183085,
+        "volume": 286769186,
         "pe": 15.6,
         "color": "#FF9900",
         "domain": "tractorsupply.com"
@@ -6275,11 +6275,11 @@ const SP500_STOCKS = [
         "ticker": "IP",
         "sector": "Materials",
         "price": 31.29,
-        "change1d": -0.67,
-        "change7d": -0.98,
-        "changeYtd": -20.12,
+        "change1d": 0.82,
+        "change7d": 0.5,
+        "changeYtd": -18.92,
         "marketCap": 16568586240,
-        "volume": 217881006,
+        "volume": 216608160,
         "pe": null,
         "color": "#8A6D3B",
         "domain": "internationalpaper.com"
@@ -6294,7 +6294,7 @@ const SP500_STOCKS = [
         "change7d": 3.45,
         "changeYtd": -7.49,
         "marketCap": 16541041664,
-        "volume": 193545751,
+        "volume": 196144524,
         "pe": 22.2,
         "color": "#D52B1E",
         "domain": "zimmerbiomet.com"
@@ -6309,7 +6309,7 @@ const SP500_STOCKS = [
         "change7d": 6.27,
         "changeYtd": -15.52,
         "marketCap": 16295599104,
-        "volume": 146439272,
+        "volume": 145032653,
         "pe": 14.7,
         "color": "#FF9900",
         "domain": "nvrinc.com"
@@ -6324,7 +6324,7 @@ const SP500_STOCKS = [
         "change7d": 4.01,
         "changeYtd": 20.01,
         "marketCap": 16259537920,
-        "volume": 125689628,
+        "volume": 121831136,
         "pe": 27.7,
         "color": "#003D6B",
         "domain": "kimcorealty.com"
@@ -6338,8 +6338,8 @@ const SP500_STOCKS = [
         "change1d": -1.33,
         "change7d": -1.33,
         "changeYtd": -1.2,
-        "marketCap": 16207732736,
-        "volume": 43990509,
+        "marketCap": 16204749824,
+        "volume": 44026422,
         "pe": 37.6,
         "color": "#4285F4",
         "domain": "newscorp.com"
@@ -6353,8 +6353,8 @@ const SP500_STOCKS = [
         "change1d": 1.09,
         "change7d": 3.43,
         "changeYtd": 15.0,
-        "marketCap": 16171665408,
-        "volume": 103146707,
+        "marketCap": 16152632320,
+        "volume": 102666633,
         "pe": 31.0,
         "color": "#0039A6",
         "domain": "nordson.com"
@@ -6369,7 +6369,7 @@ const SP500_STOCKS = [
         "change7d": -4.11,
         "changeYtd": 25.13,
         "marketCap": 16119144448,
-        "volume": 160932041,
+        "volume": 160705409,
         "pe": 23.7,
         "color": "#003087",
         "domain": "franklinresources.com"
@@ -6384,7 +6384,7 @@ const SP500_STOCKS = [
         "change7d": 0.32,
         "changeYtd": 3.69,
         "marketCap": 15968225280,
-        "volume": 128624355,
+        "volume": 128622794,
         "pe": 17.5,
         "color": "#0039A6",
         "domain": "textron.com"
@@ -6399,8 +6399,8 @@ const SP500_STOCKS = [
         "change7d": -2.3,
         "changeYtd": 90.43,
         "marketCap": 15902786560,
-        "volume": 247558740,
-        "pe": 84.4,
+        "volume": 245590230,
+        "pe": 84.7,
         "color": "#0039A6",
         "domain": "generac.com"
     },
@@ -6414,7 +6414,7 @@ const SP500_STOCKS = [
         "change7d": 0.37,
         "changeYtd": -35.75,
         "marketCap": 15850226688,
-        "volume": 147863916,
+        "volume": 145825579,
         "pe": 11.5,
         "color": "#0039A6",
         "domain": "leidos.com"
@@ -6429,7 +6429,7 @@ const SP500_STOCKS = [
         "change7d": 3.07,
         "changeYtd": -0.54,
         "marketCap": 15648495616,
-        "volume": 122678453,
+        "volume": 121471702,
         "pe": 39.7,
         "color": "#003D6B",
         "domain": "maac.com"
@@ -6444,7 +6444,7 @@ const SP500_STOCKS = [
         "change7d": 3.9,
         "changeYtd": 27.16,
         "marketCap": 15526489088,
-        "volume": 193487312,
+        "volume": 194555308,
         "pe": 15.2,
         "color": "#003D6B",
         "domain": "hosthotels.com"
@@ -6455,11 +6455,11 @@ const SP500_STOCKS = [
         "ticker": "IEX",
         "sector": "Industrials",
         "price": 208.78,
-        "change1d": 1.54,
-        "change7d": -1.24,
-        "changeYtd": 16.1,
+        "change1d": 1.9,
+        "change7d": -0.89,
+        "changeYtd": 16.51,
         "marketCap": 15452863488,
-        "volume": 156379350,
+        "volume": 158669667,
         "pe": 30.9,
         "color": "#0039A6",
         "domain": "idexcorp.com"
@@ -6474,7 +6474,7 @@ const SP500_STOCKS = [
         "change7d": 5.06,
         "changeYtd": -39.93,
         "marketCap": 15204484096,
-        "volume": 374009291,
+        "volume": 380117238,
         "pe": 9.6,
         "color": "#FF9900",
         "domain": "shop.lululemon.com"
@@ -6489,7 +6489,7 @@ const SP500_STOCKS = [
         "change7d": 12.32,
         "changeYtd": 3.52,
         "marketCap": 15141803008,
-        "volume": 214695878,
+        "volume": 218310604,
         "pe": 15.2,
         "color": "#FF9900",
         "domain": "deckers.com"
@@ -6504,7 +6504,7 @@ const SP500_STOCKS = [
         "change7d": -0.19,
         "changeYtd": 5.88,
         "marketCap": 15045590016,
-        "volume": 135977013,
+        "volume": 136831501,
         "pe": 16.5,
         "color": "#8A6D3B",
         "domain": "ball.com"
@@ -6519,7 +6519,7 @@ const SP500_STOCKS = [
         "change7d": 7.65,
         "changeYtd": -3.91,
         "marketCap": 15032573952,
-        "volume": 186807628,
+        "volume": 187452129,
         "pe": 15.8,
         "color": "#3861FB",
         "domain": "gendigital.com"
@@ -6534,7 +6534,7 @@ const SP500_STOCKS = [
         "change7d": 2.5,
         "changeYtd": 13.75,
         "marketCap": 14737952768,
-        "volume": 110905720,
+        "volume": 111300945,
         "pe": 27.1,
         "color": "#003D6B",
         "domain": "regencycenters.com"
@@ -6549,7 +6549,7 @@ const SP500_STOCKS = [
         "change7d": -0.52,
         "changeYtd": -5.24,
         "marketCap": 14356308992,
-        "volume": 271624366,
+        "volume": 273839255,
         "pe": 71.5,
         "color": "#4285F4",
         "domain": "tkogrp.com"
@@ -6560,11 +6560,11 @@ const SP500_STOCKS = [
         "ticker": "CDW",
         "sector": "Information Technology",
         "price": 110.82,
-        "change1d": 3.69,
-        "change7d": 8.48,
-        "changeYtd": -14.02,
+        "change1d": 4.3,
+        "change7d": 9.12,
+        "changeYtd": -13.51,
         "marketCap": 14157636608,
-        "volume": 202352332,
+        "volume": 201176753,
         "pe": 13.5,
         "color": "#3861FB",
         "domain": "cdw.com"
@@ -6578,8 +6578,8 @@ const SP500_STOCKS = [
         "change1d": -1.41,
         "change7d": -1.37,
         "changeYtd": -1.56,
-        "marketCap": 14138079232,
-        "volume": 113955686,
+        "marketCap": 14135477248,
+        "volume": 114644904,
         "pe": 32.8,
         "color": "#4285F4",
         "domain": "newscorp.com"
@@ -6594,7 +6594,7 @@ const SP500_STOCKS = [
         "change7d": 1.79,
         "changeYtd": 5.76,
         "marketCap": 14083299328,
-        "volume": 134314220,
+        "volume": 135393894,
         "pe": 25.9,
         "color": "#003D6B",
         "domain": "udr.com"
@@ -6609,7 +6609,7 @@ const SP500_STOCKS = [
         "change7d": 1.36,
         "changeYtd": 7.09,
         "marketCap": 13957299200,
-        "volume": 119626884,
+        "volume": 118498212,
         "pe": 7.2,
         "color": "#003087",
         "domain": "everestglobal.com"
@@ -6624,7 +6624,7 @@ const SP500_STOCKS = [
         "change7d": 6.59,
         "changeYtd": -44.94,
         "marketCap": 13863676928,
-        "volume": 239630173,
+        "volume": 236450008,
         "pe": 485.0,
         "color": "#003D6B",
         "domain": "costargroup.com"
@@ -6639,7 +6639,7 @@ const SP500_STOCKS = [
         "change7d": 4.55,
         "changeYtd": 68.55,
         "marketCap": 13714644992,
-        "volume": 334614491,
+        "volume": 338333510,
         "pe": 9.0,
         "color": "#ED1B2D",
         "domain": "apacorp.com"
@@ -6654,7 +6654,7 @@ const SP500_STOCKS = [
         "change7d": 0.7,
         "changeYtd": -19.42,
         "marketCap": 13615881216,
-        "volume": 184915876,
+        "volume": 182916588,
         "pe": 222.4,
         "color": "#FF9900",
         "domain": "genpt.com"
@@ -6669,7 +6669,7 @@ const SP500_STOCKS = [
         "change7d": 1.4,
         "changeYtd": 19.94,
         "marketCap": 13602250752,
-        "volume": 163361042,
+        "volume": 163302700,
         "pe": 61.7,
         "color": "#003D6B",
         "domain": "healthpeak.com"
@@ -6680,11 +6680,11 @@ const SP500_STOCKS = [
         "ticker": "MAS",
         "sector": "Industrials",
         "price": 67.26,
-        "change1d": 0.16,
-        "change7d": -1.46,
-        "changeYtd": 5.04,
+        "change1d": 0.64,
+        "change7d": -0.99,
+        "changeYtd": 5.56,
         "marketCap": 13568658432,
-        "volume": 193609059,
+        "volume": 195366765,
         "pe": 16.6,
         "color": "#0039A6",
         "domain": "masco.com"
@@ -6695,11 +6695,11 @@ const SP500_STOCKS = [
         "ticker": "J",
         "sector": "Industrials",
         "price": 114.69,
-        "change1d": 0.57,
-        "change7d": 1.71,
-        "changeYtd": -15.95,
+        "change1d": 0.89,
+        "change7d": 2.03,
+        "changeYtd": -15.68,
         "marketCap": 13542695936,
-        "volume": 123092192,
+        "volume": 123609214,
         "pe": 33.8,
         "color": "#0039A6",
         "domain": "jacobs.com"
@@ -6714,7 +6714,7 @@ const SP500_STOCKS = [
         "change7d": 3.24,
         "changeYtd": -7.61,
         "marketCap": 13305014272,
-        "volume": 109821957,
+        "volume": 111711514,
         "pe": 9.4,
         "color": "#D52B1E",
         "domain": "solventum.com"
@@ -6729,7 +6729,7 @@ const SP500_STOCKS = [
         "change7d": 1.04,
         "changeYtd": -29.73,
         "marketCap": 13133503488,
-        "volume": 110951320,
+        "volume": 112376553,
         "pe": 29.5,
         "color": "#3861FB",
         "domain": "trimble.com"
@@ -6744,7 +6744,7 @@ const SP500_STOCKS = [
         "change7d": 8.73,
         "changeYtd": -9.1,
         "marketCap": 12985144320,
-        "volume": 263297046,
+        "volume": 265314627,
         "pe": 12.2,
         "color": "#FF9900",
         "domain": "bestbuy.com"
@@ -6759,8 +6759,8 @@ const SP500_STOCKS = [
         "change7d": 4.74,
         "changeYtd": -30.11,
         "marketCap": 12887279616,
-        "volume": 192106201,
-        "pe": 43.1,
+        "volume": 187097020,
+        "pe": 43.3,
         "color": "#3861FB",
         "domain": "tylertech.com"
     },
@@ -6774,7 +6774,7 @@ const SP500_STOCKS = [
         "change7d": 2.77,
         "changeYtd": -26.22,
         "marketCap": 12850704384,
-        "volume": 194914343,
+        "volume": 198069048,
         "pe": 7.8,
         "color": "#0071CE",
         "domain": "mccormickcorporation.com"
@@ -6789,7 +6789,7 @@ const SP500_STOCKS = [
         "change7d": 3.08,
         "changeYtd": 78.83,
         "marketCap": 12742006784,
-        "volume": 175961779,
+        "volume": 176891249,
         "pe": 19.1,
         "color": "#D52B1E",
         "domain": "davita.com"
@@ -6804,7 +6804,7 @@ const SP500_STOCKS = [
         "change7d": -4.84,
         "changeYtd": -9.77,
         "marketCap": 12634114048,
-        "volume": 162305152,
+        "volume": 161900517,
         "pe": 20.8,
         "color": "#0039A6",
         "domain": "hii.com"
@@ -6819,7 +6819,7 @@ const SP500_STOCKS = [
         "change7d": 0.83,
         "changeYtd": 8.19,
         "marketCap": 12625728512,
-        "volume": 101192592,
+        "volume": 99324506,
         "pe": 13.1,
         "color": "#003087",
         "domain": "assurant.com"
@@ -6834,7 +6834,7 @@ const SP500_STOCKS = [
         "change7d": 3.18,
         "changeYtd": 19.99,
         "marketCap": 12475006976,
-        "volume": 129817225,
+        "volume": 127516928,
         "pe": 19.2,
         "color": "#00529B",
         "domain": "pinnaclewest.com"
@@ -6849,7 +6849,7 @@ const SP500_STOCKS = [
         "change7d": -7.89,
         "changeYtd": 1.94,
         "marketCap": 12465329152,
-        "volume": 159495180,
+        "volume": 161066003,
         "pe": null,
         "color": "#FF9900",
         "domain": "shop.hasbro.com"
@@ -6864,7 +6864,7 @@ const SP500_STOCKS = [
         "change7d": 22.9,
         "changeYtd": 39.43,
         "marketCap": 12396460032,
-        "volume": 309886994,
+        "volume": 317364219,
         "pe": 34.3,
         "color": "#3861FB",
         "domain": "skyworksinc.com"
@@ -6879,7 +6879,7 @@ const SP500_STOCKS = [
         "change7d": 0.35,
         "changeYtd": -11.12,
         "marketCap": 12212455424,
-        "volume": 104257343,
+        "volume": 104463943,
         "pe": 18.0,
         "color": "#8A6D3B",
         "domain": "averydennison.com"
@@ -6894,7 +6894,7 @@ const SP500_STOCKS = [
         "change7d": 3.59,
         "changeYtd": -25.45,
         "marketCap": 12204405760,
-        "volume": 136833440,
+        "volume": 136439750,
         "pe": 31.1,
         "color": "#D52B1E",
         "domain": "coopercos.com"
@@ -6909,7 +6909,7 @@ const SP500_STOCKS = [
         "change7d": -0.99,
         "changeYtd": 3.48,
         "marketCap": 12172712960,
-        "volume": 217174314,
+        "volume": 217681070,
         "pe": 30.8,
         "color": "#3861FB",
         "domain": "zebra.com"
@@ -6924,7 +6924,7 @@ const SP500_STOCKS = [
         "change7d": -0.35,
         "changeYtd": -30.18,
         "marketCap": 12138553344,
-        "volume": 169066135,
+        "volume": 172187092,
         "pe": 34.1,
         "color": "#FF9900",
         "domain": "aptiv.com"
@@ -6939,7 +6939,7 @@ const SP500_STOCKS = [
         "change7d": 1.17,
         "changeYtd": 12.08,
         "marketCap": 12134323200,
-        "volume": 82612576,
+        "volume": 82448951,
         "pe": 10.8,
         "color": "#003087",
         "domain": "home.globelifeinsurance.com"
@@ -6954,7 +6954,7 @@ const SP500_STOCKS = [
         "change7d": -0.08,
         "changeYtd": -24.81,
         "marketCap": 12091326464,
-        "volume": 130404301,
+        "volume": 130817831,
         "pe": 18.8,
         "color": "#0039A6",
         "domain": "pentair.com"
@@ -6969,7 +6969,7 @@ const SP500_STOCKS = [
         "change7d": 0.42,
         "changeYtd": 4.3,
         "marketCap": 12018034688,
-        "volume": 154801080,
+        "volume": 154422280,
         "pe": 15.2,
         "color": "#0071CE",
         "domain": "brown-forman.com"
@@ -6984,7 +6984,7 @@ const SP500_STOCKS = [
         "change7d": -1.69,
         "changeYtd": -0.77,
         "marketCap": 11991174144,
-        "volume": 148381851,
+        "volume": 148909569,
         "pe": null,
         "color": "#003087",
         "domain": "invesco.com"
@@ -6999,7 +6999,7 @@ const SP500_STOCKS = [
         "change7d": 6.46,
         "changeYtd": -23.0,
         "marketCap": 11977794560,
-        "volume": 211999159,
+        "volume": 198637674,
         "pe": 14.3,
         "color": "#3861FB",
         "domain": "godaddy.com"
@@ -7014,7 +7014,7 @@ const SP500_STOCKS = [
         "change7d": -1.19,
         "changeYtd": -1.76,
         "marketCap": 11886132224,
-        "volume": 153001886,
+        "volume": 153703713,
         "pe": 31.3,
         "color": "#0039A6",
         "domain": "stanleyblackanddecker.com"
@@ -7029,7 +7029,7 @@ const SP500_STOCKS = [
         "change7d": 5.12,
         "changeYtd": -20.0,
         "marketCap": 11724956672,
-        "volume": 53530651,
+        "volume": 52355461,
         "pe": 20.5,
         "color": "#003087",
         "domain": "erieinsurance.com"
@@ -7044,7 +7044,7 @@ const SP500_STOCKS = [
         "change7d": 1.92,
         "changeYtd": -1.92,
         "marketCap": 11717441536,
-        "volume": 188799069,
+        "volume": 187239702,
         "pe": 27.5,
         "color": "#D52B1E",
         "domain": "aligntech.com"
@@ -7059,7 +7059,7 @@ const SP500_STOCKS = [
         "change7d": 3.46,
         "changeYtd": -15.03,
         "marketCap": 11706551296,
-        "volume": 142141055,
+        "volume": 142453725,
         "pe": 348.7,
         "color": "#4285F4",
         "domain": "paramount.com"
@@ -7074,7 +7074,7 @@ const SP500_STOCKS = [
         "change7d": 6.2,
         "changeYtd": -2.34,
         "marketCap": 11688036352,
-        "volume": 100600646,
+        "volume": 99847242,
         "pe": 23.9,
         "color": "#0071CE",
         "domain": "hormelfoods.com"
@@ -7089,7 +7089,7 @@ const SP500_STOCKS = [
         "change7d": 4.32,
         "changeYtd": -4.31,
         "marketCap": 11500829696,
-        "volume": 254165593,
+        "volume": 257575952,
         "pe": 15.5,
         "color": "#0071CE",
         "domain": "thecloroxcompany.com"
@@ -7104,7 +7104,7 @@ const SP500_STOCKS = [
         "change7d": -0.54,
         "changeYtd": -17.67,
         "marketCap": 11208613888,
-        "volume": 128387589,
+        "volume": 128365285,
         "pe": 17.8,
         "color": "#0039A6",
         "domain": "allegion.com"
@@ -7119,7 +7119,7 @@ const SP500_STOCKS = [
         "change7d": 4.3,
         "changeYtd": 10.55,
         "marketCap": 11023170560,
-        "volume": 230287011,
+        "volume": 226744864,
         "pe": null,
         "color": "#0071CE",
         "domain": "jmsmucker.com"
@@ -7134,7 +7134,7 @@ const SP500_STOCKS = [
         "change7d": 0.59,
         "changeYtd": -5.74,
         "marketCap": 10815720448,
-        "volume": 114552529,
+        "volume": 115163023,
         "pe": 46.6,
         "color": "#D52B1E",
         "domain": "revvity.com"
@@ -7149,7 +7149,7 @@ const SP500_STOCKS = [
         "change7d": 2.26,
         "changeYtd": -7.59,
         "marketCap": 10750396416,
-        "volume": 141230231,
+        "volume": 139093071,
         "pe": 30.3,
         "color": "#003D6B",
         "domain": "bxp.com"
@@ -7164,8 +7164,8 @@ const SP500_STOCKS = [
         "change7d": 4.16,
         "changeYtd": -48.23,
         "marketCap": 10727019520,
-        "volume": 187173398,
-        "pe": 36.2,
+        "volume": 186202673,
+        "pe": 36.3,
         "color": "#D52B1E",
         "domain": "insulet.com"
     },
@@ -7179,7 +7179,7 @@ const SP500_STOCKS = [
         "change7d": 13.76,
         "changeYtd": -34.87,
         "marketCap": 10712971264,
-        "volume": 250031777,
+        "volume": 247017509,
         "pe": 15.8,
         "color": "#3861FB",
         "domain": "gartner.com"
@@ -7194,7 +7194,7 @@ const SP500_STOCKS = [
         "change7d": 3.35,
         "changeYtd": 0.38,
         "marketCap": 10649266176,
-        "volume": 122432834,
+        "volume": 123189853,
         "pe": 30.0,
         "color": "#003D6B",
         "domain": "camdenliving.com"
@@ -7209,7 +7209,7 @@ const SP500_STOCKS = [
         "change7d": 4.11,
         "changeYtd": -21.55,
         "marketCap": 10528047104,
-        "volume": 324387726,
+        "volume": 313678272,
         "pe": 18.2,
         "color": "#FF9900",
         "domain": "biz.dominos.com"
@@ -7224,7 +7224,7 @@ const SP500_STOCKS = [
         "change7d": 9.65,
         "changeYtd": -42.1,
         "marketCap": 10521024512,
-        "volume": 465983854,
+        "volume": 466751264,
         "pe": 25.4,
         "color": "#4285F4",
         "domain": "thetradedesk.com"
@@ -7239,7 +7239,7 @@ const SP500_STOCKS = [
         "change7d": 1.52,
         "changeYtd": 4.04,
         "marketCap": 10469154816,
-        "volume": 204951462,
+        "volume": 207562462,
         "pe": 7.6,
         "color": "#00529B",
         "domain": "aes.com"
@@ -7254,7 +7254,7 @@ const SP500_STOCKS = [
         "change7d": 5.21,
         "changeYtd": 19.05,
         "marketCap": 10408478720,
-        "volume": 102112621,
+        "volume": 103114090,
         "pe": 20.8,
         "color": "#003D6B",
         "domain": "federalrealty.com"
@@ -7269,7 +7269,7 @@ const SP500_STOCKS = [
         "change7d": 2.16,
         "changeYtd": -16.03,
         "marketCap": 10092221440,
-        "volume": 163140614,
+        "volume": 162309795,
         "pe": 27.9,
         "color": "#FF9900",
         "domain": "wynnresorts.com"
@@ -7284,7 +7284,7 @@ const SP500_STOCKS = [
         "change7d": 4.6,
         "changeYtd": -24.34,
         "marketCap": 9960609792,
-        "volume": 148741732,
+        "volume": 147527547,
         "pe": 19.6,
         "color": "#003087",
         "domain": "jackhenry.com"
@@ -7299,7 +7299,7 @@ const SP500_STOCKS = [
         "change7d": 7.87,
         "changeYtd": -5.93,
         "marketCap": 9905874944,
-        "volume": 166214381,
+        "volume": 167752924,
         "pe": null,
         "color": "#D52B1E",
         "domain": "baxter.com"
@@ -7314,7 +7314,7 @@ const SP500_STOCKS = [
         "change7d": 4.32,
         "changeYtd": 12.54,
         "marketCap": 9824688128,
-        "volume": 181978068,
+        "volume": 181809492,
         "pe": 52.6,
         "color": "#FF9900",
         "domain": "mgmresorts.com"
@@ -7329,7 +7329,7 @@ const SP500_STOCKS = [
         "change7d": -7.54,
         "changeYtd": -24.2,
         "marketCap": 9552636928,
-        "volume": 132576461,
+        "volume": 134765463,
         "pe": 6.6,
         "color": "#D52B1E",
         "domain": "uhs.com"
@@ -7344,7 +7344,7 @@ const SP500_STOCKS = [
         "change7d": 2.2,
         "changeYtd": -5.03,
         "marketCap": 8453762560,
-        "volume": 108838091,
+        "volume": 102067542,
         "pe": 22.4,
         "color": "#D52B1E",
         "domain": "henryschein.com"
@@ -7359,7 +7359,7 @@ const SP500_STOCKS = [
         "change7d": 16.08,
         "changeYtd": -20.4,
         "marketCap": 8452021760,
-        "volume": 226600896,
+        "volume": 221461400,
         "pe": 14.9,
         "color": "#003087",
         "domain": "factset.com"
@@ -7374,7 +7374,7 @@ const SP500_STOCKS = [
         "change7d": 4.77,
         "changeYtd": -5.84,
         "marketCap": 8429414400,
-        "volume": 117329558,
+        "volume": 118150832,
         "pe": null,
         "color": "#003D6B",
         "domain": "are.com"
@@ -7389,7 +7389,7 @@ const SP500_STOCKS = [
         "change7d": 4.26,
         "changeYtd": -6.42,
         "marketCap": 7980310016,
-        "volume": 131631698,
+        "volume": 130373240,
         "pe": null,
         "color": "#0071CE",
         "domain": "molsoncoors.com"
@@ -7404,7 +7404,7 @@ const SP500_STOCKS = [
         "change7d": 0.77,
         "changeYtd": -29.41,
         "marketCap": 7975564800,
-        "volume": 186917397,
+        "volume": 189002347,
         "pe": 28.3,
         "color": "#0039A6",
         "domain": "bldr.com"
@@ -7419,7 +7419,7 @@ const SP500_STOCKS = [
         "change7d": -1.19,
         "changeYtd": -13.75,
         "marketCap": 7894823424,
-        "volume": 89608257,
+        "volume": 91192278,
         "pe": 15.3,
         "color": "#0039A6",
         "domain": "aosmith.com"
@@ -7434,7 +7434,7 @@ const SP500_STOCKS = [
         "change7d": 0.74,
         "changeYtd": -26.05,
         "marketCap": 7721287168,
-        "volume": 146204984,
+        "volume": 144004225,
         "pe": null,
         "color": "#D52B1E",
         "domain": "criver.com"
@@ -7449,7 +7449,7 @@ const SP500_STOCKS = [
         "change7d": 7.96,
         "changeYtd": -25.65,
         "marketCap": 7548179456,
-        "volume": 124713578,
+        "volume": 124114955,
         "pe": 68.9,
         "color": "#D52B1E",
         "domain": "bio-techne.com"
@@ -7464,7 +7464,7 @@ const SP500_STOCKS = [
         "change7d": 2.32,
         "changeYtd": -33.25,
         "marketCap": 7483494912,
-        "volume": 375847028,
+        "volume": 381680749,
         "pe": 13.1,
         "color": "#FF9900",
         "domain": "nclhltd.com"
@@ -7479,7 +7479,7 @@ const SP500_STOCKS = [
         "change7d": 0.26,
         "changeYtd": -9.38,
         "marketCap": 7154728448,
-        "volume": 226740981,
+        "volume": 227108434,
         "pe": 160.8,
         "color": "#8A6D3B",
         "domain": "mosaicco.com"
@@ -7494,7 +7494,7 @@ const SP500_STOCKS = [
         "change7d": 5.36,
         "changeYtd": -21.05,
         "marketCap": 6728836096,
-        "volume": 151682313,
+        "volume": 149008356,
         "pe": 17.0,
         "color": "#FF9900",
         "domain": "poolcorp.com"
@@ -7509,7 +7509,7 @@ const SP500_STOCKS = [
         "change7d": -0.8,
         "changeYtd": -11.83,
         "marketCap": 6487607808,
-        "volume": 202605552,
+        "volume": 203377971,
         "pe": null,
         "color": "#0071CE",
         "domain": "conagrabrands.com"
@@ -7524,7 +7524,7 @@ const SP500_STOCKS = [
         "change7d": 2.29,
         "changeYtd": -19.04,
         "marketCap": 6135855104,
-        "volume": 181927487,
+        "volume": 183194248,
         "pe": 11.2,
         "color": "#0071CE",
         "domain": "thecampbellscompany.com"
@@ -7539,7 +7539,7 @@ const SP500_STOCKS = [
         "change7d": 14.49,
         "changeYtd": -52.94,
         "marketCap": 5364982784,
-        "volume": 157079659,
+        "volume": 155788743,
         "pe": 14.8,
         "color": "#3861FB",
         "domain": "epam.com"
@@ -7555,16 +7555,16 @@ const MARKET_SUMMARY = {
         "high": 7506.32,
         "low": 7463.29,
         "high52": 7517.12,
-        "low52": 5767.41,
+        "low52": 5843.66,
         "ytd": 8.97
     },
     "fearGreed": 83,
     "fearGreedLabel": "Extreme Greed",
-    "advancing": 352,
-    "declining": 150,
+    "advancing": 354,
+    "declining": 148,
     "high52Count": 41,
-    "totalMarketCap": 72645969761792,
-    "totalVolume": 551330452238
+    "totalMarketCap": 72645679229440,
+    "totalVolume": 549248851671
 };
 
-const DATA_LAST_UPDATED = "2026-05-22T21:52:31Z";
+const DATA_LAST_UPDATED = "2026-05-25T15:02:43Z";
