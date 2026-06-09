@@ -355,13 +355,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/vz.html</loc>
+    <loc>https://500market.com/s/stx.html</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/stx.html</loc>
+    <loc>https://500market.com/s/vz.html</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1867,12 +1867,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/cprt.html</loc>
-    <lastmod>2026-06-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://500market.com/s/gehc.html</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>daily</changefreq>
@@ -1904,6 +1898,12 @@
   </url>
   <url>
     <loc>https://500market.com/s/biib.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://500market.com/s/cprt.html</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

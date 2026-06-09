@@ -217,7 +217,7 @@ const SP500_STOCKS = [
         "price": 475.51,
         "change1d": -3.02,
         "change7d": -6.79,
-        "changeYtd": -13.57,
+        "changeYtd": 132.32,
         "marketCap": 775358709760,
         "volume": 17758856599,
         "pe": 159.0,
@@ -871,6 +871,21 @@ const SP500_STOCKS = [
     },
     {
         "rank": 59,
+        "name": "Seagate Technology",
+        "ticker": "STX",
+        "sector": "Information Technology",
+        "price": 846.01,
+        "change1d": -3.51,
+        "change7d": -8.17,
+        "changeYtd": 197.92,
+        "marketCap": 191411552256,
+        "volume": 3312641870,
+        "pe": 80.4,
+        "color": "#3861FB",
+        "domain": "seagate.com"
+    },
+    {
+        "rank": 60,
         "name": "Verizon",
         "ticker": "VZ",
         "sector": "Communication Services",
@@ -883,21 +898,6 @@ const SP500_STOCKS = [
         "pe": 11.2,
         "color": "#4285F4",
         "domain": "verizon.com"
-    },
-    {
-        "rank": 60,
-        "name": "Seagate Technology",
-        "ticker": "STX",
-        "sector": "Information Technology",
-        "price": 846.01,
-        "change1d": -3.51,
-        "change7d": -8.17,
-        "changeYtd": 197.92,
-        "marketCap": 189699964928,
-        "volume": 3312641870,
-        "pe": 80.4,
-        "color": "#3861FB",
-        "domain": "seagate.com"
     },
     {
         "rank": 61,
@@ -1133,7 +1133,7 @@ const SP500_STOCKS = [
         "change1d": 0.64,
         "change7d": 6.43,
         "changeYtd": 15.62,
-        "marketCap": 155941044224,
+        "marketCap": 155842985984,
         "volume": 755786766,
         "pe": 32.7,
         "color": "#0039A6",
@@ -1433,7 +1433,7 @@ const SP500_STOCKS = [
         "change1d": 4.52,
         "change7d": 4.66,
         "changeYtd": -14.37,
-        "marketCap": 121944563712,
+        "marketCap": 121880895488,
         "volume": 599747075,
         "pe": 18.4,
         "color": "#FF9900",
@@ -4651,21 +4651,6 @@ const SP500_STOCKS = [
     },
     {
         "rank": 311,
-        "name": "Copart",
-        "ticker": "CPRT",
-        "sector": "Industrials",
-        "price": 31.31,
-        "change1d": 1.46,
-        "change7d": -3.13,
-        "changeYtd": -19.8,
-        "marketCap": 30161186816,
-        "volume": 274219769,
-        "pe": 19.4,
-        "color": "#0039A6",
-        "domain": "copart.com"
-    },
-    {
-        "rank": 312,
         "name": "GE HealthCare",
         "ticker": "GEHC",
         "sector": "Health Care",
@@ -4680,7 +4665,7 @@ const SP500_STOCKS = [
         "domain": "gehealthcare.com"
     },
     {
-        "rank": 313,
+        "rank": 312,
         "name": "Ameren",
         "ticker": "AEE",
         "sector": "Utilities",
@@ -4695,7 +4680,7 @@ const SP500_STOCKS = [
         "domain": "amereninvestors.com"
     },
     {
-        "rank": 314,
+        "rank": 313,
         "name": "Dover Corporation",
         "ticker": "DOV",
         "sector": "Industrials",
@@ -4710,7 +4695,7 @@ const SP500_STOCKS = [
         "domain": "dovercorporation.com"
     },
     {
-        "rank": 315,
+        "rank": 314,
         "name": "Raymond James Financial",
         "ticker": "RJF",
         "sector": "Financials",
@@ -4725,7 +4710,7 @@ const SP500_STOCKS = [
         "domain": "raymondjames.com"
     },
     {
-        "rank": 316,
+        "rank": 315,
         "name": "Tapestry, Inc.",
         "ticker": "TPR",
         "sector": "Consumer Discretionary",
@@ -4740,7 +4725,7 @@ const SP500_STOCKS = [
         "domain": "tapestry.com"
     },
     {
-        "rank": 317,
+        "rank": 316,
         "name": "Biogen",
         "ticker": "BIIB",
         "sector": "Health Care",
@@ -4753,6 +4738,21 @@ const SP500_STOCKS = [
         "pe": 21.4,
         "color": "#D52B1E",
         "domain": "biogen.com"
+    },
+    {
+        "rank": 317,
+        "name": "Copart",
+        "ticker": "CPRT",
+        "sector": "Industrials",
+        "price": 31.31,
+        "change1d": 1.46,
+        "change7d": -3.13,
+        "changeYtd": -19.8,
+        "marketCap": 28987156480,
+        "volume": 274219769,
+        "pe": 19.4,
+        "color": "#0039A6",
+        "domain": "copart.com"
     },
     {
         "rank": 318,
@@ -6758,7 +6758,7 @@ const SP500_STOCKS = [
         "change1d": 1.44,
         "change7d": 2.7,
         "changeYtd": 7.73,
-        "marketCap": 13195815936,
+        "marketCap": 13196552192,
         "volume": 130943147,
         "pe": 28.2,
         "color": "#0071CE",
@@ -7563,8 +7563,8 @@ const MARKET_SUMMARY = {
     "advancing": 371,
     "declining": 131,
     "high52Count": 37,
-    "totalMarketCap": 71742475268096,
+    "totalMarketCap": 71742851834880,
     "totalVolume": 554698437824
 };
 
-const DATA_LAST_UPDATED = "2026-06-09T21:10:08Z";
+const DATA_LAST_UPDATED = "2026-06-09T22:04:01Z";
