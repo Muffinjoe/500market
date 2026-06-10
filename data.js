@@ -901,21 +901,6 @@ const SP500_STOCKS = [
     },
     {
         "rank": 61,
-        "name": "Seagate Technology",
-        "ticker": "STX",
-        "sector": "Information Technology",
-        "price": 815.99,
-        "change1d": -3.55,
-        "change7d": -11.94,
-        "changeYtd": 187.35,
-        "marketCap": 184619466752,
-        "volume": 3200798255,
-        "pe": 77.1,
-        "color": "#3861FB",
-        "domain": "seagate.com"
-    },
-    {
-        "rank": 62,
         "name": "Amphenol",
         "ticker": "APH",
         "sector": "Information Technology",
@@ -928,6 +913,21 @@ const SP500_STOCKS = [
         "pe": 42.9,
         "color": "#3861FB",
         "domain": "amphenol.com"
+    },
+    {
+        "rank": 62,
+        "name": "Seagate Technology",
+        "ticker": "STX",
+        "sector": "Information Technology",
+        "price": 815.99,
+        "change1d": -3.55,
+        "change7d": -11.94,
+        "changeYtd": 187.35,
+        "marketCap": 182968614912,
+        "volume": 3200798255,
+        "pe": 77.1,
+        "color": "#3861FB",
+        "domain": "seagate.com"
     },
     {
         "rank": 63,
@@ -1133,7 +1133,7 @@ const SP500_STOCKS = [
         "change1d": -2.99,
         "change7d": -3.31,
         "changeYtd": 12.16,
-        "marketCap": 151178461184,
+        "marketCap": 151273586688,
         "volume": 735119373,
         "pe": 31.7,
         "color": "#0039A6",
@@ -1433,7 +1433,7 @@ const SP500_STOCKS = [
         "change1d": -0.54,
         "change7d": 4.62,
         "changeYtd": -14.84,
-        "marketCap": 121219260416,
+        "marketCap": 121282592768,
         "volume": 598817553,
         "pe": 18.3,
         "color": "#FF9900",
@@ -4636,6 +4636,21 @@ const SP500_STOCKS = [
     },
     {
         "rank": 310,
+        "name": "Copart",
+        "ticker": "CPRT",
+        "sector": "Industrials",
+        "price": 31.36,
+        "change1d": 0.16,
+        "change7d": 1.62,
+        "changeYtd": -19.67,
+        "marketCap": 30209351680,
+        "volume": 275622073,
+        "pe": 19.5,
+        "color": "#0039A6",
+        "domain": "copart.com"
+    },
+    {
+        "rank": 311,
         "name": "Ameren",
         "ticker": "AEE",
         "sector": "Utilities",
@@ -4650,7 +4665,7 @@ const SP500_STOCKS = [
         "domain": "amereninvestors.com"
     },
     {
-        "rank": 311,
+        "rank": 312,
         "name": "Raymond James Financial",
         "ticker": "RJF",
         "sector": "Financials",
@@ -4665,7 +4680,7 @@ const SP500_STOCKS = [
         "domain": "raymondjames.com"
     },
     {
-        "rank": 312,
+        "rank": 313,
         "name": "Qnity Electronics",
         "ticker": "Q",
         "sector": "Information Technology",
@@ -4678,21 +4693,6 @@ const SP500_STOCKS = [
         "pe": 45.1,
         "color": "#3861FB",
         "domain": "qnityelectronics.com"
-    },
-    {
-        "rank": 313,
-        "name": "Copart",
-        "ticker": "CPRT",
-        "sector": "Industrials",
-        "price": 31.36,
-        "change1d": 0.16,
-        "change7d": 1.62,
-        "changeYtd": -19.67,
-        "marketCap": 29033447424,
-        "volume": 275622073,
-        "pe": 19.5,
-        "color": "#0039A6",
-        "domain": "copart.com"
     },
     {
         "rank": 314,
@@ -5318,7 +5318,7 @@ const SP500_STOCKS = [
         "change1d": 1.56,
         "change7d": 4.03,
         "changeYtd": -2.57,
-        "marketCap": 24401971200,
+        "marketCap": 24502405120,
         "volume": 289666281,
         "pe": 14.8,
         "color": "#0071CE",
@@ -6323,7 +6323,7 @@ const SP500_STOCKS = [
         "change1d": -0.52,
         "change7d": 2.39,
         "changeYtd": 2.49,
-        "marketCap": 16836588544,
+        "marketCap": 16842456064,
         "volume": 45354864,
         "pe": 39.1,
         "color": "#4285F4",
@@ -6563,7 +6563,7 @@ const SP500_STOCKS = [
         "change1d": -0.85,
         "change7d": 2.12,
         "changeYtd": 2.39,
-        "marketCap": 14695235584,
+        "marketCap": 14700356608,
         "volume": 121729199,
         "pe": 34.1,
         "color": "#4285F4",
@@ -6758,7 +6758,7 @@ const SP500_STOCKS = [
         "change1d": 1.29,
         "change7d": 4.03,
         "changeYtd": 9.12,
-        "marketCap": 13367150592,
+        "marketCap": 13366404096,
         "volume": 132577594,
         "pe": 28.6,
         "color": "#0071CE",
@@ -7563,8 +7563,8 @@ const MARKET_SUMMARY = {
     "advancing": 174,
     "declining": 328,
     "high52Count": 25,
-    "totalMarketCap": 70570073726976,
+    "totalMarketCap": 70569867913216,
     "totalVolume": 543743501492
 };
 
-const DATA_LAST_UPDATED = "2026-06-10T21:21:11Z";
+const DATA_LAST_UPDATED = "2026-06-10T22:15:06Z";
