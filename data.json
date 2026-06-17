@@ -758,7 +758,7 @@
     "change1d": 3.37,
     "change7d": 26.01,
     "changeYtd": 275.42,
-    "marketCap": 241200578560,
+    "marketCap": 239043788800,
     "volume": 4294366411,
     "pe": 101.3,
     "color": "#3861FB",
@@ -1118,7 +1118,7 @@
     "change1d": 0.54,
     "change7d": 1.93,
     "changeYtd": 17.85,
-    "marketCap": 158850072576,
+    "marketCap": 158950031360,
     "volume": 759628227,
     "pe": 33.3,
     "color": "#0039A6",
@@ -1463,7 +1463,7 @@
     "change1d": -3.01,
     "change7d": -0.05,
     "changeYtd": -14.41,
-    "marketCap": 121824829440,
+    "marketCap": 121888473088,
     "volume": 608289961,
     "pe": 18.4,
     "color": "#FF9900",
@@ -3595,7 +3595,7 @@
     "changeYtd": 6.75,
     "marketCap": 46617362432,
     "volume": 369246589,
-    "pe": 16.6,
+    "pe": 16.7,
     "color": "#00529B",
     "domain": "exeloncorp.com"
   },
@@ -4756,6 +4756,21 @@
   },
   {
     "rank": 318,
+    "name": "Copart",
+    "ticker": "CPRT",
+    "sector": "Industrials",
+    "price": 29.52,
+    "change1d": -3.97,
+    "change7d": -5.72,
+    "changeYtd": -24.39,
+    "marketCap": 28436865024,
+    "volume": 262920622,
+    "pe": 18.3,
+    "color": "#0039A6",
+    "domain": "copart.com"
+  },
+  {
+    "rank": 319,
     "name": "Atmos Energy",
     "ticker": "ATO",
     "sector": "Utilities",
@@ -4770,7 +4785,7 @@
     "domain": "atmosenergy.com"
   },
   {
-    "rank": 319,
+    "rank": 320,
     "name": "Citizens Financial Group",
     "ticker": "CFG",
     "sector": "Financials",
@@ -4785,7 +4800,7 @@
     "domain": "citizensbank.com"
   },
   {
-    "rank": 320,
+    "rank": 321,
     "name": "Otis Worldwide",
     "ticker": "OTIS",
     "sector": "Industrials",
@@ -4800,7 +4815,7 @@
     "domain": "otis.com"
   },
   {
-    "rank": 321,
+    "rank": 322,
     "name": "CenterPoint Energy",
     "ticker": "CNP",
     "sector": "Utilities",
@@ -4815,7 +4830,7 @@
     "domain": "centerpointenergy.com"
   },
   {
-    "rank": 322,
+    "rank": 323,
     "name": "NRG Energy",
     "ticker": "NRG",
     "sector": "Utilities",
@@ -4830,7 +4845,7 @@
     "domain": "nrg.com"
   },
   {
-    "rank": 323,
+    "rank": 324,
     "name": "GE HealthCare",
     "ticker": "GEHC",
     "sector": "Health Care",
@@ -4845,7 +4860,7 @@
     "domain": "gehealthcare.com"
   },
   {
-    "rank": 324,
+    "rank": 325,
     "name": "Kraft Heinz",
     "ticker": "KHC",
     "sector": "Consumer Staples",
@@ -4860,7 +4875,7 @@
     "domain": "kraftheinzcompany.com"
   },
   {
-    "rank": 325,
+    "rank": 326,
     "name": "Dexcom",
     "ticker": "DXCM",
     "sector": "Health Care",
@@ -4875,7 +4890,7 @@
     "domain": "dexcom.com"
   },
   {
-    "rank": 326,
+    "rank": 327,
     "name": "First Solar",
     "ticker": "FSLR",
     "sector": "Information Technology",
@@ -4888,21 +4903,6 @@
     "pe": 16.4,
     "color": "#3861FB",
     "domain": "firstsolar.com"
-  },
-  {
-    "rank": 327,
-    "name": "Copart",
-    "ticker": "CPRT",
-    "sector": "Industrials",
-    "price": 29.52,
-    "change1d": -3.97,
-    "change7d": -5.72,
-    "changeYtd": -24.39,
-    "marketCap": 27329953792,
-    "volume": 262920622,
-    "pe": 18.3,
-    "color": "#0039A6",
-    "domain": "copart.com"
   },
   {
     "rank": 328,
@@ -4945,7 +4945,7 @@
     "changeYtd": 11.05,
     "marketCap": 26889594880,
     "volume": 322683623,
-    "pe": 30.1,
+    "pe": 30.0,
     "color": "#0039A6",
     "domain": "hubbell.com"
   },
@@ -5363,7 +5363,7 @@
     "change1d": -3.57,
     "change7d": -0.81,
     "changeYtd": -4.84,
-    "marketCap": 23834245120,
+    "marketCap": 23932342272,
     "volume": 291187081,
     "pe": 14.5,
     "color": "#0071CE",
@@ -6683,7 +6683,7 @@
     "change1d": -1.3,
     "change7d": 1.46,
     "changeYtd": 9.3,
-    "marketCap": 13389162496,
+    "marketCap": 13388414976,
     "volume": 132316222,
     "pe": 28.6,
     "color": "#0071CE",
@@ -6970,7 +6970,7 @@
     "changeYtd": -28.39,
     "marketCap": 11860230144,
     "volume": 145106119,
-    "pe": 18.4,
+    "pe": 18.2,
     "color": "#0039A6",
     "domain": "pentair.com"
   },
