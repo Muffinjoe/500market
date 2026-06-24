@@ -743,7 +743,7 @@
     "change1d": -0.84,
     "change7d": -10.42,
     "changeYtd": 231.97,
-    "marketCap": 242057166848,
+    "marketCap": 242265571328,
     "volume": 11613312294,
     "pe": 95.4,
     "color": "#3861FB",
@@ -803,7 +803,7 @@
     "change1d": -4.37,
     "change7d": -2.51,
     "changeYtd": 249.77,
-    "marketCap": 224724910080,
+    "marketCap": 222715445248,
     "volume": 4079500238,
     "pe": 94.7,
     "color": "#3861FB",
@@ -1073,7 +1073,7 @@
     "change1d": 1.49,
     "change7d": 4.39,
     "changeYtd": 20.31,
-    "marketCap": 162164916224,
+    "marketCap": 162266955776,
     "volume": 763562862,
     "pe": 34.1,
     "color": "#0039A6",
@@ -1433,7 +1433,7 @@
     "change1d": 3.7,
     "change7d": 0.57,
     "changeYtd": -12.76,
-    "marketCap": 124168577024,
+    "marketCap": 124233449472,
     "volume": 630556942,
     "pe": 18.7,
     "color": "#FF9900",
@@ -4771,6 +4771,21 @@
   },
   {
     "rank": 319,
+    "name": "Copart",
+    "ticker": "CPRT",
+    "sector": "Industrials",
+    "price": 30.4,
+    "change1d": 2.7,
+    "change7d": 0.33,
+    "changeYtd": -22.13,
+    "marketCap": 29284575232,
+    "volume": 284281279,
+    "pe": 18.9,
+    "color": "#0039A6",
+    "domain": "copart.com"
+  },
+  {
+    "rank": 320,
     "name": "Workday, Inc.",
     "ticker": "WDAY",
     "sector": "Information Technology",
@@ -4785,7 +4800,7 @@
     "domain": "workday.com"
   },
   {
-    "rank": 320,
+    "rank": 321,
     "name": "Atmos Energy",
     "ticker": "ATO",
     "sector": "Utilities",
@@ -4800,7 +4815,7 @@
     "domain": "atmosenergy.com"
   },
   {
-    "rank": 321,
+    "rank": 322,
     "name": "Vici Properties",
     "ticker": "VICI",
     "sector": "Real Estate",
@@ -4815,7 +4830,7 @@
     "domain": "viciproperties.com"
   },
   {
-    "rank": 322,
+    "rank": 323,
     "name": "CenterPoint Energy",
     "ticker": "CNP",
     "sector": "Utilities",
@@ -4830,7 +4845,7 @@
     "domain": "centerpointenergy.com"
   },
   {
-    "rank": 323,
+    "rank": 324,
     "name": "Edison International",
     "ticker": "EIX",
     "sector": "Utilities",
@@ -4845,7 +4860,7 @@
     "domain": "edison.com"
   },
   {
-    "rank": 324,
+    "rank": 325,
     "name": "ResMed",
     "ticker": "RMD",
     "sector": "Health Care",
@@ -4860,7 +4875,7 @@
     "domain": "resmed.com"
   },
   {
-    "rank": 325,
+    "rank": 326,
     "name": "Teledyne Technologies",
     "ticker": "TDY",
     "sector": "Information Technology",
@@ -4875,7 +4890,7 @@
     "domain": "teledyne.com"
   },
   {
-    "rank": 326,
+    "rank": 327,
     "name": "Halliburton",
     "ticker": "HAL",
     "sector": "Energy",
@@ -4888,21 +4903,6 @@
     "pe": 18.7,
     "color": "#ED1B2D",
     "domain": "halliburton.com"
-  },
-  {
-    "rank": 327,
-    "name": "Copart",
-    "ticker": "CPRT",
-    "sector": "Industrials",
-    "price": 30.4,
-    "change1d": 2.7,
-    "change7d": 0.33,
-    "changeYtd": -22.13,
-    "marketCap": 28144668672,
-    "volume": 284281279,
-    "pe": 18.9,
-    "color": "#0039A6",
-    "domain": "copart.com"
   },
   {
     "rank": 328,
@@ -5363,7 +5363,7 @@
     "change1d": -0.25,
     "change7d": -3.45,
     "changeYtd": -2.06,
-    "marketCap": 24530610176,
+    "marketCap": 24631572480,
     "volume": 303338850,
     "pe": 14.9,
     "color": "#0071CE",
@@ -6668,7 +6668,7 @@
     "change1d": 3.36,
     "change7d": 3.95,
     "changeYtd": 14.78,
-    "marketCap": 14060546048,
+    "marketCap": 14059761664,
     "volume": 137872394,
     "pe": 30.1,
     "color": "#0071CE",
