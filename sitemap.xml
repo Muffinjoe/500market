@@ -1927,12 +1927,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://500market.com/s/cprt.html</loc>
-    <lastmod>2026-06-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://500market.com/s/cnp.html</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>daily</changefreq>
@@ -1988,6 +1982,12 @@
   </url>
   <url>
     <loc>https://500market.com/s/khc.html</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://500market.com/s/cprt.html</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

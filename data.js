@@ -728,7 +728,7 @@ const SP500_STOCKS = [
         "change1d": 1.65,
         "change7d": 0.93,
         "changeYtd": 232.69,
-        "marketCap": 246258089984,
+        "marketCap": 246046261248,
         "volume": 11863830159,
         "pe": 96.7,
         "color": "#3861FB",
@@ -818,7 +818,7 @@ const SP500_STOCKS = [
         "change1d": 3.23,
         "change7d": -0.51,
         "changeYtd": 233.45,
-        "marketCap": 229915443200,
+        "marketCap": 231989854208,
         "volume": 4224384705,
         "pe": 97.4,
         "color": "#3861FB",
@@ -1058,7 +1058,7 @@ const SP500_STOCKS = [
         "change1d": 5.0,
         "change7d": 7.77,
         "changeYtd": 33.13,
-        "marketCap": 170372874240,
+        "marketCap": 170265739264,
         "volume": 804832111,
         "pe": 35.7,
         "color": "#0039A6",
@@ -1463,7 +1463,7 @@ const SP500_STOCKS = [
         "change1d": 0.22,
         "change7d": -0.93,
         "changeYtd": -9.36,
-        "marketCap": 124502728704,
+        "marketCap": 124437716992,
         "volume": 634976773,
         "pe": 18.8,
         "color": "#FF9900",
@@ -4801,21 +4801,6 @@ const SP500_STOCKS = [
     },
     {
         "rank": 321,
-        "name": "Copart",
-        "ticker": "CPRT",
-        "sector": "Industrials",
-        "price": 30.05,
-        "change1d": -1.15,
-        "change7d": -2.24,
-        "changeYtd": -21.31,
-        "marketCap": 28947417088,
-        "volume": 282637972,
-        "pe": 18.7,
-        "color": "#0039A6",
-        "domain": "copart.com"
-    },
-    {
-        "rank": 322,
         "name": "CenterPoint Energy",
         "ticker": "CNP",
         "sector": "Utilities",
@@ -4830,7 +4815,7 @@ const SP500_STOCKS = [
         "domain": "centerpointenergy.com"
     },
     {
-        "rank": 323,
+        "rank": 322,
         "name": "ResMed",
         "ticker": "RMD",
         "sector": "Health Care",
@@ -4845,7 +4830,7 @@ const SP500_STOCKS = [
         "domain": "resmed.com"
     },
     {
-        "rank": 324,
+        "rank": 323,
         "name": "Edison International",
         "ticker": "EIX",
         "sector": "Utilities",
@@ -4860,7 +4845,7 @@ const SP500_STOCKS = [
         "domain": "edison.com"
     },
     {
-        "rank": 325,
+        "rank": 324,
         "name": "Vici Properties",
         "ticker": "VICI",
         "sector": "Real Estate",
@@ -4875,7 +4860,7 @@ const SP500_STOCKS = [
         "domain": "viciproperties.com"
     },
     {
-        "rank": 326,
+        "rank": 325,
         "name": "Hubbell Incorporated",
         "ticker": "HUBB",
         "sector": "Industrials",
@@ -4890,7 +4875,7 @@ const SP500_STOCKS = [
         "domain": "hubbell.com"
     },
     {
-        "rank": 327,
+        "rank": 326,
         "name": "Williams-Sonoma, Inc.",
         "ticker": "WSM",
         "sector": "Consumer Discretionary",
@@ -4905,7 +4890,7 @@ const SP500_STOCKS = [
         "domain": "williams-sonomainc.com"
     },
     {
-        "rank": 328,
+        "rank": 327,
         "name": "Otis Worldwide",
         "ticker": "OTIS",
         "sector": "Industrials",
@@ -4920,7 +4905,7 @@ const SP500_STOCKS = [
         "domain": "otis.com"
     },
     {
-        "rank": 329,
+        "rank": 328,
         "name": "Workday, Inc.",
         "ticker": "WDAY",
         "sector": "Information Technology",
@@ -4935,7 +4920,7 @@ const SP500_STOCKS = [
         "domain": "workday.com"
     },
     {
-        "rank": 330,
+        "rank": 329,
         "name": "PPL Corporation",
         "ticker": "PPL",
         "sector": "Utilities",
@@ -4950,7 +4935,7 @@ const SP500_STOCKS = [
         "domain": "pplweb.com"
     },
     {
-        "rank": 331,
+        "rank": 330,
         "name": "Kraft Heinz",
         "ticker": "KHC",
         "sector": "Consumer Staples",
@@ -4963,6 +4948,21 @@ const SP500_STOCKS = [
         "pe": null,
         "color": "#0071CE",
         "domain": "kraftheinzcompany.com"
+    },
+    {
+        "rank": 331,
+        "name": "Copart",
+        "ticker": "CPRT",
+        "sector": "Industrials",
+        "price": 30.05,
+        "change1d": -1.15,
+        "change7d": -2.24,
+        "changeYtd": -21.31,
+        "marketCap": 27820634112,
+        "volume": 282637972,
+        "pe": 18.7,
+        "color": "#0039A6",
+        "domain": "copart.com"
     },
     {
         "rank": 332,
@@ -5333,7 +5333,7 @@ const SP500_STOCKS = [
         "change1d": 1.0,
         "change7d": 0.24,
         "changeYtd": 4.18,
-        "marketCap": 24877852672,
+        "marketCap": 24775880704,
         "volume": 307507898,
         "pe": 15.0,
         "color": "#0071CE",
@@ -6638,7 +6638,7 @@ const SP500_STOCKS = [
         "change1d": 1.84,
         "change7d": 5.56,
         "changeYtd": 19.63,
-        "marketCap": 14318395392,
+        "marketCap": 14319195136,
         "volume": 141497517,
         "pe": 30.6,
         "color": "#0071CE",
@@ -7548,8 +7548,8 @@ const MARKET_SUMMARY = {
     "advancing": 305,
     "declining": 197,
     "high52Count": 60,
-    "totalMarketCap": 71399761445888,
+    "totalMarketCap": 71400223926272,
     "totalVolume": 597504718613
 };
 
-const DATA_LAST_UPDATED = "2026-06-25T20:40:34Z";
+const DATA_LAST_UPDATED = "2026-06-25T21:33:52Z";
