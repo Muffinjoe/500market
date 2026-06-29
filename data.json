@@ -736,6 +736,21 @@
   },
   {
     "rank": 50,
+    "name": "Marvell Technology",
+    "ticker": "MRVL",
+    "sector": "Information Technology",
+    "price": 277.75,
+    "change1d": 4.12,
+    "change7d": -10.57,
+    "changeYtd": 233.23,
+    "marketCap": 243184893952,
+    "volume": 11889725075,
+    "pe": 95.4,
+    "color": "#3861FB",
+    "domain": "marvell.com"
+  },
+  {
+    "rank": 51,
     "name": "Citigroup",
     "ticker": "C",
     "sector": "Financials",
@@ -748,21 +763,6 @@
     "pe": 17.6,
     "color": "#003087",
     "domain": "citigroup.com"
-  },
-  {
-    "rank": 51,
-    "name": "Marvell Technology",
-    "ticker": "MRVL",
-    "sector": "Information Technology",
-    "price": 277.75,
-    "change1d": 4.12,
-    "change7d": -10.57,
-    "changeYtd": 233.23,
-    "marketCap": 242975703040,
-    "volume": 11889725075,
-    "pe": 95.4,
-    "color": "#3861FB",
-    "domain": "marvell.com"
   },
   {
     "rank": 52,
@@ -833,7 +833,7 @@
     "change1d": 7.63,
     "change7d": -9.44,
     "changeYtd": 241.31,
-    "marketCap": 219131969536,
+    "marketCap": 217172508672,
     "volume": 4122102545,
     "pe": 92.0,
     "color": "#3861FB",
@@ -1036,6 +1036,21 @@
   },
   {
     "rank": 70,
+    "name": "Deere & Company",
+    "ticker": "DE",
+    "sector": "Industrials",
+    "price": 626.63,
+    "change1d": 2.18,
+    "change7d": 6.35,
+    "changeYtd": 25.49,
+    "marketCap": 169257336832,
+    "volume": 805750938,
+    "pe": 35.5,
+    "color": "#0039A6",
+    "domain": "deere.com"
+  },
+  {
+    "rank": 71,
     "name": "Boeing",
     "ticker": "BA",
     "sector": "Industrials",
@@ -1048,21 +1063,6 @@
     "pe": 85.2,
     "color": "#0039A6",
     "domain": "boeing.com"
-  },
-  {
-    "rank": 71,
-    "name": "Deere & Company",
-    "ticker": "DE",
-    "sector": "Industrials",
-    "price": 626.63,
-    "change1d": 2.18,
-    "change7d": 6.35,
-    "changeYtd": 25.49,
-    "marketCap": 169150906368,
-    "volume": 805750938,
-    "pe": 35.5,
-    "color": "#0039A6",
-    "domain": "deere.com"
   },
   {
     "rank": 72,
@@ -1478,7 +1478,7 @@
     "change1d": -1.27,
     "change7d": -1.15,
     "changeYtd": -13.47,
-    "marketCap": 123159306240,
+    "marketCap": 123223646208,
     "volume": 633042923,
     "pe": 18.6,
     "color": "#FF9900",
@@ -5116,6 +5116,21 @@
   },
   {
     "rank": 342,
+    "name": "Copart",
+    "ticker": "CPRT",
+    "sector": "Industrials",
+    "price": 28.1,
+    "change1d": -8.02,
+    "change7d": -7.05,
+    "changeYtd": -28.02,
+    "marketCap": 27068966912,
+    "volume": 274443543,
+    "pe": 17.5,
+    "color": "#0039A6",
+    "domain": "copart.com"
+  },
+  {
+    "rank": 343,
     "name": "Dexcom",
     "ticker": "DXCM",
     "sector": "Health Care",
@@ -5130,7 +5145,7 @@
     "domain": "dexcom.com"
   },
   {
-    "rank": 343,
+    "rank": 344,
     "name": "PPG Industries",
     "ticker": "PPG",
     "sector": "Materials",
@@ -5145,7 +5160,7 @@
     "domain": "ppg.com"
   },
   {
-    "rank": 344,
+    "rank": 345,
     "name": "W. R. Berkley Corporation",
     "ticker": "WRB",
     "sector": "Financials",
@@ -5160,7 +5175,7 @@
     "domain": "berkley.com"
   },
   {
-    "rank": 345,
+    "rank": 346,
     "name": "Equity Residential",
     "ticker": "EQR",
     "sector": "Real Estate",
@@ -5175,7 +5190,7 @@
     "domain": "equityapartments.com"
   },
   {
-    "rank": 346,
+    "rank": 347,
     "name": "Synchrony Financial",
     "ticker": "SYF",
     "sector": "Financials",
@@ -5190,7 +5205,7 @@
     "domain": "synchrony.com"
   },
   {
-    "rank": 347,
+    "rank": 348,
     "name": "PulteGroup",
     "ticker": "PHM",
     "sector": "Consumer Discretionary",
@@ -5205,7 +5220,7 @@
     "domain": "pultegroupinc.com"
   },
   {
-    "rank": 348,
+    "rank": 349,
     "name": "Fiserv",
     "ticker": "FISV",
     "sector": "Financials",
@@ -5218,21 +5233,6 @@
     "pe": 8.3,
     "color": "#003087",
     "domain": "fiserv.com"
-  },
-  {
-    "rank": 349,
-    "name": "Copart",
-    "ticker": "CPRT",
-    "sector": "Industrials",
-    "price": 28.1,
-    "change1d": -8.02,
-    "change7d": -7.05,
-    "changeYtd": -28.02,
-    "marketCap": 26015301632,
-    "volume": 274443543,
-    "pe": 17.5,
-    "color": "#0039A6",
-    "domain": "copart.com"
   },
   {
     "rank": 350,
@@ -5438,7 +5438,7 @@
     "change1d": -4.54,
     "change7d": -1.08,
     "changeYtd": -4.36,
-    "marketCap": 23954307072,
+    "marketCap": 24052897792,
     "volume": 301276096,
     "pe": 14.5,
     "color": "#0071CE",
@@ -6668,7 +6668,7 @@
     "change1d": -0.75,
     "change7d": 8.9,
     "changeYtd": 18.19,
-    "marketCap": 14478785536,
+    "marketCap": 14477977600,
     "volume": 144525273,
     "pe": 31.0,
     "color": "#0071CE",
