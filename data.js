@@ -781,21 +781,6 @@ const SP500_STOCKS = [
     },
     {
         "rank": 53,
-        "name": "Marvell Technology",
-        "ticker": "MRVL",
-        "sector": "Information Technology",
-        "price": 249.27,
-        "change1d": 1.62,
-        "change7d": -11.37,
-        "changeYtd": 194.85,
-        "marketCap": 218249134080,
-        "volume": 10757268471,
-        "pe": 85.4,
-        "color": "#3861FB",
-        "domain": "marvell.com"
-    },
-    {
-        "rank": 54,
         "name": "Arista Networks",
         "ticker": "ANET",
         "sector": "Information Technology",
@@ -808,6 +793,21 @@ const SP500_STOCKS = [
         "pe": 59.5,
         "color": "#3861FB",
         "domain": "arista.com"
+    },
+    {
+        "rank": 54,
+        "name": "Marvell Technology",
+        "ticker": "MRVL",
+        "sector": "Information Technology",
+        "price": 249.27,
+        "change1d": 1.62,
+        "change7d": -11.37,
+        "changeYtd": 194.85,
+        "marketCap": 218061406208,
+        "volume": 10757268471,
+        "pe": 85.4,
+        "color": "#3861FB",
+        "domain": "marvell.com"
     },
     {
         "rank": 55,
@@ -916,6 +916,21 @@ const SP500_STOCKS = [
     },
     {
         "rank": 62,
+        "name": "Seagate Technology",
+        "ticker": "STX",
+        "sector": "Information Technology",
+        "price": 868.26,
+        "change1d": 5.86,
+        "change7d": -15.32,
+        "changeYtd": 182.36,
+        "marketCap": 196445667328,
+        "volume": 3766477191,
+        "pe": 82.1,
+        "color": "#3861FB",
+        "domain": "seagate.com"
+    },
+    {
+        "rank": 63,
         "name": "PepsiCo",
         "ticker": "PEP",
         "sector": "Consumer Staples",
@@ -928,21 +943,6 @@ const SP500_STOCKS = [
         "pe": 22.5,
         "color": "#0071CE",
         "domain": "pepsico.com"
-    },
-    {
-        "rank": 63,
-        "name": "Seagate Technology",
-        "ticker": "STX",
-        "sector": "Information Technology",
-        "price": 868.26,
-        "change1d": 5.86,
-        "change7d": -15.32,
-        "changeYtd": 182.36,
-        "marketCap": 194689073152,
-        "volume": 3766477191,
-        "pe": 82.1,
-        "color": "#3861FB",
-        "domain": "seagate.com"
     },
     {
         "rank": 64,
@@ -1058,7 +1058,7 @@ const SP500_STOCKS = [
         "change1d": 2.25,
         "change7d": 0.97,
         "changeYtd": 34.42,
-        "marketCap": 171582963712,
+        "marketCap": 171475058688,
         "volume": 822981993,
         "pe": 36.0,
         "color": "#0039A6",
@@ -1463,7 +1463,7 @@ const SP500_STOCKS = [
         "change1d": -1.64,
         "change7d": 0.83,
         "changeYtd": -8.6,
-        "marketCap": 125540581376,
+        "marketCap": 125475028992,
         "volume": 648017644,
         "pe": 18.9,
         "color": "#FF9900",
@@ -4996,21 +4996,6 @@ const SP500_STOCKS = [
     },
     {
         "rank": 334,
-        "name": "Copart",
-        "ticker": "CPRT",
-        "sector": "Industrials",
-        "price": 29.24,
-        "change1d": -2.57,
-        "change7d": -2.7,
-        "changeYtd": -23.44,
-        "marketCap": 28167137280,
-        "volume": 305244837,
-        "pe": 18.2,
-        "color": "#0039A6",
-        "domain": "copart.com"
-    },
-    {
-        "rank": 335,
         "name": "Dexcom",
         "ticker": "DXCM",
         "sector": "Health Care",
@@ -5025,7 +5010,7 @@ const SP500_STOCKS = [
         "domain": "dexcom.com"
     },
     {
-        "rank": 336,
+        "rank": 335,
         "name": "Texas Pacific Land Corporation",
         "ticker": "TPL",
         "sector": "Energy",
@@ -5040,7 +5025,7 @@ const SP500_STOCKS = [
         "domain": "texaspacific.com"
     },
     {
-        "rank": 337,
+        "rank": 336,
         "name": "PPG Industries",
         "ticker": "PPG",
         "sector": "Materials",
@@ -5055,7 +5040,7 @@ const SP500_STOCKS = [
         "domain": "ppg.com"
     },
     {
-        "rank": 338,
+        "rank": 337,
         "name": "Fiserv",
         "ticker": "FISV",
         "sector": "Financials",
@@ -5070,7 +5055,7 @@ const SP500_STOCKS = [
         "domain": "fiserv.com"
     },
     {
-        "rank": 339,
+        "rank": 338,
         "name": "FirstEnergy",
         "ticker": "FE",
         "sector": "Utilities",
@@ -5085,7 +5070,7 @@ const SP500_STOCKS = [
         "domain": "firstenergycorp.com"
     },
     {
-        "rank": 340,
+        "rank": 339,
         "name": "AvalonBay Communities",
         "ticker": "AVB",
         "sector": "Real Estate",
@@ -5100,7 +5085,7 @@ const SP500_STOCKS = [
         "domain": "avalonbay.com"
     },
     {
-        "rank": 341,
+        "rank": 340,
         "name": "Halliburton",
         "ticker": "HAL",
         "sector": "Energy",
@@ -5115,7 +5100,7 @@ const SP500_STOCKS = [
         "domain": "halliburton.com"
     },
     {
-        "rank": 342,
+        "rank": 341,
         "name": "Eversource Energy",
         "ticker": "ES",
         "sector": "Utilities",
@@ -5130,7 +5115,7 @@ const SP500_STOCKS = [
         "domain": "eversource.com"
     },
     {
-        "rank": 343,
+        "rank": 342,
         "name": "Willis Towers Watson",
         "ticker": "WTW",
         "sector": "Financials",
@@ -5145,7 +5130,7 @@ const SP500_STOCKS = [
         "domain": "wtwco.com"
     },
     {
-        "rank": 344,
+        "rank": 343,
         "name": "PPL Corporation",
         "ticker": "PPL",
         "sector": "Utilities",
@@ -5158,6 +5143,21 @@ const SP500_STOCKS = [
         "pe": 22.2,
         "color": "#00529B",
         "domain": "pplweb.com"
+    },
+    {
+        "rank": 344,
+        "name": "Copart",
+        "ticker": "CPRT",
+        "sector": "Industrials",
+        "price": 29.24,
+        "change1d": -2.57,
+        "change7d": -2.7,
+        "changeYtd": -23.44,
+        "marketCap": 27070726144,
+        "volume": 305244837,
+        "pe": 18.2,
+        "color": "#0039A6",
+        "domain": "copart.com"
     },
     {
         "rank": 345,
@@ -6878,7 +6878,7 @@ const SP500_STOCKS = [
         "change1d": -2.88,
         "change7d": -6.69,
         "changeYtd": 11.63,
-        "marketCap": 13360901120,
+        "marketCap": 13361647616,
         "volume": 133649215,
         "pe": 28.6,
         "color": "#0071CE",
@@ -7563,8 +7563,8 @@ const MARKET_SUMMARY = {
     "advancing": 220,
     "declining": 280,
     "high52Count": 66,
-    "totalMarketCap": 73395775061504,
+    "totalMarketCap": 73396074805760,
     "totalVolume": 603220349743
 };
 
-const DATA_LAST_UPDATED = "2026-07-06T20:49:53Z";
+const DATA_LAST_UPDATED = "2026-07-06T22:08:37Z";
