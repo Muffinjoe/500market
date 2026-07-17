@@ -338,7 +338,7 @@ const SP500_STOCKS = [
         "change1d": -0.36,
         "change7d": 3.41,
         "changeYtd": 11.32,
-        "marketCap": 429990871040,
+        "marketCap": 434808127488,
         "volume": 2182464620,
         "pe": 14.2,
         "color": "#003087",
@@ -976,6 +976,21 @@ const SP500_STOCKS = [
     },
     {
         "rank": 66,
+        "name": "Seagate Technology",
+        "ticker": "STX",
+        "sector": "Information Technology",
+        "price": 787.66,
+        "change1d": 5.66,
+        "change7d": -11.51,
+        "changeYtd": 156.15,
+        "marketCap": 178209734656,
+        "volume": 3506069092,
+        "pe": 74.9,
+        "color": "#3861FB",
+        "domain": "seagate.com"
+    },
+    {
+        "rank": 67,
         "name": "Charles Schwab Corporation",
         "ticker": "SCHW",
         "sector": "Financials",
@@ -988,21 +1003,6 @@ const SP500_STOCKS = [
         "pe": 20.2,
         "color": "#003087",
         "domain": "schwab.com"
-    },
-    {
-        "rank": 67,
-        "name": "Seagate Technology",
-        "ticker": "STX",
-        "sector": "Information Technology",
-        "price": 787.66,
-        "change1d": 5.66,
-        "change7d": -11.51,
-        "changeYtd": 156.15,
-        "marketCap": 176616194048,
-        "volume": 3506069092,
-        "pe": 74.9,
-        "color": "#3861FB",
-        "domain": "seagate.com"
     },
     {
         "rank": 68,
@@ -1148,7 +1148,7 @@ const SP500_STOCKS = [
         "change1d": -0.29,
         "change7d": 0.73,
         "changeYtd": 26.38,
-        "marketCap": 161318879232,
+        "marketCap": 161217429504,
         "volume": 752493720,
         "pe": 33.8,
         "color": "#0039A6",
@@ -7563,8 +7563,8 @@ const MARKET_SUMMARY = {
     "advancing": 147,
     "declining": 356,
     "high52Count": 37,
-    "totalMarketCap": 72374873576448,
+    "totalMarketCap": 72381182923776,
     "totalVolume": 568448407301
 };
 
-const DATA_LAST_UPDATED = "2026-07-17T20:27:42Z";
+const DATA_LAST_UPDATED = "2026-07-17T21:14:54Z";
