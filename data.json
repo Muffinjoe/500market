@@ -353,7 +353,7 @@
     "change1d": 1.32,
     "change7d": 2.89,
     "changeYtd": 10.15,
-    "marketCap": 429639991296,
+    "marketCap": 434453315584,
     "volume": 2178194848,
     "pe": 14.1,
     "color": "#003087",
@@ -803,7 +803,7 @@
     "change1d": 11.14,
     "change7d": 3.62,
     "changeYtd": 214.28,
-    "marketCap": 199974141952,
+    "marketCap": 201778429952,
     "volume": 4048817310,
     "pe": 84.9,
     "color": "#3861FB",
@@ -1163,7 +1163,7 @@
     "change1d": 0.15,
     "change7d": 0.21,
     "changeYtd": 17.84,
-    "marketCap": 158520573952,
+    "marketCap": 158420893696,
     "volume": 744182039,
     "pe": 33.3,
     "color": "#0039A6",
@@ -1583,7 +1583,7 @@
     "change1d": -0.59,
     "change7d": -2.02,
     "changeYtd": -19.83,
-    "marketCap": 114169110528,
+    "marketCap": 114109489152,
     "volume": 605341292,
     "pe": 17.2,
     "color": "#FF9900",
@@ -5221,21 +5221,6 @@
   },
   {
     "rank": 349,
-    "name": "Copart",
-    "ticker": "CPRT",
-    "sector": "Industrials",
-    "price": 27.17,
-    "change1d": -1.16,
-    "change7d": -1.02,
-    "changeYtd": -30.4,
-    "marketCap": 26173089792,
-    "volume": 298157956,
-    "pe": 16.9,
-    "color": "#0039A6",
-    "domain": "copart.com"
-  },
-  {
-    "rank": 350,
     "name": "Williams-Sonoma, Inc.",
     "ticker": "WSM",
     "sector": "Consumer Discretionary",
@@ -5250,7 +5235,7 @@
     "domain": "williams-sonomainc.com"
   },
   {
-    "rank": 351,
+    "rank": 350,
     "name": "PPG Industries",
     "ticker": "PPG",
     "sector": "Materials",
@@ -5265,7 +5250,7 @@
     "domain": "ppg.com"
   },
   {
-    "rank": 352,
+    "rank": 351,
     "name": "American Water Works",
     "ticker": "AWK",
     "sector": "Utilities",
@@ -5280,7 +5265,7 @@
     "domain": "amwater.com"
   },
   {
-    "rank": 353,
+    "rank": 352,
     "name": "Verisk Analytics",
     "ticker": "VRSK",
     "sector": "Industrials",
@@ -5295,7 +5280,7 @@
     "domain": "verisk.com"
   },
   {
-    "rank": 354,
+    "rank": 353,
     "name": "West Pharmaceutical Services",
     "ticker": "WST",
     "sector": "Health Care",
@@ -5310,7 +5295,7 @@
     "domain": "westpharma.com"
   },
   {
-    "rank": 355,
+    "rank": 354,
     "name": "Hubbell Incorporated",
     "ticker": "HUBB",
     "sector": "Industrials",
@@ -5325,7 +5310,7 @@
     "domain": "hubbell.com"
   },
   {
-    "rank": 356,
+    "rank": 355,
     "name": "T. Rowe Price",
     "ticker": "TROW",
     "sector": "Financials",
@@ -5338,6 +5323,21 @@
     "pe": 12.6,
     "color": "#003087",
     "domain": "troweprice.com"
+  },
+  {
+    "rank": 356,
+    "name": "Copart",
+    "ticker": "CPRT",
+    "sector": "Industrials",
+    "price": 27.17,
+    "change1d": -1.16,
+    "change7d": -1.02,
+    "changeYtd": -30.4,
+    "marketCap": 25154297856,
+    "volume": 298157956,
+    "pe": 16.9,
+    "color": "#0039A6",
+    "domain": "copart.com"
   },
   {
     "rank": 357,
@@ -6773,7 +6773,7 @@
     "change1d": -0.67,
     "change7d": 2.66,
     "changeYtd": 14.14,
-    "marketCap": 13817636864,
+    "marketCap": 13818408960,
     "volume": 131261398,
     "pe": 29.5,
     "color": "#0071CE",
