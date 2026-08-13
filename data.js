@@ -1150,7 +1150,7 @@ const SP500_STOCKS = [
         "changeYtd": 27.64,
         "marketCap": 168930902016,
         "volume": 831431153,
-        "pe": 102.8,
+        "pe": 105.1,
         "color": "#003D6B",
         "domain": "welltower.com"
     },
@@ -7567,4 +7567,4 @@ const MARKET_SUMMARY = {
     "totalVolume": 592784789120
 };
 
-const DATA_LAST_UPDATED = "2026-08-13T20:35:16Z";
+const DATA_LAST_UPDATED = "2026-08-13T21:37:29Z";
