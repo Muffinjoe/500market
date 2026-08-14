@@ -130,7 +130,7 @@ const SP500_STOCKS = [
         "changeYtd": -20.66,
         "marketCap": 1351811596288,
         "volume": 14724262571,
-        "pe": 305.6,
+        "pe": 314.0,
         "color": "#FF9900",
         "domain": "tesla.com"
     },
@@ -610,7 +610,7 @@ const SP500_STOCKS = [
         "changeYtd": 24.84,
         "marketCap": 296744386560,
         "volume": 945614579,
-        "pe": 25.8,
+        "pe": 26.1,
         "color": "#0071CE",
         "domain": "pmi.com"
     },
@@ -1720,7 +1720,7 @@ const SP500_STOCKS = [
         "changeYtd": 57.02,
         "marketCap": 103102496768,
         "volume": 847943689,
-        "pe": 79.0,
+        "pe": 78.4,
         "color": "#0039A6",
         "domain": "quantaservices.com"
     },
@@ -2062,7 +2062,7 @@ const SP500_STOCKS = [
         "price": 187.82,
         "change1d": -0.46,
         "change7d": -2.83,
-        "changeYtd": 3.75,
+        "changeYtd": 4.33,
         "marketCap": 89629827072,
         "volume": 495012025,
         "pe": 22.9,
@@ -2497,7 +2497,7 @@ const SP500_STOCKS = [
         "price": 355.83,
         "change1d": -0.35,
         "change7d": -1.36,
-        "changeYtd": 2.19,
+        "changeYtd": 1.96,
         "marketCap": 75480596480,
         "volume": 541080059,
         "pe": 19.6,
@@ -5440,7 +5440,7 @@ const SP500_STOCKS = [
         "changeYtd": 1.17,
         "marketCap": 23772549120,
         "volume": 307339208,
-        "pe": 13.0,
+        "pe": 13.3,
         "color": "#0071CE",
         "domain": "cbrands.com"
     },
@@ -6250,7 +6250,7 @@ const SP500_STOCKS = [
         "changeYtd": 6.35,
         "marketCap": 16930805760,
         "volume": 161240499,
-        "pe": 48.5,
+        "pe": 48.1,
         "color": "#0039A6",
         "domain": "jacobs.com"
     },
@@ -6265,7 +6265,7 @@ const SP500_STOCKS = [
         "changeYtd": -11.73,
         "marketCap": 16893601792,
         "volume": 203405516,
-        "pe": 16.2,
+        "pe": 16.4,
         "color": "#FF9900",
         "domain": "nvrinc.com"
     },
@@ -6760,7 +6760,7 @@ const SP500_STOCKS = [
         "changeYtd": 13.68,
         "marketCap": 13037754368,
         "volume": 175593339,
-        "pe": 56.4,
+        "pe": 56.2,
         "color": "#D52B1E",
         "domain": "revvity.com"
     },
@@ -6877,7 +6877,7 @@ const SP500_STOCKS = [
         "price": 101.48,
         "change1d": 0.75,
         "change7d": 0.65,
-        "changeYtd": 18.29,
+        "changeYtd": 19.36,
         "marketCap": 12299095040,
         "volume": 126412929,
         "pe": 19.5,
@@ -7180,7 +7180,7 @@ const SP500_STOCKS = [
         "changeYtd": -22.15,
         "marketCap": 8729160704,
         "volume": 340986480,
-        "pe": 11.2,
+        "pe": 11.5,
         "color": "#FF9900",
         "domain": "nclhltd.com"
     },
@@ -7567,4 +7567,4 @@ const MARKET_SUMMARY = {
     "totalVolume": 594223087579
 };
 
-const DATA_LAST_UPDATED = "2026-08-14T20:55:14Z";
+const DATA_LAST_UPDATED = "2026-08-14T21:19:41Z";
