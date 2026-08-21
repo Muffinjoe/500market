@@ -4180,7 +4180,7 @@ const SP500_STOCKS = [
         "changeYtd": 13.46,
         "marketCap": 36354215936,
         "volume": 460470222,
-        "pe": 21.8,
+        "pe": 21.6,
         "color": "#0071CE",
         "domain": "kimberly-clark.com"
     },
@@ -7567,4 +7567,4 @@ const MARKET_SUMMARY = {
     "totalVolume": 576701707541
 };
 
-const DATA_LAST_UPDATED = "2026-08-21T21:16:48Z";
+const DATA_LAST_UPDATED = "2026-08-21T21:48:37Z";
