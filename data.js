@@ -4300,7 +4300,7 @@ const SP500_STOCKS = [
         "changeYtd": -11.65,
         "marketCap": 35470880768,
         "volume": 308500589,
-        "pe": 32.5,
+        "pe": 32.3,
         "color": "#8A6D3B",
         "domain": "vulcanmaterials.com"
     },
@@ -4495,7 +4495,7 @@ const SP500_STOCKS = [
         "changeYtd": -15.92,
         "marketCap": 33113116672,
         "volume": 346236593,
-        "pe": 17.0,
+        "pe": 16.9,
         "color": "#D52B1E",
         "domain": "gehealthcare.com"
     },
@@ -7567,4 +7567,4 @@ const MARKET_SUMMARY = {
     "totalVolume": 568856149915
 };
 
-const DATA_LAST_UPDATED = "2026-08-26T20:26:49Z";
+const DATA_LAST_UPDATED = "2026-08-26T23:55:17Z";
