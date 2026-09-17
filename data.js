@@ -6340,7 +6340,7 @@ const SP500_STOCKS = [
         "changeYtd": 6.25,
         "marketCap": 16872286208,
         "volume": 136674495,
-        "pe": 48.4,
+        "pe": 47.9,
         "color": "#0039A6",
         "domain": "jacobs.com"
     },
@@ -7567,4 +7567,4 @@ const MARKET_SUMMARY = {
     "totalVolume": 531864417046
 };
 
-const DATA_LAST_UPDATED = "2026-09-17T20:48:42Z";
+const DATA_LAST_UPDATED = "2026-09-17T23:19:13Z";
