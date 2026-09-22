@@ -415,7 +415,7 @@ const SP500_STOCKS = [
         "changeYtd": 55.03,
         "marketCap": 389110759424,
         "volume": 3325852687,
-        "pe": 54.0,
+        "pe": 53.9,
         "color": "#3861FB",
         "domain": "lamresearch.com"
     },
@@ -655,7 +655,7 @@ const SP500_STOCKS = [
         "changeYtd": 65.85,
         "marketCap": 258790703104,
         "volume": 1454298095,
-        "pe": 65.1,
+        "pe": 64.9,
         "color": "#3861FB",
         "domain": "arista.com"
     },
@@ -865,7 +865,7 @@ const SP500_STOCKS = [
         "changeYtd": 224.15,
         "marketCap": 209165189120,
         "volume": 4315964832,
-        "pe": 66.1,
+        "pe": 66.4,
         "color": "#3861FB",
         "domain": "seagate.com"
     },
@@ -1120,7 +1120,7 @@ const SP500_STOCKS = [
         "changeYtd": 147.81,
         "marketCap": 167507312640,
         "volume": 3678992294,
-        "pe": 17.3,
+        "pe": 17.2,
         "color": "#3861FB",
         "domain": "westerndigital.com"
     },
@@ -1135,7 +1135,7 @@ const SP500_STOCKS = [
         "changeYtd": 24.99,
         "marketCap": 166012583936,
         "volume": 688805966,
-        "pe": 103.8,
+        "pe": 103.3,
         "color": "#003D6B",
         "domain": "welltower.com"
     },
@@ -3220,7 +3220,7 @@ const SP500_STOCKS = [
         "changeYtd": 17.37,
         "marketCap": 56263004160,
         "volume": 306215485,
-        "pe": 35.9,
+        "pe": 35.8,
         "color": "#0039A6",
         "domain": "ametek.com"
     },
@@ -3700,7 +3700,7 @@ const SP500_STOCKS = [
         "changeYtd": -10.28,
         "marketCap": 45363429376,
         "volume": 831985804,
-        "pe": 38.4,
+        "pe": 38.3,
         "color": "#3861FB",
         "domain": "workday.com"
     },
@@ -4195,7 +4195,7 @@ const SP500_STOCKS = [
         "changeYtd": 69.69,
         "marketCap": 37366460416,
         "volume": 620963025,
-        "pe": 46.1,
+        "pe": 46.3,
         "color": "#D52B1E",
         "domain": "illumina.com"
     },
@@ -4555,7 +4555,7 @@ const SP500_STOCKS = [
         "changeYtd": -16.66,
         "marketCap": 32118681600,
         "volume": 262667338,
-        "pe": 29.2,
+        "pe": 29.3,
         "color": "#8A6D3B",
         "domain": "vulcanmaterials.com"
     },
@@ -5095,7 +5095,7 @@ const SP500_STOCKS = [
         "changeYtd": 35.14,
         "marketCap": 26115739648,
         "volume": 253592141,
-        "pe": 47.4,
+        "pe": 47.5,
         "color": "#D52B1E",
         "domain": "westpharma.com"
     },
@@ -5215,7 +5215,7 @@ const SP500_STOCKS = [
         "changeYtd": 68.27,
         "marketCap": 25670801408,
         "volume": 275146822,
-        "pe": 36.2,
+        "pe": 36.1,
         "color": "#3861FB",
         "domain": "f5.com"
     },
@@ -5260,7 +5260,7 @@ const SP500_STOCKS = [
         "changeYtd": 23.24,
         "marketCap": 25265895424,
         "volume": 220954766,
-        "pe": 25.8,
+        "pe": 25.7,
         "color": "#D52B1E",
         "domain": "labcorp.com"
     },
@@ -6445,7 +6445,7 @@ const SP500_STOCKS = [
         "changeYtd": 23.45,
         "marketCap": 16637843456,
         "volume": 143565247,
-        "pe": 32.4,
+        "pe": 32.5,
         "color": "#0039A6",
         "domain": "idexcorp.com"
     },
@@ -6940,7 +6940,7 @@ const SP500_STOCKS = [
         "changeYtd": 27.62,
         "marketCap": 12937356288,
         "volume": 173166227,
-        "pe": 56.6,
+        "pe": 56.3,
         "color": "#0071CE",
         "domain": "jmsmucker.com"
     },
@@ -7060,7 +7060,7 @@ const SP500_STOCKS = [
         "changeYtd": 38.56,
         "marketCap": 12177211392,
         "volume": 247549759,
-        "pe": 47.3,
+        "pe": 47.4,
         "color": "#0039A6",
         "domain": "generac.com"
     },
@@ -7330,7 +7330,7 @@ const SP500_STOCKS = [
         "changeYtd": -19.65,
         "marketCap": 10453790720,
         "volume": 167674884,
-        "pe": 21.4,
+        "pe": 21.3,
         "color": "#003087",
         "domain": "jackhenry.com"
     },
@@ -7567,4 +7567,4 @@ const MARKET_SUMMARY = {
     "totalVolume": 550653582778
 };
 
-const DATA_LAST_UPDATED = "2026-09-22T20:44:31Z";
+const DATA_LAST_UPDATED = "2026-09-22T23:24:59Z";
