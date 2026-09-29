@@ -10,11 +10,11 @@
     "low52": 6316.91,
     "ytd": 12.03
   },
-  "fearGreed": 20,
-  "fearGreedLabel": "Extreme Fear",
-  "advancing": 163,
-  "declining": 335,
-  "high52Count": 14,
-  "totalMarketCap": 74410829814784,
-  "totalVolume": 518406355676
+  "fearGreed": 75,
+  "fearGreedLabel": "Extreme Greed",
+  "advancing": 328,
+  "declining": 172,
+  "high52Count": 11,
+  "totalMarketCap": 74396421280256,
+  "totalVolume": 526072087550
 }
