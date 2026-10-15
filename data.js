@@ -70,7 +70,7 @@ const SP500_STOCKS = [
         "changeYtd": 13.54,
         "marketCap": 4005636341760,
         "volume": 14642245472,
-        "pe": 30.6,
+        "pe": 30.4,
         "color": "#3861FB",
         "domain": "microsoft.com"
     },
@@ -158,7 +158,7 @@ const SP500_STOCKS = [
         "change1d": 3.55,
         "change7d": 5.29,
         "changeYtd": 15.89,
-        "marketCap": 1116112420864,
+        "marketCap": 1115631386624,
         "volume": 3083098386,
         "pe": 40.5,
         "color": "#D52B1E",
@@ -188,9 +188,9 @@ const SP500_STOCKS = [
         "change1d": 1.47,
         "change7d": 8.98,
         "changeYtd": 4.91,
-        "marketCap": 938018799616,
+        "marketCap": 935150682112,
         "volume": 2806817748,
-        "pe": 41.2,
+        "pe": 42.7,
         "color": "#0071CE",
         "domain": "walmart.com"
     },
@@ -280,7 +280,7 @@ const SP500_STOCKS = [
         "changeYtd": 6.93,
         "marketCap": 539902443520,
         "volume": 1763174440,
-        "pe": 34.0,
+        "pe": 33.9,
         "color": "#003087",
         "domain": "mastercard.com"
     },
@@ -310,7 +310,7 @@ const SP500_STOCKS = [
         "changeYtd": 29.44,
         "marketCap": 500801044480,
         "volume": 1372785036,
-        "pe": 77.4,
+        "pe": 80.1,
         "color": "#D52B1E",
         "domain": "abbvie.com"
     },
@@ -370,7 +370,7 @@ const SP500_STOCKS = [
         "changeYtd": 41.57,
         "marketCap": 430218870784,
         "volume": 1828826418,
-        "pe": 20.7,
+        "pe": 21.1,
         "color": "#ED1B2D",
         "domain": "chevron.com"
     },
@@ -406,6 +406,21 @@ const SP500_STOCKS = [
     },
     {
         "rank": 28,
+        "name": "Procter & Gamble",
+        "ticker": "PG",
+        "sector": "Consumer Staples",
+        "price": 157.08,
+        "change1d": 0.35,
+        "change7d": 6.26,
+        "changeYtd": 13.46,
+        "marketCap": 365121961984,
+        "volume": 1335628636,
+        "pe": 23.2,
+        "color": "#0071CE",
+        "domain": "pg.com"
+    },
+    {
+        "rank": 29,
         "name": "UnitedHealth Group",
         "ticker": "UNH",
         "sector": "Health Care",
@@ -418,21 +433,6 @@ const SP500_STOCKS = [
         "pe": 25.0,
         "color": "#D52B1E",
         "domain": "unitedhealthgroup.com"
-    },
-    {
-        "rank": 29,
-        "name": "Procter & Gamble",
-        "ticker": "PG",
-        "sector": "Consumer Staples",
-        "price": 157.08,
-        "change1d": 0.35,
-        "change7d": 6.26,
-        "changeYtd": 13.46,
-        "marketCap": 364845367296,
-        "volume": 1335628636,
-        "pe": 23.2,
-        "color": "#0071CE",
-        "domain": "pg.com"
     },
     {
         "rank": 30,
@@ -475,7 +475,7 @@ const SP500_STOCKS = [
         "changeYtd": 38.47,
         "marketCap": 347220213760,
         "volume": 2550574555,
-        "pe": 50.5,
+        "pe": 48.2,
         "color": "#3861FB",
         "domain": "lamresearch.com"
     },
@@ -550,7 +550,7 @@ const SP500_STOCKS = [
         "changeYtd": -12.41,
         "marketCap": 307527843840,
         "volume": 1358001211,
-        "pe": 21.5,
+        "pe": 21.6,
         "color": "#FF9900",
         "domain": "homedepot.com"
     },
@@ -700,7 +700,7 @@ const SP500_STOCKS = [
         "changeYtd": -12.01,
         "marketCap": 248385617920,
         "volume": 1171886219,
-        "pe": 11.7,
+        "pe": 12.0,
         "color": "#003087",
         "domain": "wellsfargo.com"
     },
@@ -805,7 +805,7 @@ const SP500_STOCKS = [
         "changeYtd": 189.57,
         "marketCap": 216803508224,
         "volume": 5367844871,
-        "pe": 87.1,
+        "pe": 76.6,
         "color": "#3861FB",
         "domain": "marvell.com"
     },
@@ -850,7 +850,7 @@ const SP500_STOCKS = [
         "changeYtd": -4.65,
         "marketCap": 203067031552,
         "volume": 3196323820,
-        "pe": 22.8,
+        "pe": 22.6,
         "color": "#3861FB",
         "domain": "salesforce.com"
     },
@@ -961,6 +961,21 @@ const SP500_STOCKS = [
     },
     {
         "rank": 65,
+        "name": "Abbott Laboratories",
+        "ticker": "ABT",
+        "sector": "Health Care",
+        "price": 104.68,
+        "change1d": 1.66,
+        "change7d": 6.03,
+        "changeYtd": -15.5,
+        "marketCap": 182332997632,
+        "volume": 982894433,
+        "pe": 33.7,
+        "color": "#D52B1E",
+        "domain": "abbott.com"
+    },
+    {
+        "rank": 66,
         "name": "BlackRock",
         "ticker": "BLK",
         "sector": "Financials",
@@ -973,21 +988,6 @@ const SP500_STOCKS = [
         "pe": 26.6,
         "color": "#003087",
         "domain": "blackrock.com"
-    },
-    {
-        "rank": 66,
-        "name": "Abbott Laboratories",
-        "ticker": "ABT",
-        "sector": "Health Care",
-        "price": 104.68,
-        "change1d": 1.66,
-        "change7d": 6.03,
-        "changeYtd": -15.5,
-        "marketCap": 181136523264,
-        "volume": 982894433,
-        "pe": 33.7,
-        "color": "#D52B1E",
-        "domain": "abbott.com"
     },
     {
         "rank": 67,
@@ -1105,7 +1105,7 @@ const SP500_STOCKS = [
         "changeYtd": 22.41,
         "marketCap": 167798390784,
         "volume": 1043258851,
-        "pe": 37.7,
+        "pe": 38.7,
         "color": "#D52B1E",
         "domain": "pfizer.com"
     },
@@ -1118,7 +1118,7 @@ const SP500_STOCKS = [
         "change1d": 0.75,
         "change7d": 2.47,
         "changeYtd": 1.5,
-        "marketCap": 164708843520,
+        "marketCap": 164679401472,
         "volume": 885446375,
         "pe": 17.7,
         "color": "#00529B",
@@ -1178,7 +1178,7 @@ const SP500_STOCKS = [
         "change1d": 1.23,
         "change7d": 4.16,
         "changeYtd": -7.79,
-        "marketCap": 159034245120,
+        "marketCap": 159718162432,
         "volume": 1076136712,
         "pe": 26.5,
         "color": "#FF9900",
@@ -1208,7 +1208,7 @@ const SP500_STOCKS = [
         "change1d": -1.56,
         "change7d": -6.69,
         "changeYtd": 26.6,
-        "marketCap": 156323233792,
+        "marketCap": 156282994688,
         "volume": 847949716,
         "pe": 42.9,
         "color": "#0039A6",
@@ -1225,7 +1225,7 @@ const SP500_STOCKS = [
         "changeYtd": 1.63,
         "marketCap": 153600884736,
         "volume": 2581558241,
-        "pe": 91.7,
+        "pe": 92.9,
         "color": "#3861FB",
         "domain": "servicenow.com"
     },
@@ -1240,7 +1240,7 @@ const SP500_STOCKS = [
         "changeYtd": -26.87,
         "marketCap": 151153541120,
         "volume": 1207714818,
-        "pe": 49.3,
+        "pe": 49.1,
         "color": "#D52B1E",
         "domain": "intuitive.com"
     },
@@ -1253,7 +1253,7 @@ const SP500_STOCKS = [
         "change1d": 2.2,
         "change7d": 0.22,
         "changeYtd": -17.0,
-        "marketCap": 149166538752,
+        "marketCap": 149057536000,
         "volume": 1265438584,
         "pe": 68.1,
         "color": "#0039A6",
@@ -1291,6 +1291,21 @@ const SP500_STOCKS = [
     },
     {
         "rank": 87,
+        "name": "Marathon Petroleum",
+        "ticker": "MPC",
+        "sector": "Energy",
+        "price": 476.92,
+        "change1d": -1.65,
+        "change7d": 7.84,
+        "changeYtd": 172.46,
+        "marketCap": 139230429184,
+        "volume": 1195239768,
+        "pe": 16.2,
+        "color": "#ED1B2D",
+        "domain": "marathonpetroleum.com"
+    },
+    {
+        "rank": 88,
         "name": "Accenture",
         "ticker": "ACN",
         "sector": "Information Technology",
@@ -1305,7 +1320,7 @@ const SP500_STOCKS = [
         "domain": "accenture.com"
     },
     {
-        "rank": 88,
+        "rank": 89,
         "name": "Chubb Limited",
         "ticker": "CB",
         "sector": "Financials",
@@ -1318,21 +1333,6 @@ const SP500_STOCKS = [
         "pe": 12.4,
         "color": "#003087",
         "domain": "chubb.com"
-    },
-    {
-        "rank": 89,
-        "name": "Marathon Petroleum",
-        "ticker": "MPC",
-        "sector": "Energy",
-        "price": 476.92,
-        "change1d": -1.65,
-        "change7d": 7.84,
-        "changeYtd": 172.46,
-        "marketCap": 133930950656,
-        "volume": 1195239768,
-        "pe": 16.2,
-        "color": "#ED1B2D",
-        "domain": "marathonpetroleum.com"
     },
     {
         "rank": 90,
@@ -1375,7 +1375,7 @@ const SP500_STOCKS = [
         "changeYtd": -27.48,
         "marketCap": 130526519296,
         "volume": 490439681,
-        "pe": 25.3,
+        "pe": 24.5,
         "color": "#003087",
         "domain": "blackstone.com"
     },
@@ -1388,14 +1388,29 @@ const SP500_STOCKS = [
         "change1d": 2.06,
         "change7d": 0.62,
         "changeYtd": 8.32,
-        "marketCap": 128948248576,
+        "marketCap": 128866377728,
         "volume": 591074907,
-        "pe": 29.5,
+        "pe": 29.6,
         "color": "#D52B1E",
         "domain": "vrtx.com"
     },
     {
         "rank": 94,
+        "name": "Booking Holdings",
+        "ticker": "BKNG",
+        "sector": "Consumer Discretionary",
+        "price": 165.8,
+        "change1d": 3.19,
+        "change7d": 6.37,
+        "changeYtd": -23.33,
+        "marketCap": 128474849280,
+        "volume": 1125598811,
+        "pe": 18.0,
+        "color": "#FF9900",
+        "domain": "bookingholdings.com"
+    },
+    {
+        "rank": 95,
         "name": "Valero Energy",
         "ticker": "VLO",
         "sector": "Energy",
@@ -1410,7 +1425,7 @@ const SP500_STOCKS = [
         "domain": "valero.com"
     },
     {
-        "rank": 95,
+        "rank": 96,
         "name": "S&P Global",
         "ticker": "SPGI",
         "sector": "Financials",
@@ -1423,21 +1438,6 @@ const SP500_STOCKS = [
         "pe": 26.0,
         "color": "#003087",
         "domain": "spglobal.com"
-    },
-    {
-        "rank": 96,
-        "name": "Booking Holdings",
-        "ticker": "BKNG",
-        "sector": "Consumer Discretionary",
-        "price": 165.8,
-        "change1d": 3.19,
-        "change7d": 6.37,
-        "changeYtd": -23.33,
-        "marketCap": 124578889728,
-        "volume": 1125598811,
-        "pe": 18.0,
-        "color": "#FF9900",
-        "domain": "bookingholdings.com"
     },
     {
         "rank": 97,
@@ -1525,7 +1525,7 @@ const SP500_STOCKS = [
         "changeYtd": -0.81,
         "marketCap": 122093707264,
         "volume": 1426183978,
-        "pe": 23.2,
+        "pe": 23.5,
         "color": "#D52B1E",
         "domain": "medtronic.com"
     },
@@ -1553,7 +1553,7 @@ const SP500_STOCKS = [
         "change1d": 2.32,
         "change7d": 1.51,
         "changeYtd": -21.31,
-        "marketCap": 121997598720,
+        "marketCap": 122000613376,
         "volume": 719796442,
         "pe": 12.8,
         "color": "#003087",
@@ -1583,7 +1583,7 @@ const SP500_STOCKS = [
         "change1d": -1.75,
         "change7d": -15.2,
         "changeYtd": 63.09,
-        "marketCap": 119241981952,
+        "marketCap": 118999654400,
         "volume": 1416415823,
         "pe": 66.9,
         "color": "#3861FB",
@@ -1628,7 +1628,7 @@ const SP500_STOCKS = [
         "change1d": -2.72,
         "change7d": 6.47,
         "changeYtd": 104.73,
-        "marketCap": 115950411776,
+        "marketCap": 115396853760,
         "volume": 815829474,
         "pe": 16.3,
         "color": "#ED1B2D",
@@ -1726,6 +1726,21 @@ const SP500_STOCKS = [
     },
     {
         "rank": 116,
+        "name": "HCA Healthcare",
+        "ticker": "HCA",
+        "sector": "Health Care",
+        "price": 468.5,
+        "change1d": -0.41,
+        "change7d": 6.68,
+        "changeYtd": -1.67,
+        "marketCap": 103931953152,
+        "volume": 642938479,
+        "pe": 15.4,
+        "color": "#D52B1E",
+        "domain": "hcahealthcare.com"
+    },
+    {
+        "rank": 117,
         "name": "Southern Company",
         "ticker": "SO",
         "sector": "Utilities",
@@ -1738,21 +1753,6 @@ const SP500_STOCKS = [
         "pe": 21.2,
         "color": "#00529B",
         "domain": "southerncompany.com"
-    },
-    {
-        "rank": 117,
-        "name": "HCA Healthcare",
-        "ticker": "HCA",
-        "sector": "Health Care",
-        "price": 468.5,
-        "change1d": -0.41,
-        "change7d": 6.68,
-        "changeYtd": -1.67,
-        "marketCap": 101430951936,
-        "volume": 642938479,
-        "pe": 15.4,
-        "color": "#D52B1E",
-        "domain": "hcahealthcare.com"
     },
     {
         "rank": 118,
@@ -1840,7 +1840,7 @@ const SP500_STOCKS = [
         "changeYtd": -14.36,
         "marketCap": 97434533888,
         "volume": 859592800,
-        "pe": 28.4,
+        "pe": 26.9,
         "color": "#00529B",
         "domain": "constellationenergy.com"
     },
@@ -1906,21 +1906,6 @@ const SP500_STOCKS = [
     },
     {
         "rank": 128,
-        "name": "AppLovin",
-        "ticker": "APP",
-        "sector": "Communication Services",
-        "price": 279.29,
-        "change1d": 6.52,
-        "change7d": -0.71,
-        "changeYtd": -54.7,
-        "marketCap": 93824548864,
-        "volume": 1603457842,
-        "pe": 22.3,
-        "color": "#4285F4",
-        "domain": "applovin.com"
-    },
-    {
-        "rank": 129,
         "name": "Robinhood Markets",
         "ticker": "HOOD",
         "sector": "Financials",
@@ -1933,6 +1918,21 @@ const SP500_STOCKS = [
         "pe": 50.0,
         "color": "#003087",
         "domain": "robinhood.com"
+    },
+    {
+        "rank": 129,
+        "name": "AppLovin",
+        "ticker": "APP",
+        "sector": "Communication Services",
+        "price": 279.29,
+        "change1d": 6.52,
+        "change7d": -0.71,
+        "changeYtd": -54.7,
+        "marketCap": 93464551424,
+        "volume": 1603457842,
+        "pe": 22.3,
+        "color": "#4285F4",
+        "domain": "applovin.com"
     },
     {
         "rank": 130,
@@ -1960,7 +1960,7 @@ const SP500_STOCKS = [
         "changeYtd": 3.98,
         "marketCap": 92690997248,
         "volume": 493951738,
-        "pe": 17.7,
+        "pe": 17.9,
         "color": "#00529B",
         "domain": "duke-energy.com"
     },
@@ -1988,7 +1988,7 @@ const SP500_STOCKS = [
         "change1d": 0.66,
         "change7d": 1.84,
         "changeYtd": 14.0,
-        "marketCap": 90447265792,
+        "marketCap": 90820206592,
         "volume": 425401481,
         "pe": 36.0,
         "color": "#0039A6",
@@ -2005,7 +2005,7 @@ const SP500_STOCKS = [
         "changeYtd": 39.11,
         "marketCap": 90197000192,
         "volume": 538566453,
-        "pe": 28.0,
+        "pe": 28.3,
         "color": "#0039A6",
         "domain": "csx.com"
     },
@@ -2041,6 +2041,21 @@ const SP500_STOCKS = [
     },
     {
         "rank": 137,
+        "name": "Cadence Design Systems",
+        "ticker": "CDNS",
+        "sector": "Information Technology",
+        "price": 324.38,
+        "change1d": -1.54,
+        "change7d": -8.91,
+        "changeYtd": 1.75,
+        "marketCap": 89469198336,
+        "volume": 791706168,
+        "pe": 65.4,
+        "color": "#3861FB",
+        "domain": "cadence.com"
+    },
+    {
+        "rank": 138,
         "name": "Johnson Controls",
         "ticker": "JCI",
         "sector": "Industrials",
@@ -2055,7 +2070,7 @@ const SP500_STOCKS = [
         "domain": "johnsoncontrols.com"
     },
     {
-        "rank": 138,
+        "rank": 139,
         "name": "U.S. Bancorp",
         "ticker": "USB",
         "sector": "Financials",
@@ -2070,21 +2085,6 @@ const SP500_STOCKS = [
         "domain": "usbank.com"
     },
     {
-        "rank": 139,
-        "name": "Cadence Design Systems",
-        "ticker": "CDNS",
-        "sector": "Information Technology",
-        "price": 324.38,
-        "change1d": -1.54,
-        "change7d": -8.91,
-        "changeYtd": 1.75,
-        "marketCap": 89331982336,
-        "volume": 791706168,
-        "pe": 65.4,
-        "color": "#3861FB",
-        "domain": "cadence.com"
-    },
-    {
         "rank": 140,
         "name": "Marsh McLennan",
         "ticker": "MRSH",
@@ -2095,7 +2095,7 @@ const SP500_STOCKS = [
         "changeYtd": 1.99,
         "marketCap": 89018982400,
         "volume": 473484391,
-        "pe": 22.6,
+        "pe": 22.8,
         "color": "#003087",
         "domain": "corporate.marsh.com"
     },
@@ -2215,7 +2215,7 @@ const SP500_STOCKS = [
         "changeYtd": 12.84,
         "marketCap": 84600823808,
         "volume": 435496126,
-        "pe": 41.5,
+        "pe": 42.0,
         "color": "#0039A6",
         "domain": "cintas.com"
     },
@@ -2290,7 +2290,7 @@ const SP500_STOCKS = [
         "changeYtd": 33.66,
         "marketCap": 82676203520,
         "volume": 1140090140,
-        "pe": 51.7,
+        "pe": 48.6,
         "color": "#0039A6",
         "domain": "vertiv.com"
     },
@@ -2335,12 +2335,27 @@ const SP500_STOCKS = [
         "changeYtd": 7.88,
         "marketCap": 81522360320,
         "volume": 373212755,
-        "pe": 38.8,
+        "pe": 39.0,
         "color": "#8A6D3B",
         "domain": "ecolab.com"
     },
     {
         "rank": 157,
+        "name": "EOG Resources",
+        "ticker": "EOG",
+        "sector": "Energy",
+        "price": 152.62,
+        "change1d": -1.02,
+        "change7d": 5.83,
+        "changeYtd": 48.17,
+        "marketCap": 81289764864,
+        "volume": 458420253,
+        "pe": 11.8,
+        "color": "#ED1B2D",
+        "domain": "eogresources.com"
+    },
+    {
+        "rank": 158,
         "name": "KKR & Co.",
         "ticker": "KKR",
         "sector": "Financials",
@@ -2355,7 +2370,7 @@ const SP500_STOCKS = [
         "domain": "kkr.com"
     },
     {
-        "rank": 158,
+        "rank": 159,
         "name": "Mondelez International",
         "ticker": "MDLZ",
         "sector": "Consumer Staples",
@@ -2363,14 +2378,14 @@ const SP500_STOCKS = [
         "change1d": 0.74,
         "change7d": 6.15,
         "changeYtd": 19.78,
-        "marketCap": 80445693952,
+        "marketCap": 80908443648,
         "volume": 512820137,
         "pe": 22.8,
         "color": "#0071CE",
         "domain": "mondelezinternational.com"
     },
     {
-        "rank": 159,
+        "rank": 160,
         "name": "Travelers Companies (The)",
         "ticker": "TRV",
         "sector": "Financials",
@@ -2383,21 +2398,6 @@ const SP500_STOCKS = [
         "pe": 10.2,
         "color": "#003087",
         "domain": "travelers.com"
-    },
-    {
-        "rank": 160,
-        "name": "EOG Resources",
-        "ticker": "EOG",
-        "sector": "Energy",
-        "price": 152.62,
-        "change1d": -1.02,
-        "change7d": 5.83,
-        "changeYtd": 48.17,
-        "marketCap": 80053641216,
-        "volume": 458420253,
-        "pe": 11.8,
-        "color": "#ED1B2D",
-        "domain": "eogresources.com"
     },
     {
         "rank": 161,
@@ -2440,7 +2440,7 @@ const SP500_STOCKS = [
         "changeYtd": 169.44,
         "marketCap": 77829267456,
         "volume": 1198714703,
-        "pe": 32.9,
+        "pe": 28.9,
         "color": "#3861FB",
         "domain": "hpe.com"
     },
@@ -2500,7 +2500,7 @@ const SP500_STOCKS = [
         "changeYtd": 15.13,
         "marketCap": 77192765440,
         "volume": 616025025,
-        "pe": 50.5,
+        "pe": 50.3,
         "color": "#FF9900",
         "domain": "hilton.com"
     },
@@ -2528,7 +2528,7 @@ const SP500_STOCKS = [
         "change1d": 1.85,
         "change7d": 4.12,
         "changeYtd": 24.82,
-        "marketCap": 75329019904,
+        "marketCap": 75017175040,
         "volume": 537230692,
         "pe": 27.8,
         "color": "#FF9900",
@@ -2566,6 +2566,21 @@ const SP500_STOCKS = [
     },
     {
         "rank": 172,
+        "name": "Cummins",
+        "ticker": "CMI",
+        "sector": "Industrials",
+        "price": 532.73,
+        "change1d": 1.29,
+        "change7d": 2.98,
+        "changeYtd": -1.16,
+        "marketCap": 73510912000,
+        "volume": 555398173,
+        "pe": 27.4,
+        "color": "#0039A6",
+        "domain": "cummins.com"
+    },
+    {
+        "rank": 173,
         "name": "General Motors",
         "ticker": "GM",
         "sector": "Consumer Discretionary",
@@ -2580,21 +2595,6 @@ const SP500_STOCKS = [
         "domain": "gm.com"
     },
     {
-        "rank": 173,
-        "name": "Cummins",
-        "ticker": "CMI",
-        "sector": "Industrials",
-        "price": 532.73,
-        "change1d": 1.29,
-        "change7d": 2.98,
-        "changeYtd": -1.16,
-        "marketCap": 73337995264,
-        "volume": 555398173,
-        "pe": 27.4,
-        "color": "#0039A6",
-        "domain": "cummins.com"
-    },
-    {
         "rank": 174,
         "name": "Kinder Morgan",
         "ticker": "KMI",
@@ -2603,7 +2603,7 @@ const SP500_STOCKS = [
         "change1d": -1.59,
         "change7d": 3.14,
         "changeYtd": 23.8,
-        "marketCap": 73083650048,
+        "marketCap": 73018785792,
         "volume": 374186395,
         "pe": 21.2,
         "color": "#ED1B2D",
@@ -2620,7 +2620,7 @@ const SP500_STOCKS = [
         "changeYtd": 13.55,
         "marketCap": 72959533056,
         "volume": 356251116,
-        "pe": 27.5,
+        "pe": 27.7,
         "color": "#0039A6",
         "domain": "norfolksouthern.com"
     },
@@ -2663,7 +2663,7 @@ const SP500_STOCKS = [
         "change1d": 0.85,
         "change7d": 3.78,
         "changeYtd": 51.36,
-        "marketCap": 71156498432,
+        "marketCap": 71155671040,
         "volume": 621705056,
         "pe": 15.9,
         "color": "#0071CE",
@@ -2695,7 +2695,7 @@ const SP500_STOCKS = [
         "changeYtd": 9.38,
         "marketCap": 70321815552,
         "volume": 333008566,
-        "pe": 31.9,
+        "pe": 32.6,
         "color": "#0039A6",
         "domain": "republicservices.com"
     },
@@ -2725,7 +2725,7 @@ const SP500_STOCKS = [
         "changeYtd": 93.94,
         "marketCap": 69596815360,
         "volume": 3705793229,
-        "pe": 342.5,
+        "pe": 310.9,
         "color": "#0039A6",
         "domain": "bloomenergy.com"
     },
@@ -2755,7 +2755,7 @@ const SP500_STOCKS = [
         "changeYtd": -31.52,
         "marketCap": 67195072512,
         "volume": 531854652,
-        "pe": 33.3,
+        "pe": 32.1,
         "color": "#FF9900",
         "domain": "carvana.com"
     },
@@ -2875,7 +2875,7 @@ const SP500_STOCKS = [
         "changeYtd": -55.13,
         "marketCap": 63968993280,
         "volume": 874551855,
-        "pe": 18.0,
+        "pe": 17.5,
         "color": "#D52B1E",
         "domain": "bostonscientific.com"
     },
@@ -2890,27 +2890,12 @@ const SP500_STOCKS = [
         "changeYtd": 28.34,
         "marketCap": 63719268352,
         "volume": 340899438,
-        "pe": 19.4,
+        "pe": 19.2,
         "color": "#003087",
         "domain": "metlife.com"
     },
     {
         "rank": 194,
-        "name": "W. W. Grainger",
-        "ticker": "GWW",
-        "sector": "Industrials",
-        "price": 1331.17,
-        "change1d": 0.04,
-        "change7d": 5.35,
-        "changeYtd": 29.58,
-        "marketCap": 62699364352,
-        "volume": 354916557,
-        "pe": 33.8,
-        "color": "#0039A6",
-        "domain": "grainger.com"
-    },
-    {
-        "rank": 195,
         "name": "TransDigm Group",
         "ticker": "TDG",
         "sector": "Industrials",
@@ -2918,11 +2903,26 @@ const SP500_STOCKS = [
         "change1d": 2.2,
         "change7d": 3.47,
         "changeYtd": -17.65,
-        "marketCap": 62696845312,
+        "marketCap": 63442108416,
         "volume": 445104128,
         "pe": 34.5,
         "color": "#0039A6",
         "domain": "transdigm.com"
+    },
+    {
+        "rank": 195,
+        "name": "W. W. Grainger",
+        "ticker": "GWW",
+        "sector": "Industrials",
+        "price": 1331.17,
+        "change1d": 0.04,
+        "change7d": 5.35,
+        "changeYtd": 29.58,
+        "marketCap": 62848692224,
+        "volume": 354916557,
+        "pe": 33.8,
+        "color": "#0039A6",
+        "domain": "grainger.com"
     },
     {
         "rank": 196,
@@ -2933,7 +2933,7 @@ const SP500_STOCKS = [
         "change1d": 1.3,
         "change7d": -1.32,
         "changeYtd": -5.58,
-        "marketCap": 61663420416,
+        "marketCap": 61754466304,
         "volume": 460098879,
         "pe": 21.4,
         "color": "#3861FB",
@@ -3115,7 +3115,7 @@ const SP500_STOCKS = [
         "changeYtd": 52.97,
         "marketCap": 57782968320,
         "volume": 341864023,
-        "pe": 20.1,
+        "pe": 20.3,
         "color": "#8A6D3B",
         "domain": "nucor.com"
     },
@@ -3130,7 +3130,7 @@ const SP500_STOCKS = [
         "changeYtd": 30.09,
         "marketCap": 57146597376,
         "volume": 330330418,
-        "pe": 15.9,
+        "pe": 15.7,
         "color": "#ED1B2D",
         "domain": "oneok.com"
     },
@@ -3143,9 +3143,9 @@ const SP500_STOCKS = [
         "change1d": 0.68,
         "change7d": -0.04,
         "changeYtd": 18.86,
-        "marketCap": 56976007168,
+        "marketCap": 56961531904,
         "volume": 330692646,
-        "pe": 36.9,
+        "pe": 36.3,
         "color": "#0039A6",
         "domain": "ametek.com"
     },
@@ -3175,7 +3175,7 @@ const SP500_STOCKS = [
         "changeYtd": 12.13,
         "marketCap": 55287001088,
         "volume": 262667678,
-        "pe": 21.6,
+        "pe": 21.8,
         "color": "#00529B",
         "domain": "dominionenergy.com"
     },
@@ -3211,21 +3211,6 @@ const SP500_STOCKS = [
     },
     {
         "rank": 215,
-        "name": "Garmin",
-        "ticker": "GRMN",
-        "sector": "Consumer Discretionary",
-        "price": 285.22,
-        "change1d": 1.97,
-        "change7d": 3.28,
-        "changeYtd": 35.25,
-        "marketCap": 55005401088,
-        "volume": 261319705,
-        "pe": 29.1,
-        "color": "#FF9900",
-        "domain": "garmin.com"
-    },
-    {
-        "rank": 216,
         "name": "Diamondback Energy",
         "ticker": "FANG",
         "sector": "Energy",
@@ -3233,11 +3218,26 @@ const SP500_STOCKS = [
         "change1d": -0.97,
         "change7d": 6.09,
         "changeYtd": 34.73,
-        "marketCap": 54771871744,
+        "marketCap": 55024885760,
         "volume": 465803614,
         "pe": 37.3,
         "color": "#ED1B2D",
         "domain": "diamondbackenergy.com"
+    },
+    {
+        "rank": 216,
+        "name": "Garmin",
+        "ticker": "GRMN",
+        "sector": "Consumer Discretionary",
+        "price": 285.22,
+        "change1d": 1.97,
+        "change7d": 3.28,
+        "changeYtd": 35.25,
+        "marketCap": 55006449664,
+        "volume": 261319705,
+        "pe": 29.1,
+        "color": "#FF9900",
+        "domain": "garmin.com"
     },
     {
         "rank": 217,
@@ -3295,7 +3295,7 @@ const SP500_STOCKS = [
         "changeYtd": 9.54,
         "marketCap": 54001471488,
         "volume": 417339186,
-        "pe": 17.8,
+        "pe": 17.5,
         "color": "#ED1B2D",
         "domain": "bakerhughes.com"
     },
@@ -3310,7 +3310,7 @@ const SP500_STOCKS = [
         "changeYtd": 58.86,
         "marketCap": 53657706496,
         "volume": 984929275,
-        "pe": 49.9,
+        "pe": 47.1,
         "color": "#3861FB",
         "domain": "teradyne.com"
     },
@@ -3400,7 +3400,7 @@ const SP500_STOCKS = [
         "changeYtd": 56.87,
         "marketCap": 51898707968,
         "volume": 573499594,
-        "pe": 40.2,
+        "pe": 40.9,
         "color": "#D52B1E",
         "domain": "humana.com"
     },
@@ -3473,9 +3473,9 @@ const SP500_STOCKS = [
         "change1d": 1.91,
         "change7d": 2.7,
         "changeYtd": 4.16,
-        "marketCap": 50780839936,
+        "marketCap": 50727981056,
         "volume": 330780518,
-        "pe": 51.8,
+        "pe": 52.4,
         "color": "#D52B1E",
         "domain": "edwards.com"
     },
@@ -3505,7 +3505,7 @@ const SP500_STOCKS = [
         "changeYtd": 58.31,
         "marketCap": 50557575168,
         "volume": 900051112,
-        "pe": 88.9,
+        "pe": 79.8,
         "color": "#3861FB",
         "domain": "ciena.com"
     },
@@ -3533,7 +3533,7 @@ const SP500_STOCKS = [
         "change1d": 0.89,
         "change7d": 3.82,
         "changeYtd": 21.13,
-        "marketCap": 49499103232,
+        "marketCap": 49492611072,
         "volume": 396544284,
         "pe": 34.2,
         "color": "#D52B1E",
@@ -3571,6 +3571,21 @@ const SP500_STOCKS = [
     },
     {
         "rank": 239,
+        "name": "PayPal",
+        "ticker": "PYPL",
+        "sector": "Financials",
+        "price": 57.16,
+        "change1d": 1.89,
+        "change7d": 4.02,
+        "changeYtd": -1.04,
+        "marketCap": 49271918592,
+        "volume": 725621676,
+        "pe": 10.8,
+        "color": "#003087",
+        "domain": "paypal.com"
+    },
+    {
+        "rank": 240,
         "name": "Ford Motor Company",
         "ticker": "F",
         "sector": "Consumer Discretionary",
@@ -3585,7 +3600,7 @@ const SP500_STOCKS = [
         "domain": "ford.com"
     },
     {
-        "rank": 240,
+        "rank": 241,
         "name": "Vylor",
         "ticker": "VYLR",
         "sector": "Consumer Staples",
@@ -3598,21 +3613,6 @@ const SP500_STOCKS = [
         "pe": 104.8,
         "color": "#0071CE",
         "domain": "vylor.com"
-    },
-    {
-        "rank": 241,
-        "name": "PayPal",
-        "ticker": "PYPL",
-        "sector": "Financials",
-        "price": 57.16,
-        "change1d": 1.89,
-        "change7d": 4.02,
-        "changeYtd": -1.04,
-        "marketCap": 48898142208,
-        "volume": 725621676,
-        "pe": 10.8,
-        "color": "#003087",
-        "domain": "paypal.com"
     },
     {
         "rank": 242,
@@ -3655,7 +3655,7 @@ const SP500_STOCKS = [
         "changeYtd": 13.78,
         "marketCap": 47961464832,
         "volume": 354994837,
-        "pe": 145.1,
+        "pe": 142.6,
         "color": "#003087",
         "domain": "block.xyz"
     },
@@ -3691,21 +3691,6 @@ const SP500_STOCKS = [
     },
     {
         "rank": 247,
-        "name": "Rockwell Automation",
-        "ticker": "ROK",
-        "sector": "Industrials",
-        "price": 422.03,
-        "change1d": -0.33,
-        "change7d": -4.5,
-        "changeYtd": 5.56,
-        "marketCap": 46960947200,
-        "volume": 324289117,
-        "pe": 40.3,
-        "color": "#0039A6",
-        "domain": "rockwellautomation.com"
-    },
-    {
-        "rank": 248,
         "name": "Xcel Energy",
         "ticker": "XEL",
         "sector": "Utilities",
@@ -3715,9 +3700,24 @@ const SP500_STOCKS = [
         "changeYtd": 4.74,
         "marketCap": 46922530816,
         "volume": 399125344,
-        "pe": 20.6,
+        "pe": 20.4,
         "color": "#00529B",
         "domain": "xcelenergy.com"
+    },
+    {
+        "rank": 248,
+        "name": "Rockwell Automation",
+        "ticker": "ROK",
+        "sector": "Industrials",
+        "price": 422.03,
+        "change1d": -0.33,
+        "change7d": -4.5,
+        "changeYtd": 5.56,
+        "marketCap": 46865870848,
+        "volume": 324289117,
+        "pe": 40.3,
+        "color": "#0039A6",
+        "domain": "rockwellautomation.com"
     },
     {
         "rank": 249,
@@ -3751,21 +3751,6 @@ const SP500_STOCKS = [
     },
     {
         "rank": 251,
-        "name": "Fifth Third Bancorp",
-        "ticker": "FITB",
-        "sector": "Financials",
-        "price": 50.35,
-        "change1d": 1.43,
-        "change7d": 0.46,
-        "changeYtd": 3.56,
-        "marketCap": 45662040064,
-        "volume": 300630928,
-        "pe": 17.1,
-        "color": "#003087",
-        "domain": "53.com"
-    },
-    {
-        "rank": 252,
         "name": "Carrier Global",
         "ticker": "CARR",
         "sector": "Industrials",
@@ -3773,11 +3758,26 @@ const SP500_STOCKS = [
         "change1d": 1.33,
         "change7d": -0.07,
         "changeYtd": 3.21,
-        "marketCap": 45304905728,
+        "marketCap": 45648699392,
         "volume": 350902996,
         "pe": 40.4,
         "color": "#0039A6",
         "domain": "carrier.com"
+    },
+    {
+        "rank": 252,
+        "name": "Fifth Third Bancorp",
+        "ticker": "FITB",
+        "sector": "Financials",
+        "price": 50.35,
+        "change1d": 1.43,
+        "change7d": 0.46,
+        "changeYtd": 3.56,
+        "marketCap": 45645946880,
+        "volume": 300630928,
+        "pe": 17.1,
+        "color": "#003087",
+        "domain": "53.com"
     },
     {
         "rank": 253,
@@ -3833,7 +3833,7 @@ const SP500_STOCKS = [
         "change1d": 1.36,
         "change7d": 2.45,
         "changeYtd": 0.8,
-        "marketCap": 44394508288,
+        "marketCap": 44428070912,
         "volume": 267241379,
         "pe": 12.1,
         "color": "#003087",
@@ -3908,9 +3908,9 @@ const SP500_STOCKS = [
         "change1d": 3.43,
         "change7d": 8.0,
         "changeYtd": -23.19,
-        "marketCap": 43107450880,
+        "marketCap": 43163197440,
         "volume": 298158925,
-        "pe": 37.8,
+        "pe": 38.9,
         "color": "#D52B1E",
         "domain": "idexx.com"
     },
@@ -3940,7 +3940,7 @@ const SP500_STOCKS = [
         "changeYtd": 98.94,
         "marketCap": 41987461120,
         "volume": 791727012,
-        "pe": 39.3,
+        "pe": 37.8,
         "color": "#3861FB",
         "domain": "twilio.com"
     },
@@ -4015,7 +4015,7 @@ const SP500_STOCKS = [
         "changeYtd": 83.73,
         "marketCap": 40457428992,
         "volume": 726149224,
-        "pe": 49.9,
+        "pe": 49.7,
         "color": "#D52B1E",
         "domain": "illumina.com"
     },
@@ -4045,7 +4045,7 @@ const SP500_STOCKS = [
         "changeYtd": 2.71,
         "marketCap": 40323825664,
         "volume": 690582597,
-        "pe": 114.2,
+        "pe": 109.2,
         "color": "#3861FB",
         "domain": "microchip.com"
     },
@@ -4088,7 +4088,7 @@ const SP500_STOCKS = [
         "change1d": -0.85,
         "change7d": 1.95,
         "changeYtd": 38.33,
-        "marketCap": 39968907264,
+        "marketCap": 39968653312,
         "volume": 305943781,
         "pe": 22.6,
         "color": "#0071CE",
@@ -4111,21 +4111,6 @@ const SP500_STOCKS = [
     },
     {
         "rank": 275,
-        "name": "Old Dominion",
-        "ticker": "ODFL",
-        "sector": "Industrials",
-        "price": 188.88,
-        "change1d": 2.45,
-        "change7d": 7.56,
-        "changeYtd": 10.88,
-        "marketCap": 39281049600,
-        "volume": 327979928,
-        "pe": 36.1,
-        "color": "#0039A6",
-        "domain": "odfl.com"
-    },
-    {
-        "rank": 276,
         "name": "CBRE Group",
         "ticker": "CBRE",
         "sector": "Real Estate",
@@ -4138,6 +4123,21 @@ const SP500_STOCKS = [
         "pe": 31.2,
         "color": "#003D6B",
         "domain": "cbre.com"
+    },
+    {
+        "rank": 276,
+        "name": "Old Dominion",
+        "ticker": "ODFL",
+        "sector": "Industrials",
+        "price": 188.88,
+        "change1d": 2.45,
+        "change7d": 7.56,
+        "changeYtd": 10.88,
+        "marketCap": 39165521920,
+        "volume": 327979928,
+        "pe": 36.1,
+        "color": "#0039A6",
+        "domain": "odfl.com"
     },
     {
         "rank": 277,
@@ -4210,7 +4210,7 @@ const SP500_STOCKS = [
         "changeYtd": -21.95,
         "marketCap": 38696480768,
         "volume": 536039723,
-        "pe": 27.8,
+        "pe": 28.1,
         "color": "#FF9900",
         "domain": "chipotle.com"
     },
@@ -4285,7 +4285,7 @@ const SP500_STOCKS = [
         "changeYtd": 63.13,
         "marketCap": 36391854080,
         "volume": 360192928,
-        "pe": 42.1,
+        "pe": 38.0,
         "color": "#3861FB",
         "domain": "flex.com"
     },
@@ -4300,7 +4300,7 @@ const SP500_STOCKS = [
         "changeYtd": -2.4,
         "marketCap": 35974508544,
         "volume": 216142560,
-        "pe": 9.3,
+        "pe": 9.5,
         "color": "#003087",
         "domain": "thehartford.com"
     },
@@ -4330,7 +4330,7 @@ const SP500_STOCKS = [
         "changeYtd": -15.17,
         "marketCap": 35578384384,
         "volume": 559181250,
-        "pe": 12.0,
+        "pe": 11.8,
         "color": "#FF9900",
         "domain": "carnivalcorp.com"
     },
@@ -4343,7 +4343,7 @@ const SP500_STOCKS = [
         "change1d": 6.25,
         "change7d": 12.75,
         "changeYtd": -2.58,
-        "marketCap": 35030843392,
+        "marketCap": 35030044672,
         "volume": 530642416,
         "pe": 18.2,
         "color": "#FF9900",
@@ -4358,7 +4358,7 @@ const SP500_STOCKS = [
         "change1d": -0.5,
         "change7d": -2.13,
         "changeYtd": -6.96,
-        "marketCap": 34994069504,
+        "marketCap": 34987147264,
         "volume": 236190228,
         "pe": 17.4,
         "color": "#00529B",
@@ -4366,21 +4366,6 @@ const SP500_STOCKS = [
     },
     {
         "rank": 292,
-        "name": "Crown Castle",
-        "ticker": "CCI",
-        "sector": "Real Estate",
-        "price": 80.0,
-        "change1d": 0.78,
-        "change7d": 15.93,
-        "changeYtd": -1.64,
-        "marketCap": 34959998976,
-        "volume": 305249440,
-        "pe": 32.7,
-        "color": "#003D6B",
-        "domain": "crowncastle.com"
-    },
-    {
-        "rank": 293,
         "name": "Martin Marietta Materials",
         "ticker": "MLM",
         "sector": "Materials",
@@ -4390,12 +4375,12 @@ const SP500_STOCKS = [
         "changeYtd": -22.69,
         "marketCap": 34886852608,
         "volume": 346005226,
-        "pe": 32.0,
+        "pe": 31.9,
         "color": "#8A6D3B",
         "domain": "martinmarietta.com"
     },
     {
-        "rank": 294,
+        "rank": 293,
         "name": "Centene Corporation",
         "ticker": "CNC",
         "sector": "Health Care",
@@ -4410,7 +4395,7 @@ const SP500_STOCKS = [
         "domain": "centene.com"
     },
     {
-        "rank": 295,
+        "rank": 294,
         "name": "Biogen",
         "ticker": "BIIB",
         "sector": "Health Care",
@@ -4420,27 +4405,12 @@ const SP500_STOCKS = [
         "changeYtd": 26.53,
         "marketCap": 34773905408,
         "volume": 234840944,
-        "pe": 41.1,
+        "pe": 41.8,
         "color": "#D52B1E",
         "domain": "biogen.com"
     },
     {
-        "rank": 296,
-        "name": "Kimberly-Clark",
-        "ticker": "KMB",
-        "sector": "Consumer Staples",
-        "price": 104.07,
-        "change1d": 4.69,
-        "change7d": 7.87,
-        "changeYtd": 9.32,
-        "marketCap": 34611499008,
-        "volume": 412290475,
-        "pe": 20.3,
-        "color": "#0071CE",
-        "domain": "kimberly-clark.com"
-    },
-    {
-        "rank": 297,
+        "rank": 295,
         "name": "WEC Energy Group",
         "ticker": "WEC",
         "sector": "Utilities",
@@ -4455,7 +4425,22 @@ const SP500_STOCKS = [
         "domain": "wecenergygroup.com"
     },
     {
-        "rank": 298,
+        "rank": 296,
+        "name": "Kimberly-Clark",
+        "ticker": "KMB",
+        "sector": "Consumer Staples",
+        "price": 104.07,
+        "change1d": 4.69,
+        "change7d": 7.87,
+        "changeYtd": 9.32,
+        "marketCap": 34545033216,
+        "volume": 412290475,
+        "pe": 20.3,
+        "color": "#0071CE",
+        "domain": "kimberly-clark.com"
+    },
+    {
+        "rank": 297,
         "name": "Steel Dynamics",
         "ticker": "STLD",
         "sector": "Materials",
@@ -4470,7 +4455,7 @@ const SP500_STOCKS = [
         "domain": "steeldynamics.com"
     },
     {
-        "rank": 299,
+        "rank": 298,
         "name": "ResMed|",
         "ticker": "RMD",
         "sector": "Health Care",
@@ -4483,6 +4468,21 @@ const SP500_STOCKS = [
         "pe": 23.2,
         "color": "#D52B1E",
         "domain": "resmed.com"
+    },
+    {
+        "rank": 299,
+        "name": "Crown Castle",
+        "ticker": "CCI",
+        "sector": "Real Estate",
+        "price": 80.0,
+        "change1d": 0.78,
+        "change7d": 15.93,
+        "changeYtd": -1.64,
+        "marketCap": 34036432896,
+        "volume": 305249440,
+        "pe": 32.7,
+        "color": "#003D6B",
+        "domain": "crowncastle.com"
     },
     {
         "rank": 300,
@@ -4523,7 +4523,7 @@ const SP500_STOCKS = [
         "change1d": 1.75,
         "change7d": 5.28,
         "changeYtd": 3.04,
-        "marketCap": 33887463424,
+        "marketCap": 33864710144,
         "volume": 276651336,
         "pe": 7.7,
         "color": "#003087",
@@ -4540,7 +4540,7 @@ const SP500_STOCKS = [
         "changeYtd": 32.01,
         "marketCap": 33545152512,
         "volume": 184510796,
-        "pe": 83.5,
+        "pe": 80.5,
         "color": "#003D6B",
         "domain": "ironmountain.com"
     },
@@ -4555,7 +4555,7 @@ const SP500_STOCKS = [
         "changeYtd": -11.85,
         "marketCap": 33315256320,
         "volume": 187717589,
-        "pe": 59.9,
+        "pe": 61.5,
         "color": "#4285F4",
         "domain": "tkogrp.com"
     },
@@ -4600,7 +4600,7 @@ const SP500_STOCKS = [
         "changeYtd": 11.86,
         "marketCap": 32840724480,
         "volume": 316118374,
-        "pe": 36.7,
+        "pe": 36.1,
         "color": "#D52B1E",
         "domain": "mt.com"
     },
@@ -4645,7 +4645,7 @@ const SP500_STOCKS = [
         "changeYtd": -37.21,
         "marketCap": 32404996096,
         "volume": 418773769,
-        "pe": 12.7,
+        "pe": 12.9,
         "color": "#D52B1E",
         "domain": "zoetis.com"
     },
@@ -4688,7 +4688,7 @@ const SP500_STOCKS = [
         "change1d": 2.75,
         "change7d": 8.78,
         "changeYtd": -19.31,
-        "marketCap": 31776126976,
+        "marketCap": 32001636352,
         "volume": 277376255,
         "pe": 16.2,
         "color": "#D52B1E",
@@ -4703,7 +4703,7 @@ const SP500_STOCKS = [
         "change1d": 1.2,
         "change7d": 0.93,
         "changeYtd": 4.46,
-        "marketCap": 31576612864,
+        "marketCap": 31689596928,
         "volume": 225835707,
         "pe": 11.7,
         "color": "#003087",
@@ -4711,6 +4711,21 @@ const SP500_STOCKS = [
     },
     {
         "rank": 315,
+        "name": "Cognizant",
+        "ticker": "CTSH",
+        "sector": "Information Technology",
+        "price": 65.77,
+        "change1d": 5.28,
+        "change7d": 15.24,
+        "changeYtd": -21.93,
+        "marketCap": 31109208064,
+        "volume": 493563113,
+        "pe": 14.1,
+        "color": "#3861FB",
+        "domain": "cognizant.com"
+    },
+    {
+        "rank": 316,
         "name": "Huntington Bancshares",
         "ticker": "HBAN",
         "sector": "Financials",
@@ -4720,12 +4735,12 @@ const SP500_STOCKS = [
         "changeYtd": -14.44,
         "marketCap": 31013367808,
         "volume": 406329092,
-        "pe": 11.9,
+        "pe": 11.8,
         "color": "#003087",
         "domain": "huntington.com"
     },
     {
-        "rank": 316,
+        "rank": 317,
         "name": "Reddit",
         "ticker": "RDDT",
         "sector": "Communication Services",
@@ -4740,7 +4755,7 @@ const SP500_STOCKS = [
         "domain": "redditinc.com"
     },
     {
-        "rank": 317,
+        "rank": 318,
         "name": "Extra Space Storage",
         "ticker": "EXR",
         "sector": "Real Estate",
@@ -4755,7 +4770,22 @@ const SP500_STOCKS = [
         "domain": "extraspace.com"
     },
     {
-        "rank": 318,
+        "rank": 319,
+        "name": "Raymond James Financial",
+        "ticker": "RJF",
+        "sector": "Financials",
+        "price": 157.37,
+        "change1d": 0.08,
+        "change7d": 0.08,
+        "changeYtd": -5.53,
+        "marketCap": 30271961088,
+        "volume": 187922592,
+        "pe": 13.7,
+        "color": "#003087",
+        "domain": "raymondjames.com"
+    },
+    {
+        "rank": 320,
         "name": "Northern Trust",
         "ticker": "NTRS",
         "sector": "Financials",
@@ -4770,22 +4800,7 @@ const SP500_STOCKS = [
         "domain": "northerntrust.com"
     },
     {
-        "rank": 319,
-        "name": "Raymond James Financial",
-        "ticker": "RJF",
-        "sector": "Financials",
-        "price": 157.37,
-        "change1d": 0.08,
-        "change7d": 0.08,
-        "changeYtd": -5.53,
-        "marketCap": 30230775808,
-        "volume": 187922592,
-        "pe": 13.7,
-        "color": "#003087",
-        "domain": "raymondjames.com"
-    },
-    {
-        "rank": 320,
+        "rank": 321,
         "name": "Ingersoll Rand",
         "ticker": "IR",
         "sector": "Industrials",
@@ -4800,7 +4815,7 @@ const SP500_STOCKS = [
         "domain": "irco.com"
     },
     {
-        "rank": 321,
+        "rank": 322,
         "name": "Jabil",
         "ticker": "JBL",
         "sector": "Information Technology",
@@ -4815,7 +4830,7 @@ const SP500_STOCKS = [
         "domain": "jabil.com"
     },
     {
-        "rank": 322,
+        "rank": 323,
         "name": "Williams-Sonoma, Inc.",
         "ticker": "WSM",
         "sector": "Consumer Discretionary",
@@ -4823,26 +4838,11 @@ const SP500_STOCKS = [
         "change1d": 3.94,
         "change7d": 4.81,
         "changeYtd": 28.75,
-        "marketCap": 29683886080,
+        "marketCap": 29681068032,
         "volume": 271663891,
         "pe": 25.6,
         "color": "#FF9900",
         "domain": "williams-sonomainc.com"
-    },
-    {
-        "rank": 323,
-        "name": "Cognizant",
-        "ticker": "CTSH",
-        "sector": "Information Technology",
-        "price": 65.77,
-        "change1d": 5.28,
-        "change7d": 15.24,
-        "changeYtd": -21.93,
-        "marketCap": 29625714688,
-        "volume": 493563113,
-        "pe": 13.9,
-        "color": "#3861FB",
-        "domain": "cognizant.com"
     },
     {
         "rank": 324,
@@ -4876,21 +4876,6 @@ const SP500_STOCKS = [
     },
     {
         "rank": 326,
-        "name": "Teledyne Technologies",
-        "ticker": "TDY",
-        "sector": "Information Technology",
-        "price": 619.91,
-        "change1d": 1.81,
-        "change7d": 2.61,
-        "changeYtd": 12.93,
-        "marketCap": 28736344064,
-        "volume": 194238871,
-        "pe": 30.1,
-        "color": "#3861FB",
-        "domain": "teledyne.com"
-    },
-    {
-        "rank": 327,
         "name": "Ameren",
         "ticker": "AEE",
         "sector": "Utilities",
@@ -4903,6 +4888,21 @@ const SP500_STOCKS = [
         "pe": 18.2,
         "color": "#00529B",
         "domain": "amereninvestors.com"
+    },
+    {
+        "rank": 327,
+        "name": "Teledyne Technologies",
+        "ticker": "TDY",
+        "sector": "Information Technology",
+        "price": 619.91,
+        "change1d": 1.81,
+        "change7d": 2.61,
+        "changeYtd": 12.93,
+        "marketCap": 28719892480,
+        "volume": 194238871,
+        "pe": 30.1,
+        "color": "#3861FB",
+        "domain": "teledyne.com"
     },
     {
         "rank": 328,
@@ -4975,12 +4975,27 @@ const SP500_STOCKS = [
         "changeYtd": 24.2,
         "marketCap": 27489734656,
         "volume": 245984479,
-        "pe": 32.9,
+        "pe": 33.0,
         "color": "#3861FB",
         "domain": "verisign.com"
     },
     {
         "rank": 333,
+        "name": "Halliburton",
+        "ticker": "HAL",
+        "sector": "Energy",
+        "price": 32.89,
+        "change1d": 0.18,
+        "change7d": 3.59,
+        "changeYtd": 3.66,
+        "marketCap": 27476232192,
+        "volume": 360097441,
+        "pe": 17.3,
+        "color": "#ED1B2D",
+        "domain": "halliburton.com"
+    },
+    {
+        "rank": 334,
         "name": "W. R. Berkley Corporation",
         "ticker": "WRB",
         "sector": "Financials",
@@ -4990,24 +5005,9 @@ const SP500_STOCKS = [
         "changeYtd": 6.55,
         "marketCap": 27459700736,
         "volume": 184845189,
-        "pe": 15.1,
+        "pe": 15.2,
         "color": "#003087",
         "domain": "berkley.com"
-    },
-    {
-        "rank": 334,
-        "name": "Halliburton",
-        "ticker": "HAL",
-        "sector": "Energy",
-        "price": 32.89,
-        "change1d": 0.18,
-        "change7d": 3.59,
-        "changeYtd": 3.66,
-        "marketCap": 27401656320,
-        "volume": 360097441,
-        "pe": 17.3,
-        "color": "#ED1B2D",
-        "domain": "halliburton.com"
     },
     {
         "rank": 335,
@@ -5035,7 +5035,7 @@ const SP500_STOCKS = [
         "changeYtd": 39.49,
         "marketCap": 26955323392,
         "volume": 236682222,
-        "pe": 49.2,
+        "pe": 49.0,
         "color": "#D52B1E",
         "domain": "westpharma.com"
     },
@@ -5140,7 +5140,7 @@ const SP500_STOCKS = [
         "changeYtd": 28.59,
         "marketCap": 26363176960,
         "volume": 239611377,
-        "pe": 26.6,
+        "pe": 26.9,
         "color": "#D52B1E",
         "domain": "labcorp.com"
     },
@@ -5153,9 +5153,9 @@ const SP500_STOCKS = [
         "change1d": 0.31,
         "change7d": 2.18,
         "changeYtd": 5.0,
-        "marketCap": 26357049344,
+        "marketCap": 26347538432,
         "volume": 196258503,
-        "pe": 24.2,
+        "pe": 24.4,
         "color": "#00529B",
         "domain": "firstenergycorp.com"
     },
@@ -5185,7 +5185,7 @@ const SP500_STOCKS = [
         "changeYtd": -3.2,
         "marketCap": 26140084224,
         "volume": 230172685,
-        "pe": 23.4,
+        "pe": 23.5,
         "color": "#0039A6",
         "domain": "dovercorporation.com"
     },
@@ -5230,7 +5230,7 @@ const SP500_STOCKS = [
         "changeYtd": 69.47,
         "marketCap": 25854838784,
         "volume": 268144860,
-        "pe": 37.9,
+        "pe": 36.4,
         "color": "#3861FB",
         "domain": "f5.com"
     },
@@ -5260,7 +5260,7 @@ const SP500_STOCKS = [
         "changeYtd": 26.25,
         "marketCap": 25821337600,
         "volume": 211187492,
-        "pe": 28.7,
+        "pe": 29.0,
         "color": "#0039A6",
         "domain": "expeditors.com"
     },
@@ -5333,7 +5333,7 @@ const SP500_STOCKS = [
         "change1d": -1.65,
         "change7d": -7.79,
         "changeYtd": 46.76,
-        "marketCap": 25023434752,
+        "marketCap": 25039060992,
         "volume": 203767357,
         "pe": 43.2,
         "color": "#3861FB",
@@ -5365,7 +5365,7 @@ const SP500_STOCKS = [
         "changeYtd": 0.96,
         "marketCap": 24856766464,
         "volume": 154926763,
-        "pe": 16.9,
+        "pe": 17.1,
         "color": "#00529B",
         "domain": "eversource.com"
     },
@@ -5395,7 +5395,7 @@ const SP500_STOCKS = [
         "changeYtd": 1.08,
         "marketCap": 24613376000,
         "volume": 168153926,
-        "pe": 25.8,
+        "pe": 25.4,
         "color": "#0039A6",
         "domain": "veralto.com"
     },
@@ -5408,7 +5408,7 @@ const SP500_STOCKS = [
         "change1d": -1.83,
         "change7d": -2.25,
         "changeYtd": 1.72,
-        "marketCap": 24551823360,
+        "marketCap": 24556101632,
         "volume": 242312801,
         "pe": 27.8,
         "color": "#0039A6",
@@ -5416,6 +5416,21 @@ const SP500_STOCKS = [
     },
     {
         "rank": 362,
+        "name": "Verisk Analytics",
+        "ticker": "VRSK",
+        "sector": "Industrials",
+        "price": 187.33,
+        "change1d": 3.74,
+        "change7d": 11.06,
+        "changeYtd": -15.27,
+        "marketCap": 24544321536,
+        "volume": 255530860,
+        "pe": 28.2,
+        "color": "#0039A6",
+        "domain": "verisk.com"
+    },
+    {
+        "rank": 363,
         "name": "Church & Dwight",
         "ticker": "CHD",
         "sector": "Consumer Staples",
@@ -5428,21 +5443,6 @@ const SP500_STOCKS = [
         "pe": 32.2,
         "color": "#0071CE",
         "domain": "churchdwight.com"
-    },
-    {
-        "rank": 363,
-        "name": "Verisk Analytics",
-        "ticker": "VRSK",
-        "sector": "Industrials",
-        "price": 187.33,
-        "change1d": 3.74,
-        "change7d": 11.06,
-        "changeYtd": -15.27,
-        "marketCap": 24382126080,
-        "volume": 255530860,
-        "pe": 28.2,
-        "color": "#0039A6",
-        "domain": "verisk.com"
     },
     {
         "rank": 364,
@@ -5530,7 +5530,7 @@ const SP500_STOCKS = [
         "changeYtd": 14.87,
         "marketCap": 23901106176,
         "volume": 124332411,
-        "pe": 44.2,
+        "pe": 44.7,
         "color": "#ED1B2D",
         "domain": "texaspacific.com"
     },
@@ -5590,7 +5590,7 @@ const SP500_STOCKS = [
         "changeYtd": 7.99,
         "marketCap": 23300827136,
         "volume": 237432288,
-        "pe": 24.5,
+        "pe": 24.6,
         "color": "#FF9900",
         "domain": "ralphlauren.com"
     },
@@ -5611,21 +5611,6 @@ const SP500_STOCKS = [
     },
     {
         "rank": 375,
-        "name": "Supermicro",
-        "ticker": "SMCI",
-        "sector": "Information Technology",
-        "price": 35.09,
-        "change1d": -1.93,
-        "change7d": -21.92,
-        "changeYtd": 17.36,
-        "marketCap": 23052914688,
-        "volume": 1567955040,
-        "pe": 11.7,
-        "color": "#3861FB",
-        "domain": "supermicro.com"
-    },
-    {
-        "rank": 376,
         "name": "International Flavors & Fragrances",
         "ticker": "IFF",
         "sector": "Materials",
@@ -5633,11 +5618,26 @@ const SP500_STOCKS = [
         "change1d": 0.77,
         "change7d": 7.35,
         "changeYtd": 33.76,
-        "marketCap": 23037491200,
+        "marketCap": 23051350016,
         "volume": 152710096,
         "pe": 87.7,
         "color": "#8A6D3B",
         "domain": "iff.com"
+    },
+    {
+        "rank": 376,
+        "name": "Omnicom Group",
+        "ticker": "OMC",
+        "sector": "Communication Services",
+        "price": 80.72,
+        "change1d": 2.95,
+        "change7d": 7.81,
+        "changeYtd": 5.65,
+        "marketCap": 23005702144,
+        "volume": 227085543,
+        "pe": 212.4,
+        "color": "#4285F4",
+        "domain": "omnicomgroup.com"
     },
     {
         "rank": 377,
@@ -5671,6 +5671,21 @@ const SP500_STOCKS = [
     },
     {
         "rank": 379,
+        "name": "Supermicro",
+        "ticker": "SMCI",
+        "sector": "Information Technology",
+        "price": 35.09,
+        "change1d": -1.93,
+        "change7d": -21.92,
+        "changeYtd": 17.36,
+        "marketCap": 22698774528,
+        "volume": 1567955040,
+        "pe": 11.7,
+        "color": "#3861FB",
+        "domain": "supermicro.com"
+    },
+    {
+        "rank": 380,
         "name": "Global Payments",
         "ticker": "GPN",
         "sector": "Financials",
@@ -5685,7 +5700,7 @@ const SP500_STOCKS = [
         "domain": "globalpayments.com"
     },
     {
-        "rank": 380,
+        "rank": 381,
         "name": "Loews Corporation",
         "ticker": "L",
         "sector": "Financials",
@@ -5700,21 +5715,6 @@ const SP500_STOCKS = [
         "domain": "loews.com"
     },
     {
-        "rank": 381,
-        "name": "Omnicom Group",
-        "ticker": "OMC",
-        "sector": "Communication Services",
-        "price": 80.72,
-        "change1d": 2.95,
-        "change7d": 7.81,
-        "changeYtd": 5.65,
-        "marketCap": 22145206272,
-        "volume": 227085543,
-        "pe": 212.4,
-        "color": "#4285F4",
-        "domain": "omnicomgroup.com"
-    },
-    {
         "rank": 382,
         "name": "J.B. Hunt",
         "ticker": "JBHT",
@@ -5723,9 +5723,9 @@ const SP500_STOCKS = [
         "change1d": 1.36,
         "change7d": 5.69,
         "changeYtd": 15.19,
-        "marketCap": 22099124224,
+        "marketCap": 22095607808,
         "volume": 239002482,
-        "pe": 33.0,
+        "pe": 33.5,
         "color": "#0039A6",
         "domain": "jbhunt.com"
     },
@@ -5761,6 +5761,21 @@ const SP500_STOCKS = [
     },
     {
         "rank": 385,
+        "name": "Expand Energy",
+        "ticker": "EXE",
+        "sector": "Energy",
+        "price": 90.8,
+        "change1d": -0.34,
+        "change7d": 3.04,
+        "changeYtd": -11.41,
+        "marketCap": 21721980928,
+        "volume": 288773792,
+        "pe": 7.9,
+        "color": "#ED1B2D",
+        "domain": "expandenergy.com"
+    },
+    {
+        "rank": 386,
         "name": "Smurfit Westrock",
         "ticker": "SW",
         "sector": "Materials",
@@ -5770,12 +5785,12 @@ const SP500_STOCKS = [
         "changeYtd": 0.39,
         "marketCap": 21631326208,
         "volume": 186890821,
-        "pe": 44.3,
+        "pe": 43.4,
         "color": "#8A6D3B",
         "domain": "smurfitwestrock.com"
     },
     {
-        "rank": 386,
+        "rank": 387,
         "name": "T. Rowe Price",
         "ticker": "TROW",
         "sector": "Financials",
@@ -5790,7 +5805,7 @@ const SP500_STOCKS = [
         "domain": "troweprice.com"
     },
     {
-        "rank": 387,
+        "rank": 388,
         "name": "NRG Energy",
         "ticker": "NRG",
         "sector": "Utilities",
@@ -5805,7 +5820,7 @@ const SP500_STOCKS = [
         "domain": "nrg.com"
     },
     {
-        "rank": 388,
+        "rank": 389,
         "name": "PulteGroup",
         "ticker": "PHM",
         "sector": "Consumer Discretionary",
@@ -5820,7 +5835,7 @@ const SP500_STOCKS = [
         "domain": "pultegroupinc.com"
     },
     {
-        "rank": 389,
+        "rank": 390,
         "name": "Dow Inc.",
         "ticker": "DOW",
         "sector": "Materials",
@@ -5835,7 +5850,7 @@ const SP500_STOCKS = [
         "domain": "dow.com"
     },
     {
-        "rank": 390,
+        "rank": 391,
         "name": "Edison International",
         "ticker": "EIX",
         "sector": "Utilities",
@@ -5850,7 +5865,7 @@ const SP500_STOCKS = [
         "domain": "edison.com"
     },
     {
-        "rank": 391,
+        "rank": 392,
         "name": "KeyCorp",
         "ticker": "KEY",
         "sector": "Financials",
@@ -5865,37 +5880,7 @@ const SP500_STOCKS = [
         "domain": "key.com"
     },
     {
-        "rank": 392,
-        "name": "Expand Energy",
-        "ticker": "EXE",
-        "sector": "Energy",
-        "price": 90.8,
-        "change1d": -0.34,
-        "change7d": 3.04,
-        "changeYtd": -11.41,
-        "marketCap": 21020545024,
-        "volume": 288773792,
-        "pe": 7.9,
-        "color": "#ED1B2D",
-        "domain": "expandenergy.com"
-    },
-    {
         "rank": 393,
-        "name": "CMS Energy",
-        "ticker": "CMS",
-        "sector": "Utilities",
-        "price": 66.94,
-        "change1d": 0.18,
-        "change7d": 2.87,
-        "changeYtd": -1.92,
-        "marketCap": 20990855168,
-        "volume": 251360311,
-        "pe": 19.9,
-        "color": "#00529B",
-        "domain": "cmsenergy.com"
-    },
-    {
-        "rank": 394,
         "name": "PTC Inc.",
         "ticker": "PTC",
         "sector": "Information Technology",
@@ -5910,7 +5895,7 @@ const SP500_STOCKS = [
         "domain": "ptc.com"
     },
     {
-        "rank": 395,
+        "rank": 394,
         "name": "Viatris",
         "ticker": "VTRS",
         "sector": "Health Care",
@@ -5925,7 +5910,7 @@ const SP500_STOCKS = [
         "domain": "viatris.com"
     },
     {
-        "rank": 396,
+        "rank": 395,
         "name": "Packaging Corporation of America",
         "ticker": "PKG",
         "sector": "Materials",
@@ -5938,6 +5923,21 @@ const SP500_STOCKS = [
         "pe": 30.5,
         "color": "#8A6D3B",
         "domain": "packagingcorp.com"
+    },
+    {
+        "rank": 396,
+        "name": "CMS Energy",
+        "ticker": "CMS",
+        "sector": "Utilities",
+        "price": 66.94,
+        "change1d": 0.18,
+        "change7d": 2.87,
+        "changeYtd": -1.92,
+        "marketCap": 20679079936,
+        "volume": 251360311,
+        "pe": 19.9,
+        "color": "#00529B",
+        "domain": "cmsenergy.com"
     },
     {
         "rank": 397,
@@ -5980,7 +5980,7 @@ const SP500_STOCKS = [
         "changeYtd": 5.42,
         "marketCap": 20205504512,
         "volume": 154216923,
-        "pe": 18.1,
+        "pe": 18.4,
         "color": "#8A6D3B",
         "domain": "amcor.com"
     },
@@ -5995,7 +5995,7 @@ const SP500_STOCKS = [
         "changeYtd": -3.59,
         "marketCap": 19974371328,
         "volume": 224777040,
-        "pe": 26.3,
+        "pe": 25.5,
         "color": "#0039A6",
         "domain": "southwest.com"
     },
@@ -6010,7 +6010,7 @@ const SP500_STOCKS = [
         "changeYtd": 1.25,
         "marketCap": 19781853184,
         "volume": 226732357,
-        "pe": 22.1,
+        "pe": 21.9,
         "color": "#00529B",
         "domain": "nisource.com"
     },
@@ -6130,7 +6130,7 @@ const SP500_STOCKS = [
         "changeYtd": 3.25,
         "marketCap": 18927472640,
         "volume": 114310651,
-        "pe": 18.7,
+        "pe": 18.6,
         "color": "#0039A6",
         "domain": "snapon.com"
     },
@@ -6158,7 +6158,7 @@ const SP500_STOCKS = [
         "change1d": 1.86,
         "change7d": 6.83,
         "changeYtd": -44.8,
-        "marketCap": 18632456192,
+        "marketCap": 18674843648,
         "volume": 224362645,
         "pe": 5.5,
         "color": "#003087",
@@ -6188,7 +6188,7 @@ const SP500_STOCKS = [
         "change1d": 0.11,
         "change7d": 0.6,
         "changeYtd": 8.04,
-        "marketCap": 18588442624,
+        "marketCap": 18586636288,
         "volume": 132392275,
         "pe": 42.3,
         "color": "#003D6B",
@@ -6205,7 +6205,7 @@ const SP500_STOCKS = [
         "changeYtd": -27.49,
         "marketCap": 18482470912,
         "volume": 298504489,
-        "pe": 15.0,
+        "pe": 14.7,
         "color": "#FF9900",
         "domain": "lennar.com"
     },
@@ -6233,7 +6233,7 @@ const SP500_STOCKS = [
         "change1d": 0.02,
         "change7d": 0.34,
         "changeYtd": 29.96,
-        "marketCap": 18313951232,
+        "marketCap": 18320060416,
         "volume": 120792237,
         "pe": 33.4,
         "color": "#0039A6",
@@ -6280,7 +6280,7 @@ const SP500_STOCKS = [
         "changeYtd": 1.13,
         "marketCap": 18001823744,
         "volume": 201575288,
-        "pe": 23.0,
+        "pe": 22.9,
         "color": "#D52B1E",
         "domain": "zimmerbiomet.com"
     },
@@ -6293,7 +6293,7 @@ const SP500_STOCKS = [
         "change1d": 0.17,
         "change7d": -2.21,
         "changeYtd": 48.25,
-        "marketCap": 17860247552,
+        "marketCap": 17982083072,
         "volume": 247500092,
         "pe": 35.5,
         "color": "#3861FB",
@@ -6323,7 +6323,7 @@ const SP500_STOCKS = [
         "change1d": 2.43,
         "change7d": 0.4,
         "changeYtd": 2.33,
-        "marketCap": 17771657216,
+        "marketCap": 17768554496,
         "volume": 167686964,
         "pe": 35.7,
         "color": "#0039A6",
@@ -6331,6 +6331,21 @@ const SP500_STOCKS = [
     },
     {
         "rank": 423,
+        "name": "Fortive",
+        "ticker": "FTV",
+        "sector": "Industrials",
+        "price": 57.78,
+        "change1d": 0.94,
+        "change7d": 2.23,
+        "changeYtd": 5.0,
+        "marketCap": 17614870528,
+        "volume": 137986899,
+        "pe": 30.9,
+        "color": "#0039A6",
+        "domain": "fortive.com"
+    },
+    {
+        "rank": 424,
         "name": "General Mills",
         "ticker": "GIS",
         "sector": "Consumer Staples",
@@ -6345,21 +6360,6 @@ const SP500_STOCKS = [
         "domain": "generalmills.com"
     },
     {
-        "rank": 424,
-        "name": "Fortive",
-        "ticker": "FTV",
-        "sector": "Industrials",
-        "price": 57.78,
-        "change1d": 0.94,
-        "change7d": 2.23,
-        "changeYtd": 5.0,
-        "marketCap": 17450545152,
-        "volume": 137986899,
-        "pe": 30.9,
-        "color": "#0039A6",
-        "domain": "fortive.com"
-    },
-    {
         "rank": 425,
         "name": "IDEX Corporation",
         "ticker": "IEX",
@@ -6370,7 +6370,7 @@ const SP500_STOCKS = [
         "changeYtd": 29.73,
         "marketCap": 17428856832,
         "volume": 154124561,
-        "pe": 33.8,
+        "pe": 34.2,
         "color": "#0039A6",
         "domain": "idexcorp.com"
     },
@@ -6436,18 +6436,18 @@ const SP500_STOCKS = [
     },
     {
         "rank": 430,
-        "name": "Fair Isaac",
-        "ticker": "FICO",
-        "sector": "Information Technology",
-        "price": 769.93,
-        "change1d": 6.99,
-        "change7d": 12.93,
-        "changeYtd": -51.44,
-        "marketCap": 16628667392,
-        "volume": 498850731,
-        "pe": 22.4,
-        "color": "#3861FB",
-        "domain": "fico.com"
+        "name": "Jacobs Solutions",
+        "ticker": "J",
+        "sector": "Industrials",
+        "price": 141.97,
+        "change1d": -0.02,
+        "change7d": 4.12,
+        "changeYtd": 3.43,
+        "marketCap": 16763942912,
+        "volume": 119635564,
+        "pe": 47.2,
+        "color": "#0039A6",
+        "domain": "jacobs.com"
     },
     {
         "rank": 431,
@@ -6458,26 +6458,26 @@ const SP500_STOCKS = [
         "change1d": 3.92,
         "change7d": 9.26,
         "changeYtd": 15.68,
-        "marketCap": 16623371264,
+        "marketCap": 16720280576,
         "volume": 123593036,
-        "pe": 17.6,
+        "pe": 18.1,
         "color": "#8A6D3B",
         "domain": "ball.com"
     },
     {
         "rank": 432,
-        "name": "Jacobs Solutions",
-        "ticker": "J",
-        "sector": "Industrials",
-        "price": 141.97,
-        "change1d": -0.02,
-        "change7d": 4.12,
-        "changeYtd": 3.43,
-        "marketCap": 16615970816,
-        "volume": 119635564,
-        "pe": 47.2,
-        "color": "#0039A6",
-        "domain": "jacobs.com"
+        "name": "Fair Isaac",
+        "ticker": "FICO",
+        "sector": "Information Technology",
+        "price": 769.93,
+        "change1d": 6.99,
+        "change7d": 12.93,
+        "changeYtd": -51.44,
+        "marketCap": 16628667392,
+        "volume": 498850731,
+        "pe": 24.7,
+        "color": "#3861FB",
+        "domain": "fico.com"
     },
     {
         "rank": 433,
@@ -6490,7 +6490,7 @@ const SP500_STOCKS = [
         "changeYtd": 38.66,
         "marketCap": 16569226240,
         "volume": 208280002,
-        "pe": 16.3,
+        "pe": 16.1,
         "color": "#003D6B",
         "domain": "hosthotels.com"
     },
@@ -6578,7 +6578,7 @@ const SP500_STOCKS = [
         "change1d": 3.62,
         "change7d": 0.16,
         "changeYtd": -19.56,
-        "marketCap": 15910452224,
+        "marketCap": 15831480320,
         "volume": 226553555,
         "pe": 15.6,
         "color": "#FF9900",
@@ -6608,7 +6608,7 @@ const SP500_STOCKS = [
         "change1d": 2.83,
         "change7d": 9.2,
         "changeYtd": -35.89,
-        "marketCap": 15561033728,
+        "marketCap": 15597398016,
         "volume": 168783344,
         "pe": 11.5,
         "color": "#0039A6",
@@ -6676,21 +6676,6 @@ const SP500_STOCKS = [
     },
     {
         "rank": 446,
-        "name": "Charles River Laboratories",
-        "ticker": "CRL",
-        "sector": "Health Care",
-        "price": 306.24,
-        "change1d": 1.4,
-        "change7d": 1.98,
-        "changeYtd": 42.1,
-        "marketCap": 14750884864,
-        "volume": 289501831,
-        "pe": null,
-        "color": "#D52B1E",
-        "domain": "criver.com"
-    },
-    {
-        "rank": 447,
         "name": "Everest Group",
         "ticker": "EG",
         "sector": "Financials",
@@ -6705,6 +6690,21 @@ const SP500_STOCKS = [
         "domain": "everestglobal.com"
     },
     {
+        "rank": 447,
+        "name": "Charles River Laboratories",
+        "ticker": "CRL",
+        "sector": "Health Care",
+        "price": 306.24,
+        "change1d": 1.4,
+        "change7d": 1.98,
+        "changeYtd": 42.1,
+        "marketCap": 14619551744,
+        "volume": 289501831,
+        "pe": null,
+        "color": "#D52B1E",
+        "domain": "criver.com"
+    },
+    {
         "rank": 448,
         "name": "Masco",
         "ticker": "MAS",
@@ -6715,7 +6715,7 @@ const SP500_STOCKS = [
         "changeYtd": 9.44,
         "marketCap": 14311863296,
         "volume": 169898969,
-        "pe": 16.7,
+        "pe": 16.8,
         "color": "#0039A6",
         "domain": "masco.com"
     },
@@ -6805,7 +6805,7 @@ const SP500_STOCKS = [
         "changeYtd": 12.91,
         "marketCap": 13880185856,
         "volume": 182480095,
-        "pe": 17.7,
+        "pe": 17.6,
         "color": "#FF9900",
         "domain": "shop.hasbro.com"
     },
@@ -6818,7 +6818,7 @@ const SP500_STOCKS = [
         "change1d": 0.56,
         "change7d": 1.8,
         "changeYtd": -13.09,
-        "marketCap": 13831919616,
+        "marketCap": 13874108416,
         "volume": 124044041,
         "pe": 34.2,
         "color": "#003D6B",
@@ -6856,6 +6856,21 @@ const SP500_STOCKS = [
     },
     {
         "rank": 458,
+        "name": "Avery Dennison",
+        "ticker": "AVY",
+        "sector": "Materials",
+        "price": 175.88,
+        "change1d": 2.35,
+        "change7d": 5.34,
+        "changeYtd": -3.82,
+        "marketCap": 13453128704,
+        "volume": 158854116,
+        "pe": 19.1,
+        "color": "#8A6D3B",
+        "domain": "averydennison.com"
+    },
+    {
+        "rank": 459,
         "name": "J.M. Smucker Company (The)",
         "ticker": "SJM",
         "sector": "Consumer Staples",
@@ -6865,12 +6880,12 @@ const SP500_STOCKS = [
         "changeYtd": 32.7,
         "marketCap": 13452243968,
         "volume": 164587110,
-        "pe": 58.6,
+        "pe": 58.8,
         "color": "#0071CE",
         "domain": "jmsmucker.com"
     },
     {
-        "rank": 459,
+        "rank": 460,
         "name": "Healthpeak Properties",
         "ticker": "DOC",
         "sector": "Real Estate",
@@ -6883,21 +6898,6 @@ const SP500_STOCKS = [
         "pe": 54.2,
         "color": "#003D6B",
         "domain": "healthpeak.com"
-    },
-    {
-        "rank": 460,
-        "name": "Avery Dennison",
-        "ticker": "AVY",
-        "sector": "Materials",
-        "price": 175.88,
-        "change1d": 2.35,
-        "change7d": 5.34,
-        "changeYtd": -3.82,
-        "marketCap": 13329618944,
-        "volume": 158854116,
-        "pe": 19.1,
-        "color": "#8A6D3B",
-        "domain": "averydennison.com"
     },
     {
         "rank": 461,
@@ -6976,6 +6976,21 @@ const SP500_STOCKS = [
     },
     {
         "rank": 466,
+        "name": "Textron",
+        "ticker": "TXT",
+        "sector": "Industrials",
+        "price": 75.15,
+        "change1d": 1.83,
+        "change7d": 2.9,
+        "changeYtd": -18.0,
+        "marketCap": 13067756544,
+        "volume": 133672539,
+        "pe": 14.3,
+        "color": "#0039A6",
+        "domain": "textron.com"
+    },
+    {
+        "rank": 467,
         "name": "CoStar Group",
         "ticker": "CSGP",
         "sector": "Real Estate",
@@ -6988,21 +7003,6 @@ const SP500_STOCKS = [
         "pe": 177.8,
         "color": "#003D6B",
         "domain": "costargroup.com"
-    },
-    {
-        "rank": 467,
-        "name": "Textron",
-        "ticker": "TXT",
-        "sector": "Industrials",
-        "price": 75.15,
-        "change1d": 1.83,
-        "change7d": 2.9,
-        "changeYtd": -18.0,
-        "marketCap": 12924816384,
-        "volume": 133672539,
-        "pe": 14.3,
-        "color": "#0039A6",
-        "domain": "textron.com"
     },
     {
         "rank": 468,
@@ -7043,7 +7043,7 @@ const SP500_STOCKS = [
         "change1d": 0.74,
         "change7d": 2.67,
         "changeYtd": -5.0,
-        "marketCap": 12567529472,
+        "marketCap": 12675340288,
         "volume": 122744381,
         "pe": 21.7,
         "color": "#003D6B",
@@ -7105,7 +7105,7 @@ const SP500_STOCKS = [
         "changeYtd": -29.94,
         "marketCap": 12298937344,
         "volume": 151252238,
-        "pe": 8.2,
+        "pe": 8.3,
         "color": "#0071CE",
         "domain": "mccormickcorporation.com"
     },
@@ -7118,7 +7118,7 @@ const SP500_STOCKS = [
         "change1d": 4.68,
         "change7d": 7.0,
         "changeYtd": 68.01,
-        "marketCap": 12068408320,
+        "marketCap": 12141235200,
         "volume": 142609618,
         "pe": 16.1,
         "color": "#D52B1E",
@@ -7150,7 +7150,7 @@ const SP500_STOCKS = [
         "changeYtd": 33.34,
         "marketCap": 11718284288,
         "volume": 242759256,
-        "pe": 49.4,
+        "pe": 44.3,
         "color": "#0039A6",
         "domain": "generac.com"
     },
@@ -7201,21 +7201,6 @@ const SP500_STOCKS = [
     },
     {
         "rank": 481,
-        "name": "Camden Property Trust",
-        "ticker": "CPT",
-        "sector": "Real Estate",
-        "price": 98.19,
-        "change1d": 0.98,
-        "change7d": 2.49,
-        "changeYtd": -9.07,
-        "marketCap": 11363781632,
-        "volume": 98940075,
-        "pe": 32.6,
-        "color": "#003D6B",
-        "domain": "camdenliving.com"
-    },
-    {
-        "rank": 482,
         "name": "Hormel Foods",
         "ticker": "HRL",
         "sector": "Consumer Staples",
@@ -7230,7 +7215,7 @@ const SP500_STOCKS = [
         "domain": "hormelfoods.com"
     },
     {
-        "rank": 483,
+        "rank": 482,
         "name": "Universal Health Services",
         "ticker": "UHS",
         "sector": "Health Care",
@@ -7240,12 +7225,12 @@ const SP500_STOCKS = [
         "changeYtd": -10.95,
         "marketCap": 11042345984,
         "volume": 144309543,
-        "pe": 7.7,
+        "pe": 7.6,
         "color": "#D52B1E",
         "domain": "uhs.com"
     },
     {
-        "rank": 484,
+        "rank": 483,
         "name": "Jack Henry & Associates",
         "ticker": "JKHY",
         "sector": "Financials",
@@ -7260,7 +7245,7 @@ const SP500_STOCKS = [
         "domain": "jackhenry.com"
     },
     {
-        "rank": 485,
+        "rank": 484,
         "name": "Cooper Companies (The)",
         "ticker": "COO",
         "sector": "Health Care",
@@ -7275,7 +7260,7 @@ const SP500_STOCKS = [
         "domain": "coopercos.com"
     },
     {
-        "rank": 486,
+        "rank": 485,
         "name": "BXP, Inc.",
         "ticker": "BXP",
         "sector": "Real Estate",
@@ -7290,7 +7275,7 @@ const SP500_STOCKS = [
         "domain": "bxp.com"
     },
     {
-        "rank": 487,
+        "rank": 486,
         "name": "FactSet",
         "ticker": "FDS",
         "sector": "Financials",
@@ -7305,7 +7290,7 @@ const SP500_STOCKS = [
         "domain": "factset.com"
     },
     {
-        "rank": 488,
+        "rank": 487,
         "name": "AES Corporation",
         "ticker": "AES",
         "sector": "Utilities",
@@ -7313,14 +7298,14 @@ const SP500_STOCKS = [
         "change1d": 0.07,
         "change7d": 0.27,
         "changeYtd": 9.11,
-        "marketCap": 10680176640,
+        "marketCap": 10675971072,
         "volume": 115816529,
         "pe": 5.6,
         "color": "#00529B",
         "domain": "aes.com"
     },
     {
-        "rank": 489,
+        "rank": 488,
         "name": "Align Technology",
         "ticker": "ALGN",
         "sector": "Health Care",
@@ -7335,7 +7320,7 @@ const SP500_STOCKS = [
         "domain": "aligntech.com"
     },
     {
-        "rank": 490,
+        "rank": 489,
         "name": "Huntington Ingalls Industries",
         "ticker": "HII",
         "sector": "Industrials",
@@ -7350,7 +7335,7 @@ const SP500_STOCKS = [
         "domain": "hii.com"
     },
     {
-        "rank": 491,
+        "rank": 490,
         "name": "Clorox",
         "ticker": "CLX",
         "sector": "Consumer Staples",
@@ -7360,12 +7345,12 @@ const SP500_STOCKS = [
         "changeYtd": -14.36,
         "marketCap": 10424870912,
         "volume": 243900822,
-        "pe": 17.8,
+        "pe": 17.9,
         "color": "#0071CE",
         "domain": "thecloroxcompany.com"
     },
     {
-        "rank": 492,
+        "rank": 491,
         "name": "Domino's",
         "ticker": "DPZ",
         "sector": "Consumer Discretionary",
@@ -7380,7 +7365,7 @@ const SP500_STOCKS = [
         "domain": "biz.dominos.com"
     },
     {
-        "rank": 493,
+        "rank": 492,
         "name": "Henry Schein",
         "ticker": "HSIC",
         "sector": "Health Care",
@@ -7388,11 +7373,26 @@ const SP500_STOCKS = [
         "change1d": 1.67,
         "change7d": 3.98,
         "changeYtd": 10.11,
-        "marketCap": 9694734336,
+        "marketCap": 9909618688,
         "volume": 104783627,
         "pe": 25.2,
         "color": "#D52B1E",
         "domain": "henryschein.com"
+    },
+    {
+        "rank": 493,
+        "name": "Camden Property Trust",
+        "ticker": "CPT",
+        "sector": "Real Estate",
+        "price": 98.19,
+        "change1d": 0.98,
+        "change7d": 2.49,
+        "changeYtd": -9.07,
+        "marketCap": 9871959040,
+        "volume": 98940075,
+        "pe": 32.6,
+        "color": "#003D6B",
+        "domain": "camdenliving.com"
     },
     {
         "rank": 494,
@@ -7418,7 +7418,7 @@ const SP500_STOCKS = [
         "change1d": 3.1,
         "change7d": 2.19,
         "changeYtd": -47.73,
-        "marketCap": 9382949888,
+        "marketCap": 9563130880,
         "volume": 182511513,
         "pe": 45.2,
         "color": "#FF9900",
@@ -7433,7 +7433,7 @@ const SP500_STOCKS = [
         "change1d": 0.71,
         "change7d": 0.54,
         "changeYtd": 6.0,
-        "marketCap": 9238369280,
+        "marketCap": 9185537024,
         "volume": 93492242,
         "pe": 21.5,
         "color": "#003D6B",
@@ -7448,7 +7448,7 @@ const SP500_STOCKS = [
         "change1d": 2.57,
         "change7d": 2.41,
         "changeYtd": -47.62,
-        "marketCap": 8530619904,
+        "marketCap": 8637815808,
         "volume": 172166087,
         "pe": 14.0,
         "color": "#0039A6",
@@ -7493,7 +7493,7 @@ const SP500_STOCKS = [
         "change1d": 1.8,
         "change7d": -1.73,
         "changeYtd": -16.13,
-        "marketCap": 7542494208,
+        "marketCap": 7416954368,
         "volume": 99359891,
         "pe": 18.4,
         "color": "#FF9900",
@@ -7563,8 +7563,8 @@ const MARKET_SUMMARY = {
     "advancing": 380,
     "declining": 123,
     "high52Count": 29,
-    "totalMarketCap": 75045460942848,
+    "totalMarketCap": 75059996751872,
     "totalVolume": 492016079410
 };
 
-const DATA_LAST_UPDATED = "2026-10-15T20:51:52Z";
+const DATA_LAST_UPDATED = "2026-10-15T23:28:58Z";
